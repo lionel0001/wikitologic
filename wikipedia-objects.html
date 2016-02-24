@@ -15,23 +15,33 @@
 // http://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=New_York_Yankees&rvprop=timestamp|user|comment|content
 
 (function() {
-  var wikipediaAPI = "http://en.wikipedia.org/w/api.php?action=query&format=json&callback=?";
-  
-  $.getJSON( wikipediaAPI, {
-    prop:"revisions",
-    titles:"New_York_Yankees",
-    rvprop:"timestamp|user|comment|content"
-  })
+   var req = {
+      format: 'json',
+      action: 'parse',
+      //Element 'page' contains the name of the article/page 
+      page: 'New York City',
+      prop: 'text',
+      section: 0
+   };
+    
+   $.ajax({
+		//url contains the address of the wikipedia api
+		url: '//simple.wikipedia.org/w/api.php',
+		//req variable is passed to data 
+		data: req,
+		cache: true,
+		//The JSON data is parsed in a strict manner; any malformed JSON is rejected and a parse error is thrown.
+		dataType: 'jsonp',
+		success: function(result) {
+		// Add result's HTML to the top of the <body>
+		
+			$('body').prepend(result.parse.text['*']);
+			// Append full JSON result to output
+			$('#json').text(JSON.stringify(result, '', 2));
 
-    .done(function( data ) {
-      console.log(data);
-      // $.each( data.items, function( i, item ) {
-      //   $( "<img>" ).attr( "src", item.media.m ).appendTo( "#content" );
-      //   if ( i === 3 ) {
-      //     return false;
-      //   }
-      // });
-    });
+		}
+   });
+
 })();
 </script>
  
