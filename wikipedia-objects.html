@@ -7,40 +7,328 @@
 </head>
 <body>
  
-<div id="content"></div>
+<div id="json"></div>
  
 <script>
 
 
-// http://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=New_York_Yankees&rvprop=timestamp|user|comment|content
-
 (function() {
-   var req = {
-      format: 'json',
-      action: 'parse',
-      //Element 'page' contains the name of the article/page 
-      page: 'New York City',
-      prop: 'text',
-      section: 0
-   };
-    
-   $.ajax({
-		//url contains the address of the wikipedia api
-		url: '//simple.wikipedia.org/w/api.php',
-		//req variable is passed to data 
+	// var req = {
+	//    format: 'json',
+	//    action: 'parse',
+	//    //Element 'page' contains the name of the article/page 
+	//    page: 'Saint Petersburg',
+	//    prop: 'text',
+	//    section: 0
+	// };
+
+	// var req = {
+	// 	format: 'json',
+	// 	action: 'parse',
+	// 	//Element 'text' contains the wikimarkup text to parse
+	// 	text:"The text can be '''Bold''' , ''Italics'' and '''''Bold italics''''' and <code>int m2()</code> and [http://www.wikipedia.org Wikipedia]"
+	// };
+	 
+	// var req = {
+	// 	format: 'json',
+	// 	action: 'parse',
+	// 	//In wikimarkup text,image is defined as [[File:imagename]]
+	// 	text:'[[File:wiki.png|50px]]',
+	// 	prop:'text|images'
+	// };
+
+	// $.ajax({
+	// 	//url contains the address of the wikipedia api
+	// 	url: '//simple.wikipedia.org/w/api.php',
+	// 	//req variable is passed to data 
+	// 	data: req,
+	// 	cache: true,
+	// 	//The JSON data is parsed in a strict manner; any malformed JSON is rejected and a parse error is thrown.
+	// 	dataType: 'jsonp',
+	// 	success: function(result) {
+	// 	// Add result's HTML to the top of the <body>
+
+	// 		console.log(result);
+
+	// 		$('body').prepend(result.parse.text['*']);
+	// 		// Append full JSON result to output
+	// 		$('#json').text(JSON.stringify(result, '', 2));
+
+	// 	}
+	// });
+
+// https://en.wikipedia.org/w/api.php?action=help&modules=parse
+
+
+	// var req = {
+	// 	format: 'json',
+	// 	action: 'parse',
+	// 	page: 'New York City',
+	// 	// Value 'links' of parameter prop gives all the internal links of the page
+	// 	// prop: 'links'
+	// 	//prop: 'properties' //contains wikibase_item for wikidata // https://www.wikidata.org/wiki/Q60
+	// 	prop: 'sections'
+
+	// };
+
+	// $.ajax({
+	// 	url: '//simple.wikipedia.org/w/api.php',
+	// 	data: req,
+	// 	cache: true,
+	// 	dataType: 'jsonp',
+	// 	success: function(result) {
+
+	// 		console.log(result);
+
+	// 		// Append full JSON result to output
+	// 		$('#json').text(JSON.stringify(result, '', 2));
+	// 	}
+	// });
+
+
+	// var req = {
+	// 	format: 'json',
+	// 	action: 'parse',
+	// 	page: 'India',
+	// 	//prop parameter defines which piece of information of a page to parse
+	// 	prop:'sections|revid'
+	// };
+
+	// $.ajax({
+	// 	url: '//simple.wikipedia.org/w/api.php',
+	// 	data: req,
+	// 	cache: true,
+	// 	dataType: 'jsonp',
+	// 	success: function(result) {
+	// 	   // Append full JSON result to output
+	// 	   $('#json').text(JSON.stringify(result, '', 2));
+	// 	}
+	// });
+
+
+
+	// var req = {
+	// 	format: 'json',
+	// 	action: 'parse',
+	// 	title:'Template',
+	// 	// In wikimarkup text,template is defined within '{{templatename}}'
+	// 	text:'{{Project:Sandbox}}',
+	// 	prop:'text'
+	// };
+
+	// $.ajax({
+	// 	url:'//simple.wikipedia.org/w/api.php',
+	// 	data: req,
+	// 	cache: true,
+	// 	dataType: 'jsonp',
+	// 	success: function(result) 
+	// 	{
+	// 		// Add result's HTML to the top of the <div>
+	// 		$('#div1').prepend(result.parse.text['*']);
+	// 		// Append full JSON result to output
+	// 		$('#json').text(JSON.stringify(result, '', 2));
+	// 	}
+	// });
+
+	// var req = {
+	// 	format: 'json',
+	// 	action: 'query',
+	// 	list:   'search',
+	// 	// prefix for parameters of this list is "sr"
+	// 	srsearch:'Michelangelo',
+	// 	srprop:'size|wordcount|timestamp|snippet',
+	// 	// srwhat is used to determine to search in text or titles
+	// 	srwhat:'text',
+	// 	// srlimit defines how many pages to return
+	// 	srlimit:'10'
+	// };
+
+	// $.ajax({
+	// 	url: '//en.wikipedia.org/w/api.php',
+	// 	data: req,
+	// 	cache: true,
+	// 	dataType: 'jsonp',
+	// 	success: function(result) {
+
+	// 		console.log(result);
+
+	// 	   var i=0;
+	// 	   while(i<10){
+	// 		   $('p').prepend("<br>",result.query.search[i]['title'],"<br>",result.query.search[i]['snippet']);
+	// 		   i++;
+	// 	   }
+	// 	   $('#json').text(JSON.stringify(result, '', 2));
+	// 	}
+	// });
+
+ // /* request variable contains the request entered by the student and passed 
+ //    as a whole object */
+	// var request = {
+	// 	format: 'json',
+	// 	action: 'query',
+	// 	list:'users',
+	// 	ususers:'Diwanshipandey',
+	// 	// more properties can also be added in 'usprop' parameter
+	// 	usprop:'blockinfo|registration|gender|rights|editcount'
+	// };
+
+	// $.ajax({
+	// 	// url maps the request with mediawiki API
+	// 	url: '//mediawiki.org/w/api.php',
+	// 	// request variable is passed to data
+	// 	data: request,
+	// 	cache: true,
+	// 	dataType: 'jsonp',
+	// 	success: function(result) 
+	// 	{
+	// 	   // stringify function Convert a value to JSON
+	// 	   $('#json').text(JSON.stringify(result,'', 2));
+	// 	   // Append HTML content from the first page result returned
+	// 	}
+	// });
+
+
+	// var req = {
+	// 	format: 'json',
+	// 	action: 'query',
+	// 	list:   'geosearch',
+	// 	gsprop:'type|name|country|region',
+	// 	gsradius:10000,
+	// 	gscoord: '40.727023|-73.995506'
+	// };
+
+
+	// var req = {
+	// 	format: 'json',
+	// 	action: 'query',
+	// 	generator: 'geosearch',
+	// 	prop: 'info|links',
+	// 	ggsprop:'type|name|country|region', ggsradius:'10000',
+	// 	ggscoord: '40.727023|-73.995506'
+	// };
+
+	// $.ajax({
+	// 	url: '//en.wikipedia.org/w/api.php',
+	// 	data: req,
+	// 	cache: true,
+	// 	dataType: 'jsonp',
+	// 	success: function(result) {
+	// 		console.log(result);
+	// 	   $('#json').text(JSON.stringify(result, '', 2));
+	// 	}
+	// });
+
+
+	// var req = {
+	// 	format: 'json',
+	// 	action: 'query',
+	// 	list: 'allcategories',
+	// 	acprefix: 'List of',
+	// 	accontinue: "List_of_cities",
+	// 	continue: "-||"
+	// };
+
+	// $.ajax({
+	// 	url: '//simple.wikipedia.org/w/api.php',
+	// 	data: req,
+	// 	cache: true,
+	// 	dataType: 'jsonp',
+	// 	success: function(result)
+	// 	{
+	// 	   $('#json').text(JSON.stringify(result, '', 2));
+	// 	}
+	// });
+
+	// var req = {
+	// 	format: 'json',
+	// 	action: 'query',
+	// 	titles: 'Albert Einstein|Isaac Newton',
+	// 	prop:   'links|categories',
+	// 	pllimit: '10'
+	// };
+
+	// $.ajax({
+	// 	url: '//simple.wikipedia.org/w/api.php',
+	// 	data: req,
+	// 	cache: true,
+	// 	dataType: 'jsonp',
+	// 	success: function(result) {
+	// 	   $('#json').text(JSON.stringify(result, '', 2));
+	// 	}
+	// });
+
+
+// var req = {
+// 	format: 'json',
+// 	action: 'query',
+// 	titles: 'Main Page',
+// 	prop:   'revisions',
+// 	rvprop: 'content',
+// 	rvparse: '',
+// 	rvsection: 0,
+// 	indexpageids: '',
+// };
+
+// $.ajax({
+// 	url: '//simple.wikipedia.org/w/api.php',
+// 	data: req,
+// 	cache: true,
+// 	dataType: 'jsonp',
+// 	success: function(result) {
+
+// 		console.log(result);
+
+// 	   $('#json').text(JSON.stringify(result, '', 2));
+// 	   // Append HTML content from the first page result returned
+// 	   $('body').prepend(result.query.pages[result.query.pageids[0]].revisions[0]['*']);
+// 	}
+// });
+
+
+	// var req = {
+	// 	format: 'json',
+	// 	action: 'query',
+	// 	titles: 'Wikimedia Foundation',
+	// 	prop:   'info',
+	// 	inprop: 'protection|watched|watchers|url|readable'
+	// };
+
+	// $.ajax({
+	// 	url: '//simple.wikipedia.org/w/api.php',
+	// 	data: req,
+	// 	cache: true,
+	// 	dataType: 'jsonp',
+	// 	success: function(result)
+	// 	{
+	// 		console.log(result);
+	// 	   $('#json').text(JSON.stringify(result, '', 2));
+	// 	}
+	// });
+
+
+	var req = {
+		format: 'json',
+		action: 'query',
+		list:   'allimages',
+		aisort: 'name',
+		aiprop: 'dimensions|timestamp|mime|user|url',
+		aisort: 'timestamp',
+		aidir:'older',
+	};
+
+	$.ajax({
+		url: '//en.wikipedia.org/w/api.php',
 		data: req,
 		cache: true,
-		//The JSON data is parsed in a strict manner; any malformed JSON is rejected and a parse error is thrown.
 		dataType: 'jsonp',
 		success: function(result) {
-		// Add result's HTML to the top of the <body>
-		
-			$('body').prepend(result.parse.text['*']);
-			// Append full JSON result to output
-			$('#json').text(JSON.stringify(result, '', 2));
-
+			console.log(result);
+		   $('#json').text(JSON.stringify(result, '', 2));
 		}
-   });
+	});
+
+
+
 
 })();
 </script>
