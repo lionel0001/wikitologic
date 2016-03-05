@@ -14,6 +14,53 @@
 
 (function() {
 
+	/*
+
+	==========
+	wikipedia
+
+	-> all the sections within an article
+	https://en.wikipedia.org/w/api.php?action=parse&page=annecy&prop=sections
+
+	-> parsed text + internal links within a specific section
+	https://en.wikipedia.org/w/api.php?action=parse&page=annecy&prop=links|text&section=0
+
+	-> all the external links within an article
+	https://en.wikipedia.org/w/api.php?action=parse&page=annecy&prop=externallinks
+
+	-> get the wikibase_item of an article
+	https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&ppprop=wikibase_item&titles=Annecy
+	https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&ppprop=wikibase_item&titles=Annecy&formatversion=2
+
+
+	==========
+	wikidata
+
+	-> get the statements from an item
+	https://www.wikidata.org/w/api.php?action=wbgetclaims&format=xml&props=value&entity=Q50189
+
+
+	-> get the labels of a series of article in English and French
+	https://www.wikidata.org/w/api.php?action=wbgetentities&props=labels&format=xml&languages=en|fr&ids=Q50189|Q544|Q3241540|Q185969|Q715269|Q27527
+
+
+	-> the description of a property
+	https://www.wikidata.org/wiki/Property:P214
+	
+
+	-> querying if Annecy (Q50189) has the country property (P17)
+	https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q50189&property=P17 
+
+
+	-> freebase identifier
+	https://www.wikidata.org/wiki/Property:P646
+	https://www.freebase.com/m/02jsr9
+	
+
+	*/
+
+
+
 	var article = "Annecy"
 	var lang = "en"
 
