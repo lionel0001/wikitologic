@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wikipedia objects</title>
+  <script src="js/jquery-2.2.1.min.js"></script>
+</head>
+<body>
+ 
+<pre id='json' style='white-space: pre-wrap'></pre>
+ 
+<script>
+
+
+(function() {
+
+	var article = "Annecy"
+	var lang = "en"
+
+	$.getJSON('http://'+lang+'.wikipedia.org/w/api.php?action=query&format=json&callback=?', {
+			titles:article, 
+			prop:'revisions|pageprops',
+			rvlimit:1,
+			rvprop:'content|size',
+			ppprop:'wikibase_item',
+			// cache: true,
+		})
+			.done(function(result){
+
+				console.log(result);
+				$('#json').text(JSON.stringify(result, '', 2));
+ 
+				// var pages = data.query.pages;
+ 
+				// for(var id in pages){
+				// 	var content = pages[id];
+				// 	map.pageid = id;
+				// 	map.articleText = content.revisions[0]["*"];
+				// 	map.size = content.revisions[0].size;
+				// 	map.wikibase_item = content.pageprops.wikibase_item;
+				// 	map.articleAllLinks = map.getAllLinks(map.articleText);
+				// 	map.articleAllLinks = map.linksStripMarkdown(map.articleAllLinks);
+
+				// 	//console.log("multpass: "+content.pageprops.wikibase_item);
+
+				// 	console.log(map.articleText);
+ 
+				// 	//map.getLinkedArticlesOnly(map.articleAllLinks);
+				// }
+				// map.getLinks();
+			});
+
+
+})();
+</script>
+ 
+</body>
+</html>
+
+

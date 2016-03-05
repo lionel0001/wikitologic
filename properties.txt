@@ -1,0 +1,6 @@
+properties
+* coordinate location (P625)
+located in the administrative territorial entity (P131)
+
+items
+* human: https://tools.wmflabs.org/reasonator/?&q=5
