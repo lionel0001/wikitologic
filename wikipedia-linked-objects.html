@@ -25,6 +25,8 @@
 	-> parsed text + internal links within a specific section
 	https://en.wikipedia.org/w/api.php?action=parse&page=annecy&prop=links|text&section=0
 
+	https://en.wikipedia.org/w/api.php?action=parse&page=Annecy&prop=text&section=0
+
 	-> all the external links within an article
 	https://en.wikipedia.org/w/api.php?action=parse&page=annecy&prop=externallinks
 
@@ -60,43 +62,122 @@
 	*/
 
 
+	function WikiObj(){
+		this.sections;
+		this.links = new Array();
+		this.sectionNumber;
 
-	var article = "Annecy"
-	var lang = "en"
+		this.lang = "en"
+		this.article = "Annecy"
+	}
+	
 
-	$.getJSON('http://'+lang+'.wikipedia.org/w/api.php?action=query&format=json&callback=?', {
-			titles:article, 
-			prop:'revisions|pageprops',
-			rvlimit:1,
-			rvprop:'content|size',
-			ppprop:'wikibase_item',
-			// cache: true,
+	// https://en.wikipedia.org/w/api.php?action=parse&page=annecy&prop=sections
+
+
+	WikiObj.prototype.generateDataObj = function(){
+		this.getHeadings();
+	}
+
+
+	WikiObj.prototype.getHeadings = function(){
+
+		var WObj = this
+		// console.log(WObj);
+
+		$.getJSON('http://'+WObj.lang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
+			page:WObj.article, 
+			prop:'sections'
 		})
 			.done(function(result){
 
-				console.log(result);
-				$('#json').text(JSON.stringify(result, '', 2));
- 
-				// var pages = data.query.pages;
- 
-				// for(var id in pages){
-				// 	var content = pages[id];
-				// 	map.pageid = id;
-				// 	map.articleText = content.revisions[0]["*"];
-				// 	map.size = content.revisions[0].size;
-				// 	map.wikibase_item = content.pageprops.wikibase_item;
-				// 	map.articleAllLinks = map.getAllLinks(map.articleText);
-				// 	map.articleAllLinks = map.linksStripMarkdown(map.articleAllLinks);
 
-				// 	//console.log("multpass: "+content.pageprops.wikibase_item);
+				WObj.sections = new Array();
 
-				// 	console.log(map.articleText);
- 
-				// 	//map.getLinkedArticlesOnly(map.articleAllLinks);
-				// }
-				// map.getLinks();
+				// $('#json').text(JSON.stringify(result, '', 2));
+
+				// retrieving only the section list
+				var sections_in_article = result.parse.sections
+
+				WObj.sectionNumber = result.parse.sections.length
+
+				// iterating through the sections
+				for(var section in sections_in_article){
+					
+					// console.log(sections_in_article[i])
+
+					WObj.sections.push(sections_in_article[section].line)
+				}
+
+				console.log(WObj.sections); 
+				console.log(WObj.sectionNumber); 
+
+				WObj.getInteralLinks();
 			});
+	
+	};
 
+
+	WikiObj.prototype.getInteralLinks = function(){
+
+		var WObj = this
+		console.log(WObj);
+		console.log(WObj.sectionNumber);
+
+
+
+		query_internal_links_in_section = function(sectionRef){
+
+			console.log('Querying links from section '+sectionRef)
+
+			$.getJSON('http://'+WObj.lang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
+				page:WObj.article, 
+				prop:'links',
+				section: sectionRef
+			})
+
+			.done(function(result){
+
+				console.log(result);
+
+				
+
+				var links_in_section = result.parse.links
+
+				for(var link in links_in_section){
+						
+					console.log(links_in_section[link])
+
+					// WObj.sections.push(sections_in_article[section].line)
+				}
+
+			});
+		};
+
+
+		var currentSection = 0;
+		var sectionsTotal = WObj.sectionNumber
+
+		if(currentSection < sectionsTotal - 1){
+			query_internal_links_in_section(currentSection);
+			currentSection++;
+
+		}else{
+			console.log("ende");
+
+			
+
+
+		}
+
+
+
+	};
+
+
+var wikiObj1 = new WikiObj();
+
+wikiObj1.generateDataObj();
 
 })();
 </script>
