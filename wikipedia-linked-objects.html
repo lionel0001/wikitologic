@@ -63,9 +63,9 @@
 
 
 	function WikiObj(){
-		this.sections;
-		this.links = new Array();
 		this.sectionNumber;
+		this.sections;
+		this.sectionLinks = new Array();
 
 		this.lang = "en"
 		this.article = "Annecy"
@@ -139,17 +139,28 @@
 			.done(function(result){
 
 				console.log(result);
+				console.log(sectionRef);
+
+
+				var links_in_section = result.parse.links
 
 				
 
-				var links_in_section = result.parse.links
+				WObj.sectionLinks[sectionRef] = new Array();
+
+				tmpArray = WObj.sectionLinks[sectionRef] 
+
+
 
 				for(var link in links_in_section){
 						
 					console.log(links_in_section[link])
 
-					// WObj.sections.push(sections_in_article[section].line)
+					tmpArray.push(links_in_section[link])
 				}
+
+				console.log(tmpArray)
+
 
 			});
 		};
