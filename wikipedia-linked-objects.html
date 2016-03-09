@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Wikipedia objects</title>
   <script src="js/jquery-2.2.1.min.js"></script>
+  <script src="js/lodash.js"></script>
 </head>
 <body>
  
@@ -92,6 +93,9 @@
 			.done(function(result){
 
 
+				console.log(result)
+
+
 				WObj.sections = new Array();
 
 				// $('#json').text(JSON.stringify(result, '', 2));
@@ -112,7 +116,7 @@
 				console.log(WObj.sections); 
 				console.log(WObj.sectionNumber); 
 
-				WObj.getInteralLinks();
+				// WObj.getInteralLinks();
 			});
 	
 	};
@@ -124,7 +128,8 @@
 		console.log(WObj);
 		console.log(WObj.sectionNumber);
 
-
+		var currentSection = 0;
+		var sectionsTotal = WObj.sectionNumber
 
 		query_internal_links_in_section = function(sectionRef){
 
@@ -141,49 +146,57 @@
 				console.log(result);
 				console.log(sectionRef);
 
-
 				var links_in_section = result.parse.links
-
-				
 
 				WObj.sectionLinks[sectionRef] = new Array();
 
-				tmpArray = WObj.sectionLinks[sectionRef] 
-
-
+				arrayLinks = WObj.sectionLinks[sectionRef] 
 
 				for(var link in links_in_section){
-						
-					console.log(links_in_section[link])
-
-					tmpArray.push(links_in_section[link])
+					// console.log(links_in_section[link])
+					arrayLinks.push(links_in_section[link]["*"])
 				}
 
-				console.log(tmpArray)
+				console.log(arrayLinks)
 
-
+				if(currentSection < sectionsTotal - 1){
+					currentSection++;
+					query_internal_links_in_section(currentSection);
+				}else{
+					console.log("ende: getInteralLinks");
+					WObj.getWikibase_item()
+				}
 			});
 		};
 
+		query_internal_links_in_section(0);
+	};
+
+	WikiObj.prototype.getWikibase_item = function(){
+
+		console.log('getting wikibase_item')
+		var WObj = this
 
 		var currentSection = 0;
 		var sectionsTotal = WObj.sectionNumber
 
-		if(currentSection < sectionsTotal - 1){
-			query_internal_links_in_section(currentSection);
-			currentSection++;
 
-		}else{
-			console.log("ende");
 
-			
+		query_wikibase_items_in_section = function(sectionRef){
 
+			console.log('searching for wikibase_items in section: '+sectionRef)
+
+			// https://lodash.com/docs
+
+
+			// WObj.sections[sectionRef]
+
+			// links from the top?
 
 		}
 
-
-
-	};
+		query_wikibase_items_in_section(0);
+	}
 
 
 var wikiObj1 = new WikiObj();
