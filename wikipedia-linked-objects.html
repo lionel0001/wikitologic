@@ -93,7 +93,7 @@
 			.done(function(result){
 
 
-				console.log(result)
+				// console.log(result)
 
 
 				WObj.sections = new Array();
@@ -103,18 +103,21 @@
 				// retrieving only the section list
 				var sections_in_article = result.parse.sections
 
-				WObj.sectionNumber = result.parse.sections.length
 
 				// iterating through the sections
 				for(var section in sections_in_article){
-					
-					// console.log(sections_in_article[i])
+					// console.log(sections_in_article[section].line +" : "+sections_in_article[section].level)
 
-					WObj.sections.push(sections_in_article[section].line)
+					// if (sections_in_article[section].level == 2){
+						WObj.sections.push(sections_in_article[section])
+					// }
+					
 				}
 
-				console.log(WObj.sections); 
-				console.log(WObj.sectionNumber); 
+				WObj.sections.unshift({'extract': true})
+				WObj.sectionNumber = WObj.sections.length 
+
+				console.table(WObj.sections); 
 
 				// WObj.getInteralLinks();
 			});
@@ -164,6 +167,7 @@
 					query_internal_links_in_section(currentSection);
 				}else{
 					console.log("ende: getInteralLinks");
+					console.table(arrayLinks);
 					WObj.getWikibase_item()
 				}
 			});
