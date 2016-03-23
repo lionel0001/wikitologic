@@ -68,6 +68,8 @@
 		this.sections;
 		this.sectionLinks = new Array();
 
+		this.sectionLinksWikibase = new Array();
+
 		this.lang = "en"
 		this.article = "Annecy"
 	}
@@ -119,7 +121,7 @@
 
 				console.table(WObj.sections); 
 
-				// WObj.getInteralLinks();
+				WObj.getInteralLinks();
 			});
 	
 	};
@@ -167,7 +169,7 @@
 					query_internal_links_in_section(currentSection);
 				}else{
 					console.log("ende: getInteralLinks");
-					console.table(arrayLinks);
+					// console.table(arrayLinks);
 					WObj.getWikibase_item()
 				}
 			});
@@ -184,16 +186,43 @@
 		var currentSection = 0;
 		var sectionsTotal = WObj.sectionNumber
 
-
-
 		query_wikibase_items_in_section = function(sectionRef){
 
 			console.log('searching for wikibase_items in section: '+sectionRef)
 
-			// https://lodash.com/docs
+			var chunkedArray = _.chunk(WObj.sectionLinks[sectionRef], 20);
+			console.log(WObj.sectionLinks[sectionRef])
+			console.log(chunkedArray)
+
+			console.log(chunkedArray.length)
 
 
-			// WObj.sections[sectionRef]
+			query_chunk = function(chunkRef){
+
+				var chunkedString = _.join(chunkedArray[chunkRef], '|');
+				console.log(chunkedString)
+
+				$.getJSON('http://'+WObj.lang+'.wikipedia.org/w/api.php?action=query&format=json&callback=?', {
+					prop:'pageprops',
+					ppprop:'wikibase_item',
+					titles:chunkedString, 
+					formatversion:2
+				})
+
+				.done(function(result){
+
+					console.log(result.query.pages)
+
+
+				});
+
+			}
+
+			query_chunk(0);
+
+
+
+
 
 			// links from the top?
 
