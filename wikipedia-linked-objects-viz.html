@@ -62,7 +62,7 @@
 		var currentDefinition = 0;
 		var definitionsTotal = WObj.definitionsNumber
 
-		WObj.statement_definitions_data = new Array();
+		WObj.statement_definitions_data = new Object();
 
 		import_definition_list = function(definitionRef){
 
@@ -76,7 +76,7 @@
 
 			.done(function(result){
 
-				console.log(result)
+				// console.log(result)
 
 				var tmpObj = new Object();
 				tmpObj.name = tmpName
@@ -93,12 +93,16 @@
 				}
 				tmpObj.list = tmpArray
 
-				console.log('tmpObj.name: '+tmpObj.name)
+				// console.log(tmpName)
 
-				WObj.statement_definitions_data.push(tmpObj)
+				// WObj.statement_definitions_data.push(tmpObj)
 
-				
-				
+
+
+				WObj.statement_definitions_data[tmpName] = tmpObj
+
+
+
 
 				if(currentDefinition < definitionsTotal - 1){
 					currentDefinition++;
@@ -185,7 +189,7 @@
 			}
 
 			// municipality?
-			var	tmpList = WObj.statement_definitions_data[0].list;
+			var	tmpList = WObj.statement_definitions_data.municipality.list;
 			if(_.intersection(claims_p31,tmpList).length > 0){
 				console.log(list[id].id + " is a municipality")
 				list[id].type = "municipality"
@@ -196,6 +200,14 @@
 				if(_.intersection(claims_p31,tmpList).length > 0){
 				console.log(list[id].id + " is a country")
 				list[id].type = "country"
+			}
+
+
+			// operation?
+			var	tmpList = WObj.statement_definitions_data.operation.list;
+			if(_.intersection(claims_p31,tmpList).length > 0){
+				console.log(list[id].id + " is a operation")
+				list[id].type = "operation"
 			}
 
 			
