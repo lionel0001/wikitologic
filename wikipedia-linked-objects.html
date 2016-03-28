@@ -5,6 +5,7 @@
   <title>Wikipedia objects</title>
   <script src="js/jquery-2.2.1.min.js"></script>
   <script src="js/lodash.js"></script>
+  <script src="https://cdn.rawgit.com/maxlath/wikidata-sdk/master/dist/wikidata-sdk.min.js"></script>
 </head>
 <body>
  
@@ -67,10 +68,12 @@
 		this.sectionNumber;
 		this.sections;
 		this.sectionLinks = new Array();
-
 		this.sectionLinksWikibase = new Array();
 
-		this.lang = "en"
+		this.list_Wikibase_item = new Array();
+		this.list_Wikibase_statements = new Array();
+
+		this.lang = "fr"
 		this.article = "Annecy"
 	}
 	
@@ -119,7 +122,7 @@
 				WObj.sections.unshift({'extract': true})
 				WObj.sectionNumber = WObj.sections.length 
 
-				console.table(WObj.sections); 
+				// console.table(WObj.sections); 
 
 				WObj.getInteralLinks();
 			});
@@ -138,7 +141,7 @@
 
 		query_internal_links_in_section = function(sectionRef){
 
-			console.log('Querying links from section '+sectionRef)
+			// console.log('Querying links from section '+sectionRef)
 
 			$.getJSON('http://'+WObj.lang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
 				page:WObj.article, 
@@ -148,8 +151,8 @@
 
 			.done(function(result){
 
-				console.log(result);
-				console.log(sectionRef);
+				// console.log(result);
+				// console.log(sectionRef);
 
 				var links_in_section = result.parse.links
 
@@ -162,7 +165,7 @@
 					arrayLinks.push(links_in_section[link]["*"])
 				}
 
-				console.log(arrayLinks)
+				// console.log(arrayLinks)
 
 				if(currentSection < sectionsTotal - 1){
 					currentSection++;
@@ -187,15 +190,20 @@
 		var sectionsTotal = WObj.sectionNumber
 
 		query_wikibase_items_in_section = function(sectionRef){
+			console.log('///////////////////////////////////////////');
 
 			console.log('searching for wikibase_items in section: '+sectionRef)
 
-			var chunkedArray = _.chunk(WObj.sectionLinks[sectionRef], 20);
-			console.log(WObj.sectionLinks[sectionRef])
-			console.log(chunkedArray)
+			var chunkedArray = _.chunk(WObj.sectionLinks[sectionRef], 50);
+			// console.log(WObj.sectionLinks[sectionRef])
+			// console.log(chunkedArray)
 
-			console.log(chunkedArray.length)
+			// console.log(chunkedArray.length)
 
+			WObj.sectionLinksWikibase[sectionRef] = new Array();
+
+			var sectionsChunkTotal = chunkedArray.length
+			var currentChunkSection = 0;
 
 			query_chunk = function(chunkRef){
 
@@ -203,34 +211,170 @@
 				console.log(chunkedString)
 
 				$.getJSON('http://'+WObj.lang+'.wikipedia.org/w/api.php?action=query&format=json&callback=?', {
-					prop:'pageprops',
+					prop:'pageprops', // |redirects
 					ppprop:'wikibase_item',
 					titles:chunkedString, 
-					formatversion:2
+					formatversion:2,
+					redirects:true
 				})
 
 				.done(function(result){
 
-					console.log(result.query.pages)
+					console.log(result)
 
 
+					// if(result.query.pages !== undefined){
+					if(typeof result.query != "undefined"){
+
+						var pages = result.query.pages
+						console.log(pages)
+						WObj.sectionLinksWikibase[sectionRef].push(pages)
+					}
+
+					if(currentChunkSection < sectionsChunkTotal - 1){
+						currentChunkSection++;
+						query_chunk(currentChunkSection);
+						console.log('next!: '+currentChunkSection)
+
+					}else{
+						console.log("ende: query_chunk "+ chunkRef);
+						// console.table(arrayLinks);
+						// console.log(_.flatten(WObj.sectionLinksWikibase[sectionRef]))
+						WObj.sectionLinksWikibase[sectionRef] = _.flatten(WObj.sectionLinksWikibase[sectionRef])
+
+
+						//
+
+						if(currentSection < sectionsTotal - 1){
+							currentSection++;
+							query_wikibase_items_in_section(currentSection);
+						}else{
+							console.log("ende: query_wikibase_items_in_section");
+
+							WObj.getWikibase_statements();
+
+							
+						}
+					}	
 				});
-
 			}
-
 			query_chunk(0);
-
-
-
-
-
 			// links from the top?
-
 		}
-
 		query_wikibase_items_in_section(0);
 	}
 
+	WikiObj.prototype.getWikibase_statements = function () {
+
+		console.log('getWikibase_statements')
+		var WObj = this
+
+
+		var tmpArray = new Array();
+
+		tmpArray = _.flatten(WObj.sectionLinksWikibase)
+		
+		// WObj.list_Wikibase_item
+
+		console.log(tmpArray)
+
+		for (var item in tmpArray) {
+			// console.log(tmpArray[item])
+			var elem = tmpArray[item]
+
+			if(elem.pageprops){
+				console.log(elem.pageprops.wikibase_item)
+				// WObj.list_Wikibase_item.push(Number(elem.pageprops.wikibase_item.substring(1)))
+				WObj.list_Wikibase_item.push(elem.pageprops.wikibase_item)
+			}
+
+			WObj.list_Wikibase_item = _.uniq(WObj.list_Wikibase_item)
+		}
+
+		var chunkedArray = _.chunk(WObj.list_Wikibase_item, 50);
+
+		console.log(chunkedArray)
+
+		var sectionsChunkTotal = chunkedArray.length
+		var currentChunkSection = 0;
+
+		query_chunk = function(chunkRef){
+
+			console.log(chunkedArray[chunkRef])
+
+			var url = wdk.getEntities({
+				ids: chunkedArray[chunkRef]
+			})
+
+			console.log(wdk)
+
+			$.ajax({
+			    dataType: "jsonp",
+			    url : url,
+			    // timeout : 15000
+			})
+
+			.done(function(data) {
+				console.log(data)
+
+				for (var item in data.entities) {
+					var entity = data.entities[item]
+					entity.claims = wdk.simplifyClaims(entity.claims)
+
+					console.log(data.entities[item].id);
+					console.log(entity.claims)
+
+					// WObj.list_Wikibase_statements[data.entities[item].id] = entity.claims
+
+					var tmpObj = new Object();
+					tmpObj.id = data.entities[item].id
+					tmpObj.claims = entity.claims
+
+					WObj.list_Wikibase_statements.push(tmpObj)
+				};
+
+				if(currentChunkSection < sectionsChunkTotal - 1){
+					currentChunkSection++;
+					query_chunk(currentChunkSection);
+				}else{
+					console.log("statements retrieved");	
+
+					WObj.exportJSON();			
+				}
+
+
+		    })
+
+		    .fail(function() { 
+		    	console.log("error"); 
+		    });
+		}
+
+		query_chunk(0);
+	}
+
+	WikiObj.prototype.exportJSON = function () {
+
+		console.log('exporting a JSON')
+		var WObj = this
+
+
+		// exporting statements
+
+		var exportObject = new Object();
+
+		console.log(this.list_Wikibase_statements)
+
+		exportObject.statements = this.list_Wikibase_statements
+		exportObject.sections = this.sections
+		exportObject.sectionNumber = this.sectionNumber
+		exportObject.sectionLinksWikibase = this.sectionLinksWikibase
+
+		var jsonString = JSON.stringify(exportObject);
+
+		console.log(jsonString);
+
+	}
 
 var wikiObj1 = new WikiObj();
 

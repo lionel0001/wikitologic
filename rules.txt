@@ -1,0 +1,81 @@
+# country
+
+	instance of (P31)
+		sovereign state (Q3624078)
+
+	currency (P38)
+
+	continent (P30)
+
+	ISO 3166-1 alpha-2 code(P297)
+	 
+	Member of (P463)
+		European Union (Q458)
+
+	official language (P37)
+
+	nominal GDP (P2131)
+
+	continent (P30)
+
+
+# administrative entity
+
+	located in the administrative territorial entity (P131)
+
+	coordinate location (P625) -> (GPS)
+	located in the administrative territorial entity (P131)
+
+
+# city
+	postal code (P281)
+
+
+========================
+
+# object
+
+	location (P276)
+
+========================
+
+# general
+	inception (P571)
+	located on terrain feature (P706)
+
+# Firma
+
+	instance of (P31)
+		business enterprise (Q4830453)
+
+		subsidiary company (Q658255)
+
+
+========================
+
+# person
+
+	instance of (P31)
+		human (Q5)
+
+	occupation (P106)
+
+
+	sex or gender (P21)
+		male (Q6581097) 
+		female (Q6581072)
+
+	given name (P735)
+
+	country of citizenship (P27)
+
+	date of birth (p569)
+	date of death (p570)
+
+	occupation (p106)
+
+	place of birth (P19)	
+
+# Aktivität
+
+	sport (P641)

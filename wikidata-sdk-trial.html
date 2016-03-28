@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wikipedia objects</title>
+  <script src="js/jquery-2.2.1.min.js"></script>
+  <script src="js/lodash.js"></script>
+  <!-- <script src="js/wikidata-sdk.min.js"></script> -->
+  <script src="https://cdn.rawgit.com/maxlath/wikidata-sdk/master/dist/wikidata-sdk.min.js"></script>
+</head>
+<body>
+ 
+<pre id='json' style='white-space: pre-wrap'></pre>
+ 
+<script>
+
+	(function() {
+
+		// document.domain = 'localhost';
+
+
+		// var url = wdk.getEntities('Q50189')
+
+		var url = wdk.getEntities({
+		  ids: ['Q50189', 'Q771376'],
+		  languages: ['en', 'fr', 'de'], // returns all languages if not specified
+		  properties: ['info', 'claims'], // returns all data if not specified
+		  format: 'json' // defaults to json
+		})
+
+		console.log(wdk)
+
+		$.ajax({
+		    dataType: "jsonp",
+		    url : url,
+		    timeout : 1000
+		})
+
+	    .done(function(data) {
+	    	var entity = data.entities.Q50189
+			entity.claims = wdk.simplifyClaims(entity.claims)
+			console.log(entity.claims)
+	    })
+	    .fail(function() { 
+	    	logdata("error"); 
+	    });
+
+
+		// var authorQid = 'Q535'
+		// var sparql = `
+		// PREFIX wd: <http://www.wikidata.org/entity/>
+		// PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+		// SELECT ?work ?date WHERE {
+		//   ?work wdt:P50 wd:${authorQid} .
+		//   OPTIONAL {
+		//     ?work wdt:P577 ?date .
+		//   }
+		// }
+		// `
+		// var url = wdk.sparqlQuery(sparql)
+
+
+		// $.ajax({
+		//     dataType: "jsonp",
+		//     url : url,
+		//     timeout : 1000
+		// })
+
+	 //    .done(function(data) {
+	 //    	console.log(data)
+	    // })
+
+
+
+
+		// $.getJSON(url)
+
+		// .done(function(result){
+		// 	console.log(result)
+		// });
+
+
+
+		// request(url, function(err, response){
+		//   if (err) { dealWithError(err) }
+		//   var entity = response.entities.Q535
+		//   entity.claims = wdk.simplifyClaims(entity.claims)
+		//   console.log(entity.claims)
+		// })
+
+	})();
+</script>
+ 
+</body>
+</html>

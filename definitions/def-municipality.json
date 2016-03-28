@@ -1,0 +1,718 @@
+[
+  {
+    "item": "http://www.wikidata.org/entity/Q15284",
+    "itemLabel": "municipality"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15334",
+    "itemLabel": "municipality of Poland"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q24764",
+    "itemLabel": "municipality of the Philippines"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q70208",
+    "itemLabel": "municipality of Switzerland"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q127448",
+    "itemLabel": "municipality of Sweden"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q203300",
+    "itemLabel": "municipality of Liechtenstein"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q262166",
+    "itemLabel": "municipality of Germany"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q263639",
+    "itemLabel": "municipality of Puerto Rico"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q378508",
+    "itemLabel": "municipality of Angola"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q484170",
+    "itemLabel": "commune of France"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q493522",
+    "itemLabel": "municipality of Belgium"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q562061",
+    "itemLabel": "Marktgemeinde"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q612229",
+    "itemLabel": "municipality of Estonia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q640364",
+    "itemLabel": "municipiu of Romania"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q659103",
+    "itemLabel": "commune of Romania"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q667509",
+    "itemLabel": "municipality of Austria"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q692680",
+    "itemLabel": "Ortsgemeinde"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q755707",
+    "itemLabel": "municipality of Norway"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q856076",
+    "itemLabel": "municipality of Finland"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q856079",
+    "itemLabel": "municipality of the Faroe Islands"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q955655",
+    "itemLabel": "municipality of Iceland"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1054813",
+    "itemLabel": "municipality of Japan"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1115575",
+    "itemLabel": "civil parish in England"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1155688",
+    "itemLabel": "Thesaban"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1307779",
+    "itemLabel": "integrated municipality"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1363145",
+    "itemLabel": "municipality of Lithuania"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1500350",
+    "itemLabel": "township of the People's Republic of China"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1500352",
+    "itemLabel": "local municipality"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1530824",
+    "itemLabel": "metropolitan municipality of South Africa"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1544184",
+    "itemLabel": "Q1544184"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1633408",
+    "itemLabel": "concelho"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1758856",
+    "itemLabel": "commune of Mali"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1763214",
+    "itemLabel": "municipio"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1802801",
+    "itemLabel": "Landgemeinde"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1840161",
+    "itemLabel": "commune of Chile"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1849719",
+    "itemLabel": "municipal formation in Russia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2039348",
+    "itemLabel": "municipality of the Netherlands"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2115448",
+    "itemLabel": "Intra-city territory of a federal city"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2183520",
+    "itemLabel": "obec"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2460358",
+    "itemLabel": "Q2460358"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2590631",
+    "itemLabel": "municipality of Hungary"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2661988",
+    "itemLabel": "urban settlement in Russia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2716259",
+    "itemLabel": "metropolitan municipality in Turkey"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2936646",
+    "itemLabel": "township of Canada"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2989398",
+    "itemLabel": "municipality of Algeria"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3184121",
+    "itemLabel": "municipality of Brazil"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3327870",
+    "itemLabel": "municipal corporation in the United States"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3327871",
+    "itemLabel": "district municipality"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3327873",
+    "itemLabel": "local municipality of Quebec"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3327899",
+    "itemLabel": "municipality of Ontario"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3685462",
+    "itemLabel": "commune of Haiti"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5153359",
+    "itemLabel": "municipality of the Czech Republic"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5154047",
+    "itemLabel": "commune of Cambodia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6024226",
+    "itemLabel": "metropolitan municipality"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6784672",
+    "itemLabel": "municipality of Slovakia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7268568",
+    "itemLabel": "former grietenij"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15129871",
+    "itemLabel": "municipality of Azerbaijan"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15253706",
+    "itemLabel": "city"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16739079",
+    "itemLabel": "municipality of Cyprus"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17067486",
+    "itemLabel": "Gemeinde"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17134625",
+    "itemLabel": "municipality of Bermuda"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19730508",
+    "itemLabel": "former municipality"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20538317",
+    "itemLabel": "village in Saskatchewan"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2616791",
+    "itemLabel": "urban municipality of Poland"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3491915",
+    "itemLabel": "urban-rural municipality of Poland"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3504085",
+    "itemLabel": "rural municipality of Poland"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q179598",
+    "itemLabel": "Municipalities of the canton of Fribourg"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q673796",
+    "itemLabel": "municipality of the canton of Graubünden"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q685309",
+    "itemLabel": "former municipality of Switzerland"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q11722303",
+    "itemLabel": "rural municipality of Sweden or Finland"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q22865",
+    "itemLabel": "urban district of Germany"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q114178",
+    "itemLabel": "Bürgerkommune"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q134626",
+    "itemLabel": "district capital"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q448801",
+    "itemLabel": "Große Kreisstadt"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1232414",
+    "itemLabel": "Großgemeinde"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1548518",
+    "itemLabel": "Large district town"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1548525",
+    "itemLabel": "large independent city of Lower Saxony"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1650922",
+    "itemLabel": "Q1650922"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2267870",
+    "itemLabel": "Q2267870"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13558886",
+    "itemLabel": "city with special status in Germany"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15974307",
+    "itemLabel": "Einheitsgemeinde of Saxony"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q22338052",
+    "itemLabel": "Einheitsgemeinde in Lower Saxony"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2845925",
+    "itemLabel": "Q2845925"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2989454",
+    "itemLabel": "commune nouvelle"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15074966",
+    "itemLabel": "commune of New Caledonia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18821702",
+    "itemLabel": "former commune of France"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20899166",
+    "itemLabel": "regional capital"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q22927548",
+    "itemLabel": "commune in merger-association"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q22927616",
+    "itemLabel": "French commune with specific status"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15273785",
+    "itemLabel": "Belgian municipality with city privileges"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16915447",
+    "itemLabel": "Q16915447"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21583365",
+    "itemLabel": "urban municipality of Estonia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21583366",
+    "itemLabel": "rural municipality of Estonia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19347965",
+    "itemLabel": "former municipality of Austria"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18663579",
+    "itemLabel": "former municipality of Norway"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17468533",
+    "itemLabel": "former municipality of Finland"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q494721",
+    "itemLabel": "city of Japan"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1059478",
+    "itemLabel": "town of Japan"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4174776",
+    "itemLabel": "village of Japan"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18663566",
+    "itemLabel": "dissolved municipality of Japan"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13025342",
+    "itemLabel": "Thesaban Mueang"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15141625",
+    "itemLabel": "subdistrict municipality"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15141632",
+    "itemLabel": "Thesaban Nakhon"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17166803",
+    "itemLabel": "city municipality of Lithuania"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13217644",
+    "itemLabel": "municipality of Portugal"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q558330",
+    "itemLabel": "municipality of Cuba"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q917092",
+    "itemLabel": "municipality of Paraguay"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1062710",
+    "itemLabel": "municipality of Bolivia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1410029",
+    "itemLabel": "List of the municipi of Genoa"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1872284",
+    "itemLabel": "municipality of Guatemala"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1952852",
+    "itemLabel": "municipality of Mexico"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2074737",
+    "itemLabel": "municipality of Spain"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2555896",
+    "itemLabel": "municipality of Colombia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3243765",
+    "itemLabel": "municipality of Argentina"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3327920",
+    "itemLabel": "municipality of Venezuela"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3556889",
+    "itemLabel": "municipality of El Salvador"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3685434",
+    "itemLabel": "municipality of Uruguay"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6005581",
+    "itemLabel": "municipality of the Dominican Republic"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q634099",
+    "itemLabel": "rural settlement of Russia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2198484",
+    "itemLabel": "municipal district in Russia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13626398",
+    "itemLabel": "urban okrug in Russia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7265977",
+    "itemLabel": "former municipality of the Netherlands"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4389092",
+    "itemLabel": "district of Moscow"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1214953",
+    "itemLabel": "large village of Hungary"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q23019040",
+    "itemLabel": "township municipality"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q252708",
+    "itemLabel": "municipality in New Jersey"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q751708",
+    "itemLabel": "village in the United States"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1093829",
+    "itemLabel": "city of the United States"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4946305",
+    "itemLabel": "borough in the United States"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7900180",
+    "itemLabel": "urban township of the United States"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15127012",
+    "itemLabel": "town of the United States"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q14762300",
+    "itemLabel": "single-tier municipality"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15210668",
+    "itemLabel": "Lower-tier municipalities"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16295254",
+    "itemLabel": "upper-tier municipality"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3721570",
+    "itemLabel": "municipalities of the Czech Republic (R)"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15978299",
+    "itemLabel": "municipality with town privileges"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18398645",
+    "itemLabel": "types of towns and cities in Russia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q666943",
+    "itemLabel": "associated commune"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6621272",
+    "itemLabel": "former municipality of Sweden"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21869758",
+    "itemLabel": "Q21869758"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q23036513",
+    "itemLabel": "former municipality of Denmark"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2327515",
+    "itemLabel": "city district"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2911266",
+    "itemLabel": "borough of New Jersey"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2974552",
+    "itemLabel": "city in New Jersey"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7930612",
+    "itemLabel": "village of New Jersey"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1137833",
+    "itemLabel": "core city of Japan"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1145012",
+    "itemLabel": "Special City of Japan"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1749269",
+    "itemLabel": "city designated by government ordinance"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7930611",
+    "itemLabel": "village of Oregon"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7930615",
+    "itemLabel": "village of Vermont"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15221242",
+    "itemLabel": "village of Wisconsin"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q604886",
+    "itemLabel": "charter city of the United States"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1266818",
+    "itemLabel": "independent city"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3301053",
+    "itemLabel": "consolidated city-county"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13218357",
+    "itemLabel": "city of California"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15063611",
+    "itemLabel": "city of New York"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15221256",
+    "itemLabel": "city of Wisconsin"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21010817",
+    "itemLabel": "city of Pennsylvania"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2997091",
+    "itemLabel": "municipality of Tamaulipas"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3500558",
+    "itemLabel": "municipality of Durango"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3500564",
+    "itemLabel": "municipality of Nuevo León"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5055981",
+    "itemLabel": "concejo of Asturias"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q408804",
+    "itemLabel": "borough of New York City"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q777120",
+    "itemLabel": "borough of Pennsylvania"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4946304",
+    "itemLabel": "borough of Connecticut"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q10552196",
+    "itemLabel": "market town municipality of Sweden"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7900181",
+    "itemLabel": "urban township of Michigan"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7900183",
+    "itemLabel": "urban township of Ohio"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15063142",
+    "itemLabel": "urban township of Minnesota"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q14762890",
+    "itemLabel": "regional municipality of Ontario"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q14763041",
+    "itemLabel": "county of Ontario"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q183342",
+    "itemLabel": "federal city of Russia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5123997",
+    "itemLabel": "city of federal subject significance of Russia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13218391",
+    "itemLabel": "charter city"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13218382",
+    "itemLabel": "charter city and county"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15221304",
+    "itemLabel": "first-class city"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15221310",
+    "itemLabel": "second-class city"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15221370",
+    "itemLabel": "third-class city"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15221373",
+    "itemLabel": "fourth-class city"
+  }
+]

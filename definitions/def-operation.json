@@ -1,0 +1,2058 @@
+[
+  {
+    "item": "http://www.wikidata.org/entity/Q362482",
+    "itemLabel": "operation"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4830453",
+    "itemLabel": "business enterprise"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q11371",
+    "itemLabel": "internet service provider"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q11707",
+    "itemLabel": "restaurant"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q14350",
+    "itemLabel": "radio station"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q112046",
+    "itemLabel": "Transmission system operator"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q129238",
+    "itemLabel": "startup company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q131734",
+    "itemLabel": "brewery"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q133744",
+    "itemLabel": "tour operator"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q161726",
+    "itemLabel": "multinational corporation"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q206361",
+    "itemLabel": "concern"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q216931",
+    "itemLabel": "advertising agency"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q219577",
+    "itemLabel": "holding company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q221096",
+    "itemLabel": "public-private partnership"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q290000",
+    "itemLabel": "shell corporation"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q331803",
+    "itemLabel": "sales assistant"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q377688",
+    "itemLabel": "Type foundry"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q468755",
+    "itemLabel": "Colonization Societies"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q507619",
+    "itemLabel": "chain store"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q613142",
+    "itemLabel": "law firm"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q614084",
+    "itemLabel": "consumer cooperative"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q622439",
+    "itemLabel": "small and medium enterprises"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q658255",
+    "itemLabel": "subsidiary company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q721067",
+    "itemLabel": "professional wrestling promotion"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q730038",
+    "itemLabel": "credit institution"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q740752",
+    "itemLabel": "transport company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q786820",
+    "itemLabel": "automobile manufacturer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q811930",
+    "itemLabel": "building contractor"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q814468",
+    "itemLabel": "accommodation provider"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q842609",
+    "itemLabel": "sole proprietorship"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q883188",
+    "itemLabel": "Q883188"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q891723",
+    "itemLabel": "public company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q897403",
+    "itemLabel": "Language school"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q936518",
+    "itemLabel": "aerospace manufacturer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q946499",
+    "itemLabel": "cruise line"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1047437",
+    "itemLabel": "Copyright collective"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1057214",
+    "itemLabel": "private military company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1058914",
+    "itemLabel": "software house"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1071015",
+    "itemLabel": "social enterprise"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1116826",
+    "itemLabel": "Private security company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1133938",
+    "itemLabel": "trust"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1194970",
+    "itemLabel": "dot-com company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1252971",
+    "itemLabel": "food maker"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1280716",
+    "itemLabel": "Q1280716"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1321781",
+    "itemLabel": "investment company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1331793",
+    "itemLabel": "media company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1395324",
+    "itemLabel": "Family business"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1406985",
+    "itemLabel": "Q1406985"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1416636",
+    "itemLabel": "non-banking financial company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1434636",
+    "itemLabel": "Q1434636"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1466031",
+    "itemLabel": "funeral home"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1520069",
+    "itemLabel": "Bottling company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1589009",
+    "itemLabel": "privately held company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1616075",
+    "itemLabel": "television station"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1631129",
+    "itemLabel": "hotel chain"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1660104",
+    "itemLabel": "real estate company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1757263",
+    "itemLabel": "moving company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1774587",
+    "itemLabel": "hospital network"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1951366",
+    "itemLabel": "public utility"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1956113",
+    "itemLabel": "parent company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2005696",
+    "itemLabel": "commercial vehicle manufacturer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2089936",
+    "itemLabel": "consulting company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2169973",
+    "itemLabel": "Service provider"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2210455",
+    "itemLabel": "Q2210455"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2401725",
+    "itemLabel": "Q2401725"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2401749",
+    "itemLabel": "telecommunication company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2516083",
+    "itemLabel": "point of sale"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2518331",
+    "itemLabel": "Offshore company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2538889",
+    "itemLabel": "arms manufacturer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2553558",
+    "itemLabel": "Q2553558"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2693570",
+    "itemLabel": "Q2693570"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2995256",
+    "itemLabel": "rail vehicle manufacturer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3062125",
+    "itemLabel": "farming business"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3300038",
+    "itemLabel": "Matériel de traction électrique"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3380824",
+    "itemLabel": "trading company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3402645",
+    "itemLabel": "service company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3590882",
+    "itemLabel": "automotive supplier"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3661311",
+    "itemLabel": "fashion house"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4387609",
+    "itemLabel": "architectural firm"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5154231",
+    "itemLabel": "communications service provider"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5169293",
+    "itemLabel": "copywriting agency"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5172517",
+    "itemLabel": "Corporation"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5603499",
+    "itemLabel": "green company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6500733",
+    "itemLabel": "printer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7257732",
+    "itemLabel": "public electricity supplier"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7361709",
+    "itemLabel": "convenience store"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7830259",
+    "itemLabel": "Township and Village Enterprises"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q10422442",
+    "itemLabel": "Auction house"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q11570991",
+    "itemLabel": "Q11570991"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q11753232",
+    "itemLabel": "launch service provider"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q14941854",
+    "itemLabel": "oil company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q14942280",
+    "itemLabel": "petrochemical company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15081030",
+    "itemLabel": "motorcycle manufacturer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15849663",
+    "itemLabel": "energy company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15968577",
+    "itemLabel": "design studio"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16274795",
+    "itemLabel": "shipbuilding company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16481737",
+    "itemLabel": "Swedish business enterprise"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17326725",
+    "itemLabel": "business group"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17442766",
+    "itemLabel": "Q17442766"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19644607",
+    "itemLabel": "pharmaceutical company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19720069",
+    "itemLabel": "furniture manufacturer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19852230",
+    "itemLabel": "Foreign-Capital Enterprise"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21980538",
+    "itemLabel": "commercial business"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q23000150",
+    "itemLabel": "Q23000150"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q23006196",
+    "itemLabel": "Q23006196"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q23014043",
+    "itemLabel": "Digitabox"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q621601",
+    "itemLabel": "Application service provider"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q30022",
+    "itemLabel": "café"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q256020",
+    "itemLabel": "inn"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q443767",
+    "itemLabel": "Mess"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q866742",
+    "itemLabel": "bistro"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q868580",
+    "itemLabel": "Chinese restaurant"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q895022",
+    "itemLabel": "Bouillon"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q925352",
+    "itemLabel": "revolving restaurant"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q951791",
+    "itemLabel": "roadhouse"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q996547",
+    "itemLabel": "Bridge restaurant"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1072166",
+    "itemLabel": "tea house"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1206714",
+    "itemLabel": "cantina"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1226318",
+    "itemLabel": "diner"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1259350",
+    "itemLabel": "drive-in restaurant"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1501212",
+    "itemLabel": "pizzeria"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1581509",
+    "itemLabel": "brasserie"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1751429",
+    "itemLabel": "fast food restaurant"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1819078",
+    "itemLabel": "Automat"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1872263",
+    "itemLabel": "Q1872263"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1970543",
+    "itemLabel": "Osteria"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2396004",
+    "itemLabel": "Q2396004"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2883726",
+    "itemLabel": "Hookah lounge"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2914283",
+    "itemLabel": "Tearoom"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3109696",
+    "itemLabel": "Steakhouse"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3231410",
+    "itemLabel": "Delicatessen"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4236467",
+    "itemLabel": "Turkish coffee-house"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4959807",
+    "itemLabel": "Breastaurant"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5195228",
+    "itemLabel": "curry house"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5307737",
+    "itemLabel": "drinking establishment"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5459929",
+    "itemLabel": "floating restaurant"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5526883",
+    "itemLabel": "Gastropub"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5690945",
+    "itemLabel": "Health food restaurant"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q8463304",
+    "itemLabel": "cafeteria"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15733260",
+    "itemLabel": "Lunch counter"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18534555",
+    "itemLabel": "self-service restaurant"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18560057",
+    "itemLabel": "tea house"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19316447",
+    "itemLabel": "Q19316447"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q22812694",
+    "itemLabel": "Q22812694"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q877017",
+    "itemLabel": "pirate radio"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1179112",
+    "itemLabel": "community radio"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1249529",
+    "itemLabel": "Q1249529"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1349167",
+    "itemLabel": "ground station"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1436229",
+    "itemLabel": "campus radio"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1868541",
+    "itemLabel": "local radio station"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2024265",
+    "itemLabel": "Q2024265"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3416955",
+    "itemLabel": "Offshore radio"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13580903",
+    "itemLabel": "international broadcasting"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1251750",
+    "itemLabel": "distillery"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1548071",
+    "itemLabel": "Q1548071"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2072541",
+    "itemLabel": "Bavaria Brewery"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5487333",
+    "itemLabel": "microbrewery"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q22672163",
+    "itemLabel": "Q22672163"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1660312",
+    "itemLabel": "major label"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q778575",
+    "itemLabel": "conglomerate"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q967140",
+    "itemLabel": "Media Agency"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2512624",
+    "itemLabel": "bank holding company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4356518",
+    "itemLabel": "Regional Bell Operating Company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19252952",
+    "itemLabel": "Q19252952"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7257246",
+    "itemLabel": "Pub chain"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18043413",
+    "itemLabel": "supermarket chain"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18534542",
+    "itemLabel": "restaurant chain"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4950459",
+    "itemLabel": "boutique law firm"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20797471",
+    "itemLabel": "Corporated law firm"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19720188",
+    "itemLabel": "small publisher"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19720190",
+    "itemLabel": "medium size publisher"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q22687",
+    "itemLabel": "bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q157963",
+    "itemLabel": "savings bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q449067",
+    "itemLabel": "Building society"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q568041",
+    "itemLabel": "Universal bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q896525",
+    "itemLabel": "Landesbank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1553482",
+    "itemLabel": "Q1553482"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1974013",
+    "itemLabel": "non-bank financial institution"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3277997",
+    "itemLabel": "cooperative banking"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q249556",
+    "itemLabel": "railway company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q670113",
+    "itemLabel": "fixed-base operator"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q914174",
+    "itemLabel": "Q914174"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1468664",
+    "itemLabel": "logistics provider"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1807108",
+    "itemLabel": "shipping line"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1875615",
+    "itemLabel": "air carrier"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2127330",
+    "itemLabel": "Q2127330"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q10438042",
+    "itemLabel": "bus company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15712205",
+    "itemLabel": "intercity bus company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18386893",
+    "itemLabel": "passenger line"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15887806",
+    "itemLabel": "construction and real estate company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q222368",
+    "itemLabel": "Q222368"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1307538",
+    "itemLabel": "Q1307538"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q10329582",
+    "itemLabel": "Formal freelancer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16969092",
+    "itemLabel": "enkeltpersonforetak"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19278985",
+    "itemLabel": "sole proprietorship in Germany"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q498289",
+    "itemLabel": "dual-listed company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5225895",
+    "itemLabel": "public limited company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6785141",
+    "itemLabel": "master limited partnership"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13641190",
+    "itemLabel": "open joint-stock company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20746571",
+    "itemLabel": "public company limited by shares"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q210167",
+    "itemLabel": "video game developer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16998920",
+    "itemLabel": "Low-profit limited liability company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21592151",
+    "itemLabel": "Q21592151"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q274393",
+    "itemLabel": "bakery"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19347489",
+    "itemLabel": "Q19347489"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20022806",
+    "itemLabel": "chocolate company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q192283",
+    "itemLabel": "news agency"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q368290",
+    "itemLabel": "film distributor"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q375336",
+    "itemLabel": "film studio"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1717176",
+    "itemLabel": "Q1717176"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2085381",
+    "itemLabel": "publisher"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2442401",
+    "itemLabel": "record company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q11396960",
+    "itemLabel": "production company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15943455",
+    "itemLabel": "broadcast station"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19963413",
+    "itemLabel": "media conglomerate"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20739124",
+    "itemLabel": "entertainment company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q482517",
+    "itemLabel": "Chaebol"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1416313",
+    "itemLabel": "Q1416313"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1416371",
+    "itemLabel": "Q1416371"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2143354",
+    "itemLabel": "assurer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2563546",
+    "itemLabel": "Q2563546"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4230006",
+    "itemLabel": "asset management company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6899283",
+    "itemLabel": "Money services business"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1548033",
+    "itemLabel": "Q1548033"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4752700",
+    "itemLabel": "Anchor bottler"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1517904",
+    "itemLabel": "closed joint-stock company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2901333",
+    "itemLabel": "S corporation"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18624259",
+    "itemLabel": "private limited liability company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q561068",
+    "itemLabel": "specialty channel"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1254874",
+    "itemLabel": "television network"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q697852",
+    "itemLabel": "Real estate investment trust"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1534992",
+    "itemLabel": "Q1534992"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1266169",
+    "itemLabel": "telephone company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1326624",
+    "itemLabel": "electric utility"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15880342",
+    "itemLabel": "Q15880342"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20031260",
+    "itemLabel": "consulting company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1641122",
+    "itemLabel": "Online service provider"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1941618",
+    "itemLabel": "mobile network operator"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q76470",
+    "itemLabel": "outlet store"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q151515",
+    "itemLabel": "Q151515"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q213441",
+    "itemLabel": "shop"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2549140",
+    "itemLabel": "store"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q702135",
+    "itemLabel": "Glock Ges.m.b.H."
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2512222",
+    "itemLabel": "Vektor"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q22814849",
+    "itemLabel": "Glock Inc."
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q613739",
+    "itemLabel": "Estancia"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2979655",
+    "itemLabel": "Q2979655"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q261428",
+    "itemLabel": "Discount store"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q786803",
+    "itemLabel": "car dealership"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13107184",
+    "itemLabel": "community pharmacy"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q352450",
+    "itemLabel": "agency"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20032039",
+    "itemLabel": "tire manucfaturer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17051667",
+    "itemLabel": "Mama shop"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17453461",
+    "itemLabel": "Tante-Emma-Laden"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15081032",
+    "itemLabel": "historical motorcycle manufacturer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1341478",
+    "itemLabel": "Q1341478"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3461355",
+    "itemLabel": "Sagardotegi"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q66344",
+    "itemLabel": "central bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q251927",
+    "itemLabel": "Public bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q319845",
+    "itemLabel": "investment bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q665634",
+    "itemLabel": "Cantonal bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q848507",
+    "itemLabel": "commercial bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q941185",
+    "itemLabel": "Private banking"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1227557",
+    "itemLabel": "Direct bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1921438",
+    "itemLabel": "merchant bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2111088",
+    "itemLabel": "private bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2883448",
+    "itemLabel": "chartered bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6579042",
+    "itemLabel": "national bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7309198",
+    "itemLabel": "Regional bank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15807586",
+    "itemLabel": "Q15807586"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15841019",
+    "itemLabel": "Q15841019"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15974382",
+    "itemLabel": "Q15974382"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20767252",
+    "itemLabel": "Bank van Lening"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q137746",
+    "itemLabel": "cha chaan teng"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q261335",
+    "itemLabel": "Viennese coffee house"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q478679",
+    "itemLabel": "café-chantant"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1045860",
+    "itemLabel": "Kissaten"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2785359",
+    "itemLabel": "cat café"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3357577",
+    "itemLabel": "Q3357577"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7083294",
+    "itemLabel": "book café"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18214247",
+    "itemLabel": "Q18214247"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2917176",
+    "itemLabel": "savings bank of Spain"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13601825",
+    "itemLabel": "Sparkasse"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17103304",
+    "itemLabel": "sparebank"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q11301725",
+    "itemLabel": "Q11301725"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16406",
+    "itemLabel": "tobacconist"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q153551",
+    "itemLabel": "Charity shop"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q200764",
+    "itemLabel": "bookstore"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q216107",
+    "itemLabel": "Department store"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q217107",
+    "itemLabel": "travel agency"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q220142",
+    "itemLabel": "Pet store"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q221618",
+    "itemLabel": "sex shop"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q260569",
+    "itemLabel": "Garden centre"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q811530",
+    "itemLabel": "hardware store"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q864440",
+    "itemLabel": "health food store"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q865693",
+    "itemLabel": "gift shop"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q883504",
+    "itemLabel": "Q883504"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1007870",
+    "itemLabel": "art gallery"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1068824",
+    "itemLabel": "Boutique"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1123813",
+    "itemLabel": "concept stores"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1131628",
+    "itemLabel": "Copy shop"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1311064",
+    "itemLabel": "ice cream parlor"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1529413",
+    "itemLabel": "Glaziery"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1756711",
+    "itemLabel": "video rental shop"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1931925",
+    "itemLabel": "coffee shop"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2243978",
+    "itemLabel": "record shop"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2925872",
+    "itemLabel": "second-hand shop"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3267025",
+    "itemLabel": "antique shop"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3574069",
+    "itemLabel": "Confectionery store"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3814081",
+    "itemLabel": "application store"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q10431511",
+    "itemLabel": "flower shop"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13584407",
+    "itemLabel": "grocery store"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16294764",
+    "itemLabel": "Spätkauf"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16889679",
+    "itemLabel": "home-improvement center"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21152568",
+    "itemLabel": "Q21152568"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q22154217",
+    "itemLabel": "Q22154217"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q521458",
+    "itemLabel": "Q521458"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17102188",
+    "itemLabel": "train operating company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17377208",
+    "itemLabel": "Q17377208"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q131183",
+    "itemLabel": "cabaret"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q367914",
+    "itemLabel": "bed and breakfast"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q562930",
+    "itemLabel": "ryokan"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q688852",
+    "itemLabel": "Grotto"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q966002",
+    "itemLabel": "coaching inn"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q995619",
+    "itemLabel": "Q995619"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1001427",
+    "itemLabel": "Budike"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2921696",
+    "itemLabel": "Q2921696"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4498092",
+    "itemLabel": "mechanized bakery"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1144447",
+    "itemLabel": "modeling agency"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6864113",
+    "itemLabel": "Mine clearance agency"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13434535",
+    "itemLabel": "escort agency"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1107679",
+    "itemLabel": "animation studio"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2111078",
+    "itemLabel": "Q2111078"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13604004",
+    "itemLabel": "Landesbausparkasse"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q752106",
+    "itemLabel": "legislature broadcaster"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1787375",
+    "itemLabel": "children's interest channel"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5001853",
+    "itemLabel": "business channel"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5287666",
+    "itemLabel": "Documentary channel"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6054765",
+    "itemLabel": "international news channel"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3234959",
+    "itemLabel": "Cantonese restaurant"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16024234",
+    "itemLabel": "Q16024234"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19845051",
+    "itemLabel": "rest area Dorno"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2003705",
+    "itemLabel": "Rutte"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6839471",
+    "itemLabel": "microdistillery"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q10373548",
+    "itemLabel": "whisky distillery"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21279577",
+    "itemLabel": "Q21279577"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5009242",
+    "itemLabel": "cable channel"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q363589",
+    "itemLabel": "local exchange carrier"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1550756",
+    "itemLabel": "Q1550756"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15871359",
+    "itemLabel": "power producer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7297101",
+    "itemLabel": "Ray's Pizza"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7677913",
+    "itemLabel": "take and bake pizzeria"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18654742",
+    "itemLabel": "pizza chain"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19363981",
+    "itemLabel": "tanker shipping company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q46970",
+    "itemLabel": "airline"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1058891",
+    "itemLabel": "mobile virtual network operator"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6887204",
+    "itemLabel": "mobile phone operator"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q149985",
+    "itemLabel": "self-publishing company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q479716",
+    "itemLabel": "university press"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1114515",
+    "itemLabel": "comics publishing company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1320047",
+    "itemLabel": "book publishing company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1391561",
+    "itemLabel": "Q1391561"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1568650",
+    "itemLabel": "Self-publishing"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1661080",
+    "itemLabel": "small press"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1792356",
+    "itemLabel": "art publisher"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1917775",
+    "itemLabel": "music publisher"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2116408",
+    "itemLabel": "Q2116408"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2608849",
+    "itemLabel": "imprint"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3579158",
+    "itemLabel": "social game editor"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7554349",
+    "itemLabel": "software publisher"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15728610",
+    "itemLabel": "Esperanto publisher"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19720191",
+    "itemLabel": "large publisher"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q840850",
+    "itemLabel": "freight forwarder"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1057026",
+    "itemLabel": "cargo airline"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q955214",
+    "itemLabel": "Mutual organization"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q745877",
+    "itemLabel": "credit union"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q154250",
+    "itemLabel": "tavern"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q175836",
+    "itemLabel": "Thermopolium"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q187456",
+    "itemLabel": "bar"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q212198",
+    "itemLabel": "pub"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q616100",
+    "itemLabel": "speakeasy"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q857909",
+    "itemLabel": "beer garden"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q858012",
+    "itemLabel": "beer hall"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1051574",
+    "itemLabel": "Q1051574"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1193068",
+    "itemLabel": "Izakaya"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3397950",
+    "itemLabel": "Popina"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4056084",
+    "itemLabel": "Q4056084"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4402271",
+    "itemLabel": "Q4402271"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q12341378",
+    "itemLabel": "Q12341378"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13218277",
+    "itemLabel": "Q13218277"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16664138",
+    "itemLabel": "Q16664138"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16720297",
+    "itemLabel": "Q16720297"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20107444",
+    "itemLabel": "Bitcoin exchange"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17118229",
+    "itemLabel": "school bus contractor"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1762059",
+    "itemLabel": "film production company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q10689397",
+    "itemLabel": "TV production company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1622859",
+    "itemLabel": "Q1622859"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18509232",
+    "itemLabel": "fast food restaurant chain"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q149789",
+    "itemLabel": "limited liability company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q460178",
+    "itemLabel": "Gesellschaft mit beschränkter Haftung"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1377470",
+    "itemLabel": "European Private Company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1518608",
+    "itemLabel": "Q1518608"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1518609",
+    "itemLabel": "Gesellschaft mit beschränkter Haftung"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1555574",
+    "itemLabel": "Besloten vennootschap met beperkte aansprakelijkheid"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2624661",
+    "itemLabel": "Limited liability company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6131060",
+    "itemLabel": "Sociedad de responsabilidad limitada"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6832945",
+    "itemLabel": "private company limited by shares"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q10379632",
+    "itemLabel": "Société à responsabilité limitée"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13100008",
+    "itemLabel": "d.o.o."
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15042660",
+    "itemLabel": "aksjeselskap"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15091621",
+    "itemLabel": "société à responsabilité limitée"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15646299",
+    "itemLabel": "společnost s ručením omezeným"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15648878",
+    "itemLabel": "Società a responsabilità limitata"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15648901",
+    "itemLabel": "Q15648901"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15649019",
+    "itemLabel": "Unlimited company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15649047",
+    "itemLabel": "Anpartsselskab"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15829892",
+    "itemLabel": "Gesellschaft mit beschränkter Haftung"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16325418",
+    "itemLabel": "Spoločnosť s ručením obmedzeným"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16901839",
+    "itemLabel": "Societate cu răspundere limitată"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16917171",
+    "itemLabel": "Q16917171"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17375963",
+    "itemLabel": "Besloten vennootschap met beperkte aansprakelijkheid"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18411472",
+    "itemLabel": "Societas unius personae"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18560097",
+    "itemLabel": "Q18560097"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19343649",
+    "itemLabel": "Q19343649"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21191682",
+    "itemLabel": "Q21191682"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21763266",
+    "itemLabel": "Q21763266"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21763580",
+    "itemLabel": "Družba z omejeno odgovornostjo"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21764098",
+    "itemLabel": "Druzhestvo s ogranichena otgovornost"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20679540",
+    "itemLabel": "movie theater chain"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20739125",
+    "itemLabel": "Pornographic Entertainment Company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20819922",
+    "itemLabel": "opera company"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1796855",
+    "itemLabel": "Q1796855"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q190915",
+    "itemLabel": "low-cost airline"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q607958",
+    "itemLabel": "charter airline"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q721639",
+    "itemLabel": "flag carrier"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1327032",
+    "itemLabel": "Major carrier"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2440569",
+    "itemLabel": "regional airline"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5001854",
+    "itemLabel": "Business class airline"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6517271",
+    "itemLabel": "Legacy carrier"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7142591",
+    "itemLabel": "passenger airline"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1166158",
+    "itemLabel": "dark cabaret"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1871314",
+    "itemLabel": "Q1871314"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3120628",
+    "itemLabel": "guinguette"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5412273",
+    "itemLabel": "Q5412273"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7260400",
+    "itemLabel": "punk cabaret"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7454814",
+    "itemLabel": "Series LLC"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1043639",
+    "itemLabel": "gay bar"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1711595",
+    "itemLabel": "Juke joint"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3058833",
+    "itemLabel": "Q3058833"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q582794",
+    "itemLabel": "used bookstore"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6017407",
+    "itemLabel": "independent bookstore"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7249333",
+    "itemLabel": "Q7249333"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5156358",
+    "itemLabel": "competitive local exchange carrier"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13405549",
+    "itemLabel": "incumbent local exchange carrier"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1500859",
+    "itemLabel": "Q1500859"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1532881",
+    "itemLabel": "Q1532881"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1737963",
+    "itemLabel": "Q1737963"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2498526",
+    "itemLabel": "Q2498526"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19693246",
+    "itemLabel": "Q19693246"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q814733",
+    "itemLabel": "Beilader"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3325736",
+    "itemLabel": "Artist-run initiative"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16038801",
+    "itemLabel": "contemporary art gallery"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2922608",
+    "itemLabel": "Q2922608"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q735427",
+    "itemLabel": "Poverty Row"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18127",
+    "itemLabel": "record label"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5051836",
+    "itemLabel": "Category A service"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5051837",
+    "itemLabel": "Category B services"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5051840",
+    "itemLabel": "Category C services"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7892363",
+    "itemLabel": "United States cable news"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1137109",
+    "itemLabel": "video game publisher"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q180846",
+    "itemLabel": "supermarket"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2024419",
+    "itemLabel": "Online grocer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19390308",
+    "itemLabel": "statsaksjeselskap"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6131079",
+    "itemLabel": "Q6131079"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1518604",
+    "itemLabel": "Gesellschaft mit beschränkter Haftung"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1985150",
+    "itemLabel": "Q1985150"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1001388",
+    "itemLabel": "Q1001388"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1542343",
+    "itemLabel": "independent record label"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7095719",
+    "itemLabel": "open-source record label"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q297410",
+    "itemLabel": "Asda"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q326715",
+    "itemLabel": "Lotte Mart"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q430289",
+    "itemLabel": "ABC-áruház"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q466918",
+    "itemLabel": "Cactus"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q487494",
+    "itemLabel": "Tesco"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q653793",
+    "itemLabel": "Asian supermarket"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q688825",
+    "itemLabel": "Trader Joe's"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q721810",
+    "itemLabel": "Iceland"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q771734",
+    "itemLabel": "Waitrose"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1108172",
+    "itemLabel": "Coles Supermarkets"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1508234",
+    "itemLabel": "Safeway Inc."
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1653985",
+    "itemLabel": "Albert Heijn"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1809448",
+    "itemLabel": "Whole Foods Market"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1879631",
+    "itemLabel": "C1000"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1978981",
+    "itemLabel": "Q1978981"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2181426",
+    "itemLabel": "Leader Price"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2262314",
+    "itemLabel": "Jumbo"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3342407",
+    "itemLabel": "No Frills"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3411543",
+    "itemLabel": "Q3411543"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5465300",
+    "itemLabel": "Food Basics"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5517749",
+    "itemLabel": "Gala"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5582070",
+    "itemLabel": "Q5582070"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6698032",
+    "itemLabel": "Lucky Stores"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7284643",
+    "itemLabel": "Rainbow Grocery Cooperative"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7543916",
+    "itemLabel": "Smart & Final"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q8068546",
+    "itemLabel": "Zehrs Markets"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q11286632",
+    "itemLabel": "Izumiya"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q12581126",
+    "itemLabel": "GS Supermarket"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13571727",
+    "itemLabel": "Q13571727"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17502722",
+    "itemLabel": "Dirk van den Broek"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18015107",
+    "itemLabel": "Q18015107"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21000531",
+    "itemLabel": "Q21000531"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16011789",
+    "itemLabel": "indie games editor"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q428044",
+    "itemLabel": "infoshop"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2612417",
+    "itemLabel": "Q2612417"
+  }
+]

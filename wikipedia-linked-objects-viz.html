@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wikipedia objects - visualization</title>
+  <script src="js/jquery-2.2.1.min.js"></script>
+  <script src="js/lodash.js"></script>
+</head>
+<body>
+ 
+<pre id='json' style='white-space: pre-wrap'></pre>
+ 
+<script>
+
+
+(function() {
+
+
+	function WikiArticle(){
+
+		var statement_definitions;
+		var statement_definitions_data;
+		var definitionsNumber;
+
+		var data_article;
+
+		var skeleton;
+		
+	}
+
+	WikiArticle.prototype.importData = function(urljson){
+
+		var WObj = this
+		console.log(WObj);
+
+		var url = urljson
+		console.log('importing data: '+ url)
+
+		$.getJSON(url)
+
+		.done(function(data){
+			console.log('data imported')
+
+
+			WObj.data_article = data
+
+			WObj.importDefinitions()
+			// WObj.createSkeleton(data);
+		});
+	}
+
+	WikiArticle.prototype.importDefinitions = function(){
+
+		var WObj = this
+
+		console.log('importing statement definitions')
+		console.log(WObj.statement_definitions)
+
+		WObj.definitionsNumber = WObj.statement_definitions.length
+		console.log(WObj.definitionsNumber)
+
+		var currentDefinition = 0;
+		var definitionsTotal = WObj.definitionsNumber
+
+		WObj.statement_definitions_data = new Array();
+
+		import_definition_list = function(definitionRef){
+
+			console.log('loading: '+WObj.statement_definitions[definitionRef][0])
+
+			var tmpName = WObj.statement_definitions[definitionRef][0]
+			var tmpRefItem = WObj.statement_definitions[definitionRef][1]
+
+			var url = "definitions/"+WObj.statement_definitions[definitionRef][2]
+			$.getJSON(url)
+
+			.done(function(result){
+
+				console.log(result)
+
+				var tmpObj = new Object();
+				tmpObj.name = tmpName
+				tmpObj.refItem = tmpRefItem
+
+				var tmpArray = new Array();
+
+				for (item in result) {
+					// console.log(result[item].item)
+					var str = result[item].item
+					str = str.substring(str.indexOf("Q"));
+					// console.log(str)
+					tmpArray.push(str)
+				}
+				tmpObj.list = tmpArray
+
+				console.log('tmpObj.name: '+tmpObj.name)
+
+				WObj.statement_definitions_data.push(tmpObj)
+
+				
+				
+
+				if(currentDefinition < definitionsTotal - 1){
+					currentDefinition++;
+					import_definition_list(currentDefinition);
+				}else{
+					console.log("ende: definitions");
+
+					WObj.createArticle()
+				}
+			});
+
+		}
+		import_definition_list(0);
+	}
+
+
+	WikiArticle.prototype.createArticle = function(){
+		var WObj = this
+
+		console.log('creation of the Article')
+
+		createSkeleton = function () {
+			console.log("creating Article skeleton")
+
+			WObj.skeleton = new Array();
+
+			var sections = WObj.data_article.sections;
+
+			// console.log(WObj.data_article.sections)
+			for (item in sections) {
+
+				// console.log("//////////////////////////////")
+
+				var tmpObject = new Object();
+				tmpObject.section = sections[item]
+				// tmpObject.links = WObj.data_article.sectionLinksWikibase[item]
+
+				var list_items = new Array();
+				var list = WObj.data_article.sectionLinksWikibase[item];
+
+				for (link in list) {
+					// console.log(list[link].title+" : "+list[link].ns)
+					if(list[link].ns == 0 && list[link].pageprops){
+						// console.log(list[link])
+						list_items.push(list[link])
+					}
+				}
+
+				tmpObject.links = list_items
+				WObj.skeleton.push(tmpObject)
+
+			}
+			WObj.lookup();
+		}
+		createSkeleton();
+	}
+
+
+	WikiArticle.prototype.lookup = function(){
+		var WObj = this
+
+		console.log('lookup')
+
+		var list =  WObj.data_article.statements
+
+		console.log(list)
+
+		for (id in list){
+
+			console.log('////////////////////')
+			console.log(list[id].id)
+
+			var claims = list[id].claims
+			var tmpList;
+
+			var claims_p31 = list[id].claims["P31"]
+			console.log(list[id].claims["P31"])	
+
+			// human?
+			var	tmpList = ["Q5"]
+			if(_.intersection(claims_p31,tmpList).length > 0){
+				console.log(list[id].id + " is human")
+				list[id].type = "human"
+			}
+
+			// municipality?
+			var	tmpList = WObj.statement_definitions_data[0].list;
+			if(_.intersection(claims_p31,tmpList).length > 0){
+				console.log(list[id].id + " is a municipality")
+				list[id].type = "municipality"
+			}
+
+			// sovereign country
+			var	tmpList = ["Q3624078"]
+				if(_.intersection(claims_p31,tmpList).length > 0){
+				console.log(list[id].id + " is a country")
+				list[id].type = "country"
+			}
+
+			
+
+		}
+
+
+
+
+
+	}
+
+
+	var article = new WikiArticle();
+	article.importData("annecy_en.json");
+
+ 	article.statement_definitions= new Array();
+	article.statement_definitions.push(["municipality","Q15284","def-municipality.json"])
+	article.statement_definitions.push(["operation","Q362482","def-operation.json"])
+
+
+})();
+
+</script>
+ 
+</body>
+</html>
