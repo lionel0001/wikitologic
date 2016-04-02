@@ -186,6 +186,9 @@
 			if(_.intersection(claims_p31,tmpList).length > 0){
 				console.log(list[id].id + " is human")
 				list[id].type = "human"
+
+				console.log('gender' + list[id].claims["P21"])
+
 			}
 
 			// municipality?
@@ -206,7 +209,7 @@
 			// operation?
 			var	tmpList = WObj.statement_definitions_data.operation.list;
 			if(_.intersection(claims_p31,tmpList).length > 0){
-				console.log(list[id].id + " is a operation")
+				console.log(list[id].id + " is a operation (business)")
 				list[id].type = "operation"
 			}
 
