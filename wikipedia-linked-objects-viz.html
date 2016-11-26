@@ -131,7 +131,7 @@
 
 			var sections = WObj.data_article.sections;
 
-			// console.log(WObj.data_article.sections)
+			console.log(WObj.data_article.sections)
 			for (item in sections) {
 
 				// console.log("//////////////////////////////")
@@ -221,12 +221,6 @@
 				props.type = "operation"
 			}
 
-			// lake
-			var	tmpList = ["Q3624078"]
-			if(_.intersection(claims_p31,tmpList).length > 0){
-				console.log(list[id].id + " is a country")
-				props.type = "country"
-			}
 
 			
 
