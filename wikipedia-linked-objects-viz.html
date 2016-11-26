@@ -178,6 +178,9 @@
 			var claims = list[id].claims
 			var tmpList;
 
+			list[id].properties = new Object();
+			var props = list[id].properties 
+
 			var claims_p31 = list[id].claims["P31"]
 			console.log(list[id].claims["P31"])	
 
@@ -185,32 +188,44 @@
 			var	tmpList = ["Q5"]
 			if(_.intersection(claims_p31,tmpList).length > 0){
 				console.log(list[id].id + " is human")
-				list[id].type = "human"
+				props.type = "human"
 
-				console.log('gender' + list[id].claims["P21"])
-
+				var claims_p21 = list[id].claims["P21"]
+				if(claims_p21 == "Q6581097"){
+					console.log('male')
+				}else if (claims_p21 == "Q6581072") {
+					console.log('female')
+				}else{
+					console.log('other sexuality')
+				}
 			}
 
 			// municipality?
 			var	tmpList = WObj.statement_definitions_data.municipality.list;
 			if(_.intersection(claims_p31,tmpList).length > 0){
 				console.log(list[id].id + " is a municipality")
-				list[id].type = "municipality"
+				props.type = "municipality"
 			}
 
 			// sovereign country
 			var	tmpList = ["Q3624078"]
-				if(_.intersection(claims_p31,tmpList).length > 0){
+			if(_.intersection(claims_p31,tmpList).length > 0){
 				console.log(list[id].id + " is a country")
-				list[id].type = "country"
+				props.type = "country"
 			}
-
 
 			// operation?
 			var	tmpList = WObj.statement_definitions_data.operation.list;
 			if(_.intersection(claims_p31,tmpList).length > 0){
 				console.log(list[id].id + " is a operation (business)")
-				list[id].type = "operation"
+				props.type = "operation"
+			}
+
+			// lake
+			var	tmpList = ["Q3624078"]
+			if(_.intersection(claims_p31,tmpList).length > 0){
+				console.log(list[id].id + " is a country")
+				props.type = "country"
 			}
 
 			
@@ -230,7 +245,7 @@
  	article.statement_definitions= new Array();
 	article.statement_definitions.push(["municipality","Q15284","def-municipality.json"])
 	article.statement_definitions.push(["operation","Q362482","def-operation.json"])
-
+	article.statement_definitions.push(["lakes","Q23397","def-lakes.json"])
 
 })();
 
