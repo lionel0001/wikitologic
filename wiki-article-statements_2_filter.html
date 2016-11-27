@@ -15,19 +15,16 @@
 
 (function() {
 
-
 	function WikiArticle(){
 
 		var statement_definitions;
 		var statement_definitions_data;
 		var definitionsNumber;
-
 		var data_article;
-
 		var skeleton;
-		
 	}
 
+	// importing the json file previously generated
 	WikiArticle.prototype.importData = function(urljson){
 
 		var WObj = this
@@ -40,18 +37,18 @@
 
 		.done(function(data){
 			console.log('data imported')
-
-
 			WObj.data_article = data
-
 			WObj.importDefinitions()
-			// WObj.createSkeleton(data);
 		});
 	}
 
+	// Importing JSON properties definition files
 	WikiArticle.prototype.importDefinitions = function(){
 
 		var WObj = this
+
+		// Depending on the type of the properties that we want to test, we need to generate lists containing all the children of each property we want to test. Please check the wiki to get more info. It involves visiting https://query.wikidata.org/
+		// See also at the end of this file
 
 		console.log('importing statement definitions')
 		console.log(WObj.statement_definitions)
@@ -64,6 +61,8 @@
 
 		WObj.statement_definitions_data = new Object();
 
+
+		// it is going to load the definition files one at the time
 		import_definition_list = function(definitionRef){
 
 			console.log('loading: '+WObj.statement_definitions[definitionRef][0])
@@ -71,12 +70,14 @@
 			var tmpName = WObj.statement_definitions[definitionRef][0]
 			var tmpRefItem = WObj.statement_definitions[definitionRef][1]
 
+			// path toward the definition files
 			var url = "definitions/"+WObj.statement_definitions[definitionRef][2]
+
 			$.getJSON(url)
 
 			.done(function(result){
 
-				// console.log(result)
+				console.log(result)
 
 				var tmpObj = new Object();
 				tmpObj.name = tmpName
@@ -85,40 +86,29 @@
 				var tmpArray = new Array();
 
 				for (item in result) {
-					// console.log(result[item].item)
 					var str = result[item].item
 					str = str.substring(str.indexOf("Q"));
-					// console.log(str)
 					tmpArray.push(str)
 				}
 				tmpObj.list = tmpArray
-
-				// console.log(tmpName)
-
-				// WObj.statement_definitions_data.push(tmpObj)
-
-
-
+	
 				WObj.statement_definitions_data[tmpName] = tmpObj
 
-
-
-
+				// iterating toward the next definition file
 				if(currentDefinition < definitionsTotal - 1){
 					currentDefinition++;
 					import_definition_list(currentDefinition);
 				}else{
 					console.log("ende: definitions");
-
 					WObj.createArticle()
 				}
 			});
-
 		}
+
 		import_definition_list(0);
 	}
 
-
+	// Retrieving the initial structure of the article previously generated and the associated intern links
 	WikiArticle.prototype.createArticle = function(){
 		var WObj = this
 
@@ -128,10 +118,9 @@
 			console.log("creating Article skeleton")
 
 			WObj.skeleton = new Array();
-
 			var sections = WObj.data_article.sections;
-
 			console.log(WObj.data_article.sections)
+
 			for (item in sections) {
 
 				// console.log("//////////////////////////////")
@@ -150,7 +139,7 @@
 						list_items.push(list[link])
 					}
 				}
-
+				
 				tmpObject.links = list_items
 				WObj.skeleton.push(tmpObject)
 
@@ -160,6 +149,8 @@
 		createSkeleton();
 	}
 
+
+	// Looping through the linked articles statements and checking different properties with the help of the definitions previously loaded
 
 	WikiArticle.prototype.lookup = function(){
 		var WObj = this
@@ -220,22 +211,13 @@
 				console.log(list[id].id + " is a operation (business)")
 				props.type = "operation"
 			}
-
-
-			
-
 		}
-
-
-
-
-
 	}
-
 
 	var article = new WikiArticle();
 	article.importData("annecy_en.json");
 
+	// Pushing all the different definitions previsouly generated into the script. See WikiArticle.prototype.importDefinition() above.
  	article.statement_definitions= new Array();
 	article.statement_definitions.push(["municipality","Q15284","def-municipality.json"])
 	article.statement_definitions.push(["operation","Q362482","def-operation.json"])
