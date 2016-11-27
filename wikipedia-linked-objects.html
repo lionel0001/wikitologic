@@ -77,8 +77,11 @@
 		this.article = "Annecy"
 	}
 	
+	/*
+	As an article is divided in different sections of very different natures (introduction at the top including infobox, content in the middle, and sources or links in the ends ), I decided to retrieve the links section by sections.
 
-	// https://en.wikipedia.org/w/api.php?action=parse&page=annecy&prop=sections
+	Warning: Once an article has been linked, it is not always automatic that it is linked again and again. It depends on the quality of the article. In the end, it may not be always menaningful to process like that but this is how it has historically emerged.
+	*/
 
 
 	WikiObj.prototype.generateDataObj = function(){
@@ -86,8 +89,11 @@
 	}
 
 
-	WikiObj.prototype.getHeadings = function(){
+	// getting the sections of the article
+	// https://www.mediawiki.org/w/api.php?action=help&modules=parse
+	// example query: https://en.wikipedia.org/w/api.php?action=parse&page=annecy&prop=sections
 
+	WikiObj.prototype.getHeadings = function(){
 		var WObj = this
 		// console.log(WObj);
 
@@ -97,38 +103,31 @@
 		})
 			.done(function(result){
 
-
-				// console.log(result)
-
-
 				WObj.sections = new Array();
-
-				// $('#json').text(JSON.stringify(result, '', 2));
 
 				// retrieving only the section list
 				var sections_in_article = result.parse.sections
 
-
 				// iterating through the sections
 				for(var section in sections_in_article){
-					// console.log(sections_in_article[section].line +" : "+sections_in_article[section].level)
-
-					// if (sections_in_article[section].level == 2){
-						WObj.sections.push(sections_in_article[section])
-					// }
-					
+					WObj.sections.push(sections_in_article[section])
 				}
 
+				// No idea yet why I put that here, but I am very sure that it is important later on.
 				WObj.sections.unshift({'extract': true})
 				WObj.sectionNumber = WObj.sections.length 
 
-				// console.table(WObj.sections); 
+				// Check the console panel in your browser to see the range of information available. They help to understand a lot of aspects about the article structure
+				console.table(WObj.sections); 
 
 				WObj.getInteralLinks();
 			});
 	
 	};
 
+	// getting the internal wikipedia links within the article, section by section
+	// https://www.mediawiki.org/w/api.php?action=help&modules=parse
+	// example query: https://en.wikipedia.org/w/api.php?action=parse&page=annecy&prop=links
 
 	WikiObj.prototype.getInteralLinks = function(){
 
@@ -141,8 +140,6 @@
 
 		query_internal_links_in_section = function(sectionRef){
 
-			// console.log('Querying links from section '+sectionRef)
-
 			$.getJSON('http://'+WObj.lang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
 				page:WObj.article, 
 				prop:'links',
@@ -151,22 +148,18 @@
 
 			.done(function(result){
 
-				// console.log(result);
-				// console.log(sectionRef);
-
+				// retrieving only the links
 				var links_in_section = result.parse.links
 
+				// creating an array and pushing all the links within it 
 				WObj.sectionLinks[sectionRef] = new Array();
-
 				arrayLinks = WObj.sectionLinks[sectionRef] 
 
 				for(var link in links_in_section){
-					// console.log(links_in_section[link])
 					arrayLinks.push(links_in_section[link]["*"])
 				}
 
-				// console.log(arrayLinks)
-
+				// iterating through sections
 				if(currentSection < sectionsTotal - 1){
 					currentSection++;
 					query_internal_links_in_section(currentSection);
@@ -177,9 +170,13 @@
 				}
 			});
 		};
-
 		query_internal_links_in_section(0);
 	};
+
+
+	// getting the Wikibase_item reference for the linked articles, section by section
+	// https://www.mediawiki.org/w/api.php?action=help&modules=query
+	// example query: https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&ppprop=wikibase_item&titles=Annecy&formatversion=2&redirects=true
 
 	WikiObj.prototype.getWikibase_item = function(){
 
@@ -191,22 +188,19 @@
 
 		query_wikibase_items_in_section = function(sectionRef){
 			console.log('///////////////////////////////////////////');
-
 			console.log('searching for wikibase_items in section: '+sectionRef)
 
+			// Creating chunk of 50 elements per requests as this is the greatest number accepted
 			var chunkedArray = _.chunk(WObj.sectionLinks[sectionRef], 50);
-			// console.log(WObj.sectionLinks[sectionRef])
-			// console.log(chunkedArray)
-
-			// console.log(chunkedArray.length)
 
 			WObj.sectionLinksWikibase[sectionRef] = new Array();
-
 			var sectionsChunkTotal = chunkedArray.length
 			var currentChunkSection = 0;
 
+			// query 50 elements at the time
 			query_chunk = function(chunkRef){
 
+				// creating strings to be inserted in the request
 				var chunkedString = _.join(chunkedArray[chunkRef], '|');
 				console.log(chunkedString)
 
@@ -219,64 +213,51 @@
 				})
 
 				.done(function(result){
-
 					console.log(result)
 
-
-					// if(result.query.pages !== undefined){
 					if(typeof result.query != "undefined"){
-
 						var pages = result.query.pages
 						console.log(pages)
 						WObj.sectionLinksWikibase[sectionRef].push(pages)
 					}
 
+					// iterating 50 elements at the time
 					if(currentChunkSection < sectionsChunkTotal - 1){
 						currentChunkSection++;
 						query_chunk(currentChunkSection);
 						console.log('next!: '+currentChunkSection)
-
 					}else{
 						console.log("ende: query_chunk "+ chunkRef);
-						// console.table(arrayLinks);
-						// console.log(_.flatten(WObj.sectionLinksWikibase[sectionRef]))
 						WObj.sectionLinksWikibase[sectionRef] = _.flatten(WObj.sectionLinksWikibase[sectionRef])
 
-
-						//
-
+						// iterating through sections
 						if(currentSection < sectionsTotal - 1){
 							currentSection++;
 							query_wikibase_items_in_section(currentSection);
 						}else{
 							console.log("ende: query_wikibase_items_in_section");
-
 							WObj.getWikibase_statements();
-
-							
 						}
 					}	
 				});
 			}
 			query_chunk(0);
-			// links from the top?
 		}
 		query_wikibase_items_in_section(0);
 	}
+
+	// retrieving Wikidata statements for all the articles
+	// https://www.wikidata.org/w/api.php?action=help&modules=wbsetclaim
+	// example query: https://www.wikidata.org/w/api.php?action=wbgetclaims&format=xml&props=value&entity=Q50189
 
 	WikiObj.prototype.getWikibase_statements = function () {
 
 		console.log('getWikibase_statements')
 		var WObj = this
 
-
+		// destructuring the earlier results 
 		var tmpArray = new Array();
-
 		tmpArray = _.flatten(WObj.sectionLinksWikibase)
-		
-		// WObj.list_Wikibase_item
-
-		console.log(tmpArray)
 
 		for (var item in tmpArray) {
 			// console.log(tmpArray[item])
@@ -284,30 +265,34 @@
 
 			if(elem.pageprops){
 				console.log(elem.pageprops.wikibase_item)
-				// WObj.list_Wikibase_item.push(Number(elem.pageprops.wikibase_item.substring(1)))
 				WObj.list_Wikibase_item.push(elem.pageprops.wikibase_item)
 			}
 
+			// deduplicating - done a bit late??
 			WObj.list_Wikibase_item = _.uniq(WObj.list_Wikibase_item)
 		}
 
+		// Creating chunk of 50 elements per requests as this is the greatest number accepted
 		var chunkedArray = _.chunk(WObj.list_Wikibase_item, 50);
-
 		console.log(chunkedArray)
 
-		var sectionsChunkTotal = chunkedArray.length
+		var sectionsChunkTotal = chunkedArray.length // hum
 		var currentChunkSection = 0;
 
-		query_chunk = function(chunkRef){
 
+		// query 50 elements at the time
+		query_chunk = function(chunkRef){
 			console.log(chunkedArray[chunkRef])
 
+			// get entities by id using https://github.com/maxlath/wikidata-sdk
+			// Have a look to https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities
 			var url = wdk.getEntities({
 				ids: chunkedArray[chunkRef]
 			})
 
 			console.log(wdk)
 
+			// starting the request to retrieve claims
 			$.ajax({
 			    dataType: "jsonp",
 			    url : url,
@@ -319,12 +304,13 @@
 
 				for (var item in data.entities) {
 					var entity = data.entities[item]
+
+					// simplifying claims using https://github.com/maxlath/wikidata-sdk
+					// Have a look at https://www.mediawiki.org/wiki/Wikibase/DataModel
 					entity.claims = wdk.simplifyClaims(entity.claims)
 
 					console.log(data.entities[item].id);
 					console.log(entity.claims)
-
-					// WObj.list_Wikibase_statements[data.entities[item].id] = entity.claims
 
 					var tmpObj = new Object();
 					tmpObj.id = data.entities[item].id
@@ -338,11 +324,8 @@
 					query_chunk(currentChunkSection);
 				}else{
 					console.log("statements retrieved");	
-
 					WObj.exportJSON();			
 				}
-
-
 		    })
 
 		    .fail(function() { 
@@ -353,31 +336,24 @@
 		query_chunk(0);
 	}
 
+	// composing a JSON and exporting it in the console so that it can be copied from there
 	WikiObj.prototype.exportJSON = function () {
 
 		console.log('exporting a JSON')
 		var WObj = this
 
-
 		// exporting statements
-
 		var exportObject = new Object();
-
-		console.log(this.list_Wikibase_statements)
-
 		exportObject.statements = this.list_Wikibase_statements
 		exportObject.sections = this.sections
 		exportObject.sectionNumber = this.sectionNumber
 		exportObject.sectionLinksWikibase = this.sectionLinksWikibase
 
 		var jsonString = JSON.stringify(exportObject);
-
 		console.log(jsonString);
-
 	}
 
 var wikiObj1 = new WikiObj();
-
 wikiObj1.generateDataObj();
 
 })();
