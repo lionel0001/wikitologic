@@ -16,70 +16,111 @@
 (function() {
 
 	function WikiObj(){
-		this.languages = ['en','de','fr','es']
+		this.languages = ['en','de','fr','ja']
 		this.article = "Annecy"
+		this.wikibase_item = "Q50189"
 
 		for (const lang of this.languages ) {
-			// console.log(lang)
 			this[lang] = new Object();
 		}
 
 	}
 	
-	WikiObj.prototype.queryArticle = function(){
+	WikiObj.prototype.getArticles = function(){
 
 		var WObj = this
 		console.log(WObj);
 
-		getSections = function(langRef){
-
-			console.log('looking for info in '+WObj.languages[langRef])
-
-			var tmpLang = WObj.languages[langRef]
-
-			$.getJSON('http://'+tmpLang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
-				page:WObj.article, 
-				prop:'sections'
+		FindArticles = function(){
+// 			$.getJSON('https://www.wikidata.org/w/api.php?action=wbgetentities&props=labels|sitelinks/urls&format=json&callback=?', {
+			
+			$.getJSON('https://www.wikidata.org/w/api.php?action=wbgetentities&props=labels&format=json&callback=?', {
+				ids:WObj.wikibase_item,
 			})
 
 			.done(function(result){
-
 				console.log(result)
-				console.log(tmpLang)
 
-				WObj[tmpLang].sections = result.parse.sections;
+				WObj.labels = result.entities[WObj.wikibase_item].labels
 
-				console.log(WObj.languages.length)
-
-
-				if(langRef < WObj.languages.length - 1){
-					langRef++
-					getSections(langRef);
-				}else{
-					console.log('finito')
-					WObj.presentArticle();
+				for (lang in WObj.languages) {
+					var tmpLang = WObj.languages[lang];
+					var tmpURL = "https://"+WObj.languages[lang]+".wikipedia.org/wiki/"+WObj.labels[tmpLang].value
+					console.log(tmpURL)
+					WObj[tmpLang].url = tmpURL
 				}
 			});
 		}
-		getSections(0);
+
+
+
+
+
+
+
+
+
+
+
+		FindArticles();
+
+
+		//https://www.wikidata.org/w/api.php?action=wbgetentities&props=sitelinks/urls&format=xml&ids=Q50189
+
+
+
+
+		//https://www.wikidata.org/w/api.php?action=wbgetentities&props=sitelinks/urls&format=xml&ids=Q50189
+
+
+
+
+		// listLanguageVersions();
+
+		// getSections = function(langRef){
+
+		// 	console.log('looking for info in '+WObj.languages[langRef])
+
+		// 	var tmpLang = WObj.languages[langRef]
+
+		// 	$.getJSON('http://'+tmpLang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
+		// 		page:WObj.article, 
+		// 		prop:'sections'
+		// 	})
+
+		// 	.done(function(result){
+
+		// 		console.log(result)
+		// 		console.log(tmpLang)
+
+		// 		WObj[tmpLang].sections = result.parse.sections;
+
+		// 		console.log(WObj.languages.length)
+
+
+		// 		if(langRef < WObj.languages.length - 1){
+		// 			langRef++
+		// 			getSections(langRef);
+		// 		}else{
+		// 			console.log('finito')
+		// 			WObj.presentArticle();
+		// 		}
+		// 	});
+		// }
+		// getSections(0);
 	}
 
 
 	WikiObj.prototype.presentArticle = function(){
 
 		console.log('presenting article')
-
-
-
-
-
 	}
 
 
 
 
 	var wikiObj1 = new WikiObj();
-	wikiObj1.queryArticle();
+	wikiObj1.getArticles();
 
 
 })();
