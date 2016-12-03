@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wikipedia objects</title>
+  <script src="../js/jquery-2.2.1.min.js"></script>
+  <script src="../js/lodash.js"></script>
+  <script src="../js/wikidata-sdk.min.js"></script>
+</head>
+<body>
+ 
+<pre id='json' style='white-space: pre-wrap'></pre>
+ 
+<script>
+
+(function() {
+
+	function WikiObj(){
+		this.languages = ['en','de','fr','es','ru']
+		this.article = "Annecy"
+
+		for (const lang of this.languages ) {
+			// console.log(lang)
+			this[lang] = new Object();
+		}
+
+	}
+	
+	WikiObj.prototype.queryArticle = function(){
+
+		var WObj = this
+		console.log(WObj);
+
+		getSections = function(langRef){
+
+			console.log('looking for info in '+WObj.languages[langRef])
+
+			var tmpLang = WObj.languages[langRef]
+
+			$.getJSON('http://'+tmpLang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
+				page:WObj.article, 
+				prop:'sections'
+			})
+
+			.done(function(result){
+
+				console.log(result)
+				console.log(tmpLang)
+
+				WObj[tmpLang].sections = result.parse.sections;
+
+				console.log(WObj.languages.length)
+
+
+				if(langRef < WObj.languages.length - 1){
+					langRef++
+					getSections(langRef);
+
+				}else{
+					console.log('finito')
+				}
+			});
+		}
+		getSections(0);
+	}
+
+
+
+	var wikiObj1 = new WikiObj();
+	wikiObj1.queryArticle();
+
+
+})();
+</script>
+ 
+</body>
+</html>
