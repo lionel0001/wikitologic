@@ -34,9 +34,10 @@
 	function WikiObj(){
 		this.languages = ['en','de','fr','ja','ru']
 		this.wikibase_item = "Q50189" /*Annecy*/
+		this.content = new Object();
 
 		for (const lang of this.languages ) {
-			this[lang] = new Object();
+			this.content[lang] = new Object();
 		}
 	}
 	
@@ -62,8 +63,10 @@
 					var tmpURL = "https://"+WObj.languages[lang]+".wikipedia.org/wiki/"+WObj.labels[tmpLang].value
 					console.log(tmpURL)
 
-					WObj[tmpLang].label = WObj.labels[tmpLang].value;
-					WObj[tmpLang].url = tmpURL
+					// WObj[tmpLang].label = WObj.labels[tmpLang].value;
+					WObj.content[tmpLang].label = WObj.labels[tmpLang].value;
+
+					WObj.content[tmpLang].url = tmpURL
 				}
 
 				getSections(0);
@@ -79,7 +82,7 @@
 			var tmpLang = WObj.languages[langRef]
 
 			$.getJSON('http://'+tmpLang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
-				page:WObj[tmpLang].label, 
+				page:WObj.content[tmpLang].label, 
 				prop:'sections'
 			})
 
@@ -88,10 +91,10 @@
 				// console.log(result)
 				// console.log(tmpLang)
 
-				WObj[tmpLang].sections = result.parse.sections;
+				WObj.content[tmpLang].sections = result.parse.sections;
 
 
-				console.table(WObj[tmpLang].sections)
+				console.table(WObj.content[tmpLang].sections)
 
 				if(langRef < WObj.languages.length - 1){
 					langRef++
@@ -107,15 +110,10 @@
 		exportJSON = function(){
 
 			console.log('exporting a JSON')
-			console.log(WObj);
-			var WObj = this;
+			// console.log(WObj);
 
 			var jsonString = JSON.stringify(WObj);
-
-
-
-
-
+			console.log(jsonString);
 
 		}
 
