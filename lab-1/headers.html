@@ -1,29 +1,43 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Wikipedia objects</title>
-  <script src="../js/jquery-2.2.1.min.js"></script>
-  <script src="../js/lodash.js"></script>
-  <script src="../js/wikidata-sdk.min.js"></script>
+	<meta charset="utf-8">
+	<title>Wikipedia objects</title>
+	<script src="../js/jquery-2.2.1.min.js"></script>
+	<script src="../js/lodash.js"></script>
+	<script src="../js/wikidata-sdk.min.js"></script>
+
+  	<style type="text/css">
+		html, body { width: 100%; height: 100%; margin: 0; }
+		
+		#article { 
+			float: left; 
+			display: inline;
+		}
+
+	</style>
+
 </head>
 <body>
  
-<pre id='json' style='white-space: pre-wrap'></pre>
+<div id="container">
+	<div id="header"></div>
+	<div id="articles">
+		
+	</div>
+</div>
  
 <script>
 
 (function() {
 
 	function WikiObj(){
-		this.languages = ['en','de','fr','ja']
-		this.article = "Annecy"
-		this.wikibase_item = "Q50189"
+		this.languages = ['en','de','fr','ja','ru']
+		this.wikibase_item = "Q50189" /*Annecy*/
 
 		for (const lang of this.languages ) {
 			this[lang] = new Object();
 		}
-
 	}
 	
 	WikiObj.prototype.getArticles = function(){
@@ -31,7 +45,7 @@
 		var WObj = this
 		console.log(WObj);
 
-		FindArticles = function(){
+		findArticles = function(){
 // 			$.getJSON('https://www.wikidata.org/w/api.php?action=wbgetentities&props=labels|sitelinks/urls&format=json&callback=?', {
 			
 			$.getJSON('https://www.wikidata.org/w/api.php?action=wbgetentities&props=labels&format=json&callback=?', {
@@ -47,74 +61,82 @@
 					var tmpLang = WObj.languages[lang];
 					var tmpURL = "https://"+WObj.languages[lang]+".wikipedia.org/wiki/"+WObj.labels[tmpLang].value
 					console.log(tmpURL)
+
+					WObj[tmpLang].label = WObj.labels[tmpLang].value;
 					WObj[tmpLang].url = tmpURL
+				}
+
+				getSections(0);
+			});
+		}
+		findArticles();
+
+
+		getSections = function(langRef){
+
+			console.log('looking for info in '+WObj.languages[langRef])
+
+			var tmpLang = WObj.languages[langRef]
+
+			$.getJSON('http://'+tmpLang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
+				page:WObj[tmpLang].label, 
+				prop:'sections'
+			})
+
+			.done(function(result){
+
+				// console.log(result)
+				// console.log(tmpLang)
+
+				WObj[tmpLang].sections = result.parse.sections;
+
+
+				console.table(WObj[tmpLang].sections)
+
+				if(langRef < WObj.languages.length - 1){
+					langRef++
+					getSections(langRef);
+				}else{
+					console.log('finito')
+					// WObj.presentArticle();
+					exportJSON()
 				}
 			});
 		}
 
+		exportJSON = function(){
+
+			console.log('exporting a JSON')
+			console.log(WObj);
+			var WObj = this;
+
+			var jsonString = JSON.stringify(WObj);
 
 
 
 
 
 
+		}
 
-
-
-
-		FindArticles();
-
-
-		//https://www.wikidata.org/w/api.php?action=wbgetentities&props=sitelinks/urls&format=xml&ids=Q50189
-
-
-
-
-		//https://www.wikidata.org/w/api.php?action=wbgetentities&props=sitelinks/urls&format=xml&ids=Q50189
-
-
-
-
-		// listLanguageVersions();
-
-		// getSections = function(langRef){
-
-		// 	console.log('looking for info in '+WObj.languages[langRef])
-
-		// 	var tmpLang = WObj.languages[langRef]
-
-		// 	$.getJSON('http://'+tmpLang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
-		// 		page:WObj.article, 
-		// 		prop:'sections'
-		// 	})
-
-		// 	.done(function(result){
-
-		// 		console.log(result)
-		// 		console.log(tmpLang)
-
-		// 		WObj[tmpLang].sections = result.parse.sections;
-
-		// 		console.log(WObj.languages.length)
-
-
-		// 		if(langRef < WObj.languages.length - 1){
-		// 			langRef++
-		// 			getSections(langRef);
-		// 		}else{
-		// 			console.log('finito')
-		// 			WObj.presentArticle();
-		// 		}
-		// 	});
-		// }
-		// getSections(0);
 	}
 
 
-	WikiObj.prototype.presentArticle = function(){
+	// WikiObj.prototype.presentArticle = function(){
 
-		console.log('presenting article')
-	}
+	// 	console.log('presenting article')
+
+	// 	var WObj = this
+	// 	console.log(WObj);
+
+
+	// 	for (const lang of WObj.languages ) {
+	// 		console.log('lang:'+lang)
+	// 		$( "#articles" ).append( "<div id='article'>"+lang+"</div>" );
+
+	// 	}
+
+	// }
 
 
 
