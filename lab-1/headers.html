@@ -16,7 +16,7 @@
 (function() {
 
 	function WikiObj(){
-		this.languages = ['en','de','fr','es','ru']
+		this.languages = ['en','de','fr','es']
 		this.article = "Annecy"
 
 		for (const lang of this.languages ) {
@@ -55,14 +55,26 @@
 				if(langRef < WObj.languages.length - 1){
 					langRef++
 					getSections(langRef);
-
 				}else{
 					console.log('finito')
+					WObj.presentArticle();
 				}
 			});
 		}
 		getSections(0);
 	}
+
+
+	WikiObj.prototype.presentArticle = function(){
+
+		console.log('presenting article')
+
+
+
+
+
+	}
+
 
 
 
