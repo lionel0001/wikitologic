@@ -1,0 +1,3554 @@
+{
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "ja",
+    "ru"
+  ],
+  "wikibase_item": "Q362",
+  "content": {
+    "en": {
+      "label": "World War II",
+      "url": "https://en.wikipedia.org/wiki/World War II",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Chronology",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "World_War_II",
+          "byteoffset": 11500,
+          "anchor": "Chronology"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Background",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "World_War_II",
+          "byteoffset": 14802,
+          "anchor": "Background"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Europe",
+          "number": "2.1",
+          "index": "3",
+          "fromtitle": "World_War_II",
+          "byteoffset": 14858,
+          "anchor": "Europe"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Asia",
+          "number": "2.2",
+          "index": "4",
+          "fromtitle": "World_War_II",
+          "byteoffset": 20343,
+          "anchor": "Asia"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Pre-war events",
+          "number": "3",
+          "index": "5",
+          "fromtitle": "World_War_II",
+          "byteoffset": 22362,
+          "anchor": "Pre-war_events"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Italian invasion of Ethiopia (1935)",
+          "number": "3.1",
+          "index": "6",
+          "fromtitle": "World_War_II",
+          "byteoffset": 22382,
+          "anchor": "Italian_invasion_of_Ethiopia_.281935.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Spanish Civil War (1936–39)",
+          "number": "3.2",
+          "index": "7",
+          "fromtitle": "World_War_II",
+          "byteoffset": 23976,
+          "anchor": "Spanish_Civil_War_.281936.E2.80.9339.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Japanese invasion of China (1937)",
+          "number": "3.3",
+          "index": "8",
+          "fromtitle": "World_War_II",
+          "byteoffset": 25672,
+          "anchor": "Japanese_invasion_of_China_.281937.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Soviet-Japanese border conflicts",
+          "number": "3.4",
+          "index": "9",
+          "fromtitle": "World_War_II",
+          "byteoffset": 27782,
+          "anchor": "Soviet-Japanese_border_conflicts"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "European occupations and agreements",
+          "number": "3.5",
+          "index": "10",
+          "fromtitle": "World_War_II",
+          "byteoffset": 29251,
+          "anchor": "European_occupations_and_agreements"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Course of the war",
+          "number": "4",
+          "index": "11",
+          "fromtitle": "World_War_II",
+          "byteoffset": 35307,
+          "anchor": "Course_of_the_war"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "War breaks out in Europe (1939–40)",
+          "number": "4.1",
+          "index": "12",
+          "fromtitle": "World_War_II",
+          "byteoffset": 35389,
+          "anchor": "War_breaks_out_in_Europe_.281939.E2.80.9340.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Western Europe (1940–41)",
+          "number": "4.2",
+          "index": "13",
+          "fromtitle": "World_War_II",
+          "byteoffset": 42140,
+          "anchor": "Western_Europe_.281940.E2.80.9341.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Mediterranean (1940–41)",
+          "number": "4.3",
+          "index": "14",
+          "fromtitle": "World_War_II",
+          "byteoffset": 50487,
+          "anchor": "Mediterranean_.281940.E2.80.9341.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Axis attack on the USSR (1941)",
+          "number": "4.4",
+          "index": "15",
+          "fromtitle": "World_War_II",
+          "byteoffset": 54812,
+          "anchor": "Axis_attack_on_the_USSR_.281941.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "War breaks out in the Pacific (1941)",
+          "number": "4.5",
+          "index": "16",
+          "fromtitle": "World_War_II",
+          "byteoffset": 62433,
+          "anchor": "War_breaks_out_in_the_Pacific_.281941.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Axis advance stalls (1942–43)",
+          "number": "4.6",
+          "index": "17",
+          "fromtitle": "World_War_II",
+          "byteoffset": 71479,
+          "anchor": "Axis_advance_stalls_.281942.E2.80.9343.29"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Pacific (1942–43)",
+          "number": "4.6.1",
+          "index": "18",
+          "fromtitle": "World_War_II",
+          "byteoffset": 74569,
+          "anchor": "Pacific_.281942.E2.80.9343.29"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Eastern Front (1942–43)",
+          "number": "4.6.2",
+          "index": "19",
+          "fromtitle": "World_War_II",
+          "byteoffset": 79108,
+          "anchor": "Eastern_Front_.281942.E2.80.9343.29"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Western Europe/Atlantic & Mediterranean (1942–43)",
+          "number": "4.6.3",
+          "index": "20",
+          "fromtitle": "World_War_II",
+          "byteoffset": 81268,
+          "anchor": "Western_Europe.2FAtlantic_.26_Mediterranean_.281942.E2.80.9343.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Allies gain momentum (1943–44)",
+          "number": "4.7",
+          "index": "21",
+          "fromtitle": "World_War_II",
+          "byteoffset": 84538,
+          "anchor": "Allies_gain_momentum_.281943.E2.80.9344.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Allies close in (1944)",
+          "number": "4.8",
+          "index": "22",
+          "fromtitle": "World_War_II",
+          "byteoffset": 93923,
+          "anchor": "Allies_close_in_.281944.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Axis collapse, Allied victory (1944–45)",
+          "number": "4.9",
+          "index": "23",
+          "fromtitle": "World_War_II",
+          "byteoffset": 101104,
+          "anchor": "Axis_collapse.2C_Allied_victory_.281944.E2.80.9345.29"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Aftermath",
+          "number": "5",
+          "index": "24",
+          "fromtitle": "World_War_II",
+          "byteoffset": 109711,
+          "anchor": "Aftermath"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Impact",
+          "number": "6",
+          "index": "25",
+          "fromtitle": "World_War_II",
+          "byteoffset": 119502,
+          "anchor": "Impact"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Casualties and war crimes",
+          "number": "6.1",
+          "index": "26",
+          "fromtitle": "World_War_II",
+          "byteoffset": 119514,
+          "anchor": "Casualties_and_war_crimes"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Concentration camps, slave labour, and genocide",
+          "number": "6.2",
+          "index": "27",
+          "fromtitle": "World_War_II",
+          "byteoffset": 127688,
+          "anchor": "Concentration_camps.2C_slave_labour.2C_and_genocide"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Occupation",
+          "number": "6.3",
+          "index": "28",
+          "fromtitle": "World_War_II",
+          "byteoffset": 134745,
+          "anchor": "Occupation"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Home fronts and production",
+          "number": "6.4",
+          "index": "29",
+          "fromtitle": "World_War_II",
+          "byteoffset": 137959,
+          "anchor": "Home_fronts_and_production"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Advances in technology and warfare",
+          "number": "6.5",
+          "index": "30",
+          "fromtitle": "World_War_II",
+          "byteoffset": 140676,
+          "anchor": "Advances_in_technology_and_warfare"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "See also",
+          "number": "7",
+          "index": "31",
+          "fromtitle": "World_War_II",
+          "byteoffset": 150614,
+          "anchor": "See_also"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Notes",
+          "number": "8",
+          "index": "32",
+          "fromtitle": "World_War_II",
+          "byteoffset": 152388,
+          "anchor": "Notes"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Citations",
+          "number": "9",
+          "index": "33",
+          "fromtitle": "World_War_II",
+          "byteoffset": 152412,
+          "anchor": "Citations"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "References",
+          "number": "10",
+          "index": "34",
+          "fromtitle": "World_War_II",
+          "byteoffset": 152444,
+          "anchor": "References"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "External links",
+          "number": "11",
+          "index": "35",
+          "fromtitle": "World_War_II",
+          "byteoffset": 220890,
+          "anchor": "External_links"
+        }
+      ]
+    },
+    "de": {
+      "label": "Zweiter Weltkrieg",
+      "url": "https://de.wikipedia.org/wiki/Zweiter Weltkrieg",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Vorgeschichte",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 11283,
+          "anchor": "Vorgeschichte"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Kriegsziele und -führung der Großmächte",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 16621,
+          "anchor": "Kriegsziele_und_-f.C3.BChrung_der_Gro.C3.9Fm.C3.A4chte"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Achsenmächte",
+          "number": "2.1",
+          "index": "3",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 17170,
+          "anchor": "Achsenm.C3.A4chte"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Deutschland",
+          "number": "2.1.1",
+          "index": "4",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 17191,
+          "anchor": "Deutschland"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Japan",
+          "number": "2.1.2",
+          "index": "5",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 24525,
+          "anchor": "Japan"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Alliierte",
+          "number": "2.2",
+          "index": "6",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 28311,
+          "anchor": "Alliierte"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Westmächte",
+          "number": "2.2.1",
+          "index": "7",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 28329,
+          "anchor": "Westm.C3.A4chte"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Sowjetunion",
+          "number": "2.2.2",
+          "index": "8",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 28652,
+          "anchor": "Sowjetunion"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Vergleich der militärischen Potentiale",
+          "number": "2.3",
+          "index": "9",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 30692,
+          "anchor": "Vergleich_der_milit.C3.A4rischen_Potentiale"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Krieg in Europa",
+          "number": "3",
+          "index": "10",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 33177,
+          "anchor": "Krieg_in_Europa"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Vom Angriff auf Polen bis zur Niederlage Frankreichs, September 1939 bis Juni 1940",
+          "number": "3.1",
+          "index": "11",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 33251,
+          "anchor": "Vom_Angriff_auf_Polen_bis_zur_Niederlage_Frankreichs.2C_September_1939_bis_Juni_1940"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Deutscher Angriff auf Polen, 1939",
+          "number": "3.1.1",
+          "index": "12",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 34411,
+          "anchor": "Deutscher_Angriff_auf_Polen.2C_1939"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Stellungskrieg an der Westfront, 1939",
+          "number": "3.1.2",
+          "index": "13",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 40793,
+          "anchor": "Stellungskrieg_an_der_Westfront.2C_1939"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Finnisch-sowjetischer Winterkrieg, 1939/1940",
+          "number": "3.1.3",
+          "index": "14",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 42614,
+          "anchor": "Finnisch-sowjetischer_Winterkrieg.2C_1939.2F1940"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Besetzung Dänemarks und Norwegens, April 1940",
+          "number": "3.1.4",
+          "index": "15",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 45009,
+          "anchor": "Besetzung_D.C3.A4nemarks_und_Norwegens.2C_April_1940"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Westfeldzug, Mai/Juni 1940",
+          "number": "3.1.5",
+          "index": "16",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 50357,
+          "anchor": "Westfeldzug.2C_Mai.2FJuni_1940"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Folgen",
+          "number": "3.1.6",
+          "index": "17",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 61184,
+          "anchor": "Folgen"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Von der Kapitulation Frankreichs bis zum Angriff auf die Sowjetunion, Juni 1940 bis Juni 1941",
+          "number": "3.2",
+          "index": "18",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 63751,
+          "anchor": "Von_der_Kapitulation_Frankreichs_bis_zum_Angriff_auf_die_Sowjetunion.2C_Juni_1940_bis_Juni_1941"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Luftschlacht um England, 1940/1941",
+          "number": "3.2.1",
+          "index": "19",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 64931,
+          "anchor": "Luftschlacht_um_England.2C_1940.2F1941"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Hitlers Bündnispolitik",
+          "number": "3.2.2",
+          "index": "20",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 72548,
+          "anchor": "Hitlers_B.C3.BCndnispolitik"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Italienischer Parallelkrieg im Mittelmeerraum und in Ostafrika, 1940/1941",
+          "number": "3.2.3",
+          "index": "21",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 77817,
+          "anchor": "Italienischer_Parallelkrieg_im_Mittelmeerraum_und_in_Ostafrika.2C_1940.2F1941"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Balkanfeldzug, 1941",
+          "number": "3.2.4",
+          "index": "22",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 81286,
+          "anchor": "Balkanfeldzug.2C_1941"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Vom Entstehen der Ostfront bis zur Westfront, Juni 1941 bis Juni 1944",
+          "number": "3.3",
+          "index": "23",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 85803,
+          "anchor": "Vom_Entstehen_der_Ostfront_bis_zur_Westfront.2C_Juni_1941_bis_Juni_1944"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Krieg gegen die Sowjetunion, Juni 1941 bis Oktober 1942",
+          "number": "3.3.1",
+          "index": "24",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 89756,
+          "anchor": "Krieg_gegen_die_Sowjetunion.2C_Juni_1941_bis_Oktober_1942"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Partisanenkrieg",
+          "number": "3.3.2",
+          "index": "25",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 111142,
+          "anchor": "Partisanenkrieg"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Kriegseintritt der USA, Dezember 1941",
+          "number": "3.3.3",
+          "index": "26",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 114871,
+          "anchor": "Kriegseintritt_der_USA.2C_Dezember_1941"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Kriegsschauplatz Nordafrika, 1940 bis 1943",
+          "number": "3.3.4",
+          "index": "27",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 117936,
+          "anchor": "Kriegsschauplatz_Nordafrika.2C_1940_bis_1943"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Italien, 1943 und 1944",
+          "number": "3.3.5",
+          "index": "28",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 123722,
+          "anchor": "Italien.2C_1943_und_1944"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Von Stalingrad bis Leningrad, Oktober 1942 bis März 1944",
+          "number": "3.3.6",
+          "index": "29",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 130922,
+          "anchor": "Von_Stalingrad_bis_Leningrad.2C_Oktober_1942_bis_M.C3.A4rz_1944"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Von der Invasion bis zum Kriegsende, Juni 1944 bis Mai 1945",
+          "number": "3.4",
+          "index": "30",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 140385,
+          "anchor": "Von_der_Invasion_bis_zum_Kriegsende.2C_Juni_1944_bis_Mai_1945"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Westfront, 1944/45",
+          "number": "3.4.1",
+          "index": "31",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 140820,
+          "anchor": "Westfront.2C_1944.2F45"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Ostfront, 1944/45",
+          "number": "3.4.2",
+          "index": "32",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 155667,
+          "anchor": "Ostfront.2C_1944.2F45"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Kriegsende in Europa, 1945",
+          "number": "3.4.3",
+          "index": "33",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 163391,
+          "anchor": "Kriegsende_in_Europa.2C_1945"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Krieg in Asien und im Pazifik",
+          "number": "4",
+          "index": "34",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 170468,
+          "anchor": "Krieg_in_Asien_und_im_Pazifik"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Japans Neuordnung Ostasiens",
+          "number": "4.1",
+          "index": "35",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 170535,
+          "anchor": "Japans_Neuordnung_Ostasiens"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Von Pearl Harbor bis zur japanischen Kapitulation",
+          "number": "4.2",
+          "index": "36",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 184964,
+          "anchor": "Von_Pearl_Harbor_bis_zur_japanischen_Kapitulation"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Strategische Aspekte",
+          "number": "5",
+          "index": "37",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 197846,
+          "anchor": "Strategische_Aspekte"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Luftkrieg",
+          "number": "5.1",
+          "index": "38",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 199064,
+          "anchor": "Luftkrieg"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Atlantik- und U-Boot-Krieg",
+          "number": "5.2",
+          "index": "39",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 210372,
+          "anchor": "Atlantik-_und_U-Boot-Krieg"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Kriegswirtschaft",
+          "number": "5.3",
+          "index": "40",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 217797,
+          "anchor": "Kriegswirtschaft"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Politische Aspekte",
+          "number": "6",
+          "index": "41",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 221002,
+          "anchor": "Politische_Aspekte"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Kriegsverbrechen",
+          "number": "6.1",
+          "index": "42",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 221027,
+          "anchor": "Kriegsverbrechen"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Massenmorde im deutschen Machtbereich",
+          "number": "6.2",
+          "index": "43",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 232167,
+          "anchor": "Massenmorde_im_deutschen_Machtbereich"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Zivilbevölkerung",
+          "number": "6.3",
+          "index": "44",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 240588,
+          "anchor": "Zivilbev.C3.B6lkerung"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Kriegspropaganda und Propagandakrieg",
+          "number": "6.4",
+          "index": "45",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 250364,
+          "anchor": "Kriegspropaganda_und_Propagandakrieg"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Flugblätter",
+          "number": "6.4.1",
+          "index": "46",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 250409,
+          "anchor": "Flugbl.C3.A4tter"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Deutsche Propaganda",
+          "number": "6.4.2",
+          "index": "47",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 250898,
+          "anchor": "Deutsche_Propaganda"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Britische und US-amerikanische Propaganda",
+          "number": "6.4.3",
+          "index": "48",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 256558,
+          "anchor": "Britische_und_US-amerikanische_Propaganda"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Rundfunkpropaganda",
+          "number": "6.4.4",
+          "index": "49",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 257896,
+          "anchor": "Rundfunkpropaganda"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Widerstand gegen den Nationalsozialismus",
+          "number": "6.5",
+          "index": "50",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 265509,
+          "anchor": "Widerstand_gegen_den_Nationalsozialismus"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Internationale Blockbildung",
+          "number": "6.6",
+          "index": "51",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 268749,
+          "anchor": "Internationale_Blockbildung"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Alliierte Kriegskonferenzen",
+          "number": "6.7",
+          "index": "52",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 271387,
+          "anchor": "Alliierte_Kriegskonferenzen"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Kriegsfolgen und Opfer",
+          "number": "7",
+          "index": "53",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 273991,
+          "anchor": "Kriegsfolgen_und_Opfer"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Opferzahlen",
+          "number": "7.1",
+          "index": "54",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 274020,
+          "anchor": "Opferzahlen"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Kriegsgefangene und Zwangsarbeiter",
+          "number": "7.2",
+          "index": "55",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 284269,
+          "anchor": "Kriegsgefangene_und_Zwangsarbeiter"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Materielle Schäden und Kriegskosten",
+          "number": "7.3",
+          "index": "56",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 286360,
+          "anchor": "Materielle_Sch.C3.A4den_und_Kriegskosten"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Nachwirkungen",
+          "number": "8",
+          "index": "57",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 289066,
+          "anchor": "Nachwirkungen"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Europa",
+          "number": "8.1",
+          "index": "58",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 289523,
+          "anchor": "Europa"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Asien und Pazifik",
+          "number": "8.2",
+          "index": "59",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 293566,
+          "anchor": "Asien_und_Pazifik"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Gründung der Vereinten Nationen",
+          "number": "8.3",
+          "index": "60",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 294067,
+          "anchor": "Gr.C3.BCndung_der_Vereinten_Nationen"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Blockbildung und Kalter Krieg",
+          "number": "8.4",
+          "index": "61",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 295464,
+          "anchor": "Blockbildung_und_Kalter_Krieg"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Weitere Nachfolgekonflikte",
+          "number": "8.5",
+          "index": "62",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 297890,
+          "anchor": "Weitere_Nachfolgekonflikte"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Aufarbeitung und Rezeption",
+          "number": "8.6",
+          "index": "63",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 299856,
+          "anchor": "Aufarbeitung_und_Rezeption"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Siehe auch",
+          "number": "9",
+          "index": "64",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 302444,
+          "anchor": "Siehe_auch"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Literatur",
+          "number": "10",
+          "index": "65",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 302675,
+          "anchor": "Literatur"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Filme",
+          "number": "11",
+          "index": "66",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 307064,
+          "anchor": "Filme"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Reportagen",
+          "number": "11.1",
+          "index": "67",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 307076,
+          "anchor": "Reportagen"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Spielfilme",
+          "number": "11.2",
+          "index": "68",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 307505,
+          "anchor": "Spielfilme"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Weblinks",
+          "number": "12",
+          "index": "69",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 307652,
+          "anchor": "Weblinks"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Einzelnachweise",
+          "number": "13",
+          "index": "70",
+          "fromtitle": "Zweiter_Weltkrieg",
+          "byteoffset": 310416,
+          "anchor": "Einzelnachweise"
+        }
+      ]
+    },
+    "fr": {
+      "label": "Seconde Guerre mondiale",
+      "url": "https://fr.wikipedia.org/wiki/Seconde Guerre mondiale",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Marche vers la guerre",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 16181,
+          "anchor": "Marche_vers_la_guerre"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Origines du conflit en Europe",
+          "number": "1.1",
+          "index": "2",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 16268,
+          "anchor": "Origines_du_conflit_en_Europe"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Origines du conflit en Asie",
+          "number": "1.2",
+          "index": "3",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 19138,
+          "anchor": "Origines_du_conflit_en_Asie"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Belligérants",
+          "number": "2",
+          "index": "4",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 20661,
+          "anchor": "Bellig.C3.A9rants"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Membres de l'Axe",
+          "number": "2.1",
+          "index": "5",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 21270,
+          "anchor": "Membres_de_l.27Axe"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Adversaires de l'Axe",
+          "number": "2.2",
+          "index": "6",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 28613,
+          "anchor": "Adversaires_de_l.27Axe"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "URSS",
+          "number": "2.3",
+          "index": "7",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 39763,
+          "anchor": "URSS"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Récapitulatif",
+          "number": "2.4",
+          "index": "8",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 42355,
+          "anchor": "R.C3.A9capitulatif"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Résumé chronologique des opérations militaires",
+          "number": "3",
+          "index": "9",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 45120,
+          "anchor": "R.C3.A9sum.C3.A9_chronologique_des_op.C3.A9rations_militaires"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Succès des Forces de l'Axe (1939-1942)",
+          "number": "3.1",
+          "index": "10",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 45237,
+          "anchor": "Succ.C3.A8s_des_Forces_de_l.27Axe_.281939-1942.29"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Front de l'Est (1939-1940)",
+          "number": "3.1.1",
+          "index": "11",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 46992,
+          "anchor": "Front_de_l.27Est_.281939-1940.29"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Front de l'Ouest (1940)",
+          "number": "3.1.2",
+          "index": "12",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 49025,
+          "anchor": "Front_de_l.27Ouest_.281940.29"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Front d'Afrique du Nord (1940)",
+          "number": "3.1.3",
+          "index": "13",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 56420,
+          "anchor": "Front_d.27Afrique_du_Nord_.281940.29"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Front des Balkans (1941)",
+          "number": "3.1.4",
+          "index": "14",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 57078,
+          "anchor": "Front_des_Balkans_.281941.29"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Front de l'Est (1941)",
+          "number": "3.1.5",
+          "index": "15",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 58870,
+          "anchor": "Front_de_l.27Est_.281941.29"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Front d'Afrique de l'Est (1941)",
+          "number": "3.1.6",
+          "index": "16",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 61644,
+          "anchor": "Front_d.27Afrique_de_l.27Est_.281941.29"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Front d'Extrême-Orient et du Pacifique (1941)",
+          "number": "3.1.7",
+          "index": "17",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 61997,
+          "anchor": "Front_d.27Extr.C3.AAme-Orient_et_du_Pacifique_.281941.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Tournant de 1942",
+          "number": "3.2",
+          "index": "18",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 63268,
+          "anchor": "Tournant_de_1942"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Victoires des Alliés (1943-1944)",
+          "number": "3.3",
+          "index": "19",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 66450,
+          "anchor": "Victoires_des_Alli.C3.A9s_.281943-1944.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Victoire des Alliés et la capitulation des forces de l'Axe (1945)",
+          "number": "3.4",
+          "index": "20",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 74436,
+          "anchor": "Victoire_des_Alli.C3.A9s_et_la_capitulation_des_forces_de_l.27Axe_.281945.29"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Différents théâtres d’opération",
+          "number": "4",
+          "index": "21",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 78252,
+          "anchor": "Diff.C3.A9rents_th.C3.A9.C3.A2tres_d.E2.80.99op.C3.A9ration"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Théâtre européen",
+          "number": "4.1",
+          "index": "22",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 78368,
+          "anchor": "Th.C3.A9.C3.A2tre_europ.C3.A9en"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Théâtres africain et moyen-oriental",
+          "number": "4.2",
+          "index": "23",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 97277,
+          "anchor": "Th.C3.A9.C3.A2tres_africain_et_moyen-oriental"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Théâtre asiatique",
+          "number": "4.3",
+          "index": "24",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 101287,
+          "anchor": "Th.C3.A9.C3.A2tre_asiatique"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Moyens militaires des belligérants",
+          "number": "5",
+          "index": "25",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 106598,
+          "anchor": "Moyens_militaires_des_bellig.C3.A9rants"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Armes",
+          "number": "5.1",
+          "index": "26",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 106639,
+          "anchor": "Armes"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Statistiques",
+          "number": "5.2",
+          "index": "27",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 116538,
+          "anchor": "Statistiques"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Europe sous domination nazie",
+          "number": "6",
+          "index": "28",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 117449,
+          "anchor": "Europe_sous_domination_nazie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Domination économique et asservissement",
+          "number": "6.1",
+          "index": "29",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 119082,
+          "anchor": "Domination_.C3.A9conomique_et_asservissement"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Collaborations et résistances en Europe",
+          "number": "6.2",
+          "index": "30",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 121661,
+          "anchor": "Collaborations_et_r.C3.A9sistances_en_Europe"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Génocides, déportations, concentrations",
+          "number": "6.3",
+          "index": "31",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 127260,
+          "anchor": "G.C3.A9nocides.2C_d.C3.A9portations.2C_concentrations"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Extrême-Orient sous domination japonaise",
+          "number": "7",
+          "index": "32",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 131857,
+          "anchor": "Extr.C3.AAme-Orient_sous_domination_japonaise"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Camps de prisonniers et esclavage",
+          "number": "7.1",
+          "index": "33",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 134141,
+          "anchor": "Camps_de_prisonniers_et_esclavage"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Conséquences historiques",
+          "number": "8",
+          "index": "34",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 137495,
+          "anchor": "Cons.C3.A9quences_historiques"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Conséquences au Royaume-Uni",
+          "number": "8.1",
+          "index": "35",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 144185,
+          "anchor": "Cons.C3.A9quences_au_Royaume-Uni"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Conséquences en France",
+          "number": "8.2",
+          "index": "36",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 145409,
+          "anchor": "Cons.C3.A9quences_en_France"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Conséquences en Belgique",
+          "number": "8.3",
+          "index": "37",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 151393,
+          "anchor": "Cons.C3.A9quences_en_Belgique"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Conséquences aux États-Unis",
+          "number": "8.4",
+          "index": "38",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 160944,
+          "anchor": "Cons.C3.A9quences_aux_.C3.89tats-Unis"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Conséquences en Italie",
+          "number": "8.5",
+          "index": "39",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 162120,
+          "anchor": "Cons.C3.A9quences_en_Italie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Conséquences en URSS",
+          "number": "8.6",
+          "index": "40",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 164233,
+          "anchor": "Cons.C3.A9quences_en_URSS"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Coûts humains en fonction des pays",
+          "number": "9",
+          "index": "41",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 166088,
+          "anchor": "Co.C3.BBts_humains_en_fonction_des_pays"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Exactions et crimes de guerre",
+          "number": "10",
+          "index": "42",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 168799,
+          "anchor": "Exactions_et_crimes_de_guerre"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Sur le théâtre d’opération européen",
+          "number": "10.1",
+          "index": "43",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 168975,
+          "anchor": "Sur_le_th.C3.A9.C3.A2tre_d.E2.80.99op.C3.A9ration_europ.C3.A9en"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Bombardements de villes",
+          "number": "10.1.1",
+          "index": "44",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 176489,
+          "anchor": "Bombardements_de_villes"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Sur le théâtre d’opération asiatique",
+          "number": "10.2",
+          "index": "45",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 179636,
+          "anchor": "Sur_le_th.C3.A9.C3.A2tre_d.E2.80.99op.C3.A9ration_asiatique"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Cannibalisme",
+          "number": "10.2.1",
+          "index": "46",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 184413,
+          "anchor": "Cannibalisme"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Bombardements",
+          "number": "10.2.2",
+          "index": "47",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 187370,
+          "anchor": "Bombardements"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Armes chimiques et bactériologiques",
+          "number": "10.3",
+          "index": "48",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 189269,
+          "anchor": "Armes_chimiques_et_bact.C3.A9riologiques"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Viols de guerre",
+          "number": "10.4",
+          "index": "49",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 191399,
+          "anchor": "Viols_de_guerre"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Autres crimes",
+          "number": "10.5",
+          "index": "50",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 196923,
+          "anchor": "Autres_crimes"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Déportation de minorités par Staline en URSS",
+          "number": "10.6",
+          "index": "51",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 197218,
+          "anchor": "D.C3.A9portation_de_minorit.C3.A9s_par_Staline_en_URSS"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Expulsion des minorités des pays de l'Axe en Europe et au Pacifique",
+          "number": "10.7",
+          "index": "52",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 202590,
+          "anchor": "Expulsion_des_minorit.C3.A9s_des_pays_de_l.27Axe_en_Europe_et_au_Pacifique"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Dégâts culturels",
+          "number": "11",
+          "index": "53",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 205303,
+          "anchor": "D.C3.A9g.C3.A2ts_culturels"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Postérité de la Seconde Guerre mondiale",
+          "number": "12",
+          "index": "54",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 213262,
+          "anchor": "Post.C3.A9rit.C3.A9_de_la_Seconde_Guerre_mondiale"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Bilan",
+          "number": "13",
+          "index": "55",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 216898,
+          "anchor": "Bilan"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Œuvres liées",
+          "number": "14",
+          "index": "56",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 218592,
+          "anchor": ".C5.92uvres_li.C3.A9es"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Radiophonie",
+          "number": "14.1",
+          "index": "57",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 218611,
+          "anchor": "Radiophonie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Journalisme",
+          "number": "14.2",
+          "index": "58",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 221853,
+          "anchor": "Journalisme"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Photographie",
+          "number": "14.3",
+          "index": "59",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 224547,
+          "anchor": "Photographie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Littérature et bande dessinée",
+          "number": "14.4",
+          "index": "60",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 225891,
+          "anchor": "Litt.C3.A9rature_et_bande_dessin.C3.A9e"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Chansons et poèmes",
+          "number": "14.5",
+          "index": "61",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 229430,
+          "anchor": "Chansons_et_po.C3.A8mes"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Films",
+          "number": "14.6",
+          "index": "62",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 231511,
+          "anchor": "Films"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Notes et références",
+          "number": "15",
+          "index": "63",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 232913,
+          "anchor": "Notes_et_r.C3.A9f.C3.A9rences"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Voir aussi",
+          "number": "16",
+          "index": "64",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 232966,
+          "anchor": "Voir_aussi"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Bibliographie",
+          "number": "16.1",
+          "index": "65",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 233206,
+          "anchor": "Bibliographie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Articles connexes",
+          "number": "16.2",
+          "index": "66",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 235889,
+          "anchor": "Articles_connexes"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Quelques-uns des principaux dirigeants politiques et militaires",
+          "number": "16.2.1",
+          "index": "67",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 235915,
+          "anchor": "Quelques-uns_des_principaux_dirigeants_politiques_et_militaires"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Pays",
+          "number": "16.2.2",
+          "index": "68",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 237611,
+          "anchor": "Pays"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Autres",
+          "number": "16.2.3",
+          "index": "69",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 238213,
+          "anchor": "Autres"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Après la guerre",
+          "number": "16.2.4",
+          "index": "70",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 239234,
+          "anchor": "Apr.C3.A8s_la_guerre"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Liens externes",
+          "number": "16.3",
+          "index": "71",
+          "fromtitle": "Seconde_Guerre_mondiale",
+          "byteoffset": 239367,
+          "anchor": "Liens_externes"
+        }
+      ]
+    },
+    "ja": {
+      "label": "第二次世界大戦",
+      "url": "https://ja.wikipedia.org/wiki/第二次世界大戦",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "概要",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 4681,
+          "anchor": ".E6.A6.82.E8.A6.81"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "参戦国",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 8938,
+          "anchor": ".E5.8F.82.E6.88.A6.E5.9B.BD"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "背景",
+          "number": "3",
+          "index": "3",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 9358,
+          "anchor": ".E8.83.8C.E6.99.AF"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "ヴェルサイユ体制",
+          "number": "3.1",
+          "index": "4",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 9404,
+          "anchor": ".E3.83.B4.E3.82.A7.E3.83.AB.E3.82.B5.E3.82.A4.E3.83.A6.E4.BD.93.E5.88.B6"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "共産主義の台頭",
+          "number": "3.2",
+          "index": "5",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 10794,
+          "anchor": ".E5.85.B1.E7.94.A3.E4.B8.BB.E7.BE.A9.E3.81.AE.E5.8F.B0.E9.A0.AD"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "ファシズムの台頭",
+          "number": "3.3",
+          "index": "6",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 11747,
+          "anchor": ".E3.83.95.E3.82.A1.E3.82.B7.E3.82.BA.E3.83.A0.E3.81.AE.E5.8F.B0.E9.A0.AD"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "宥和政策とその破綻",
+          "number": "3.4",
+          "index": "7",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 13664,
+          "anchor": ".E5.AE.A5.E5.92.8C.E6.94.BF.E7.AD.96.E3.81.A8.E3.81.9D.E3.81.AE.E7.A0.B4.E7.B6.BB"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "勃発直前",
+          "number": "3.5",
+          "index": "8",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 15170,
+          "anchor": ".E5.8B.83.E7.99.BA.E7.9B.B4.E5.89.8D"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "経過（欧州・北アフリカ・中東）",
+          "number": "4",
+          "index": "9",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 16266,
+          "anchor": ".E7.B5.8C.E9.81.8E.EF.BC.88.E6.AC.A7.E5.B7.9E.E3.83.BB.E5.8C.97.E3.82.A2.E3.83.95.E3.83.AA.E3.82.AB.E3.83.BB.E4.B8.AD.E6.9D.B1.EF.BC.89"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1939年",
+          "number": "4.1",
+          "index": "10",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 18526,
+          "anchor": "1939.E5.B9.B4"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1940年",
+          "number": "4.2",
+          "index": "11",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 20213,
+          "anchor": "1940.E5.B9.B4"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1941年",
+          "number": "4.3",
+          "index": "12",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 23661,
+          "anchor": "1941.E5.B9.B4"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1942年",
+          "number": "4.4",
+          "index": "13",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 27386,
+          "anchor": "1942.E5.B9.B4"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1943年",
+          "number": "4.5",
+          "index": "14",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 29333,
+          "anchor": "1943.E5.B9.B4"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1944年",
+          "number": "4.6",
+          "index": "15",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 31814,
+          "anchor": "1944.E5.B9.B4"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1945年",
+          "number": "4.7",
+          "index": "16",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 36179,
+          "anchor": "1945.E5.B9.B4"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "経過（アジア・太平洋）",
+          "number": "5",
+          "index": "17",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 40619,
+          "anchor": ".E7.B5.8C.E9.81.8E.EF.BC.88.E3.82.A2.E3.82.B8.E3.82.A2.E3.83.BB.E5.A4.AA.E5.B9.B3.E6.B4.8B.EF.BC.89"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "日本の参戦",
+          "number": "5.1",
+          "index": "18",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 42122,
+          "anchor": ".E6.97.A5.E6.9C.AC.E3.81.AE.E5.8F.82.E6.88.A6"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1941年",
+          "number": "5.2",
+          "index": "19",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 45086,
+          "anchor": "1941.E5.B9.B4_2"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1942年",
+          "number": "5.3",
+          "index": "20",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 47645,
+          "anchor": "1942.E5.B9.B4_2"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1943年",
+          "number": "5.4",
+          "index": "21",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 52219,
+          "anchor": "1943.E5.B9.B4_2"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1944年",
+          "number": "5.5",
+          "index": "22",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 54974,
+          "anchor": "1944.E5.B9.B4_2"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1945年",
+          "number": "5.6",
+          "index": "23",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 58059,
+          "anchor": "1945.E5.B9.B4_2"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "戦争状態の終結と講和",
+          "number": "6",
+          "index": "24",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 64064,
+          "anchor": ".E6.88.A6.E4.BA.89.E7.8A.B6.E6.85.8B.E3.81.AE.E7.B5.82.E7.B5.90.E3.81.A8.E8.AC.9B.E5.92.8C"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "戦時下の暮らし",
+          "number": "7",
+          "index": "25",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 65064,
+          "anchor": ".E6.88.A6.E6.99.82.E4.B8.8B.E3.81.AE.E6.9A.AE.E3.82.89.E3.81.97"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "日本",
+          "number": "7.1",
+          "index": "26",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 65160,
+          "anchor": ".E6.97.A5.E6.9C.AC"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "ドイツ",
+          "number": "7.2",
+          "index": "27",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 70086,
+          "anchor": ".E3.83.89.E3.82.A4.E3.83.84"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "フランス",
+          "number": "7.3",
+          "index": "28",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 71579,
+          "anchor": ".E3.83.95.E3.83.A9.E3.83.B3.E3.82.B9"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "イギリス",
+          "number": "7.4",
+          "index": "29",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 73358,
+          "anchor": ".E3.82.A4.E3.82.AE.E3.83.AA.E3.82.B9"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "アメリカ",
+          "number": "7.5",
+          "index": "30",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 73916,
+          "anchor": ".E3.82.A2.E3.83.A1.E3.83.AA.E3.82.AB"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "ポルトガル",
+          "number": "7.6",
+          "index": "31",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 77774,
+          "anchor": ".E3.83.9D.E3.83.AB.E3.83.88.E3.82.AC.E3.83.AB"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "影響",
+          "number": "8",
+          "index": "32",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 78602,
+          "anchor": ".E5.BD.B1.E9.9F.BF"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "損害",
+          "number": "8.1",
+          "index": "33",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 78611,
+          "anchor": ".E6.90.8D.E5.AE.B3"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "戦後処理",
+          "number": "8.2",
+          "index": "34",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 78787,
+          "anchor": ".E6.88.A6.E5.BE.8C.E5.87.A6.E7.90.86"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "戦争裁判",
+          "number": "8.3",
+          "index": "35",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 80442,
+          "anchor": ".E6.88.A6.E4.BA.89.E8.A3.81.E5.88.A4"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "新たに登場した兵器・戦術・技術",
+          "number": "9",
+          "index": "36",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 81906,
+          "anchor": ".E6.96.B0.E3.81.9F.E3.81.AB.E7.99.BB.E5.A0.B4.E3.81.97.E3.81.9F.E5.85.B5.E5.99.A8.E3.83.BB.E6.88.A6.E8.A1.93.E3.83.BB.E6.8A.80.E8.A1.93"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "評価",
+          "number": "10",
+          "index": "37",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 84225,
+          "anchor": ".E8.A9.95.E4.BE.A1"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "植民地戦争時代の終結",
+          "number": "10.1",
+          "index": "38",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 84234,
+          "anchor": ".E6.A4.8D.E6.B0.91.E5.9C.B0.E6.88.A6.E4.BA.89.E6.99.82.E4.BB.A3.E3.81.AE.E7.B5.82.E7.B5.90"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "大戦と民衆",
+          "number": "10.2",
+          "index": "39",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 85572,
+          "anchor": ".E5.A4.A7.E6.88.A6.E3.81.A8.E6.B0.91.E8.A1.86"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "『よい戦争』",
+          "number": "10.3",
+          "index": "40",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 86059,
+          "anchor": ".E3.80.8E.E3.82.88.E3.81.84.E6.88.A6.E4.BA.89.E3.80.8F"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "民主主義と戦争",
+          "number": "10.4",
+          "index": "41",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 87316,
+          "anchor": ".E6.B0.91.E4.B8.BB.E4.B8.BB.E7.BE.A9.E3.81.A8.E6.88.A6.E4.BA.89"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "脚注",
+          "number": "11",
+          "index": "42",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 88197,
+          "anchor": ".E8.84.9A.E6.B3.A8"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "参考文献",
+          "number": "12",
+          "index": "43",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 88234,
+          "anchor": ".E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "関連項目",
+          "number": "13",
+          "index": "44",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 89750,
+          "anchor": ".E9.96.A2.E9.80.A3.E9.A0.85.E7.9B.AE"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "外部リンク",
+          "number": "14",
+          "index": "45",
+          "fromtitle": "第二次世界大戦",
+          "byteoffset": 90448,
+          "anchor": ".E5.A4.96.E9.83.A8.E3.83.AA.E3.83.B3.E3.82.AF"
+        }
+      ]
+    },
+    "ru": {
+      "label": "Вторая мировая война",
+      "url": "https://ru.wikipedia.org/wiki/Вторая мировая война",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Участники",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 22922,
+          "anchor": ".D0.A3.D1.87.D0.B0.D1.81.D1.82.D0.BD.D0.B8.D0.BA.D0.B8"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Территории",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 29896,
+          "anchor": ".D0.A2.D0.B5.D1.80.D1.80.D0.B8.D1.82.D0.BE.D1.80.D0.B8.D0.B8"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Предпосылки войны",
+          "number": "3",
+          "index": "3",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 32081,
+          "anchor": ".D0.9F.D1.80.D0.B5.D0.B4.D0.BF.D0.BE.D1.81.D1.8B.D0.BB.D0.BA.D0.B8_.D0.B2.D0.BE.D0.B9.D0.BD.D1.8B"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Предпосылки войны в Европе",
+          "number": "3.1",
+          "index": "4",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 32144,
+          "anchor": ".D0.9F.D1.80.D0.B5.D0.B4.D0.BF.D0.BE.D1.81.D1.8B.D0.BB.D0.BA.D0.B8_.D0.B2.D0.BE.D0.B9.D0.BD.D1.8B_.D0.B2_.D0.95.D0.B2.D1.80.D0.BE.D0.BF.D0.B5"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Предпосылки войны в Азии",
+          "number": "3.2",
+          "index": "5",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 49975,
+          "anchor": ".D0.9F.D1.80.D0.B5.D0.B4.D0.BF.D0.BE.D1.81.D1.8B.D0.BB.D0.BA.D0.B8_.D0.B2.D0.BE.D0.B9.D0.BD.D1.8B_.D0.B2_.D0.90.D0.B7.D0.B8.D0.B8"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Первый период войны (сентябрь 1939 — июнь 1941)",
+          "number": "4",
+          "index": "6",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 51882,
+          "anchor": ".D0.9F.D0.B5.D1.80.D0.B2.D1.8B.D0.B9_.D0.BF.D0.B5.D1.80.D0.B8.D0.BE.D0.B4_.D0.B2.D0.BE.D0.B9.D0.BD.D1.8B_.28.D1.81.D0.B5.D0.BD.D1.82.D1.8F.D0.B1.D1.80.D1.8C_1939.C2.A0.E2.80.94_.D0.B8.D1.8E.D0.BD.D1.8C_1941.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Советско-германские отношения (осень 1939 года)",
+          "number": "4.1",
+          "index": "7",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 51988,
+          "anchor": ".D0.A1.D0.BE.D0.B2.D0.B5.D1.82.D1.81.D0.BA.D0.BE-.D0.B3.D0.B5.D1.80.D0.BC.D0.B0.D0.BD.D1.81.D0.BA.D0.B8.D0.B5_.D0.BE.D1.82.D0.BD.D0.BE.D1.88.D0.B5.D0.BD.D0.B8.D1.8F_.28.D0.BE.D1.81.D0.B5.D0.BD.D1.8C_1939_.D0.B3.D0.BE.D0.B4.D0.B0.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Вторжение в Польшу",
+          "number": "4.2",
+          "index": "8",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 52045,
+          "anchor": ".D0.92.D1.82.D0.BE.D1.80.D0.B6.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B2_.D0.9F.D0.BE.D0.BB.D1.8C.D1.88.D1.83"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Битва за Атлантику",
+          "number": "4.3",
+          "index": "9",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 64385,
+          "anchor": ".D0.91.D0.B8.D1.82.D0.B2.D0.B0_.D0.B7.D0.B0_.D0.90.D1.82.D0.BB.D0.B0.D0.BD.D1.82.D0.B8.D0.BA.D1.83"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Советско-финская война",
+          "number": "4.4",
+          "index": "10",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 65460,
+          "anchor": ".D0.A1.D0.BE.D0.B2.D0.B5.D1.82.D1.81.D0.BA.D0.BE-.D1.84.D0.B8.D0.BD.D1.81.D0.BA.D0.B0.D1.8F_.D0.B2.D0.BE.D0.B9.D0.BD.D0.B0"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Европейский блицкриг",
+          "number": "4.5",
+          "index": "11",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 70198,
+          "anchor": ".D0.95.D0.B2.D1.80.D0.BE.D0.BF.D0.B5.D0.B9.D1.81.D0.BA.D0.B8.D0.B9_.D0.B1.D0.BB.D0.B8.D1.86.D0.BA.D1.80.D0.B8.D0.B3"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Присоединение Прибалтики, Бессарабии и Северной Буковины к СССР",
+          "number": "4.6",
+          "index": "12",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 78322,
+          "anchor": ".D0.9F.D1.80.D0.B8.D1.81.D0.BE.D0.B5.D0.B4.D0.B8.D0.BD.D0.B5.D0.BD.D0.B8.D0.B5_.D0.9F.D1.80.D0.B8.D0.B1.D0.B0.D0.BB.D1.82.D0.B8.D0.BA.D0.B8.2C_.D0.91.D0.B5.D1.81.D1.81.D0.B0.D1.80.D0.B0.D0.B1.D0.B8.D0.B8_.D0.B8_.D0.A1.D0.B5.D0.B2.D0.B5.D1.80.D0.BD.D0.BE.D0.B9_.D0.91.D1.83.D0.BA.D0.BE.D0.B2.D0.B8.D0.BD.D1.8B_.D0.BA_.D0.A1.D0.A1.D0.A1.D0.A0"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Битва за Британию",
+          "number": "4.7",
+          "index": "13",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 82309,
+          "anchor": ".D0.91.D0.B8.D1.82.D0.B2.D0.B0_.D0.B7.D0.B0_.D0.91.D1.80.D0.B8.D1.82.D0.B0.D0.BD.D0.B8.D1.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Сражения в Африке, Средиземноморье и на Балканах",
+          "number": "4.8",
+          "index": "14",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 83704,
+          "anchor": ".D0.A1.D1.80.D0.B0.D0.B6.D0.B5.D0.BD.D0.B8.D1.8F_.D0.B2_.D0.90.D1.84.D1.80.D0.B8.D0.BA.D0.B5.2C_.D0.A1.D1.80.D0.B5.D0.B4.D0.B8.D0.B7.D0.B5.D0.BC.D0.BD.D0.BE.D0.BC.D0.BE.D1.80.D1.8C.D0.B5_.D0.B8_.D0.BD.D0.B0_.D0.91.D0.B0.D0.BB.D0.BA.D0.B0.D0.BD.D0.B0.D1.85"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Изменения в составе воюющих коалиций",
+          "number": "4.9",
+          "index": "15",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 88902,
+          "anchor": ".D0.98.D0.B7.D0.BC.D0.B5.D0.BD.D0.B5.D0.BD.D0.B8.D1.8F_.D0.B2_.D1.81.D0.BE.D1.81.D1.82.D0.B0.D0.B2.D0.B5_.D0.B2.D0.BE.D1.8E.D1.8E.D1.89.D0.B8.D1.85_.D0.BA.D0.BE.D0.B0.D0.BB.D0.B8.D1.86.D0.B8.D0.B9"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Сражения на Балканах и на Ближнем Востоке",
+          "number": "4.10",
+          "index": "16",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 93195,
+          "anchor": ".D0.A1.D1.80.D0.B0.D0.B6.D0.B5.D0.BD.D0.B8.D1.8F_.D0.BD.D0.B0_.D0.91.D0.B0.D0.BB.D0.BA.D0.B0.D0.BD.D0.B0.D1.85_.D0.B8_.D0.BD.D0.B0_.D0.91.D0.BB.D0.B8.D0.B6.D0.BD.D0.B5.D0.BC_.D0.92.D0.BE.D1.81.D1.82.D0.BE.D0.BA.D0.B5"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Азия",
+          "number": "4.11",
+          "index": "17",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 98512,
+          "anchor": ".D0.90.D0.B7.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Второй период войны (июнь 1941 — ноябрь 1942 годов)",
+          "number": "5",
+          "index": "18",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 99659,
+          "anchor": ".D0.92.D1.82.D0.BE.D1.80.D0.BE.D0.B9_.D0.BF.D0.B5.D1.80.D0.B8.D0.BE.D0.B4_.D0.B2.D0.BE.D0.B9.D0.BD.D1.8B_.28.D0.B8.D1.8E.D0.BD.D1.8C_1941.C2.A0.E2.80.94_.D0.BD.D0.BE.D1.8F.D0.B1.D1.80.D1.8C_1942_.D0.B3.D0.BE.D0.B4.D0.BE.D0.B2.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Предыстория вторжения в СССР",
+          "number": "5.1",
+          "index": "19",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 99718,
+          "anchor": ".D0.9F.D1.80.D0.B5.D0.B4.D1.8B.D1.81.D1.82.D0.BE.D1.80.D0.B8.D1.8F_.D0.B2.D1.82.D0.BE.D1.80.D0.B6.D0.B5.D0.BD.D0.B8.D1.8F_.D0.B2_.D0.A1.D0.A1.D0.A1.D0.A0"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Вторжение в СССР",
+          "number": "5.2",
+          "index": "20",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 110200,
+          "anchor": ".D0.92.D1.82.D0.BE.D1.80.D0.B6.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B2_.D0.A1.D0.A1.D0.A1.D0.A0"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Наступление японцев в Тихом океане",
+          "number": "5.3",
+          "index": "21",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 121346,
+          "anchor": ".D0.9D.D0.B0.D1.81.D1.82.D1.83.D0.BF.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D1.8F.D0.BF.D0.BE.D0.BD.D1.86.D0.B5.D0.B2_.D0.B2_.D0.A2.D0.B8.D1.85.D0.BE.D0.BC_.D0.BE.D0.BA.D0.B5.D0.B0.D0.BD.D0.B5"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Второй этап битвы за Атлантику",
+          "number": "5.4",
+          "index": "22",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 125572,
+          "anchor": ".D0.92.D1.82.D0.BE.D1.80.D0.BE.D0.B9_.D1.8D.D1.82.D0.B0.D0.BF_.D0.B1.D0.B8.D1.82.D0.B2.D1.8B_.D0.B7.D0.B0_.D0.90.D1.82.D0.BB.D0.B0.D0.BD.D1.82.D0.B8.D0.BA.D1.83"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Средиземноморско-африканские кампании",
+          "number": "5.5",
+          "index": "23",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 128757,
+          "anchor": ".D0.A1.D1.80.D0.B5.D0.B4.D0.B8.D0.B7.D0.B5.D0.BC.D0.BD.D0.BE.D0.BC.D0.BE.D1.80.D1.81.D0.BA.D0.BE-.D0.B0.D1.84.D1.80.D0.B8.D0.BA.D0.B0.D0.BD.D1.81.D0.BA.D0.B8.D0.B5_.D0.BA.D0.B0.D0.BC.D0.BF.D0.B0.D0.BD.D0.B8.D0.B8"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Создание Антигитлеровской коалиции",
+          "number": "5.6",
+          "index": "24",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 133003,
+          "anchor": ".D0.A1.D0.BE.D0.B7.D0.B4.D0.B0.D0.BD.D0.B8.D0.B5_.D0.90.D0.BD.D1.82.D0.B8.D0.B3.D0.B8.D1.82.D0.BB.D0.B5.D1.80.D0.BE.D0.B2.D1.81.D0.BA.D0.BE.D0.B9_.D0.BA.D0.BE.D0.B0.D0.BB.D0.B8.D1.86.D0.B8.D0.B8"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Восточный фронт: второе немецкое крупномасштабное наступление",
+          "number": "5.7",
+          "index": "25",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 133632,
+          "anchor": ".D0.92.D0.BE.D1.81.D1.82.D0.BE.D1.87.D0.BD.D1.8B.D0.B9_.D1.84.D1.80.D0.BE.D0.BD.D1.82:_.D0.B2.D1.82.D0.BE.D1.80.D0.BE.D0.B5_.D0.BD.D0.B5.D0.BC.D0.B5.D1.86.D0.BA.D0.BE.D0.B5_.D0.BA.D1.80.D1.83.D0.BF.D0.BD.D0.BE.D0.BC.D0.B0.D1.81.D1.88.D1.82.D0.B0.D0.B1.D0.BD.D0.BE.D0.B5_.D0.BD.D0.B0.D1.81.D1.82.D1.83.D0.BF.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Тихоокеанский фронт: Перелом",
+          "number": "5.8",
+          "index": "26",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 136660,
+          "anchor": ".D0.A2.D0.B8.D1.85.D0.BE.D0.BE.D0.BA.D0.B5.D0.B0.D0.BD.D1.81.D0.BA.D0.B8.D0.B9_.D1.84.D1.80.D0.BE.D0.BD.D1.82:_.D0.9F.D0.B5.D1.80.D0.B5.D0.BB.D0.BE.D0.BC"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Третий период войны (ноябрь 1942 — июнь 1944 годов)",
+          "number": "6",
+          "index": "27",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 136799,
+          "anchor": ".D0.A2.D1.80.D0.B5.D1.82.D0.B8.D0.B9_.D0.BF.D0.B5.D1.80.D0.B8.D0.BE.D0.B4_.D0.B2.D0.BE.D0.B9.D0.BD.D1.8B_.28.D0.BD.D0.BE.D1.8F.D0.B1.D1.80.D1.8C_1942.C2.A0.E2.80.94_.D0.B8.D1.8E.D0.BD.D1.8C_1944_.D0.B3.D0.BE.D0.B4.D0.BE.D0.B2.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Перелом на Восточном фронте",
+          "number": "6.1",
+          "index": "28",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 136858,
+          "anchor": ".D0.9F.D0.B5.D1.80.D0.B5.D0.BB.D0.BE.D0.BC_.D0.BD.D0.B0_.D0.92.D0.BE.D1.81.D1.82.D0.BE.D1.87.D0.BD.D0.BE.D0.BC_.D1.84.D1.80.D0.BE.D0.BD.D1.82.D0.B5"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Англо-американский десант в Африке и Италии",
+          "number": "6.2",
+          "index": "29",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 139089,
+          "anchor": ".D0.90.D0.BD.D0.B3.D0.BB.D0.BE-.D0.B0.D0.BC.D0.B5.D1.80.D0.B8.D0.BA.D0.B0.D0.BD.D1.81.D0.BA.D0.B8.D0.B9_.D0.B4.D0.B5.D1.81.D0.B0.D0.BD.D1.82_.D0.B2_.D0.90.D1.84.D1.80.D0.B8.D0.BA.D0.B5_.D0.B8_.D0.98.D1.82.D0.B0.D0.BB.D0.B8.D0.B8"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Стратегические бомбардировки Германии в 1943 году",
+          "number": "6.3",
+          "index": "30",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 142416,
+          "anchor": ".D0.A1.D1.82.D1.80.D0.B0.D1.82.D0.B5.D0.B3.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B8.D0.B5_.D0.B1.D0.BE.D0.BC.D0.B1.D0.B0.D1.80.D0.B4.D0.B8.D1.80.D0.BE.D0.B2.D0.BA.D0.B8_.D0.93.D0.B5.D1.80.D0.BC.D0.B0.D0.BD.D0.B8.D0.B8_.D0.B2_1943_.D0.B3.D0.BE.D0.B4.D1.83"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Гуадалканал. Азия",
+          "number": "6.4",
+          "index": "31",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 143625,
+          "anchor": ".D0.93.D1.83.D0.B0.D0.B4.D0.B0.D0.BB.D0.BA.D0.B0.D0.BD.D0.B0.D0.BB._.D0.90.D0.B7.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Конференции на третьем периоде войны",
+          "number": "6.5",
+          "index": "32",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 144600,
+          "anchor": ".D0.9A.D0.BE.D0.BD.D1.84.D0.B5.D1.80.D0.B5.D0.BD.D1.86.D0.B8.D0.B8_.D0.BD.D0.B0_.D1.82.D1.80.D0.B5.D1.82.D1.8C.D0.B5.D0.BC_.D0.BF.D0.B5.D1.80.D0.B8.D0.BE.D0.B4.D0.B5_.D0.B2.D0.BE.D0.B9.D0.BD.D1.8B"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Четвёртый период войны (июнь 1944 — май 1945)",
+          "number": "7",
+          "index": "33",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 144946,
+          "anchor": ".D0.A7.D0.B5.D1.82.D0.B2.D1.91.D1.80.D1.82.D1.8B.D0.B9_.D0.BF.D0.B5.D1.80.D0.B8.D0.BE.D0.B4_.D0.B2.D0.BE.D0.B9.D0.BD.D1.8B_.28.D0.B8.D1.8E.D0.BD.D1.8C_1944.C2.A0.E2.80.94_.D0.BC.D0.B0.D0.B9_1945.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Западный фронт Германии",
+          "number": "7.1",
+          "index": "34",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 144999,
+          "anchor": ".D0.97.D0.B0.D0.BF.D0.B0.D0.B4.D0.BD.D1.8B.D0.B9_.D1.84.D1.80.D0.BE.D0.BD.D1.82_.D0.93.D0.B5.D1.80.D0.BC.D0.B0.D0.BD.D0.B8.D0.B8"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Стратегические бомбардировки Германии в 1944—1945 годах",
+          "number": "7.2",
+          "index": "35",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 148783,
+          "anchor": ".D0.A1.D1.82.D1.80.D0.B0.D1.82.D0.B5.D0.B3.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B8.D0.B5_.D0.B1.D0.BE.D0.BC.D0.B1.D0.B0.D1.80.D0.B4.D0.B8.D1.80.D0.BE.D0.B2.D0.BA.D0.B8_.D0.93.D0.B5.D1.80.D0.BC.D0.B0.D0.BD.D0.B8.D0.B8_.D0.B2_1944.E2.80.941945_.D0.B3.D0.BE.D0.B4.D0.B0.D1.85"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Советское наступление",
+          "number": "7.3",
+          "index": "36",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 149943,
+          "anchor": ".D0.A1.D0.BE.D0.B2.D0.B5.D1.82.D1.81.D0.BA.D0.BE.D0.B5_.D0.BD.D0.B0.D1.81.D1.82.D1.83.D0.BF.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Боевые действия после капитуляции Германии",
+          "number": "7.4",
+          "index": "37",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 152027,
+          "anchor": ".D0.91.D0.BE.D0.B5.D0.B2.D1.8B.D0.B5_.D0.B4.D0.B5.D0.B9.D1.81.D1.82.D0.B2.D0.B8.D1.8F_.D0.BF.D0.BE.D1.81.D0.BB.D0.B5_.D0.BA.D0.B0.D0.BF.D0.B8.D1.82.D1.83.D0.BB.D1.8F.D1.86.D0.B8.D0.B8_.D0.93.D0.B5.D1.80.D0.BC.D0.B0.D0.BD.D0.B8.D0.B8"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Тихоокеанский театр военных действий",
+          "number": "7.5",
+          "index": "38",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 153077,
+          "anchor": ".D0.A2.D0.B8.D1.85.D0.BE.D0.BE.D0.BA.D0.B5.D0.B0.D0.BD.D1.81.D0.BA.D0.B8.D0.B9_.D1.82.D0.B5.D0.B0.D1.82.D1.80_.D0.B2.D0.BE.D0.B5.D0.BD.D0.BD.D1.8B.D1.85_.D0.B4.D0.B5.D0.B9.D1.81.D1.82.D0.B2.D0.B8.D0.B9"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Конференции четвёртого периода войны",
+          "number": "7.6",
+          "index": "39",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 153703,
+          "anchor": ".D0.9A.D0.BE.D0.BD.D1.84.D0.B5.D1.80.D0.B5.D0.BD.D1.86.D0.B8.D0.B8_.D1.87.D0.B5.D1.82.D0.B2.D1.91.D1.80.D1.82.D0.BE.D0.B3.D0.BE_.D0.BF.D0.B5.D1.80.D0.B8.D0.BE.D0.B4.D0.B0_.D0.B2.D0.BE.D0.B9.D0.BD.D1.8B"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Пятый период войны (май 1945 — сентябрь 1945)",
+          "number": "8",
+          "index": "40",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 154200,
+          "anchor": ".D0.9F.D1.8F.D1.82.D1.8B.D0.B9_.D0.BF.D0.B5.D1.80.D0.B8.D0.BE.D0.B4_.D0.B2.D0.BE.D0.B9.D0.BD.D1.8B_.28.D0.BC.D0.B0.D0.B9_1945.C2.A0.E2.80.94_.D1.81.D0.B5.D0.BD.D1.82.D1.8F.D0.B1.D1.80.D1.8C_1945.29"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Окончание войны с Японией",
+          "number": "8.1",
+          "index": "41",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 154253,
+          "anchor": ".D0.9E.D0.BA.D0.BE.D0.BD.D1.87.D0.B0.D0.BD.D0.B8.D0.B5_.D0.B2.D0.BE.D0.B9.D0.BD.D1.8B_.D1.81_.D0.AF.D0.BF.D0.BE.D0.BD.D0.B8.D0.B5.D0.B9"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Мнения и оценки",
+          "number": "9",
+          "index": "42",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 156265,
+          "anchor": ".D0.9C.D0.BD.D0.B5.D0.BD.D0.B8.D1.8F_.D0.B8_.D0.BE.D1.86.D0.B5.D0.BD.D0.BA.D0.B8"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Итоги войны",
+          "number": "10",
+          "index": "43",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 159748,
+          "anchor": ".D0.98.D1.82.D0.BE.D0.B3.D0.B8_.D0.B2.D0.BE.D0.B9.D0.BD.D1.8B"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Вклад различных государств антигитлеровской коалиции в победу над нацистской Германией",
+          "number": "11",
+          "index": "44",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 163497,
+          "anchor": ".D0.92.D0.BA.D0.BB.D0.B0.D0.B4_.D1.80.D0.B0.D0.B7.D0.BB.D0.B8.D1.87.D0.BD.D1.8B.D1.85_.D0.B3.D0.BE.D1.81.D1.83.D0.B4.D0.B0.D1.80.D1.81.D1.82.D0.B2_.D0.B0.D0.BD.D1.82.D0.B8.D0.B3.D0.B8.D1.82.D0.BB.D0.B5.D1.80.D0.BE.D0.B2.D1.81.D0.BA.D0.BE.D0.B9_.D0.BA.D0.BE.D0.B0.D0.BB.D0.B8.D1.86.D0.B8.D0.B8_.D0.B2_.D0.BF.D0.BE.D0.B1.D0.B5.D0.B4.D1.83_.D0.BD.D0.B0.D0.B4_.D0.BD.D0.B0.D1.86.D0.B8.D1.81.D1.82.D1.81.D0.BA.D0.BE.D0.B9_.D0.93.D0.B5.D1.80.D0.BC.D0.B0.D0.BD.D0.B8.D0.B5.D0.B9"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "См. также",
+          "number": "12",
+          "index": "45",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 166110,
+          "anchor": ".D0.A1.D0.BC._.D1.82.D0.B0.D0.BA.D0.B6.D0.B5"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Примечания",
+          "number": "13",
+          "index": "46",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 167180,
+          "anchor": ".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D0.BD.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Литература",
+          "number": "14",
+          "index": "47",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 167215,
+          "anchor": ".D0.9B.D0.B8.D1.82.D0.B5.D1.80.D0.B0.D1.82.D1.83.D1.80.D0.B0"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Ссылки",
+          "number": "15",
+          "index": "48",
+          "fromtitle": "Вторая_мировая_война",
+          "byteoffset": 169396,
+          "anchor": ".D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8"
+        }
+      ]
+    }
+  },
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "World War II"
+    },
+    "it": {
+      "language": "it",
+      "value": "seconda guerra mondiale"
+    },
+    "de": {
+      "language": "de",
+      "value": "Zweiter Weltkrieg"
+    },
+    "fr": {
+      "language": "fr",
+      "value": "Seconde Guerre mondiale"
+    },
+    "nb": {
+      "language": "nb",
+      "value": "Andre verdenskrig"
+    },
+    "ru": {
+      "language": "ru",
+      "value": "Вторая мировая война"
+    },
+    "cbk-zam": {
+      "language": "cbk-zam",
+      "value": "Segunda Guerra Mundial"
+    },
+    "be-tarask": {
+      "language": "be-tarask",
+      "value": "Другая сусьветная вайна"
+    },
+    "map-bms": {
+      "language": "map-bms",
+      "value": "Perang Donya II"
+    },
+    "yue": {
+      "language": "yue",
+      "value": "第二次世界大戰"
+    },
+    "lzh": {
+      "language": "lzh",
+      "value": "第二次世界大戰"
+    },
+    "sgs": {
+      "language": "sgs",
+      "value": "Ontra svieta vaina"
+    },
+    "nan": {
+      "language": "nan",
+      "value": "Tē-jī-chhù Sè-kài Tāi-chiàn"
+    },
+    "nds-nl": {
+      "language": "nds-nl",
+      "value": "Tweede Wereldoorlog"
+    },
+    "vro": {
+      "language": "vro",
+      "value": "Tõõnõ ilmasõda"
+    },
+    "en-gb": {
+      "language": "en-gb",
+      "value": "Second World War"
+    },
+    "es": {
+      "language": "es",
+      "value": "Segunda Guerra Mundial"
+    },
+    "en-ca": {
+      "language": "en-ca",
+      "value": "World War II"
+    },
+    "br": {
+      "language": "br",
+      "value": "Eil Brezel-bed"
+    },
+    "af": {
+      "language": "af",
+      "value": "Tweede Wêreldoorlog"
+    },
+    "am": {
+      "language": "am",
+      "value": "2ኛው ዓለማዊ ጦርነት"
+    },
+    "an": {
+      "language": "an",
+      "value": "Segunda Guerra Mundial"
+    },
+    "ang": {
+      "language": "ang",
+      "value": "Ōðru Ƿoruldgūþ"
+    },
+    "ar": {
+      "language": "ar",
+      "value": "الحرب العالمية الثانية"
+    },
+    "arz": {
+      "language": "arz",
+      "value": "الحرب العالميه التانيه"
+    },
+    "as": {
+      "language": "as",
+      "value": "দ্বিতীয় বিশ্বযুদ্ধ"
+    },
+    "ast": {
+      "language": "ast",
+      "value": "Segunda Guerra Mundial"
+    },
+    "az": {
+      "language": "az",
+      "value": "İkinci Dünya müharibəsi"
+    },
+    "ba": {
+      "language": "ba",
+      "value": "Икенсе бөтә донъя һуғышы"
+    },
+    "bar": {
+      "language": "bar",
+      "value": "Zwoata Wötkriag"
+    },
+    "be": {
+      "language": "be",
+      "value": "Другая сусветная вайна"
+    },
+    "bg": {
+      "language": "bg",
+      "value": "Втора световна война"
+    },
+    "bi": {
+      "language": "bi",
+      "value": "Wol Wo Tu"
+    },
+    "bn": {
+      "language": "bn",
+      "value": "দ্বিতীয় বিশ্বযুদ্ধ"
+    },
+    "bo": {
+      "language": "bo",
+      "value": "འཛམ་གླིང་འཁྲུག་ཆེན་གཉིས་པ།"
+    },
+    "bs": {
+      "language": "bs",
+      "value": "Drugi svjetski rat"
+    },
+    "ca": {
+      "language": "ca",
+      "value": "Segona Guerra Mundial"
+    },
+    "ceb": {
+      "language": "ceb",
+      "value": "Ikaduhang Gubat Kalibotanon"
+    },
+    "ckb": {
+      "language": "ckb",
+      "value": "شەڕی جیھانیی دووەم"
+    },
+    "co": {
+      "language": "co",
+      "value": "Seconda Guerra Mundiale"
+    },
+    "cs": {
+      "language": "cs",
+      "value": "druhá světová válka"
+    },
+    "cv": {
+      "language": "cv",
+      "value": "Иккĕмĕш Тĕнче вăрçи"
+    },
+    "cy": {
+      "language": "cy",
+      "value": "Yr Ail Ryfel Byd"
+    },
+    "da": {
+      "language": "da",
+      "value": "2. verdenskrig"
+    },
+    "diq": {
+      "language": "diq",
+      "value": "Herbê Dınyayê Dıyine"
+    },
+    "dsb": {
+      "language": "dsb",
+      "value": "Druga swětowa wójna"
+    },
+    "el": {
+      "language": "el",
+      "value": "Β΄ Παγκόσμιος Πόλεμος"
+    },
+    "eml": {
+      "language": "eml",
+      "value": "Secånda guèra mundièl"
+    },
+    "eo": {
+      "language": "eo",
+      "value": "Dua mondmilito"
+    },
+    "et": {
+      "language": "et",
+      "value": "Teine maailmasõda"
+    },
+    "eu": {
+      "language": "eu",
+      "value": "Bigarren Mundu Gerra"
+    },
+    "ext": {
+      "language": "ext",
+      "value": "II Guerra Mundial"
+    },
+    "fa": {
+      "language": "fa",
+      "value": "جنگ جهانی دوم"
+    },
+    "fi": {
+      "language": "fi",
+      "value": "toinen maailmansota"
+    },
+    "fo": {
+      "language": "fo",
+      "value": "Seinni heimsbardagi"
+    },
+    "frr": {
+      "language": "frr",
+      "value": "Tweed Wråålkrich"
+    },
+    "fur": {
+      "language": "fur",
+      "value": "Seconde vuere mondiâl"
+    },
+    "fy": {
+      "language": "fy",
+      "value": "Twadde Wrâldkriich"
+    },
+    "ga": {
+      "language": "ga",
+      "value": "An Dara Cogadh Domhanda"
+    },
+    "gan": {
+      "language": "gan",
+      "value": "第二次世界大戰"
+    },
+    "gd": {
+      "language": "gd",
+      "value": "An Dàrna Cogadh"
+    },
+    "gl": {
+      "language": "gl",
+      "value": "Segunda Guerra Mundial"
+    },
+    "gn": {
+      "language": "gn",
+      "value": "Mokõiha Ñorairõ Guasu"
+    },
+    "gu": {
+      "language": "gu",
+      "value": "બીજું વિશ્વ યુદ્ધ"
+    },
+    "gv": {
+      "language": "gv",
+      "value": "Yn Nah Chaggey Dowanagh"
+    },
+    "hak": {
+      "language": "hak",
+      "value": "Thi-ngi-chhṳ Sṳ-kie Thai-chan"
+    },
+    "he": {
+      "language": "he",
+      "value": "מלחמת העולם השנייה"
+    },
+    "hi": {
+      "language": "hi",
+      "value": "द्वितीय विश्वयुद्ध"
+    },
+    "hif": {
+      "language": "hif",
+      "value": "World War II"
+    },
+    "hr": {
+      "language": "hr",
+      "value": "Drugi svjetski rat"
+    },
+    "hsb": {
+      "language": "hsb",
+      "value": "Druha swětowa wójna"
+    },
+    "hu": {
+      "language": "hu",
+      "value": "második világháború"
+    },
+    "hy": {
+      "language": "hy",
+      "value": "Երկրորդ համաշխարհային պատերազմ"
+    },
+    "ia": {
+      "language": "ia",
+      "value": "Secunde Guerra Mundial"
+    },
+    "id": {
+      "language": "id",
+      "value": "Perang Dunia II"
+    },
+    "ilo": {
+      "language": "ilo",
+      "value": "Maikadua a Sangalubongan a Gubat"
+    },
+    "io": {
+      "language": "io",
+      "value": "Duesma mondo-milito"
+    },
+    "is": {
+      "language": "is",
+      "value": "Seinni heimsstyrjöldin"
+    },
+    "ja": {
+      "language": "ja",
+      "value": "第二次世界大戦"
+    },
+    "jbo": {
+      "language": "jbo",
+      "value": "2moi ke terdi nunjamna"
+    },
+    "jv": {
+      "language": "jv",
+      "value": "Perang Donya II"
+    },
+    "ka": {
+      "language": "ka",
+      "value": "მეორე მსოფლიო ომი"
+    },
+    "kbd": {
+      "language": "kbd",
+      "value": "ЕтӀуанэ дунейпсо зауэ"
+    },
+    "kk": {
+      "language": "kk",
+      "value": "Екінші дүниежүзілік соғыс"
+    },
+    "km": {
+      "language": "km",
+      "value": "សង្គ្រាមលោកលើកទី២"
+    },
+    "kn": {
+      "language": "kn",
+      "value": "ಎರಡನೇ ಮಹಾಯುದ್ಧ"
+    },
+    "ko": {
+      "language": "ko",
+      "value": "제2차 세계 대전"
+    },
+    "krc": {
+      "language": "krc",
+      "value": "Экинчи дуния къазауат"
+    },
+    "ksh": {
+      "language": "ksh",
+      "value": "Zweide Weltkresch"
+    },
+    "ku": {
+      "language": "ku",
+      "value": "Şerê cîhanî yê duyem"
+    },
+    "la": {
+      "language": "la",
+      "value": "Bellum Orbis Terrarum Secundum"
+    },
+    "lad": {
+      "language": "lad",
+      "value": "Sigunda Gerra Mondiala"
+    },
+    "lb": {
+      "language": "lb",
+      "value": "Zweete Weltkrich"
+    },
+    "lez": {
+      "language": "lez",
+      "value": "Дуьньядин кьведлагьай дяве"
+    },
+    "li": {
+      "language": "li",
+      "value": "Twiede Wereldoorlog"
+    },
+    "lij": {
+      "language": "lij",
+      "value": "Segonda Guæra Mondiâ"
+    },
+    "lmo": {
+      "language": "lmo",
+      "value": "Segónda guèra mondiàl"
+    },
+    "lt": {
+      "language": "lt",
+      "value": "Antrasis pasaulinis karas"
+    },
+    "lv": {
+      "language": "lv",
+      "value": "Otrais pasaules karš"
+    },
+    "mhr": {
+      "language": "mhr",
+      "value": "Кокымшо Тӱнямбал Сар"
+    },
+    "mk": {
+      "language": "mk",
+      "value": "Втора светска војна"
+    },
+    "ml": {
+      "language": "ml",
+      "value": "രണ്ടാം ലോകമഹായുദ്ധം"
+    },
+    "mn": {
+      "language": "mn",
+      "value": "Дэлхийн хоёрдугаар дайн"
+    },
+    "mr": {
+      "language": "mr",
+      "value": "दुसरे महायुद्ध"
+    },
+    "ms": {
+      "language": "ms",
+      "value": "Perang Dunia Kedua"
+    },
+    "mt": {
+      "language": "mt",
+      "value": "It-Tieni Gwerra Dinjija"
+    },
+    "mwl": {
+      "language": "mwl",
+      "value": "Segunda Guerra Mundial"
+    },
+    "my": {
+      "language": "my",
+      "value": "ဒုတိယ ကမ္ဘာစစ်"
+    },
+    "mzn": {
+      "language": "mzn",
+      "value": "جهونی جنگ دوم"
+    },
+    "nah": {
+      "language": "nah",
+      "value": "Īyāōyo in Cemānāhuac Inic Ōme"
+    },
+    "nds": {
+      "language": "nds",
+      "value": "Tweete Weltkrieg"
+    },
+    "ne": {
+      "language": "ne",
+      "value": "दोस्रो विश्वयुद्ध"
+    },
+    "new": {
+      "language": "new",
+      "value": "लिउ हलिम हताः"
+    },
+    "nl": {
+      "language": "nl",
+      "value": "Tweede Wereldoorlog"
+    },
+    "nn": {
+      "language": "nn",
+      "value": "Andre verdskrigen"
+    },
+    "nv": {
+      "language": "nv",
+      "value": "Naaki góneʼ yéigo daʼahijoogą́ą́ʼ"
+    },
+    "oc": {
+      "language": "oc",
+      "value": "Dusau Guèrra Mondiau"
+    },
+    "os": {
+      "language": "os",
+      "value": "Дыккаг дунеон хæст"
+    },
+    "pa": {
+      "language": "pa",
+      "value": "ਦੂਜਾ ਵਿਸ਼ਵ ਯੁੱਧ"
+    },
+    "pap": {
+      "language": "pap",
+      "value": "Di Dos Guera Mundial"
+    },
+    "pfl": {
+      "language": "pfl",
+      "value": "Zwädda Wäldgriech"
+    },
+    "pl": {
+      "language": "pl",
+      "value": "II wojna światowa"
+    },
+    "pnb": {
+      "language": "pnb",
+      "value": "دوجی وڈی لڑائی"
+    },
+    "ps": {
+      "language": "ps",
+      "value": "دويمه نړېواله جګړه"
+    },
+    "pt": {
+      "language": "pt",
+      "value": "Segunda Guerra Mundial"
+    },
+    "qu": {
+      "language": "qu",
+      "value": "Iskay ñiqin pachantin maqanakuy"
+    },
+    "rm": {
+      "language": "rm",
+      "value": "Segunda Guerra mundiala"
+    },
+    "ro": {
+      "language": "ro",
+      "value": "Al Doilea Război Mondial"
+    },
+    "rue": {
+      "language": "rue",
+      "value": "Друга світова война"
+    },
+    "sa": {
+      "language": "sa",
+      "value": "द्वितीयविश्वयुद्धम्"
+    },
+    "sah": {
+      "language": "sah",
+      "value": "Аан дойду иккис сэриитэ"
+    },
+    "scn": {
+      "language": "scn",
+      "value": "Secunna guerra munniali"
+    },
+    "sco": {
+      "language": "sco",
+      "value": "Warld War II"
+    },
+    "se": {
+      "language": "se",
+      "value": "Nubbi máilmmisoahti"
+    },
+    "sh": {
+      "language": "sh",
+      "value": "Drugi svjetski rat"
+    },
+    "si": {
+      "language": "si",
+      "value": "දෙවන ලෝක යුද්ධය"
+    },
+    "sk": {
+      "language": "sk",
+      "value": "Druhá svetová vojna"
+    },
+    "sl": {
+      "language": "sl",
+      "value": "Druga svetovna vojna"
+    },
+    "so": {
+      "language": "so",
+      "value": "Dagaalkii Labaad ee Aduunka"
+    },
+    "sq": {
+      "language": "sq",
+      "value": "Lufta e Dytë Botërore"
+    },
+    "sr": {
+      "language": "sr",
+      "value": "Други светски рат"
+    },
+    "stq": {
+      "language": "stq",
+      "value": "Twäiden Waareldkriech"
+    },
+    "su": {
+      "language": "su",
+      "value": "Perang Dunya II"
+    },
+    "sv": {
+      "language": "sv",
+      "value": "andra världskriget"
+    },
+    "sw": {
+      "language": "sw",
+      "value": "Vita Kuu ya Pili ya Dunia"
+    },
+    "szl": {
+      "language": "szl",
+      "value": "II wojna śwjatowo"
+    },
+    "ta": {
+      "language": "ta",
+      "value": "இரண்டாம் உலகப் போர்"
+    },
+    "te": {
+      "language": "te",
+      "value": "రెండవ ప్రపంచ యుద్ధం"
+    },
+    "tg": {
+      "language": "tg",
+      "value": "Ҷанги дуюми ҷаҳон"
+    },
+    "th": {
+      "language": "th",
+      "value": "สงครามโลกครั้งที่สอง"
+    },
+    "tl": {
+      "language": "tl",
+      "value": "Ikalawang Digmaang Pandaigdig"
+    },
+    "tr": {
+      "language": "tr",
+      "value": "II. Dünya Savaşı"
+    },
+    "tt": {
+      "language": "tt",
+      "value": "Икенче бөтендөнья сугышы"
+    },
+    "uk": {
+      "language": "uk",
+      "value": "Друга світова війна"
+    },
+    "ur": {
+      "language": "ur",
+      "value": "دوسری جنگ عظیم"
+    },
+    "uz": {
+      "language": "uz",
+      "value": "Ikkinchi jahon urushi"
+    },
+    "vec": {
+      "language": "vec",
+      "value": "Seconda guera mondiałe"
+    },
+    "vi": {
+      "language": "vi",
+      "value": "Chiến tranh thế giới thứ hai"
+    },
+    "vls": {
+      "language": "vls",
+      "value": "Twiddn Weireldôorloge"
+    },
+    "wa": {
+      "language": "wa",
+      "value": "Deujhinme guere daegnrece"
+    },
+    "war": {
+      "language": "war",
+      "value": "Ikaduha nga Gera Pankalibutan"
+    },
+    "wo": {
+      "language": "wo",
+      "value": "Ñaareelu Xareb Àdduna"
+    },
+    "wuu": {
+      "language": "wuu",
+      "value": "第二次世界大战"
+    },
+    "xmf": {
+      "language": "xmf",
+      "value": "მაჟირა მოსოფელიშ ლჷმა"
+    },
+    "yi": {
+      "language": "yi",
+      "value": "צווייטע וועלט מלחמה"
+    },
+    "yo": {
+      "language": "yo",
+      "value": "Ogun Àgbáyé Ẹlẹ́ẹ̀kejì"
+    },
+    "zea": {
+      "language": "zea",
+      "value": "Twidde Weareldoôrlog"
+    },
+    "zh": {
+      "language": "zh",
+      "value": "第二次世界大战"
+    },
+    "zh-cn": {
+      "language": "zh-cn",
+      "value": "第二次世界大战"
+    },
+    "zh-hans": {
+      "language": "zh-hans",
+      "value": "第二次世界大战"
+    },
+    "zh-hant": {
+      "language": "zh-hant",
+      "value": "第二次世界大戰"
+    },
+    "roa-tara": {
+      "language": "roa-tara",
+      "value": "Seconda uèrre mundiale"
+    },
+    "bxr": {
+      "language": "bxr",
+      "value": "Дэлхэйн 2-дугаар дайн"
+    },
+    "ky": {
+      "language": "ky",
+      "value": "Экинчи дүйнөлүк согуш"
+    },
+    "de-ch": {
+      "language": "de-ch",
+      "value": "Zweiter Weltkrieg"
+    },
+    "pt-br": {
+      "language": "pt-br",
+      "value": "Segunda Guerra Mundial"
+    },
+    "sn": {
+      "language": "sn",
+      "value": "Hondo yePasirose yeChipiri"
+    },
+    "sr-ec": {
+      "language": "sr-ec",
+      "value": "Други светски рат"
+    },
+    "sr-el": {
+      "language": "sr-el",
+      "value": "Drugi svetski rat"
+    },
+    "zh-hk": {
+      "language": "zh-hk",
+      "value": "第二次世界大戰"
+    },
+    "zh-tw": {
+      "language": "zh-tw",
+      "value": "第二次世界大戰"
+    },
+    "crh-latn": {
+      "language": "crh-latn",
+      "value": "Ekinci Cian cenki"
+    },
+    "gsw": {
+      "language": "gsw",
+      "value": "Zweite Wältchrieg"
+    },
+    "bcl": {
+      "language": "bcl",
+      "value": "Ikaduwang Gerang Pankinaban"
+    },
+    "lo": {
+      "language": "lo",
+      "value": "ສົງຄາມໂລກຄັ້ງທີສອງ"
+    },
+    "pms": {
+      "language": "pms",
+      "value": "Sconda guèra mondial"
+    },
+    "nap": {
+      "language": "nap",
+      "value": "Sicunna guerra munniale"
+    },
+    "sc": {
+      "language": "sc",
+      "value": "Segunda Gherra Mundiale"
+    },
+    "tyv": {
+      "language": "tyv",
+      "value": "Ийиги Делегей дайыны"
+    },
+    "zh-mo": {
+      "language": "zh-mo",
+      "value": "第二次世界大戰"
+    },
+    "zh-my": {
+      "language": "zh-my",
+      "value": "第二次世界大战"
+    },
+    "zh-sg": {
+      "language": "zh-sg",
+      "value": "第二次世界大战"
+    },
+    "cdo": {
+      "language": "cdo",
+      "value": "Dâ̤-nê-ché̤ṳ Sié-gái Dâi-ciéng"
+    },
+    "mg": {
+      "language": "mg",
+      "value": "Ady Lehibe Faharoa"
+    },
+    "kw": {
+      "language": "kw",
+      "value": "Nessa Bresel an Bys"
+    },
+    "na": {
+      "language": "na",
+      "value": "Eaket Eb II"
+    },
+    "tk": {
+      "language": "tk",
+      "value": "İkinji Jahan Urşy"
+    },
+    "lrc": {
+      "language": "lrc",
+      "value": "جأن جأھوٙنی دویوم"
+    },
+    "or": {
+      "language": "or",
+      "value": "ଦ୍ୱିତୀୟ ବିଶ୍ୱଯୁଦ୍ଧ"
+    },
+    "vo": {
+      "language": "vo",
+      "value": "Volakrig telid"
+    },
+    "azb": {
+      "language": "azb",
+      "value": "ایکینجی دونیا ساواشی"
+    },
+    "jam": {
+      "language": "jam",
+      "value": "Wol Waar II"
+    },
+    "min": {
+      "language": "min",
+      "value": "Parang Dunia II"
+    },
+    "ug": {
+      "language": "ug",
+      "value": "ئىككىنچى دۇنيا ئۇرۇشى"
+    },
+    "vep": {
+      "language": "vep",
+      "value": "Toine mail'man soda"
+    }
+  }
+}

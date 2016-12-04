@@ -1,0 +1,3180 @@
+{
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "ja",
+    "ru"
+  ],
+  "wikibase_item": "Q64",
+  "content": {
+    "en": {
+      "label": "Berlin",
+      "url": "https://en.wikipedia.org/wiki/Berlin",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "History",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Berlin",
+          "byteoffset": 12143,
+          "anchor": "History"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Etymology",
+          "number": "1.1",
+          "index": "2",
+          "fromtitle": "Berlin",
+          "byteoffset": 12210,
+          "anchor": "Etymology"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "12th to 16th centuries",
+          "number": "1.2",
+          "index": "3",
+          "fromtitle": "Berlin",
+          "byteoffset": 13396,
+          "anchor": "12th_to_16th_centuries"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "17th to 19th centuries",
+          "number": "1.3",
+          "index": "4",
+          "fromtitle": "Berlin",
+          "byteoffset": 18383,
+          "anchor": "17th_to_19th_centuries"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "20th to 21st centuries",
+          "number": "1.4",
+          "index": "5",
+          "fromtitle": "Berlin",
+          "byteoffset": 24214,
+          "anchor": "20th_to_21st_centuries"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Geography",
+          "number": "2",
+          "index": "6",
+          "fromtitle": "Berlin",
+          "byteoffset": 32288,
+          "anchor": "Geography"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Topography",
+          "number": "2.1",
+          "index": "7",
+          "fromtitle": "Berlin",
+          "byteoffset": 32948,
+          "anchor": "Topography"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Climate",
+          "number": "2.2",
+          "index": "8",
+          "fromtitle": "Berlin",
+          "byteoffset": 35545,
+          "anchor": "Climate"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Cityscape",
+          "number": "2.3",
+          "index": "9",
+          "fromtitle": "Berlin",
+          "byteoffset": 40216,
+          "anchor": "Cityscape"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Architecture",
+          "number": "2.4",
+          "index": "10",
+          "fromtitle": "Berlin",
+          "byteoffset": 42200,
+          "anchor": "Architecture"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Demographics",
+          "number": "3",
+          "index": "11",
+          "fromtitle": "Berlin",
+          "byteoffset": 50191,
+          "anchor": "Demographics"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "International communities",
+          "number": "3.1",
+          "index": "12",
+          "fromtitle": "Berlin",
+          "byteoffset": 55514,
+          "anchor": "International_communities"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Languages",
+          "number": "3.2",
+          "index": "13",
+          "fromtitle": "Berlin",
+          "byteoffset": 59564,
+          "anchor": "Languages"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Religion",
+          "number": "3.3",
+          "index": "14",
+          "fromtitle": "Berlin",
+          "byteoffset": 61422,
+          "anchor": "Religion"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Government",
+          "number": "4",
+          "index": "15",
+          "fromtitle": "Berlin",
+          "byteoffset": 66449,
+          "anchor": "Government"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "City state",
+          "number": "4.1",
+          "index": "16",
+          "fromtitle": "Berlin",
+          "byteoffset": 66501,
+          "anchor": "City_state"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Boroughs",
+          "number": "4.2",
+          "index": "17",
+          "fromtitle": "Berlin",
+          "byteoffset": 69555,
+          "anchor": "Boroughs"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Twin towns – sister cities",
+          "number": "4.3",
+          "index": "18",
+          "fromtitle": "Berlin",
+          "byteoffset": 70976,
+          "anchor": "Twin_towns_.E2.80.93_sister_cities"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Capital city",
+          "number": "4.4",
+          "index": "19",
+          "fromtitle": "Berlin",
+          "byteoffset": 74470,
+          "anchor": "Capital_city"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Economy",
+          "number": "5",
+          "index": "20",
+          "fromtitle": "Berlin",
+          "byteoffset": 78501,
+          "anchor": "Economy"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Companies",
+          "number": "5.1",
+          "index": "21",
+          "fromtitle": "Berlin",
+          "byteoffset": 82205,
+          "anchor": "Companies"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Tourism and conventions",
+          "number": "5.2",
+          "index": "22",
+          "fromtitle": "Berlin",
+          "byteoffset": 85229,
+          "anchor": "Tourism_and_conventions"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Creative industries",
+          "number": "5.3",
+          "index": "23",
+          "fromtitle": "Berlin",
+          "byteoffset": 87330,
+          "anchor": "Creative_industries"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Media",
+          "number": "5.4",
+          "index": "24",
+          "fromtitle": "Berlin",
+          "byteoffset": 89527,
+          "anchor": "Media"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Infrastructure",
+          "number": "6",
+          "index": "25",
+          "fromtitle": "Berlin",
+          "byteoffset": 91962,
+          "anchor": "Infrastructure"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Transport",
+          "number": "6.1",
+          "index": "26",
+          "fromtitle": "Berlin",
+          "byteoffset": 91982,
+          "anchor": "Transport"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Energy",
+          "number": "6.2",
+          "index": "27",
+          "fromtitle": "Berlin",
+          "byteoffset": 98336,
+          "anchor": "Energy"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Health",
+          "number": "6.3",
+          "index": "28",
+          "fromtitle": "Berlin",
+          "byteoffset": 99883,
+          "anchor": "Health"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Telecommunication",
+          "number": "6.4",
+          "index": "29",
+          "fromtitle": "Berlin",
+          "byteoffset": 101962,
+          "anchor": "Telecommunication"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Education",
+          "number": "7",
+          "index": "30",
+          "fromtitle": "Berlin",
+          "byteoffset": 103725,
+          "anchor": "Education"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Higher education",
+          "number": "7.1",
+          "index": "31",
+          "fromtitle": "Berlin",
+          "byteoffset": 105902,
+          "anchor": "Higher_education"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Research",
+          "number": "7.2",
+          "index": "32",
+          "fromtitle": "Berlin",
+          "byteoffset": 107972,
+          "anchor": "Research"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Culture",
+          "number": "8",
+          "index": "33",
+          "fromtitle": "Berlin",
+          "byteoffset": 110560,
+          "anchor": "Culture"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Galleries and museums",
+          "number": "8.1",
+          "index": "34",
+          "fromtitle": "Berlin",
+          "byteoffset": 113178,
+          "anchor": "Galleries_and_museums"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Nightlife and festivals",
+          "number": "8.2",
+          "index": "35",
+          "fromtitle": "Berlin",
+          "byteoffset": 118994,
+          "anchor": "Nightlife_and_festivals"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Performing arts",
+          "number": "8.3",
+          "index": "36",
+          "fromtitle": "Berlin",
+          "byteoffset": 124311,
+          "anchor": "Performing_arts"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Cuisine",
+          "number": "8.4",
+          "index": "37",
+          "fromtitle": "Berlin",
+          "byteoffset": 127937,
+          "anchor": "Cuisine"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Recreation",
+          "number": "8.5",
+          "index": "38",
+          "fromtitle": "Berlin",
+          "byteoffset": 130733,
+          "anchor": "Recreation"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Sports",
+          "number": "8.6",
+          "index": "39",
+          "fromtitle": "Berlin",
+          "byteoffset": 134415,
+          "anchor": "Sports"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "See also",
+          "number": "9",
+          "index": "40",
+          "fromtitle": "Berlin",
+          "byteoffset": 140642,
+          "anchor": "See_also"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Notes",
+          "number": "10",
+          "index": "41",
+          "fromtitle": "Berlin",
+          "byteoffset": 141222,
+          "anchor": "Notes"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "References",
+          "number": "11",
+          "index": "42",
+          "fromtitle": "Berlin",
+          "byteoffset": 141250,
+          "anchor": "References"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "External links",
+          "number": "12",
+          "index": "43",
+          "fromtitle": "Berlin",
+          "byteoffset": 142548,
+          "anchor": "External_links"
+        }
+      ]
+    },
+    "de": {
+      "label": "Berlin",
+      "url": "https://de.wikipedia.org/wiki/Berlin",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Geographie",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Berlin",
+          "byteoffset": 13169,
+          "anchor": "Geographie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Klima",
+          "number": "1.1",
+          "index": "2",
+          "fromtitle": "Berlin",
+          "byteoffset": 16939,
+          "anchor": "Klima"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Gliederung",
+          "number": "1.2",
+          "index": "3",
+          "fromtitle": "Berlin",
+          "byteoffset": 22925,
+          "anchor": "Gliederung"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Parkanlagen, Zoos, Schutzgebiete",
+          "number": "1.3",
+          "index": "4",
+          "fromtitle": "Berlin",
+          "byteoffset": 27800,
+          "anchor": "Parkanlagen.2C_Zoos.2C_Schutzgebiete"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Nachbarstädte und -gemeinden",
+          "number": "1.4",
+          "index": "5",
+          "fromtitle": "Berlin",
+          "byteoffset": 35888,
+          "anchor": "Nachbarst.C3.A4dte_und_-gemeinden"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Geschichte",
+          "number": "2",
+          "index": "6",
+          "fromtitle": "Berlin",
+          "byteoffset": 37673,
+          "anchor": "Geschichte"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Namensbildung",
+          "number": "2.1",
+          "index": "7",
+          "fromtitle": "Berlin",
+          "byteoffset": 37942,
+          "anchor": "Namensbildung"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Markgrafschaft und Kurfürstentum",
+          "number": "2.2",
+          "index": "8",
+          "fromtitle": "Berlin",
+          "byteoffset": 39502,
+          "anchor": "Markgrafschaft_und_Kurf.C3.BCrstentum"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Preußisches Königreich",
+          "number": "2.3",
+          "index": "9",
+          "fromtitle": "Berlin",
+          "byteoffset": 44616,
+          "anchor": "Preu.C3.9Fisches_K.C3.B6nigreich"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Deutsches Kaiserreich",
+          "number": "2.4",
+          "index": "10",
+          "fromtitle": "Berlin",
+          "byteoffset": 50456,
+          "anchor": "Deutsches_Kaiserreich"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Weimarer Republik",
+          "number": "2.5",
+          "index": "11",
+          "fromtitle": "Berlin",
+          "byteoffset": 52122,
+          "anchor": "Weimarer_Republik"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Zeit des Nationalsozialismus",
+          "number": "2.6",
+          "index": "12",
+          "fromtitle": "Berlin",
+          "byteoffset": 54362,
+          "anchor": "Zeit_des_Nationalsozialismus"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Geteilte Stadt",
+          "number": "2.7",
+          "index": "13",
+          "fromtitle": "Berlin",
+          "byteoffset": 57287,
+          "anchor": "Geteilte_Stadt"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Berliner Republik",
+          "number": "2.8",
+          "index": "14",
+          "fromtitle": "Berlin",
+          "byteoffset": 61514,
+          "anchor": "Berliner_Republik"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Bevölkerung",
+          "number": "3",
+          "index": "15",
+          "fromtitle": "Berlin",
+          "byteoffset": 63622,
+          "anchor": "Bev.C3.B6lkerung"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Bevölkerungsgruppen",
+          "number": "3.1",
+          "index": "16",
+          "fromtitle": "Berlin",
+          "byteoffset": 70136,
+          "anchor": "Bev.C3.B6lkerungsgruppen"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Sprache",
+          "number": "3.2",
+          "index": "17",
+          "fromtitle": "Berlin",
+          "byteoffset": 76972,
+          "anchor": "Sprache"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Religionen und Weltanschauungen",
+          "number": "3.3",
+          "index": "18",
+          "fromtitle": "Berlin",
+          "byteoffset": 80272,
+          "anchor": "Religionen_und_Weltanschauungen"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Persönlichkeiten",
+          "number": "3.4",
+          "index": "19",
+          "fromtitle": "Berlin",
+          "byteoffset": 89429,
+          "anchor": "Pers.C3.B6nlichkeiten"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Politik",
+          "number": "4",
+          "index": "20",
+          "fromtitle": "Berlin",
+          "byteoffset": 90006,
+          "anchor": "Politik"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Bundeshauptstadt",
+          "number": "4.1",
+          "index": "21",
+          "fromtitle": "Berlin",
+          "byteoffset": 90737,
+          "anchor": "Bundeshauptstadt"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Land Berlin",
+          "number": "4.2",
+          "index": "22",
+          "fromtitle": "Berlin",
+          "byteoffset": 94991,
+          "anchor": "Land_Berlin"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Bezirke",
+          "number": "4.3",
+          "index": "23",
+          "fromtitle": "Berlin",
+          "byteoffset": 100215,
+          "anchor": "Bezirke"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Wappen und Flaggen",
+          "number": "4.4",
+          "index": "24",
+          "fromtitle": "Berlin",
+          "byteoffset": 103382,
+          "anchor": "Wappen_und_Flaggen"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Städtepartnerschaften",
+          "number": "4.5",
+          "index": "25",
+          "fromtitle": "Berlin",
+          "byteoffset": 106037,
+          "anchor": "St.C3.A4dtepartnerschaften"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Polizei",
+          "number": "4.6",
+          "index": "26",
+          "fromtitle": "Berlin",
+          "byteoffset": 107212,
+          "anchor": "Polizei"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Wirtschaft",
+          "number": "5",
+          "index": "27",
+          "fromtitle": "Berlin",
+          "byteoffset": 108035,
+          "anchor": "Wirtschaft"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Unternehmen",
+          "number": "5.1",
+          "index": "28",
+          "fromtitle": "Berlin",
+          "byteoffset": 113521,
+          "anchor": "Unternehmen"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Tourismus",
+          "number": "5.2",
+          "index": "29",
+          "fromtitle": "Berlin",
+          "byteoffset": 117264,
+          "anchor": "Tourismus"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Messe- und Kongresswirtschaft",
+          "number": "5.3",
+          "index": "30",
+          "fromtitle": "Berlin",
+          "byteoffset": 119633,
+          "anchor": "Messe-_und_Kongresswirtschaft"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Gesundheitswirtschaft",
+          "number": "5.4",
+          "index": "31",
+          "fromtitle": "Berlin",
+          "byteoffset": 123117,
+          "anchor": "Gesundheitswirtschaft"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Kreativwirtschaft",
+          "number": "5.5",
+          "index": "32",
+          "fromtitle": "Berlin",
+          "byteoffset": 125147,
+          "anchor": "Kreativwirtschaft"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Medien",
+          "number": "5.6",
+          "index": "33",
+          "fromtitle": "Berlin",
+          "byteoffset": 127477,
+          "anchor": "Medien"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Infrastruktur",
+          "number": "6",
+          "index": "34",
+          "fromtitle": "Berlin",
+          "byteoffset": 129598,
+          "anchor": "Infrastruktur"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Öffentlicher Verkehr",
+          "number": "6.1",
+          "index": "35",
+          "fromtitle": "Berlin",
+          "byteoffset": 130416,
+          "anchor": ".C3.96ffentlicher_Verkehr"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Straßenverkehr",
+          "number": "6.2",
+          "index": "36",
+          "fromtitle": "Berlin",
+          "byteoffset": 137500,
+          "anchor": "Stra.C3.9Fenverkehr"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Brücken",
+          "number": "6.3",
+          "index": "37",
+          "fromtitle": "Berlin",
+          "byteoffset": 141361,
+          "anchor": "Br.C3.BCcken"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Fahrradverkehr",
+          "number": "6.4",
+          "index": "38",
+          "fromtitle": "Berlin",
+          "byteoffset": 143462,
+          "anchor": "Fahrradverkehr"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Flugverkehr",
+          "number": "6.5",
+          "index": "39",
+          "fromtitle": "Berlin",
+          "byteoffset": 146072,
+          "anchor": "Flugverkehr"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Binnenschifffahrt",
+          "number": "6.6",
+          "index": "40",
+          "fromtitle": "Berlin",
+          "byteoffset": 147222,
+          "anchor": "Binnenschifffahrt"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Wasserversorgung",
+          "number": "6.7",
+          "index": "41",
+          "fromtitle": "Berlin",
+          "byteoffset": 148768,
+          "anchor": "Wasserversorgung"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Energieversorgung",
+          "number": "6.8",
+          "index": "42",
+          "fromtitle": "Berlin",
+          "byteoffset": 150819,
+          "anchor": "Energieversorgung"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Wissenschaft und Bildung",
+          "number": "7",
+          "index": "43",
+          "fromtitle": "Berlin",
+          "byteoffset": 160423,
+          "anchor": "Wissenschaft_und_Bildung"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Hochschulen",
+          "number": "7.1",
+          "index": "44",
+          "fromtitle": "Berlin",
+          "byteoffset": 160454,
+          "anchor": "Hochschulen"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Forschung",
+          "number": "7.2",
+          "index": "45",
+          "fromtitle": "Berlin",
+          "byteoffset": 164103,
+          "anchor": "Forschung"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Schulsystem",
+          "number": "7.3",
+          "index": "46",
+          "fromtitle": "Berlin",
+          "byteoffset": 166266,
+          "anchor": "Schulsystem"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Bibliotheken",
+          "number": "7.4",
+          "index": "47",
+          "fromtitle": "Berlin",
+          "byteoffset": 168350,
+          "anchor": "Bibliotheken"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Kultur",
+          "number": "8",
+          "index": "48",
+          "fromtitle": "Berlin",
+          "byteoffset": 170045,
+          "anchor": "Kultur"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Musik",
+          "number": "8.1",
+          "index": "49",
+          "fromtitle": "Berlin",
+          "byteoffset": 171187,
+          "anchor": "Musik"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Festivals",
+          "number": "8.2",
+          "index": "50",
+          "fromtitle": "Berlin",
+          "byteoffset": 172902,
+          "anchor": "Festivals"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Theater",
+          "number": "8.3",
+          "index": "51",
+          "fromtitle": "Berlin",
+          "byteoffset": 175225,
+          "anchor": "Theater"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Museen",
+          "number": "8.4",
+          "index": "52",
+          "fromtitle": "Berlin",
+          "byteoffset": 176482,
+          "anchor": "Museen"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Bauwerke",
+          "number": "8.5",
+          "index": "53",
+          "fromtitle": "Berlin",
+          "byteoffset": 180528,
+          "anchor": "Bauwerke"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Freizeit",
+          "number": "8.6",
+          "index": "54",
+          "fromtitle": "Berlin",
+          "byteoffset": 191925,
+          "anchor": "Freizeit"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Sport",
+          "number": "8.7",
+          "index": "55",
+          "fromtitle": "Berlin",
+          "byteoffset": 194694,
+          "anchor": "Sport"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Küche",
+          "number": "8.8",
+          "index": "56",
+          "fromtitle": "Berlin",
+          "byteoffset": 199095,
+          "anchor": "K.C3.BCche"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Berlin in der Kunst",
+          "number": "8.9",
+          "index": "57",
+          "fromtitle": "Berlin",
+          "byteoffset": 200236,
+          "anchor": "Berlin_in_der_Kunst"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Auszeichnungen und Ehrentitel",
+          "number": "8.10",
+          "index": "58",
+          "fromtitle": "Berlin",
+          "byteoffset": 205072,
+          "anchor": "Auszeichnungen_und_Ehrentitel"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Siehe auch",
+          "number": "9",
+          "index": "59",
+          "fromtitle": "Berlin",
+          "byteoffset": 206246,
+          "anchor": "Siehe_auch"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Literatur",
+          "number": "10",
+          "index": "60",
+          "fromtitle": "Berlin",
+          "byteoffset": 206677,
+          "anchor": "Literatur"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Weblinks",
+          "number": "11",
+          "index": "61",
+          "fromtitle": "Berlin",
+          "byteoffset": 209220,
+          "anchor": "Weblinks"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Einzelnachweise",
+          "number": "12",
+          "index": "62",
+          "fromtitle": "Berlin",
+          "byteoffset": 209736,
+          "anchor": "Einzelnachweise"
+        }
+      ]
+    },
+    "fr": {
+      "label": "Berlin",
+      "url": "https://fr.wikipedia.org/wiki/Berlin",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Géographie",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Berlin",
+          "byteoffset": 4414,
+          "anchor": "G.C3.A9ographie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Toponymie",
+          "number": "1.1",
+          "index": "2",
+          "fromtitle": "Berlin",
+          "byteoffset": 4431,
+          "anchor": "Toponymie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Topographie",
+          "number": "1.2",
+          "index": "3",
+          "fromtitle": "Berlin",
+          "byteoffset": 5892,
+          "anchor": "Topographie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Climat",
+          "number": "1.3",
+          "index": "4",
+          "fromtitle": "Berlin",
+          "byteoffset": 6562,
+          "anchor": "Climat"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Histoire",
+          "number": "2",
+          "index": "5",
+          "fromtitle": "Berlin",
+          "byteoffset": 8737,
+          "anchor": "Histoire"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Politique et administration",
+          "number": "3",
+          "index": "6",
+          "fromtitle": "Berlin",
+          "byteoffset": 8793,
+          "anchor": "Politique_et_administration"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Berlin, capitale",
+          "number": "3.1",
+          "index": "7",
+          "fromtitle": "Berlin",
+          "byteoffset": 8827,
+          "anchor": "Berlin.2C_capitale"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Berlin, ville-État",
+          "number": "3.2",
+          "index": "8",
+          "fromtitle": "Berlin",
+          "byteoffset": 10503,
+          "anchor": "Berlin.2C_ville-.C3.89tat"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Les arrondissements de Berlin",
+          "number": "3.3",
+          "index": "9",
+          "fromtitle": "Berlin",
+          "byteoffset": 13361,
+          "anchor": "Les_arrondissements_de_Berlin"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Sécurité",
+          "number": "3.4",
+          "index": "10",
+          "fromtitle": "Berlin",
+          "byteoffset": 14567,
+          "anchor": "S.C3.A9curit.C3.A9"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Jumelages",
+          "number": "3.5",
+          "index": "11",
+          "fromtitle": "Berlin",
+          "byteoffset": 14874,
+          "anchor": "Jumelages"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Démographie",
+          "number": "4",
+          "index": "12",
+          "fromtitle": "Berlin",
+          "byteoffset": 16554,
+          "anchor": "D.C3.A9mographie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Immigration",
+          "number": "4.1",
+          "index": "13",
+          "fromtitle": "Berlin",
+          "byteoffset": 20849,
+          "anchor": "Immigration"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Parler",
+          "number": "4.2",
+          "index": "14",
+          "fromtitle": "Berlin",
+          "byteoffset": 29136,
+          "anchor": "Parler"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Religion",
+          "number": "4.3",
+          "index": "15",
+          "fromtitle": "Berlin",
+          "byteoffset": 29202,
+          "anchor": "Religion"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Urbanisme",
+          "number": "5",
+          "index": "16",
+          "fromtitle": "Berlin",
+          "byteoffset": 32646,
+          "anchor": "Urbanisme"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Dans le centre historique",
+          "number": "5.1",
+          "index": "17",
+          "fromtitle": "Berlin",
+          "byteoffset": 34147,
+          "anchor": "Dans_le_centre_historique"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Dans le centre-ouest",
+          "number": "5.2",
+          "index": "18",
+          "fromtitle": "Berlin",
+          "byteoffset": 39271,
+          "anchor": "Dans_le_centre-ouest"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Le nouveau Berlin",
+          "number": "5.3",
+          "index": "19",
+          "fromtitle": "Berlin",
+          "byteoffset": 40762,
+          "anchor": "Le_nouveau_Berlin"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Le quartier du gouvernement",
+          "number": "5.4",
+          "index": "20",
+          "fromtitle": "Berlin",
+          "byteoffset": 42919,
+          "anchor": "Le_quartier_du_gouvernement"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Autres quartiers",
+          "number": "5.5",
+          "index": "21",
+          "fromtitle": "Berlin",
+          "byteoffset": 44017,
+          "anchor": "Autres_quartiers"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Économie",
+          "number": "6",
+          "index": "22",
+          "fromtitle": "Berlin",
+          "byteoffset": 46202,
+          "anchor": ".C3.89conomie"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Voies de communication et transports",
+          "number": "7",
+          "index": "23",
+          "fromtitle": "Berlin",
+          "byteoffset": 51312,
+          "anchor": "Voies_de_communication_et_transports"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Transports urbains",
+          "number": "7.1",
+          "index": "24",
+          "fromtitle": "Berlin",
+          "byteoffset": 51355,
+          "anchor": "Transports_urbains"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Transports nationaux et internationaux",
+          "number": "7.2",
+          "index": "25",
+          "fromtitle": "Berlin",
+          "byteoffset": 55937,
+          "anchor": "Transports_nationaux_et_internationaux"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Culture",
+          "number": "8",
+          "index": "26",
+          "fromtitle": "Berlin",
+          "byteoffset": 59236,
+          "anchor": "Culture"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Musées",
+          "number": "8.1",
+          "index": "27",
+          "fromtitle": "Berlin",
+          "byteoffset": 62562,
+          "anchor": "Mus.C3.A9es"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Théâtres",
+          "number": "8.2",
+          "index": "28",
+          "fromtitle": "Berlin",
+          "byteoffset": 64352,
+          "anchor": "Th.C3.A9.C3.A2tres"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Cinéma",
+          "number": "8.3",
+          "index": "29",
+          "fromtitle": "Berlin",
+          "byteoffset": 64825,
+          "anchor": "Cin.C3.A9ma"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Opéras",
+          "number": "8.4",
+          "index": "30",
+          "fromtitle": "Berlin",
+          "byteoffset": 67124,
+          "anchor": "Op.C3.A9ras"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Orchestres et chorales",
+          "number": "8.5",
+          "index": "31",
+          "fromtitle": "Berlin",
+          "byteoffset": 67257,
+          "anchor": "Orchestres_et_chorales"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Universités",
+          "number": "8.6",
+          "index": "32",
+          "fromtitle": "Berlin",
+          "byteoffset": 68463,
+          "anchor": "Universit.C3.A9s"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Jardins zoologiques",
+          "number": "8.7",
+          "index": "33",
+          "fromtitle": "Berlin",
+          "byteoffset": 69936,
+          "anchor": "Jardins_zoologiques"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Sports",
+          "number": "8.8",
+          "index": "34",
+          "fromtitle": "Berlin",
+          "byteoffset": 70380,
+          "anchor": "Sports"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Notes et références",
+          "number": "9",
+          "index": "35",
+          "fromtitle": "Berlin",
+          "byteoffset": 73517,
+          "anchor": "Notes_et_r.C3.A9f.C3.A9rences"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Voir aussi",
+          "number": "10",
+          "index": "36",
+          "fromtitle": "Berlin",
+          "byteoffset": 73570,
+          "anchor": "Voir_aussi"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Bibliographie",
+          "number": "10.1",
+          "index": "37",
+          "fromtitle": "Berlin",
+          "byteoffset": 73705,
+          "anchor": "Bibliographie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Articles connexes",
+          "number": "10.2",
+          "index": "38",
+          "fromtitle": "Berlin",
+          "byteoffset": 75264,
+          "anchor": "Articles_connexes"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Liens externes",
+          "number": "10.3",
+          "index": "39",
+          "fromtitle": "Berlin",
+          "byteoffset": 75529,
+          "anchor": "Liens_externes"
+        }
+      ]
+    },
+    "ja": {
+      "label": "ベルリン",
+      "url": "https://ja.wikipedia.org/wiki/ベルリン",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "呼称",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "ベルリン",
+          "byteoffset": 2492,
+          "anchor": ".E5.91.BC.E7.A7.B0"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "概要",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "ベルリン",
+          "byteoffset": 3022,
+          "anchor": ".E6.A6.82.E8.A6.81"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "地理",
+          "number": "3",
+          "index": "3",
+          "fromtitle": "ベルリン",
+          "byteoffset": 8972,
+          "anchor": ".E5.9C.B0.E7.90.86"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "地勢",
+          "number": "3.1",
+          "index": "4",
+          "fromtitle": "ベルリン",
+          "byteoffset": 8981,
+          "anchor": ".E5.9C.B0.E5.8B.A2"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "気候",
+          "number": "3.2",
+          "index": "5",
+          "fromtitle": "ベルリン",
+          "byteoffset": 10186,
+          "anchor": ".E6.B0.97.E5.80.99"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "歴史",
+          "number": "4",
+          "index": "6",
+          "fromtitle": "ベルリン",
+          "byteoffset": 13383,
+          "anchor": ".E6.AD.B4.E5.8F.B2"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "第二次世界大戦以前",
+          "number": "4.1",
+          "index": "7",
+          "fromtitle": "ベルリン",
+          "byteoffset": 13410,
+          "anchor": ".E7.AC.AC.E4.BA.8C.E6.AC.A1.E4.B8.96.E7.95.8C.E5.A4.A7.E6.88.A6.E4.BB.A5.E5.89.8D"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "冷戦時代",
+          "number": "4.2",
+          "index": "8",
+          "fromtitle": "ベルリン",
+          "byteoffset": 15175,
+          "anchor": ".E5.86.B7.E6.88.A6.E6.99.82.E4.BB.A3"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "ベルリンの壁崩壊後",
+          "number": "4.3",
+          "index": "9",
+          "fromtitle": "ベルリン",
+          "byteoffset": 17213,
+          "anchor": ".E3.83.99.E3.83.AB.E3.83.AA.E3.83.B3.E3.81.AE.E5.A3.81.E5.B4.A9.E5.A3.8A.E5.BE.8C"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "政治",
+          "number": "5",
+          "index": "10",
+          "fromtitle": "ベルリン",
+          "byteoffset": 17688,
+          "anchor": ".E6.94.BF.E6.B2.BB"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "行政",
+          "number": "5.1",
+          "index": "11",
+          "fromtitle": "ベルリン",
+          "byteoffset": 18761,
+          "anchor": ".E8.A1.8C.E6.94.BF"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "行政区",
+          "number": "5.2",
+          "index": "12",
+          "fromtitle": "ベルリン",
+          "byteoffset": 21494,
+          "anchor": ".E8.A1.8C.E6.94.BF.E5.8C.BA"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "経済",
+          "number": "6",
+          "index": "13",
+          "fromtitle": "ベルリン",
+          "byteoffset": 22734,
+          "anchor": ".E7.B5.8C.E6.B8.88"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "企業",
+          "number": "6.1",
+          "index": "14",
+          "fromtitle": "ベルリン",
+          "byteoffset": 26115,
+          "anchor": ".E4.BC.81.E6.A5.AD"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "観光",
+          "number": "6.2",
+          "index": "15",
+          "fromtitle": "ベルリン",
+          "byteoffset": 29465,
+          "anchor": ".E8.A6.B3.E5.85.89"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "創造産業",
+          "number": "6.3",
+          "index": "16",
+          "fromtitle": "ベルリン",
+          "byteoffset": 30116,
+          "anchor": ".E5.89.B5.E9.80.A0.E7.94.A3.E6.A5.AD"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "交通",
+          "number": "7",
+          "index": "17",
+          "fromtitle": "ベルリン",
+          "byteoffset": 30602,
+          "anchor": ".E4.BA.A4.E9.80.9A"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "道路・鉄道・公共交通",
+          "number": "7.1",
+          "index": "18",
+          "fromtitle": "ベルリン",
+          "byteoffset": 30611,
+          "anchor": ".E9.81.93.E8.B7.AF.E3.83.BB.E9.89.84.E9.81.93.E3.83.BB.E5.85.AC.E5.85.B1.E4.BA.A4.E9.80.9A"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "空港",
+          "number": "7.2",
+          "index": "19",
+          "fromtitle": "ベルリン",
+          "byteoffset": 33542,
+          "anchor": ".E7.A9.BA.E6.B8.AF"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "自転車",
+          "number": "7.3",
+          "index": "20",
+          "fromtitle": "ベルリン",
+          "byteoffset": 35368,
+          "anchor": ".E8.87.AA.E8.BB.A2.E8.BB.8A"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "インフラ",
+          "number": "8",
+          "index": "21",
+          "fromtitle": "ベルリン",
+          "byteoffset": 36307,
+          "anchor": ".E3.82.A4.E3.83.B3.E3.83.95.E3.83.A9"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "エネルギー",
+          "number": "8.1",
+          "index": "22",
+          "fromtitle": "ベルリン",
+          "byteoffset": 36318,
+          "anchor": ".E3.82.A8.E3.83.8D.E3.83.AB.E3.82.AE.E3.83.BC"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "医療",
+          "number": "8.2",
+          "index": "23",
+          "fromtitle": "ベルリン",
+          "byteoffset": 37296,
+          "anchor": ".E5.8C.BB.E7.99.82"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "統計",
+          "number": "9",
+          "index": "24",
+          "fromtitle": "ベルリン",
+          "byteoffset": 38620,
+          "anchor": ".E7.B5.B1.E8.A8.88"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "宗教",
+          "number": "9.1",
+          "index": "25",
+          "fromtitle": "ベルリン",
+          "byteoffset": 49337,
+          "anchor": ".E5.AE.97.E6.95.99"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "教育・研究機関",
+          "number": "10",
+          "index": "26",
+          "fromtitle": "ベルリン",
+          "byteoffset": 52783,
+          "anchor": ".E6.95.99.E8.82.B2.E3.83.BB.E7.A0.94.E7.A9.B6.E6.A9.9F.E9.96.A2"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "高等教育",
+          "number": "10.1",
+          "index": "27",
+          "fromtitle": "ベルリン",
+          "byteoffset": 53766,
+          "anchor": ".E9.AB.98.E7.AD.89.E6.95.99.E8.82.B2"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "文化",
+          "number": "11",
+          "index": "28",
+          "fromtitle": "ベルリン",
+          "byteoffset": 55137,
+          "anchor": ".E6.96.87.E5.8C.96"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "メディア",
+          "number": "11.1",
+          "index": "29",
+          "fromtitle": "ベルリン",
+          "byteoffset": 57783,
+          "anchor": ".E3.83.A1.E3.83.87.E3.82.A3.E3.82.A2"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "ナイトライフ・行事",
+          "number": "11.2",
+          "index": "30",
+          "fromtitle": "ベルリン",
+          "byteoffset": 60017,
+          "anchor": ".E3.83.8A.E3.82.A4.E3.83.88.E3.83.A9.E3.82.A4.E3.83.95.E3.83.BB.E8.A1.8C.E4.BA.8B"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "博物館・美術館",
+          "number": "11.3",
+          "index": "31",
+          "fromtitle": "ベルリン",
+          "byteoffset": 62960,
+          "anchor": ".E5.8D.9A.E7.89.A9.E9.A4.A8.E3.83.BB.E7.BE.8E.E8.A1.93.E9.A4.A8"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "演劇・音楽",
+          "number": "11.4",
+          "index": "32",
+          "fromtitle": "ベルリン",
+          "byteoffset": 66003,
+          "anchor": ".E6.BC.94.E5.8A.87.E3.83.BB.E9.9F.B3.E6.A5.BD"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "食文化",
+          "number": "11.5",
+          "index": "33",
+          "fromtitle": "ベルリン",
+          "byteoffset": 68659,
+          "anchor": ".E9.A3.9F.E6.96.87.E5.8C.96"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "レクレーション",
+          "number": "11.6",
+          "index": "34",
+          "fromtitle": "ベルリン",
+          "byteoffset": 70019,
+          "anchor": ".E3.83.AC.E3.82.AF.E3.83.AC.E3.83.BC.E3.82.B7.E3.83.A7.E3.83.B3"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "ゲイライフ",
+          "number": "11.7",
+          "index": "35",
+          "fromtitle": "ベルリン",
+          "byteoffset": 72439,
+          "anchor": ".E3.82.B2.E3.82.A4.E3.83.A9.E3.82.A4.E3.83.95"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "スポーツ",
+          "number": "11.8",
+          "index": "36",
+          "fromtitle": "ベルリン",
+          "byteoffset": 73016,
+          "anchor": ".E3.82.B9.E3.83.9D.E3.83.BC.E3.83.84"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "姉妹都市",
+          "number": "12",
+          "index": "37",
+          "fromtitle": "ベルリン",
+          "byteoffset": 77040,
+          "anchor": ".E5.A7.89.E5.A6.B9.E9.83.BD.E5.B8.82"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "脚注",
+          "number": "13",
+          "index": "38",
+          "fromtitle": "ベルリン",
+          "byteoffset": 78192,
+          "anchor": ".E8.84.9A.E6.B3.A8"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "脚注関連文献",
+          "number": "14",
+          "index": "39",
+          "fromtitle": "ベルリン",
+          "byteoffset": 78248,
+          "anchor": ".E8.84.9A.E6.B3.A8.E9.96.A2.E9.80.A3.E6.96.87.E7.8C.AE"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "関連項目",
+          "number": "15",
+          "index": "40",
+          "fromtitle": "ベルリン",
+          "byteoffset": 79400,
+          "anchor": ".E9.96.A2.E9.80.A3.E9.A0.85.E7.9B.AE"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "外部リンク",
+          "number": "16",
+          "index": "41",
+          "fromtitle": "ベルリン",
+          "byteoffset": 79544,
+          "anchor": ".E5.A4.96.E9.83.A8.E3.83.AA.E3.83.B3.E3.82.AF"
+        }
+      ]
+    },
+    "ru": {
+      "label": "Берлин",
+      "url": "https://ru.wikipedia.org/wiki/Берлин",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "География",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Берлин",
+          "byteoffset": 5719,
+          "anchor": ".D0.93.D0.B5.D0.BE.D0.B3.D1.80.D0.B0.D1.84.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Климат",
+          "number": "1.1",
+          "index": "2",
+          "fromtitle": "Берлин",
+          "byteoffset": 7796,
+          "anchor": ".D0.9A.D0.BB.D0.B8.D0.BC.D0.B0.D1.82"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "История",
+          "number": "2",
+          "index": "3",
+          "fromtitle": "Берлин",
+          "byteoffset": 9857,
+          "anchor": ".D0.98.D1.81.D1.82.D0.BE.D1.80.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Возникновение",
+          "number": "2.1",
+          "index": "4",
+          "fromtitle": "Берлин",
+          "byteoffset": 10069,
+          "anchor": ".D0.92.D0.BE.D0.B7.D0.BD.D0.B8.D0.BA.D0.BD.D0.BE.D0.B2.D0.B5.D0.BD.D0.B8.D0.B5"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Город-резиденция курфюрстов",
+          "number": "2.2",
+          "index": "5",
+          "fromtitle": "Берлин",
+          "byteoffset": 11740,
+          "anchor": ".D0.93.D0.BE.D1.80.D0.BE.D0.B4-.D1.80.D0.B5.D0.B7.D0.B8.D0.B4.D0.B5.D0.BD.D1.86.D0.B8.D1.8F_.D0.BA.D1.83.D1.80.D1.84.D1.8E.D1.80.D1.81.D1.82.D0.BE.D0.B2"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Королевская столица",
+          "number": "2.3",
+          "index": "6",
+          "fromtitle": "Берлин",
+          "byteoffset": 13688,
+          "anchor": ".D0.9A.D0.BE.D1.80.D0.BE.D0.BB.D0.B5.D0.B2.D1.81.D0.BA.D0.B0.D1.8F_.D1.81.D1.82.D0.BE.D0.BB.D0.B8.D1.86.D0.B0"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Столица Германской империи и Веймарской республики",
+          "number": "2.4",
+          "index": "7",
+          "fromtitle": "Берлин",
+          "byteoffset": 15630,
+          "anchor": ".D0.A1.D1.82.D0.BE.D0.BB.D0.B8.D1.86.D0.B0_.D0.93.D0.B5.D1.80.D0.BC.D0.B0.D0.BD.D1.81.D0.BA.D0.BE.D0.B9_.D0.B8.D0.BC.D0.BF.D0.B5.D1.80.D0.B8.D0.B8_.D0.B8_.D0.92.D0.B5.D0.B9.D0.BC.D0.B0.D1.80.D1.81.D0.BA.D0.BE.D0.B9_.D1.80.D0.B5.D1.81.D0.BF.D1.83.D0.B1.D0.BB.D0.B8.D0.BA.D0.B8"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Столица нацистской Германии",
+          "number": "2.5",
+          "index": "8",
+          "fromtitle": "Берлин",
+          "byteoffset": 16377,
+          "anchor": ".D0.A1.D1.82.D0.BE.D0.BB.D0.B8.D1.86.D0.B0_.D0.BD.D0.B0.D1.86.D0.B8.D1.81.D1.82.D1.81.D0.BA.D0.BE.D0.B9_.D0.93.D0.B5.D1.80.D0.BC.D0.B0.D0.BD.D0.B8.D0.B8"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "От раскола до единства",
+          "number": "2.6",
+          "index": "9",
+          "fromtitle": "Берлин",
+          "byteoffset": 17098,
+          "anchor": ".D0.9E.D1.82_.D1.80.D0.B0.D1.81.D0.BA.D0.BE.D0.BB.D0.B0_.D0.B4.D0.BE_.D0.B5.D0.B4.D0.B8.D0.BD.D1.81.D1.82.D0.B2.D0.B0"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Государственное устройство",
+          "number": "3",
+          "index": "10",
+          "fromtitle": "Берлин",
+          "byteoffset": 22765,
+          "anchor": ".D0.93.D0.BE.D1.81.D1.83.D0.B4.D0.B0.D1.80.D1.81.D1.82.D0.B2.D0.B5.D0.BD.D0.BD.D0.BE.D0.B5_.D1.83.D1.81.D1.82.D1.80.D0.BE.D0.B9.D1.81.D1.82.D0.B2.D0.BE"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Административное деление",
+          "number": "4",
+          "index": "11",
+          "fromtitle": "Берлин",
+          "byteoffset": 23760,
+          "anchor": ".D0.90.D0.B4.D0.BC.D0.B8.D0.BD.D0.B8.D1.81.D1.82.D1.80.D0.B0.D1.82.D0.B8.D0.B2.D0.BD.D0.BE.D0.B5_.D0.B4.D0.B5.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Религия",
+          "number": "5",
+          "index": "12",
+          "fromtitle": "Берлин",
+          "byteoffset": 25829,
+          "anchor": ".D0.A0.D0.B5.D0.BB.D0.B8.D0.B3.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Население",
+          "number": "6",
+          "index": "13",
+          "fromtitle": "Берлин",
+          "byteoffset": 26107,
+          "anchor": ".D0.9D.D0.B0.D1.81.D0.B5.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Экономика",
+          "number": "7",
+          "index": "14",
+          "fromtitle": "Берлин",
+          "byteoffset": 29639,
+          "anchor": ".D0.AD.D0.BA.D0.BE.D0.BD.D0.BE.D0.BC.D0.B8.D0.BA.D0.B0"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Инфраструктура",
+          "number": "8",
+          "index": "15",
+          "fromtitle": "Берлин",
+          "byteoffset": 32252,
+          "anchor": ".D0.98.D0.BD.D1.84.D1.80.D0.B0.D1.81.D1.82.D1.80.D1.83.D0.BA.D1.82.D1.83.D1.80.D0.B0"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Культура и достопримечательности",
+          "number": "9",
+          "index": "16",
+          "fromtitle": "Берлин",
+          "byteoffset": 37914,
+          "anchor": ".D0.9A.D1.83.D0.BB.D1.8C.D1.82.D1.83.D1.80.D0.B0_.D0.B8_.D0.B4.D0.BE.D1.81.D1.82.D0.BE.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D1.82.D0.B5.D0.BB.D1.8C.D0.BD.D0.BE.D1.81.D1.82.D0.B8"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Парки Берлина",
+          "number": "9.1",
+          "index": "17",
+          "fromtitle": "Берлин",
+          "byteoffset": 40607,
+          "anchor": ".D0.9F.D0.B0.D1.80.D0.BA.D0.B8_.D0.91.D0.B5.D1.80.D0.BB.D0.B8.D0.BD.D0.B0"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Музеи",
+          "number": "9.2",
+          "index": "18",
+          "fromtitle": "Берлин",
+          "byteoffset": 42808,
+          "anchor": ".D0.9C.D1.83.D0.B7.D0.B5.D0.B8"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Театры",
+          "number": "9.3",
+          "index": "19",
+          "fromtitle": "Берлин",
+          "byteoffset": 44708,
+          "anchor": ".D0.A2.D0.B5.D0.B0.D1.82.D1.80.D1.8B"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Другие достопримечательности",
+          "number": "9.4",
+          "index": "20",
+          "fromtitle": "Берлин",
+          "byteoffset": 45304,
+          "anchor": ".D0.94.D1.80.D1.83.D0.B3.D0.B8.D0.B5_.D0.B4.D0.BE.D1.81.D1.82.D0.BE.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D1.82.D0.B5.D0.BB.D1.8C.D0.BD.D0.BE.D1.81.D1.82.D0.B8"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Образование и наука",
+          "number": "10",
+          "index": "21",
+          "fromtitle": "Берлин",
+          "byteoffset": 45962,
+          "anchor": ".D0.9E.D0.B1.D1.80.D0.B0.D0.B7.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5_.D0.B8_.D0.BD.D0.B0.D1.83.D0.BA.D0.B0"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Города-побратимы",
+          "number": "11",
+          "index": "22",
+          "fromtitle": "Берлин",
+          "byteoffset": 47443,
+          "anchor": ".D0.93.D0.BE.D1.80.D0.BE.D0.B4.D0.B0-.D0.BF.D0.BE.D0.B1.D1.80.D0.B0.D1.82.D0.B8.D0.BC.D1.8B"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "В астрономии",
+          "number": "12",
+          "index": "23",
+          "fromtitle": "Берлин",
+          "byteoffset": 48277,
+          "anchor": ".D0.92_.D0.B0.D1.81.D1.82.D1.80.D0.BE.D0.BD.D0.BE.D0.BC.D0.B8.D0.B8"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Галерея",
+          "number": "13",
+          "index": "24",
+          "fromtitle": "Берлин",
+          "byteoffset": 48373,
+          "anchor": ".D0.93.D0.B0.D0.BB.D0.B5.D1.80.D0.B5.D1.8F"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "См. также",
+          "number": "14",
+          "index": "25",
+          "fromtitle": "Берлин",
+          "byteoffset": 49177,
+          "anchor": ".D0.A1.D0.BC._.D1.82.D0.B0.D0.BA.D0.B6.D0.B5"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Примечания",
+          "number": "15",
+          "index": "26",
+          "fromtitle": "Берлин",
+          "byteoffset": 49219,
+          "anchor": ".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D0.BD.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Ссылки",
+          "number": "16",
+          "index": "27",
+          "fromtitle": "Берлин",
+          "byteoffset": 49297,
+          "anchor": ".D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8"
+        }
+      ]
+    }
+  },
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Berlin"
+    },
+    "ru": {
+      "language": "ru",
+      "value": "Берлин"
+    },
+    "fr": {
+      "language": "fr",
+      "value": "Berlin"
+    },
+    "it": {
+      "language": "it",
+      "value": "Berlino"
+    },
+    "es": {
+      "language": "es",
+      "value": "Berlín"
+    },
+    "en-gb": {
+      "language": "en-gb",
+      "value": "Berlin"
+    },
+    "de": {
+      "language": "de",
+      "value": "Berlin"
+    },
+    "nl": {
+      "language": "nl",
+      "value": "Berlijn"
+    },
+    "be-tarask": {
+      "language": "be-tarask",
+      "value": "Бэрлін"
+    },
+    "nan": {
+      "language": "nan",
+      "value": "Berlin"
+    },
+    "pl": {
+      "language": "pl",
+      "value": "Berlin"
+    },
+    "ar": {
+      "language": "ar",
+      "value": "برلين"
+    },
+    "lt": {
+      "language": "lt",
+      "value": "Berlynas"
+    },
+    "fi": {
+      "language": "fi",
+      "value": "Berliini"
+    },
+    "mk": {
+      "language": "mk",
+      "value": "Берлин"
+    },
+    "nn": {
+      "language": "nn",
+      "value": "Berlin"
+    },
+    "sv": {
+      "language": "sv",
+      "value": "Berlin"
+    },
+    "da": {
+      "language": "da",
+      "value": "Berlin"
+    },
+    "af": {
+      "language": "af",
+      "value": "Berlyn"
+    },
+    "eo": {
+      "language": "eo",
+      "value": "Berlino"
+    },
+    "bn": {
+      "language": "bn",
+      "value": "বার্লিন"
+    },
+    "mg": {
+      "language": "mg",
+      "value": "Berlin"
+    },
+    "ur": {
+      "language": "ur",
+      "value": "برلن"
+    },
+    "ab": {
+      "language": "ab",
+      "value": "Берлин"
+    },
+    "ace": {
+      "language": "ace",
+      "value": "Berlin"
+    },
+    "am": {
+      "language": "am",
+      "value": "በርሊን"
+    },
+    "an": {
+      "language": "an",
+      "value": "Berlín"
+    },
+    "ang": {
+      "language": "ang",
+      "value": "Berlin"
+    },
+    "arc": {
+      "language": "arc",
+      "value": "ܒܪܠܝܢ"
+    },
+    "arz": {
+      "language": "arz",
+      "value": "بيرلين"
+    },
+    "ast": {
+      "language": "ast",
+      "value": "Berlín"
+    },
+    "ay": {
+      "language": "ay",
+      "value": "Berlin"
+    },
+    "az": {
+      "language": "az",
+      "value": "Berlin"
+    },
+    "ba": {
+      "language": "ba",
+      "value": "Берлин"
+    },
+    "bar": {
+      "language": "bar",
+      "value": "Berlin"
+    },
+    "be": {
+      "language": "be",
+      "value": "Берлін"
+    },
+    "bg": {
+      "language": "bg",
+      "value": "Берлин"
+    },
+    "bi": {
+      "language": "bi",
+      "value": "Berlin"
+    },
+    "bo": {
+      "language": "bo",
+      "value": "པེར་ལིན །"
+    },
+    "br": {
+      "language": "br",
+      "value": "Berlin"
+    },
+    "bs": {
+      "language": "bs",
+      "value": "Berlin"
+    },
+    "bxr": {
+      "language": "bxr",
+      "value": "Берлин"
+    },
+    "ca": {
+      "language": "ca",
+      "value": "Berlín"
+    },
+    "ckb": {
+      "language": "ckb",
+      "value": "بەرلین"
+    },
+    "co": {
+      "language": "co",
+      "value": "Berlinu"
+    },
+    "cs": {
+      "language": "cs",
+      "value": "Berlín"
+    },
+    "csb": {
+      "language": "csb",
+      "value": "Berlëno"
+    },
+    "cu": {
+      "language": "cu",
+      "value": "Бєрлинъ"
+    },
+    "cv": {
+      "language": "cv",
+      "value": "Берлин"
+    },
+    "cy": {
+      "language": "cy",
+      "value": "Berlin"
+    },
+    "diq": {
+      "language": "diq",
+      "value": "Berlin"
+    },
+    "dsb": {
+      "language": "dsb",
+      "value": "Barliń"
+    },
+    "ee": {
+      "language": "ee",
+      "value": "Berlin"
+    },
+    "el": {
+      "language": "el",
+      "value": "Βερολίνο"
+    },
+    "et": {
+      "language": "et",
+      "value": "Berliin"
+    },
+    "eu": {
+      "language": "eu",
+      "value": "Berlin"
+    },
+    "ext": {
+      "language": "ext",
+      "value": "Berlín"
+    },
+    "fa": {
+      "language": "fa",
+      "value": "برلین"
+    },
+    "fo": {
+      "language": "fo",
+      "value": "Berlin"
+    },
+    "frp": {
+      "language": "frp",
+      "value": "Bèrlin"
+    },
+    "frr": {
+      "language": "frr",
+      "value": "Berlin"
+    },
+    "fur": {
+      "language": "fur",
+      "value": "Berlin"
+    },
+    "fy": {
+      "language": "fy",
+      "value": "Berlyn"
+    },
+    "ga": {
+      "language": "ga",
+      "value": "Beirlín"
+    },
+    "gag": {
+      "language": "gag",
+      "value": "Berlin"
+    },
+    "gan": {
+      "language": "gan",
+      "value": "柏林"
+    },
+    "gd": {
+      "language": "gd",
+      "value": "Berlin"
+    },
+    "gl": {
+      "language": "gl",
+      "value": "Berlín"
+    },
+    "gn": {
+      "language": "gn",
+      "value": "Berlin"
+    },
+    "gv": {
+      "language": "gv",
+      "value": "Berleen"
+    },
+    "ha": {
+      "language": "ha",
+      "value": "Berlin"
+    },
+    "haw": {
+      "language": "haw",
+      "value": "Pelelina"
+    },
+    "he": {
+      "language": "he",
+      "value": "ברלין"
+    },
+    "hi": {
+      "language": "hi",
+      "value": "बर्लिन"
+    },
+    "hif": {
+      "language": "hif",
+      "value": "Berlin"
+    },
+    "hr": {
+      "language": "hr",
+      "value": "Berlin"
+    },
+    "hsb": {
+      "language": "hsb",
+      "value": "Berlin"
+    },
+    "ht": {
+      "language": "ht",
+      "value": "Bèlen"
+    },
+    "hu": {
+      "language": "hu",
+      "value": "Berlin"
+    },
+    "hy": {
+      "language": "hy",
+      "value": "Բեռլին"
+    },
+    "ia": {
+      "language": "ia",
+      "value": "Berlin"
+    },
+    "id": {
+      "language": "id",
+      "value": "Berlin"
+    },
+    "ie": {
+      "language": "ie",
+      "value": "Berlin"
+    },
+    "ilo": {
+      "language": "ilo",
+      "value": "Berlin"
+    },
+    "io": {
+      "language": "io",
+      "value": "Berlin"
+    },
+    "is": {
+      "language": "is",
+      "value": "Berlín"
+    },
+    "iu": {
+      "language": "iu",
+      "value": "ᐱᕐᓖᓐ"
+    },
+    "ja": {
+      "language": "ja",
+      "value": "ベルリン"
+    },
+    "jbo": {
+      "language": "jbo",
+      "value": "berlin"
+    },
+    "jv": {
+      "language": "jv",
+      "value": "Berlin"
+    },
+    "ka": {
+      "language": "ka",
+      "value": "ბერლინი"
+    },
+    "kaa": {
+      "language": "kaa",
+      "value": "Berlin"
+    },
+    "kab": {
+      "language": "kab",
+      "value": "Berlin"
+    },
+    "kbd": {
+      "language": "kbd",
+      "value": "Берлин"
+    },
+    "kk": {
+      "language": "kk",
+      "value": "Берлин"
+    },
+    "kl": {
+      "language": "kl",
+      "value": "Berlin"
+    },
+    "kn": {
+      "language": "kn",
+      "value": "ಬರ್ಲಿನ್"
+    },
+    "ko": {
+      "language": "ko",
+      "value": "베를린"
+    },
+    "koi": {
+      "language": "koi",
+      "value": "Берлин"
+    },
+    "ksh": {
+      "language": "ksh",
+      "value": "Bälihn"
+    },
+    "ku": {
+      "language": "ku",
+      "value": "Berlîn"
+    },
+    "kv": {
+      "language": "kv",
+      "value": "Берлин"
+    },
+    "kw": {
+      "language": "kw",
+      "value": "Berlin"
+    },
+    "ky": {
+      "language": "ky",
+      "value": "Берлин"
+    },
+    "la": {
+      "language": "la",
+      "value": "Berolinum"
+    },
+    "lad": {
+      "language": "lad",
+      "value": "Berlin"
+    },
+    "lb": {
+      "language": "lb",
+      "value": "Berlin"
+    },
+    "lez": {
+      "language": "lez",
+      "value": "Берлин"
+    },
+    "lg": {
+      "language": "lg",
+      "value": "Berlin"
+    },
+    "li": {
+      "language": "li",
+      "value": "Berlien"
+    },
+    "lij": {
+      "language": "lij",
+      "value": "Berlin"
+    },
+    "lmo": {
+      "language": "lmo",
+      "value": "Berlin"
+    },
+    "ln": {
+      "language": "ln",
+      "value": "Berlin"
+    },
+    "ltg": {
+      "language": "ltg",
+      "value": "Berlins"
+    },
+    "lv": {
+      "language": "lv",
+      "value": "Berlīne"
+    },
+    "mhr": {
+      "language": "mhr",
+      "value": "Берлин"
+    },
+    "mi": {
+      "language": "mi",
+      "value": "Pearīni"
+    },
+    "ml": {
+      "language": "ml",
+      "value": "ബെർലിൻ"
+    },
+    "mn": {
+      "language": "mn",
+      "value": "Берлин"
+    },
+    "mr": {
+      "language": "mr",
+      "value": "बर्लिन"
+    },
+    "mrj": {
+      "language": "mrj",
+      "value": "Берлин"
+    },
+    "ms": {
+      "language": "ms",
+      "value": "Berlin"
+    },
+    "mt": {
+      "language": "mt",
+      "value": "Berlin"
+    },
+    "mwl": {
+      "language": "mwl",
+      "value": "Berlin"
+    },
+    "my": {
+      "language": "my",
+      "value": "ဘာလင်မြို့"
+    },
+    "myv": {
+      "language": "myv",
+      "value": "Берлин ош"
+    },
+    "mzn": {
+      "language": "mzn",
+      "value": "برلین"
+    },
+    "na": {
+      "language": "na",
+      "value": "Berlin"
+    },
+    "nah": {
+      "language": "nah",
+      "value": "Berlin"
+    },
+    "nap": {
+      "language": "nap",
+      "value": "Berlino"
+    },
+    "nds": {
+      "language": "nds",
+      "value": "Berlin"
+    },
+    "nov": {
+      "language": "nov",
+      "value": "Berlin"
+    },
+    "nrm": {
+      "language": "nrm",
+      "value": "Bèrlîn"
+    },
+    "oc": {
+      "language": "oc",
+      "value": "Berlin"
+    },
+    "os": {
+      "language": "os",
+      "value": "Берлин"
+    },
+    "pam": {
+      "language": "pam",
+      "value": "Berlin"
+    },
+    "pap": {
+      "language": "pap",
+      "value": "Berlin"
+    },
+    "pcd": {
+      "language": "pcd",
+      "value": "Berlin"
+    },
+    "pdc": {
+      "language": "pdc",
+      "value": "Berlin"
+    },
+    "pfl": {
+      "language": "pfl",
+      "value": "Balin"
+    },
+    "pih": {
+      "language": "pih",
+      "value": "Berlin"
+    },
+    "pms": {
+      "language": "pms",
+      "value": "Berlin"
+    },
+    "pnb": {
+      "language": "pnb",
+      "value": "برلن"
+    },
+    "pnt": {
+      "language": "pnt",
+      "value": "Βερολίνον"
+    },
+    "ps": {
+      "language": "ps",
+      "value": "برلين"
+    },
+    "pt": {
+      "language": "pt",
+      "value": "Berlim"
+    },
+    "qu": {
+      "language": "qu",
+      "value": "Berlin"
+    },
+    "rm": {
+      "language": "rm",
+      "value": "Berlin"
+    },
+    "rmy": {
+      "language": "rmy",
+      "value": "Berlin"
+    },
+    "rn": {
+      "language": "rn",
+      "value": "Berlin"
+    },
+    "ro": {
+      "language": "ro",
+      "value": "Berlin"
+    },
+    "rue": {
+      "language": "rue",
+      "value": "Берлін"
+    },
+    "rw": {
+      "language": "rw",
+      "value": "Berlin"
+    },
+    "sah": {
+      "language": "sah",
+      "value": "Берлин"
+    },
+    "sc": {
+      "language": "sc",
+      "value": "Berlino"
+    },
+    "scn": {
+      "language": "scn",
+      "value": "Birlinu"
+    },
+    "sco": {
+      "language": "sco",
+      "value": "Berlin"
+    },
+    "se": {
+      "language": "se",
+      "value": "Berlin"
+    },
+    "sh": {
+      "language": "sh",
+      "value": "Berlin"
+    },
+    "si": {
+      "language": "si",
+      "value": "බර්ලිනය"
+    },
+    "sk": {
+      "language": "sk",
+      "value": "Berlín"
+    },
+    "sl": {
+      "language": "sl",
+      "value": "Berlin"
+    },
+    "so": {
+      "language": "so",
+      "value": "Baarliin"
+    },
+    "sq": {
+      "language": "sq",
+      "value": "Berlini"
+    },
+    "sr": {
+      "language": "sr",
+      "value": "Берлин"
+    },
+    "srn": {
+      "language": "srn",
+      "value": "Berlin"
+    },
+    "stq": {
+      "language": "stq",
+      "value": "Berlin"
+    },
+    "sw": {
+      "language": "sw",
+      "value": "Berlin"
+    },
+    "szl": {
+      "language": "szl",
+      "value": "Berlin"
+    },
+    "ta": {
+      "language": "ta",
+      "value": "பெர்லின்"
+    },
+    "te": {
+      "language": "te",
+      "value": "బెర్లిన్"
+    },
+    "tet": {
+      "language": "tet",
+      "value": "Berlín"
+    },
+    "tg": {
+      "language": "tg",
+      "value": "Берлин"
+    },
+    "th": {
+      "language": "th",
+      "value": "เบอร์ลิน"
+    },
+    "tk": {
+      "language": "tk",
+      "value": "Berlin"
+    },
+    "tl": {
+      "language": "tl",
+      "value": "Berlin"
+    },
+    "tpi": {
+      "language": "tpi",
+      "value": "Berlin"
+    },
+    "tr": {
+      "language": "tr",
+      "value": "Berlin"
+    },
+    "tt": {
+      "language": "tt",
+      "value": "Берлин"
+    },
+    "tum": {
+      "language": "tum",
+      "value": "Berlin"
+    },
+    "tw": {
+      "language": "tw",
+      "value": "Berlin"
+    },
+    "ty": {
+      "language": "ty",
+      "value": "Berlin"
+    },
+    "udm": {
+      "language": "udm",
+      "value": "Берлин"
+    },
+    "ug": {
+      "language": "ug",
+      "value": "Bérlin"
+    },
+    "uk": {
+      "language": "uk",
+      "value": "Берлін"
+    },
+    "uz": {
+      "language": "uz",
+      "value": "Berlin"
+    },
+    "vec": {
+      "language": "vec",
+      "value": "Berlin"
+    },
+    "vep": {
+      "language": "vep",
+      "value": "Berlin"
+    },
+    "vi": {
+      "language": "vi",
+      "value": "Berlin"
+    },
+    "vls": {
+      "language": "vls",
+      "value": "Berlyn"
+    },
+    "vo": {
+      "language": "vo",
+      "value": "Berlin"
+    },
+    "war": {
+      "language": "war",
+      "value": "Berlin"
+    },
+    "wo": {
+      "language": "wo",
+      "value": "Berlin"
+    },
+    "xmf": {
+      "language": "xmf",
+      "value": "ბერლინი"
+    },
+    "yi": {
+      "language": "yi",
+      "value": "בערלין"
+    },
+    "yo": {
+      "language": "yo",
+      "value": "Berlin"
+    },
+    "zea": {
+      "language": "zea",
+      "value": "Berlijn"
+    },
+    "zh": {
+      "language": "zh",
+      "value": "柏林"
+    },
+    "zh-cn": {
+      "language": "zh-cn",
+      "value": "柏林"
+    },
+    "zh-hans": {
+      "language": "zh-hans",
+      "value": "柏林"
+    },
+    "zh-hant": {
+      "language": "zh-hant",
+      "value": "柏林"
+    },
+    "zu": {
+      "language": "zu",
+      "value": "IBerlini"
+    },
+    "cbk-zam": {
+      "language": "cbk-zam",
+      "value": "Berlín"
+    },
+    "nds-nl": {
+      "language": "nds-nl",
+      "value": "Berlien"
+    },
+    "roa-tara": {
+      "language": "roa-tara",
+      "value": "Berline"
+    },
+    "fj": {
+      "language": "fj",
+      "value": "Berlin"
+    },
+    "pt-br": {
+      "language": "pt-br",
+      "value": "Berlim"
+    },
+    "yue": {
+      "language": "yue",
+      "value": "柏林"
+    },
+    "nb": {
+      "language": "nb",
+      "value": "Berlin"
+    },
+    "zh-sg": {
+      "language": "zh-sg",
+      "value": "柏林"
+    },
+    "zh-my": {
+      "language": "zh-my",
+      "value": "柏林"
+    },
+    "zh-hk": {
+      "language": "zh-hk",
+      "value": "柏林"
+    },
+    "zh-tw": {
+      "language": "zh-tw",
+      "value": "柏林"
+    },
+    "zh-mo": {
+      "language": "zh-mo",
+      "value": "柏林"
+    },
+    "new": {
+      "language": "new",
+      "value": "बर्लिन"
+    },
+    "ak": {
+      "language": "ak",
+      "value": "Berlin"
+    },
+    "or": {
+      "language": "or",
+      "value": "ବର୍ଲିନ"
+    },
+    "pa": {
+      "language": "pa",
+      "value": "ਬਰਲਿਨ"
+    },
+    "ne": {
+      "language": "ne",
+      "value": "बर्लिन"
+    },
+    "tokipona": {
+      "language": "tokipona",
+      "value": "ma tomo Pelin"
+    },
+    "ce": {
+      "language": "ce",
+      "value": "Берлин"
+    },
+    "kg": {
+      "language": "kg",
+      "value": "Berlin (kizunga)"
+    },
+    "gsw": {
+      "language": "gsw",
+      "value": "Berlin"
+    },
+    "ceb": {
+      "language": "ceb",
+      "value": "Berlin"
+    },
+    "en-ca": {
+      "language": "en-ca",
+      "value": "Berlin"
+    },
+    "hak": {
+      "language": "hak",
+      "value": "Pak-lìm"
+    },
+    "de-at": {
+      "language": "de-at",
+      "value": "Berlin"
+    },
+    "sr-ec": {
+      "language": "sr-ec",
+      "value": "Берлин"
+    },
+    "sr-el": {
+      "language": "sr-el",
+      "value": "Berlin"
+    },
+    "crh-latn": {
+      "language": "crh-latn",
+      "value": "Berlin"
+    },
+    "sgs": {
+      "language": "sgs",
+      "value": "Berlīns"
+    },
+    "lzh": {
+      "language": "lzh",
+      "value": "柏林"
+    },
+    "rup": {
+      "language": "rup",
+      "value": "Berlin"
+    },
+    "vro": {
+      "language": "vro",
+      "value": "Berliin"
+    },
+    "bm": {
+      "language": "bm",
+      "value": "Berlin"
+    },
+    "cdo": {
+      "language": "cdo",
+      "value": "Báik-lìng"
+    },
+    "brh": {
+      "language": "brh",
+      "value": "Barlin"
+    },
+    "om": {
+      "language": "om",
+      "value": "Barliin"
+    },
+    "sa": {
+      "language": "sa",
+      "value": "बर्लिन"
+    },
+    "bcl": {
+      "language": "bcl",
+      "value": "Berlin"
+    },
+    "lrc": {
+      "language": "lrc",
+      "value": "بئرلین"
+    },
+    "sd": {
+      "language": "sd",
+      "value": "برلن، جرمني"
+    },
+    "azb": {
+      "language": "azb",
+      "value": "برلین"
+    },
+    "xal": {
+      "language": "xal",
+      "value": "Берлин балһсн"
+    },
+    "eml": {
+      "language": "eml",
+      "value": "Berlîṅ"
+    },
+    "sm": {
+      "language": "sm",
+      "value": "Perelini"
+    },
+    "ady": {
+      "language": "ady",
+      "value": "Берлин"
+    },
+    "ny": {
+      "language": "ny",
+      "value": "Berlin"
+    },
+    "wuu": {
+      "language": "wuu",
+      "value": "柏林"
+    },
+    "jam": {
+      "language": "jam",
+      "value": "Boerlin"
+    },
+    "ti": {
+      "language": "ti",
+      "value": "በረሊን"
+    },
+    "ch": {
+      "language": "ch",
+      "value": "Berlin"
+    },
+    "olo": {
+      "language": "olo",
+      "value": "Berlin"
+    },
+    "kk-cyrl": {
+      "language": "kk-cyrl",
+      "value": "Берлин"
+    }
+  }
+}

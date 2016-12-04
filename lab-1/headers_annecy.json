@@ -1,0 +1,1976 @@
+{
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "ja",
+    "ru"
+  ],
+  "wikibase_item": "Q50189",
+  "content": {
+    "en": {
+      "label": "Annecy",
+      "url": "https://en.wikipedia.org/wiki/Annecy",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Geography",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Annecy",
+          "byteoffset": 3704,
+          "anchor": "Geography"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "History",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "Annecy",
+          "byteoffset": 3913,
+          "anchor": "History"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Administration",
+          "number": "3",
+          "index": "3",
+          "fromtitle": "Annecy",
+          "byteoffset": 5994,
+          "anchor": "Administration"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Climate",
+          "number": "4",
+          "index": "4",
+          "fromtitle": "Annecy",
+          "byteoffset": 6881,
+          "anchor": "Climate"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Culture",
+          "number": "5",
+          "index": "5",
+          "fromtitle": "Annecy",
+          "byteoffset": 9111,
+          "anchor": "Culture"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Sport",
+          "number": "6",
+          "index": "6",
+          "fromtitle": "Annecy",
+          "byteoffset": 9283,
+          "anchor": "Sport"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Main sights",
+          "number": "7",
+          "index": "7",
+          "fromtitle": "Annecy",
+          "byteoffset": 11785,
+          "anchor": "Main_sights"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Education",
+          "number": "8",
+          "index": "8",
+          "fromtitle": "Annecy",
+          "byteoffset": 12373,
+          "anchor": "Education"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Population",
+          "number": "9",
+          "index": "9",
+          "fromtitle": "Annecy",
+          "byteoffset": 12490,
+          "anchor": "Population"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Research organisations",
+          "number": "10",
+          "index": "10",
+          "fromtitle": "Annecy",
+          "byteoffset": 12561,
+          "anchor": "Research_organisations"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Economy",
+          "number": "11",
+          "index": "11",
+          "fromtitle": "Annecy",
+          "byteoffset": 12859,
+          "anchor": "Economy"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Transport",
+          "number": "11.1",
+          "index": "12",
+          "fromtitle": "Annecy",
+          "byteoffset": 13594,
+          "anchor": "Transport"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "International relations",
+          "number": "12",
+          "index": "13",
+          "fromtitle": "Annecy",
+          "byteoffset": 13742,
+          "anchor": "International_relations"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Twin towns – Sister cities",
+          "number": "12.1",
+          "index": "14",
+          "fromtitle": "Annecy",
+          "byteoffset": 13831,
+          "anchor": "Twin_towns_.E2.80.93_Sister_cities"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Associations",
+          "number": "12.2",
+          "index": "15",
+          "fromtitle": "Annecy",
+          "byteoffset": 14651,
+          "anchor": "Associations"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Gallery",
+          "number": "13",
+          "index": "16",
+          "fromtitle": "Annecy",
+          "byteoffset": 14917,
+          "anchor": "Gallery"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Sons and daughters",
+          "number": "14",
+          "index": "17",
+          "fromtitle": "Annecy",
+          "byteoffset": 15313,
+          "anchor": "Sons_and_daughters"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "People with relationship to the city",
+          "number": "15",
+          "index": "18",
+          "fromtitle": "Annecy",
+          "byteoffset": 16101,
+          "anchor": "People_with_relationship_to_the_city"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "See also",
+          "number": "16",
+          "index": "19",
+          "fromtitle": "Annecy",
+          "byteoffset": 16891,
+          "anchor": "See_also"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "References",
+          "number": "17",
+          "index": "20",
+          "fromtitle": "Annecy",
+          "byteoffset": 16970,
+          "anchor": "References"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "External links",
+          "number": "18",
+          "index": "21",
+          "fromtitle": "Annecy",
+          "byteoffset": 18019,
+          "anchor": "External_links"
+        }
+      ]
+    },
+    "de": {
+      "label": "Annecy",
+      "url": "https://de.wikipedia.org/wiki/Annecy",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Geografie",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Annecy",
+          "byteoffset": 1323,
+          "anchor": "Geografie"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Geschichte",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "Annecy",
+          "byteoffset": 1506,
+          "anchor": "Geschichte"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Zweiter Weltkrieg",
+          "number": "2.1",
+          "index": "3",
+          "fromtitle": "Annecy",
+          "byteoffset": 2508,
+          "anchor": "Zweiter_Weltkrieg"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Wirtschaft",
+          "number": "3",
+          "index": "4",
+          "fromtitle": "Annecy",
+          "byteoffset": 3868,
+          "anchor": "Wirtschaft"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Sehenswürdigkeiten",
+          "number": "4",
+          "index": "5",
+          "fromtitle": "Annecy",
+          "byteoffset": 4109,
+          "anchor": "Sehensw.C3.BCrdigkeiten"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Regelmäßige Veranstaltungen",
+          "number": "5",
+          "index": "6",
+          "fromtitle": "Annecy",
+          "byteoffset": 5011,
+          "anchor": "Regelm.C3.A4.C3.9Fige_Veranstaltungen"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Sport",
+          "number": "6",
+          "index": "7",
+          "fromtitle": "Annecy",
+          "byteoffset": 6037,
+          "anchor": "Sport"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Städtepartnerschaften",
+          "number": "7",
+          "index": "8",
+          "fromtitle": "Annecy",
+          "byteoffset": 6733,
+          "anchor": "St.C3.A4dtepartnerschaften"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Persönlichkeiten",
+          "number": "8",
+          "index": "9",
+          "fromtitle": "Annecy",
+          "byteoffset": 7543,
+          "anchor": "Pers.C3.B6nlichkeiten"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Literatur",
+          "number": "9",
+          "index": "10",
+          "fromtitle": "Annecy",
+          "byteoffset": 9409,
+          "anchor": "Literatur"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Weblinks",
+          "number": "10",
+          "index": "11",
+          "fromtitle": "Annecy",
+          "byteoffset": 9514,
+          "anchor": "Weblinks"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Anmerkungen",
+          "number": "11",
+          "index": "12",
+          "fromtitle": "Annecy",
+          "byteoffset": 9545,
+          "anchor": "Anmerkungen"
+        }
+      ]
+    },
+    "fr": {
+      "label": "Annecy",
+      "url": "https://fr.wikipedia.org/wiki/Annecy",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Géographie",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Annecy",
+          "byteoffset": 6757,
+          "anchor": "G.C3.A9ographie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Localisation",
+          "number": "1.1",
+          "index": "2",
+          "fromtitle": "Annecy",
+          "byteoffset": 6774,
+          "anchor": "Localisation"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Communes limitrophes",
+          "number": "1.2",
+          "index": "3",
+          "fromtitle": "Annecy",
+          "byteoffset": 9623,
+          "anchor": "Communes_limitrophes"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Climat",
+          "number": "1.3",
+          "index": "4",
+          "fromtitle": "Annecy",
+          "byteoffset": 10687,
+          "anchor": "Climat"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Sismicité",
+          "number": "1.4",
+          "index": "5",
+          "fromtitle": "Annecy",
+          "byteoffset": 21388,
+          "anchor": "Sismicit.C3.A9"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Voies de communications",
+          "number": "1.5",
+          "index": "6",
+          "fromtitle": "Annecy",
+          "byteoffset": 22549,
+          "anchor": "Voies_de_communications"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Voies routières",
+          "number": "1.5.1",
+          "index": "7",
+          "fromtitle": "Annecy",
+          "byteoffset": 22581,
+          "anchor": "Voies_routi.C3.A8res"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Transport ferroviaire",
+          "number": "1.5.2",
+          "index": "8",
+          "fromtitle": "Annecy",
+          "byteoffset": 27059,
+          "anchor": "Transport_ferroviaire"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Transports aériens",
+          "number": "1.5.3",
+          "index": "9",
+          "fromtitle": "Annecy",
+          "byteoffset": 30572,
+          "anchor": "Transports_a.C3.A9riens"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Transports en commun",
+          "number": "1.5.4",
+          "index": "10",
+          "fromtitle": "Annecy",
+          "byteoffset": 32649,
+          "anchor": "Transports_en_commun"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Autres voies de communications",
+          "number": "1.5.5",
+          "index": "11",
+          "fromtitle": "Annecy",
+          "byteoffset": 36159,
+          "anchor": "Autres_voies_de_communications"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Urbanisme",
+          "number": "2",
+          "index": "12",
+          "fromtitle": "Annecy",
+          "byteoffset": 38029,
+          "anchor": "Urbanisme"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Morphologie urbaine",
+          "number": "2.1",
+          "index": "13",
+          "fromtitle": "Annecy",
+          "byteoffset": 38045,
+          "anchor": "Morphologie_urbaine"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Logement",
+          "number": "2.2",
+          "index": "14",
+          "fromtitle": "Annecy",
+          "byteoffset": 46891,
+          "anchor": "Logement"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Politiques d’aménagement",
+          "number": "2.3",
+          "index": "15",
+          "fromtitle": "Annecy",
+          "byteoffset": 51048,
+          "anchor": "Politiques_d.E2.80.99am.C3.A9nagement"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Toponymie",
+          "number": "3",
+          "index": "16",
+          "fromtitle": "Annecy",
+          "byteoffset": 56597,
+          "anchor": "Toponymie"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Histoire",
+          "number": "4",
+          "index": "17",
+          "fromtitle": "Annecy",
+          "byteoffset": 63908,
+          "anchor": "Histoire"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Préhistoire et époque gallo-romaine",
+          "number": "4.1",
+          "index": "18",
+          "fromtitle": "Annecy",
+          "byteoffset": 64900,
+          "anchor": "Pr.C3.A9histoire_et_.C3.A9poque_gallo-romaine"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Moyen Âge",
+          "number": "4.2",
+          "index": "19",
+          "fromtitle": "Annecy",
+          "byteoffset": 68696,
+          "anchor": "Moyen_.C3.82ge"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Annecy, ville savoyarde",
+          "number": "4.3",
+          "index": "20",
+          "fromtitle": "Annecy",
+          "byteoffset": 71905,
+          "anchor": "Annecy.2C_ville_savoyarde"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Annecy « Rome des Alpes »",
+          "number": "4.4",
+          "index": "21",
+          "fromtitle": "Annecy",
+          "byteoffset": 74965,
+          "anchor": "Annecy_.C2.AB_Rome_des_Alpes_.C2.BB"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Révolution française",
+          "number": "4.5",
+          "index": "22",
+          "fromtitle": "Annecy",
+          "byteoffset": 79046,
+          "anchor": "R.C3.A9volution_fran.C3.A7aise"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Restauration sarde",
+          "number": "4.6",
+          "index": "23",
+          "fromtitle": "Annecy",
+          "byteoffset": 82677,
+          "anchor": "Restauration_sarde"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Époque contemporaine",
+          "number": "4.7",
+          "index": "24",
+          "fromtitle": "Annecy",
+          "byteoffset": 84111,
+          "anchor": ".C3.89poque_contemporaine"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Politique et administration",
+          "number": "5",
+          "index": "25",
+          "fromtitle": "Annecy",
+          "byteoffset": 89056,
+          "anchor": "Politique_et_administration"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Situation administrative",
+          "number": "5.1",
+          "index": "26",
+          "fromtitle": "Annecy",
+          "byteoffset": 89090,
+          "anchor": "Situation_administrative"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Administration territoriale",
+          "number": "5.1.1",
+          "index": "27",
+          "fromtitle": "Annecy",
+          "byteoffset": 89123,
+          "anchor": "Administration_territoriale"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Intercommunalité",
+          "number": "5.1.2",
+          "index": "28",
+          "fromtitle": "Annecy",
+          "byteoffset": 91105,
+          "anchor": "Intercommunalit.C3.A9"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Tendances politiques et résultats",
+          "number": "5.2",
+          "index": "29",
+          "fromtitle": "Annecy",
+          "byteoffset": 92789,
+          "anchor": "Tendances_politiques_et_r.C3.A9sultats"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Liste des maires",
+          "number": "5.3",
+          "index": "30",
+          "fromtitle": "Annecy",
+          "byteoffset": 96859,
+          "anchor": "Liste_des_maires"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Instances judiciaires et administratives",
+          "number": "5.4",
+          "index": "31",
+          "fromtitle": "Annecy",
+          "byteoffset": 98465,
+          "anchor": "Instances_judiciaires_et_administratives"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Politique environnementale",
+          "number": "5.5",
+          "index": "32",
+          "fromtitle": "Annecy",
+          "byteoffset": 99887,
+          "anchor": "Politique_environnementale"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Jumelages et partenariats",
+          "number": "5.6",
+          "index": "33",
+          "fromtitle": "Annecy",
+          "byteoffset": 103364,
+          "anchor": "Jumelages_et_partenariats"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Population et société",
+          "number": "6",
+          "index": "34",
+          "fromtitle": "Annecy",
+          "byteoffset": 105983,
+          "anchor": "Population_et_soci.C3.A9t.C3.A9"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Démographie",
+          "number": "6.1",
+          "index": "35",
+          "fromtitle": "Annecy",
+          "byteoffset": 106011,
+          "anchor": "D.C3.A9mographie"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Le développement durable et l'énergie",
+          "number": "6.1.1",
+          "index": "36",
+          "fromtitle": "Annecy",
+          "byteoffset": 111540,
+          "anchor": "Le_d.C3.A9veloppement_durable_et_l.27.C3.A9nergie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Enseignement",
+          "number": "6.2",
+          "index": "37",
+          "fromtitle": "Annecy",
+          "byteoffset": 113024,
+          "anchor": "Enseignement"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Établissements éducatifs",
+          "number": "6.2.1",
+          "index": "38",
+          "fromtitle": "Annecy",
+          "byteoffset": 113045,
+          "anchor": ".C3.89tablissements_.C3.A9ducatifs"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Enseignement supérieur",
+          "number": "6.2.2",
+          "index": "39",
+          "fromtitle": "Annecy",
+          "byteoffset": 115927,
+          "anchor": "Enseignement_sup.C3.A9rieur"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Agenda culturel et sportif",
+          "number": "6.3",
+          "index": "40",
+          "fromtitle": "Annecy",
+          "byteoffset": 121675,
+          "anchor": "Agenda_culturel_et_sportif"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Santé",
+          "number": "6.4",
+          "index": "41",
+          "fromtitle": "Annecy",
+          "byteoffset": 125900,
+          "anchor": "Sant.C3.A9"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Le Centre hospitalier Annecy Genevois",
+          "number": "6.4.1",
+          "index": "42",
+          "fromtitle": "Annecy",
+          "byteoffset": 127931,
+          "anchor": "Le_Centre_hospitalier_Annecy_Genevois"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Autres établissements de santé",
+          "number": "6.4.2",
+          "index": "43",
+          "fromtitle": "Annecy",
+          "byteoffset": 129815,
+          "anchor": "Autres_.C3.A9tablissements_de_sant.C3.A9"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Sports et équipements sportifs",
+          "number": "6.5",
+          "index": "44",
+          "fromtitle": "Annecy",
+          "byteoffset": 130196,
+          "anchor": "Sports_et_.C3.A9quipements_sportifs"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Complexes sportifs et culturels",
+          "number": "6.5.1",
+          "index": "45",
+          "fromtitle": "Annecy",
+          "byteoffset": 134538,
+          "anchor": "Complexes_sportifs_et_culturels"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "L'organisation de compétitions sportives internationales",
+          "number": "6.5.2",
+          "index": "46",
+          "fromtitle": "Annecy",
+          "byteoffset": 136692,
+          "anchor": "L.27organisation_de_comp.C3.A9titions_sportives_internationales"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Les candidatures aux Jeux olympiques d'hiver",
+          "number": "6.5.3",
+          "index": "47",
+          "fromtitle": "Annecy",
+          "byteoffset": 137900,
+          "anchor": "Les_candidatures_aux_Jeux_olympiques_d.27hiver"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Médias",
+          "number": "6.6",
+          "index": "48",
+          "fromtitle": "Annecy",
+          "byteoffset": 139972,
+          "anchor": "M.C3.A9dias"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Radios et télévisions",
+          "number": "6.6.1",
+          "index": "49",
+          "fromtitle": "Annecy",
+          "byteoffset": 140495,
+          "anchor": "Radios_et_t.C3.A9l.C3.A9visions"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Presse et magazines",
+          "number": "6.6.2",
+          "index": "50",
+          "fromtitle": "Annecy",
+          "byteoffset": 141235,
+          "anchor": "Presse_et_magazines"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Internet",
+          "number": "6.6.3",
+          "index": "51",
+          "fromtitle": "Annecy",
+          "byteoffset": 141521,
+          "anchor": "Internet"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Congrès",
+          "number": "6.6.4",
+          "index": "52",
+          "fromtitle": "Annecy",
+          "byteoffset": 143144,
+          "anchor": "Congr.C3.A8s"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Annecy, décor de tournage pour le cinéma et la télévision",
+          "number": "6.6.5",
+          "index": "53",
+          "fromtitle": "Annecy",
+          "byteoffset": 143763,
+          "anchor": "Annecy.2C_d.C3.A9cor_de_tournage_pour_le_cin.C3.A9ma_et_la_t.C3.A9l.C3.A9vision"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Lieux de cultes",
+          "number": "6.7",
+          "index": "54",
+          "fromtitle": "Annecy",
+          "byteoffset": 144479,
+          "anchor": "Lieux_de_cultes"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Économie",
+          "number": "7",
+          "index": "55",
+          "fromtitle": "Annecy",
+          "byteoffset": 145929,
+          "anchor": ".C3.89conomie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Revenus de la population et fiscalité",
+          "number": "7.1",
+          "index": "56",
+          "fromtitle": "Annecy",
+          "byteoffset": 146878,
+          "anchor": "Revenus_de_la_population_et_fiscalit.C3.A9"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Emploi",
+          "number": "7.2",
+          "index": "57",
+          "fromtitle": "Annecy",
+          "byteoffset": 149394,
+          "anchor": "Emploi"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Tissu économique",
+          "number": "7.3",
+          "index": "58",
+          "fromtitle": "Annecy",
+          "byteoffset": 153873,
+          "anchor": "Tissu_.C3.A9conomique"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Entreprises de l'agglomération",
+          "number": "7.3.1",
+          "index": "59",
+          "fromtitle": "Annecy",
+          "byteoffset": 153898,
+          "anchor": "Entreprises_de_l.27agglom.C3.A9ration"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Commerce",
+          "number": "7.3.2",
+          "index": "60",
+          "fromtitle": "Annecy",
+          "byteoffset": 158866,
+          "anchor": "Commerce"
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Les centres commerciaux",
+          "number": "7.3.2.1",
+          "index": "61",
+          "fromtitle": "Annecy",
+          "byteoffset": 158885,
+          "anchor": "Les_centres_commerciaux"
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Un dynamisme historique",
+          "number": "7.3.2.2",
+          "index": "62",
+          "fromtitle": "Annecy",
+          "byteoffset": 160624,
+          "anchor": "Un_dynamisme_historique"
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Les rues commerçantes",
+          "number": "7.3.2.3",
+          "index": "63",
+          "fromtitle": "Annecy",
+          "byteoffset": 162992,
+          "anchor": "Les_rues_commer.C3.A7antes"
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Les marchés",
+          "number": "7.3.2.4",
+          "index": "64",
+          "fromtitle": "Annecy",
+          "byteoffset": 163732,
+          "anchor": "Les_march.C3.A9s"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Tourisme",
+          "number": "7.3.3",
+          "index": "65",
+          "fromtitle": "Annecy",
+          "byteoffset": 165117,
+          "anchor": "Tourisme"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Culture locale et patrimoine",
+          "number": "8",
+          "index": "66",
+          "fromtitle": "Annecy",
+          "byteoffset": 169545,
+          "anchor": "Culture_locale_et_patrimoine"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Monuments et lieux touristiques",
+          "number": "8.1",
+          "index": "67",
+          "fromtitle": "Annecy",
+          "byteoffset": 171348,
+          "anchor": "Monuments_et_lieux_touristiques"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Monuments médiévaux",
+          "number": "8.1.1",
+          "index": "68",
+          "fromtitle": "Annecy",
+          "byteoffset": 172952,
+          "anchor": "Monuments_m.C3.A9di.C3.A9vaux"
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Le château d'Annecy",
+          "number": "8.1.1.1",
+          "index": "69",
+          "fromtitle": "Annecy",
+          "byteoffset": 172982,
+          "anchor": "Le_ch.C3.A2teau_d.27Annecy"
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Le palais de l'Isle",
+          "number": "8.1.1.2",
+          "index": "70",
+          "fromtitle": "Annecy",
+          "byteoffset": 173895,
+          "anchor": "Le_palais_de_l.27Isle"
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Le manoir de Novel",
+          "number": "8.1.1.3",
+          "index": "71",
+          "fromtitle": "Annecy",
+          "byteoffset": 174830,
+          "anchor": "Le_manoir_de_Novel"
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "La vieille ville",
+          "number": "8.1.1.4",
+          "index": "72",
+          "fromtitle": "Annecy",
+          "byteoffset": 176132,
+          "anchor": "La_vieille_ville"
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Autres monuments anciens",
+          "number": "8.1.1.5",
+          "index": "73",
+          "fromtitle": "Annecy",
+          "byteoffset": 176763,
+          "anchor": "Autres_monuments_anciens"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Monuments contemporains",
+          "number": "8.1.2",
+          "index": "74",
+          "fromtitle": "Annecy",
+          "byteoffset": 178748,
+          "anchor": "Monuments_contemporains"
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Le château de Tresun",
+          "number": "8.1.2.1",
+          "index": "75",
+          "fromtitle": "Annecy",
+          "byteoffset": 178782,
+          "anchor": "Le_ch.C3.A2teau_de_Tresun"
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Le conservatoire d'art et d'histoire",
+          "number": "8.1.2.2",
+          "index": "76",
+          "fromtitle": "Annecy",
+          "byteoffset": 179719,
+          "anchor": "Le_conservatoire_d.27art_et_d.27histoire"
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Liste non exhaustive de bâtiments contemporains présents dans la ville",
+          "number": "8.1.2.3",
+          "index": "77",
+          "fromtitle": "Annecy",
+          "byteoffset": 180911,
+          "anchor": "Liste_non_exhaustive_de_b.C3.A2timents_contemporains_pr.C3.A9sents_dans_la_ville"
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Liste non exhaustive d'infrastructures contemporaines dans Annecy",
+          "number": "8.1.2.4",
+          "index": "78",
+          "fromtitle": "Annecy",
+          "byteoffset": 182515,
+          "anchor": "Liste_non_exhaustive_d.27infrastructures_contemporaines_dans_Annecy"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Monuments religieux",
+          "number": "8.1.3",
+          "index": "79",
+          "fromtitle": "Annecy",
+          "byteoffset": 183471,
+          "anchor": "Monuments_religieux"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Fontaines",
+          "number": "8.1.4",
+          "index": "80",
+          "fromtitle": "Annecy",
+          "byteoffset": 185514,
+          "anchor": "Fontaines"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Statues",
+          "number": "8.1.5",
+          "index": "81",
+          "fromtitle": "Annecy",
+          "byteoffset": 186432,
+          "anchor": "Statues"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Passages, allées, ruelles et traboules",
+          "number": "8.1.6",
+          "index": "82",
+          "fromtitle": "Annecy",
+          "byteoffset": 187140,
+          "anchor": "Passages.2C_all.C3.A9es.2C_ruelles_et_traboules"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Espaces verts",
+          "number": "8.1.7",
+          "index": "83",
+          "fromtitle": "Annecy",
+          "byteoffset": 188946,
+          "anchor": "Espaces_verts"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Gastronomie",
+          "number": "8.2",
+          "index": "84",
+          "fromtitle": "Annecy",
+          "byteoffset": 192711,
+          "anchor": "Gastronomie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Équipements culturels",
+          "number": "8.3",
+          "index": "85",
+          "fromtitle": "Annecy",
+          "byteoffset": 194619,
+          "anchor": ".C3.89quipements_culturels"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Personnalités liées à la commune",
+          "number": "8.4",
+          "index": "86",
+          "fromtitle": "Annecy",
+          "byteoffset": 200808,
+          "anchor": "Personnalit.C3.A9s_li.C3.A9es_.C3.A0_la_commune"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Héraldique et Logotype",
+          "number": "8.5",
+          "index": "87",
+          "fromtitle": "Annecy",
+          "byteoffset": 205602,
+          "anchor": "H.C3.A9raldique_et_Logotype"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Blason",
+          "number": "8.5.1",
+          "index": "88",
+          "fromtitle": "Annecy",
+          "byteoffset": 205906,
+          "anchor": "Blason"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Logotype",
+          "number": "8.5.2",
+          "index": "89",
+          "fromtitle": "Annecy",
+          "byteoffset": 209422,
+          "anchor": "Logotype"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Pour aller plus loin",
+          "number": "9",
+          "index": "90",
+          "fromtitle": "Annecy",
+          "byteoffset": 209669,
+          "anchor": "Pour_aller_plus_loin"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Bibliographie",
+          "number": "9.1",
+          "index": "91",
+          "fromtitle": "Annecy",
+          "byteoffset": 209696,
+          "anchor": "Bibliographie"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Ouvrages généraux",
+          "number": "9.1.1",
+          "index": "92",
+          "fromtitle": "Annecy",
+          "byteoffset": 209718,
+          "anchor": "Ouvrages_g.C3.A9n.C3.A9raux"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Ouvrages sur la ville d'Annecy",
+          "number": "9.1.2",
+          "index": "93",
+          "fromtitle": "Annecy",
+          "byteoffset": 210720,
+          "anchor": "Ouvrages_sur_la_ville_d.27Annecy"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Revues et articles",
+          "number": "9.1.3",
+          "index": "94",
+          "fromtitle": "Annecy",
+          "byteoffset": 214872,
+          "anchor": "Revues_et_articles"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Articles connexes",
+          "number": "9.2",
+          "index": "95",
+          "fromtitle": "Annecy",
+          "byteoffset": 215734,
+          "anchor": "Articles_connexes"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Liens externes",
+          "number": "9.3",
+          "index": "96",
+          "fromtitle": "Annecy",
+          "byteoffset": 215866,
+          "anchor": "Liens_externes"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Notes et références",
+          "number": "10",
+          "index": "97",
+          "fromtitle": "Annecy",
+          "byteoffset": 216369,
+          "anchor": "Notes_et_r.C3.A9f.C3.A9rences"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Notes",
+          "number": "10.1",
+          "index": "98",
+          "fromtitle": "Annecy",
+          "byteoffset": 216395,
+          "anchor": "Notes"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Références",
+          "number": "10.2",
+          "index": "99",
+          "fromtitle": "Annecy",
+          "byteoffset": 216459,
+          "anchor": "R.C3.A9f.C3.A9rences"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Site de la mairie",
+          "number": "10.2.1",
+          "index": "100",
+          "fromtitle": "Annecy",
+          "byteoffset": 216478,
+          "anchor": "Site_de_la_mairie"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Site de l'Insee",
+          "number": "10.2.2",
+          "index": "101",
+          "fromtitle": "Annecy",
+          "byteoffset": 216670,
+          "anchor": "Site_de_l.27Insee"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Autres sources",
+          "number": "10.2.3",
+          "index": "102",
+          "fromtitle": "Annecy",
+          "byteoffset": 216944,
+          "anchor": "Autres_sources"
+        }
+      ]
+    },
+    "ja": {
+      "label": "アヌシー",
+      "url": "https://ja.wikipedia.org/wiki/アヌシー",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "概要",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "アヌシー",
+          "byteoffset": 736,
+          "anchor": ".E6.A6.82.E8.A6.81"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "文化",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "アヌシー",
+          "byteoffset": 1045,
+          "anchor": ".E6.96.87.E5.8C.96"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "スポーツ",
+          "number": "3",
+          "index": "3",
+          "fromtitle": "アヌシー",
+          "byteoffset": 1088,
+          "anchor": ".E3.82.B9.E3.83.9D.E3.83.BC.E3.83.84"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "出身者",
+          "number": "4",
+          "index": "4",
+          "fromtitle": "アヌシー",
+          "byteoffset": 1169,
+          "anchor": ".E5.87.BA.E8.BA.AB.E8.80.85"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "姉妹都市",
+          "number": "5",
+          "index": "5",
+          "fromtitle": "アヌシー",
+          "byteoffset": 1399,
+          "anchor": ".E5.A7.89.E5.A6.B9.E9.83.BD.E5.B8.82"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "外部リンク",
+          "number": "6",
+          "index": "6",
+          "fromtitle": "アヌシー",
+          "byteoffset": 1574,
+          "anchor": ".E5.A4.96.E9.83.A8.E3.83.AA.E3.83.B3.E3.82.AF"
+        }
+      ]
+    },
+    "ru": {
+      "label": "Анси",
+      "url": "https://ru.wikipedia.org/wiki/Анси",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "География",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Анси",
+          "byteoffset": 1678,
+          "anchor": ".D0.93.D0.B5.D0.BE.D0.B3.D1.80.D0.B0.D1.84.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Культура",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "Анси",
+          "byteoffset": 1954,
+          "anchor": ".D0.9A.D1.83.D0.BB.D1.8C.D1.82.D1.83.D1.80.D0.B0"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Экономика",
+          "number": "3",
+          "index": "3",
+          "fromtitle": "Анси",
+          "byteoffset": 2148,
+          "anchor": ".D0.AD.D0.BA.D0.BE.D0.BD.D0.BE.D0.BC.D0.B8.D0.BA.D0.B0"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Достопримечательности",
+          "number": "4",
+          "index": "4",
+          "fromtitle": "Анси",
+          "byteoffset": 2291,
+          "anchor": ".D0.94.D0.BE.D1.81.D1.82.D0.BE.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D1.82.D0.B5.D0.BB.D1.8C.D0.BD.D0.BE.D1.81.D1.82.D0.B8"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Спорт",
+          "number": "5",
+          "index": "5",
+          "fromtitle": "Анси",
+          "byteoffset": 3142,
+          "anchor": ".D0.A1.D0.BF.D0.BE.D1.80.D1.82"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Города-побратимы",
+          "number": "6",
+          "index": "6",
+          "fromtitle": "Анси",
+          "byteoffset": 3485,
+          "anchor": ".D0.93.D0.BE.D1.80.D0.BE.D0.B4.D0.B0-.D0.BF.D0.BE.D0.B1.D1.80.D0.B0.D1.82.D0.B8.D0.BC.D1.8B"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Изображения",
+          "number": "7",
+          "index": "7",
+          "fromtitle": "Анси",
+          "byteoffset": 3748,
+          "anchor": ".D0.98.D0.B7.D0.BE.D0.B1.D1.80.D0.B0.D0.B6.D0.B5.D0.BD.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Примечания",
+          "number": "8",
+          "index": "8",
+          "fromtitle": "Анси",
+          "byteoffset": 4071,
+          "anchor": ".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D0.BD.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Ссылки",
+          "number": "9",
+          "index": "9",
+          "fromtitle": "Анси",
+          "byteoffset": 4104,
+          "anchor": ".D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8"
+        }
+      ]
+    }
+  },
+  "labels": {
+    "fr": {
+      "language": "fr",
+      "value": "Annecy"
+    },
+    "af": {
+      "language": "af",
+      "value": "Annecy"
+    },
+    "ar": {
+      "language": "ar",
+      "value": "آنسي"
+    },
+    "be": {
+      "language": "be",
+      "value": "Горад Ансі"
+    },
+    "bg": {
+      "language": "bg",
+      "value": "Анси"
+    },
+    "ca": {
+      "language": "ca",
+      "value": "Annecy"
+    },
+    "ceb": {
+      "language": "ceb",
+      "value": "Annecy"
+    },
+    "cs": {
+      "language": "cs",
+      "value": "Annecy"
+    },
+    "cy": {
+      "language": "cy",
+      "value": "Annecy"
+    },
+    "da": {
+      "language": "da",
+      "value": "Annecy"
+    },
+    "de": {
+      "language": "de",
+      "value": "Annecy"
+    },
+    "de-ch": {
+      "language": "de-ch",
+      "value": "Annecy"
+    },
+    "en": {
+      "language": "en",
+      "value": "Annecy"
+    },
+    "en-ca": {
+      "language": "en-ca",
+      "value": "Annecy"
+    },
+    "en-gb": {
+      "language": "en-gb",
+      "value": "Annecy"
+    },
+    "eo": {
+      "language": "eo",
+      "value": "Annecy"
+    },
+    "es": {
+      "language": "es",
+      "value": "Annecy"
+    },
+    "et": {
+      "language": "et",
+      "value": "Annecy"
+    },
+    "eu": {
+      "language": "eu",
+      "value": "Annecy"
+    },
+    "fa": {
+      "language": "fa",
+      "value": "انوسی"
+    },
+    "fi": {
+      "language": "fi",
+      "value": "Annecy"
+    },
+    "frp": {
+      "language": "frp",
+      "value": "Èneci"
+    },
+    "hu": {
+      "language": "hu",
+      "value": "Annecy"
+    },
+    "it": {
+      "language": "it",
+      "value": "Annecy"
+    },
+    "ja": {
+      "language": "ja",
+      "value": "アヌシー"
+    },
+    "ko": {
+      "language": "ko",
+      "value": "안시"
+    },
+    "la": {
+      "language": "la",
+      "value": "Annecium"
+    },
+    "lb": {
+      "language": "lb",
+      "value": "Annecy"
+    },
+    "lmo": {
+      "language": "lmo",
+      "value": "Annecy"
+    },
+    "lt": {
+      "language": "lt",
+      "value": "Ansi"
+    },
+    "lv": {
+      "language": "lv",
+      "value": "Ansī"
+    },
+    "ms": {
+      "language": "ms",
+      "value": "Annecy"
+    },
+    "mzn": {
+      "language": "mzn",
+      "value": "انوسی"
+    },
+    "nl": {
+      "language": "nl",
+      "value": "Annecy"
+    },
+    "nn": {
+      "language": "nn",
+      "value": "Annecy"
+    },
+    "oc": {
+      "language": "oc",
+      "value": "Anecí"
+    },
+    "pl": {
+      "language": "pl",
+      "value": "Annecy"
+    },
+    "pms": {
+      "language": "pms",
+      "value": "Annecy"
+    },
+    "pt": {
+      "language": "pt",
+      "value": "Annecy"
+    },
+    "pt-br": {
+      "language": "pt-br",
+      "value": "Annecy"
+    },
+    "ro": {
+      "language": "ro",
+      "value": "Annecy"
+    },
+    "ru": {
+      "language": "ru",
+      "value": "Анси"
+    },
+    "scn": {
+      "language": "scn",
+      "value": "Annecy"
+    },
+    "sk": {
+      "language": "sk",
+      "value": "Annecy"
+    },
+    "sl": {
+      "language": "sl",
+      "value": "Annecy"
+    },
+    "sr": {
+      "language": "sr",
+      "value": "Анси"
+    },
+    "sv": {
+      "language": "sv",
+      "value": "Annecy"
+    },
+    "sw": {
+      "language": "sw",
+      "value": "Annecy"
+    },
+    "uk": {
+      "language": "uk",
+      "value": "Аннесі"
+    },
+    "vec": {
+      "language": "vec",
+      "value": "Annecy"
+    },
+    "vi": {
+      "language": "vi",
+      "value": "Annecy"
+    },
+    "vo": {
+      "language": "vo",
+      "value": "Annecy"
+    },
+    "war": {
+      "language": "war",
+      "value": "Annecy"
+    },
+    "zh": {
+      "language": "zh",
+      "value": "阿讷西"
+    },
+    "uz": {
+      "language": "uz",
+      "value": "Annecy"
+    },
+    "nb": {
+      "language": "nb",
+      "value": "Annecy"
+    },
+    "br": {
+      "language": "br",
+      "value": "Annecy"
+    },
+    "sh": {
+      "language": "sh",
+      "value": "Annecy"
+    },
+    "tr": {
+      "language": "tr",
+      "value": "Annecy"
+    },
+    "sco": {
+      "language": "sco",
+      "value": "Annecy"
+    },
+    "ext": {
+      "language": "ext",
+      "value": "Annecy"
+    },
+    "el": {
+      "language": "el",
+      "value": "Αννεσί"
+    },
+    "hy": {
+      "language": "hy",
+      "value": "Անսի"
+    },
+    "tt": {
+      "language": "tt",
+      "value": "Анси"
+    },
+    "bar": {
+      "language": "bar",
+      "value": "Annecy"
+    },
+    "mk": {
+      "language": "mk",
+      "value": "Анси"
+    },
+    "an": {
+      "language": "an",
+      "value": "Annecy"
+    },
+    "ast": {
+      "language": "ast",
+      "value": "Annecy"
+    },
+    "bm": {
+      "language": "bm",
+      "value": "Annecy"
+    },
+    "co": {
+      "language": "co",
+      "value": "Annecy"
+    },
+    "de-at": {
+      "language": "de-at",
+      "value": "Annecy"
+    },
+    "fo": {
+      "language": "fo",
+      "value": "Annecy"
+    },
+    "frc": {
+      "language": "frc",
+      "value": "Annecy"
+    },
+    "fur": {
+      "language": "fur",
+      "value": "Annecy"
+    },
+    "ga": {
+      "language": "ga",
+      "value": "Annecy"
+    },
+    "gd": {
+      "language": "gd",
+      "value": "Annecy"
+    },
+    "gl": {
+      "language": "gl",
+      "value": "Annecy"
+    },
+    "gsw": {
+      "language": "gsw",
+      "value": "Annecy"
+    },
+    "hr": {
+      "language": "hr",
+      "value": "Annecy"
+    },
+    "ia": {
+      "language": "ia",
+      "value": "Annecy"
+    },
+    "id": {
+      "language": "id",
+      "value": "Annecy"
+    },
+    "ie": {
+      "language": "ie",
+      "value": "Annecy"
+    },
+    "io": {
+      "language": "io",
+      "value": "Annecy"
+    },
+    "is": {
+      "language": "is",
+      "value": "Annecy"
+    },
+    "jam": {
+      "language": "jam",
+      "value": "Annecy"
+    },
+    "kab": {
+      "language": "kab",
+      "value": "Annecy"
+    },
+    "kg": {
+      "language": "kg",
+      "value": "Annecy"
+    },
+    "kl": {
+      "language": "kl",
+      "value": "Annecy"
+    },
+    "li": {
+      "language": "li",
+      "value": "Annecy"
+    },
+    "lij": {
+      "language": "lij",
+      "value": "Annecy"
+    },
+    "mg": {
+      "language": "mg",
+      "value": "Annecy"
+    },
+    "min": {
+      "language": "min",
+      "value": "Annecy"
+    },
+    "nap": {
+      "language": "nap",
+      "value": "Annecy"
+    },
+    "nds": {
+      "language": "nds",
+      "value": "Annecy"
+    },
+    "nds-nl": {
+      "language": "nds-nl",
+      "value": "Annecy"
+    },
+    "nrm": {
+      "language": "nrm",
+      "value": "Annecy"
+    },
+    "pap": {
+      "language": "pap",
+      "value": "Annecy"
+    },
+    "pcd": {
+      "language": "pcd",
+      "value": "Annecy"
+    },
+    "prg": {
+      "language": "prg",
+      "value": "Annecy"
+    },
+    "rgn": {
+      "language": "rgn",
+      "value": "Annecy"
+    },
+    "rm": {
+      "language": "rm",
+      "value": "Annecy"
+    },
+    "sc": {
+      "language": "sc",
+      "value": "Annecy"
+    },
+    "sr-el": {
+      "language": "sr-el",
+      "value": "Annecy"
+    },
+    "vls": {
+      "language": "vls",
+      "value": "Annecy"
+    },
+    "vmf": {
+      "language": "vmf",
+      "value": "Annecy"
+    },
+    "wa": {
+      "language": "wa",
+      "value": "Annecy"
+    },
+    "wo": {
+      "language": "wo",
+      "value": "Annecy"
+    },
+    "zu": {
+      "language": "zu",
+      "value": "Annecy"
+    }
+  }
+}

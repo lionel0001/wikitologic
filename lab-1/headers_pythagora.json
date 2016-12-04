@@ -1,0 +1,2058 @@
+{
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "ja",
+    "ru"
+  ],
+  "wikibase_item": "Q11518",
+  "content": {
+    "en": {
+      "label": "Pythagorean theorem",
+      "url": "https://en.wikipedia.org/wiki/Pythagorean theorem",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Pythagorean proof",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 5183,
+          "anchor": "Pythagorean_proof"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Other forms of the theorem",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 6645,
+          "anchor": "Other_forms_of_the_theorem"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Other proofs of the theorem",
+          "number": "3",
+          "index": "3",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 7907,
+          "anchor": "Other_proofs_of_the_theorem"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Proof using similar triangles",
+          "number": "3.1",
+          "index": "4",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 8173,
+          "anchor": "Proof_using_similar_triangles"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Euclid's proof",
+          "number": "3.2",
+          "index": "5",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 11131,
+          "anchor": "Euclid.27s_proof"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Proofs by dissection and rearrangement",
+          "number": "3.3",
+          "index": "6",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 16467,
+          "anchor": "Proofs_by_dissection_and_rearrangement"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Einstein's proof by dissection without rearrangement",
+          "number": "3.4",
+          "index": "7",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 18838,
+          "anchor": "Einstein.27s_proof_by_dissection_without_rearrangement"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Algebraic proofs",
+          "number": "3.5",
+          "index": "8",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 20306,
+          "anchor": "Algebraic_proofs"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Proof using differentials",
+          "number": "3.6",
+          "index": "9",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 23813,
+          "anchor": "Proof_using_differentials"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Converse",
+          "number": "4",
+          "index": "10",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 26041,
+          "anchor": "Converse"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Consequences and uses of the theorem",
+          "number": "5",
+          "index": "11",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 30141,
+          "anchor": "Consequences_and_uses_of_the_theorem"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Pythagorean triples",
+          "number": "5.1",
+          "index": "12",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 30183,
+          "anchor": "Pythagorean_triples"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Incommensurable lengths",
+          "number": "5.2",
+          "index": "13",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 31402,
+          "anchor": "Incommensurable_lengths"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Complex numbers",
+          "number": "5.3",
+          "index": "14",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 34365,
+          "anchor": "Complex_numbers"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Euclidean distance in various coordinate systems",
+          "number": "5.4",
+          "index": "15",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 35359,
+          "anchor": "Euclidean_distance_in_various_coordinate_systems"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Pythagorean trigonometric identity",
+          "number": "5.5",
+          "index": "16",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 38952,
+          "anchor": "Pythagorean_trigonometric_identity"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Relation to the cross product",
+          "number": "5.6",
+          "index": "17",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 40215,
+          "anchor": "Relation_to_the_cross_product"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Generalizations",
+          "number": "6",
+          "index": "18",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 42340,
+          "anchor": "Generalizations"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Similar figures on the three sides",
+          "number": "6.1",
+          "index": "19",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 42361,
+          "anchor": "Similar_figures_on_the_three_sides"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Law of cosines",
+          "number": "6.2",
+          "index": "20",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 45585,
+          "anchor": "Law_of_cosines"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Arbitrary triangle",
+          "number": "6.3",
+          "index": "21",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 46499,
+          "anchor": "Arbitrary_triangle"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "General triangles using parallelograms",
+          "number": "6.4",
+          "index": "22",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 49238,
+          "anchor": "General_triangles_using_parallelograms"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Solid geometry",
+          "number": "6.5",
+          "index": "23",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 51440,
+          "anchor": "Solid_geometry"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Inner product spaces",
+          "number": "6.6",
+          "index": "24",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 55204,
+          "anchor": "Inner_product_spaces"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Sets of <i>m</i>-dimensional objects in <i>n</i>-dimensional space",
+          "number": "6.7",
+          "index": "25",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 59922,
+          "anchor": "Sets_of_m-dimensional_objects_in_n-dimensional_space"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Applied to sets containing a single object",
+          "number": "6.7.1",
+          "index": "26",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 63312,
+          "anchor": "Applied_to_sets_containing_a_single_object"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Applied to sets containing multiple objects",
+          "number": "6.7.2",
+          "index": "27",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 66213,
+          "anchor": "Applied_to_sets_containing_multiple_objects"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Applied in any number of dimensions",
+          "number": "6.7.3",
+          "index": "28",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 68720,
+          "anchor": "Applied_in_any_number_of_dimensions"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Non-Euclidean geometry",
+          "number": "6.8",
+          "index": "29",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 69396,
+          "anchor": "Non-Euclidean_geometry"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Spherical geometry",
+          "number": "6.8.1",
+          "index": "30",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 72246,
+          "anchor": "Spherical_geometry"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Hyperbolic geometry",
+          "number": "6.8.2",
+          "index": "31",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 75183,
+          "anchor": "Hyperbolic_geometry"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Very small triangles",
+          "number": "6.8.3",
+          "index": "32",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 77133,
+          "anchor": "Very_small_triangles"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Differential geometry",
+          "number": "6.9",
+          "index": "33",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 77511,
+          "anchor": "Differential_geometry"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "History",
+          "number": "7",
+          "index": "34",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 79071,
+          "anchor": "History"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "In popular culture",
+          "number": "8",
+          "index": "35",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 89935,
+          "anchor": "In_popular_culture"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "See also",
+          "number": "9",
+          "index": "36",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 93318,
+          "anchor": "See_also"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Notes",
+          "number": "10",
+          "index": "37",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 93730,
+          "anchor": "Notes"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "References",
+          "number": "11",
+          "index": "38",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 93755,
+          "anchor": "References"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "External links",
+          "number": "12",
+          "index": "39",
+          "fromtitle": "Pythagorean_theorem",
+          "byteoffset": 97230,
+          "anchor": "External_links"
+        }
+      ]
+    },
+    "de": {
+      "label": "Satz des Pythagoras",
+      "url": "https://de.wikipedia.org/wiki/Satz des Pythagoras",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Mathematische Aussage",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 1268,
+          "anchor": "Mathematische_Aussage"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Verwendung",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 2570,
+          "anchor": "Verwendung"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Längen im rechtwinkligen Dreieck",
+          "number": "2.1",
+          "index": "3",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 2587,
+          "anchor": "L.C3.A4ngen_im_rechtwinkligen_Dreieck"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Pythagoreische Tripel",
+          "number": "2.2",
+          "index": "4",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 4142,
+          "anchor": "Pythagoreische_Tripel"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Euklidischer Abstand",
+          "number": "2.3",
+          "index": "5",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 5568,
+          "anchor": "Euklidischer_Abstand"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Beweise",
+          "number": "3",
+          "index": "6",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 6398,
+          "anchor": "Beweise"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Geometrischer Beweis durch Ergänzung",
+          "number": "3.1",
+          "index": "7",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 6799,
+          "anchor": "Geometrischer_Beweis_durch_Erg.C3.A4nzung"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Scherungsbeweis",
+          "number": "3.2",
+          "index": "8",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 8402,
+          "anchor": "Scherungsbeweis"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Beweis mit Ähnlichkeiten",
+          "number": "3.3",
+          "index": "9",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 9590,
+          "anchor": "Beweis_mit_.C3.84hnlichkeiten"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Verallgemeinerungen und Abgrenzung",
+          "number": "4",
+          "index": "10",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 10562,
+          "anchor": "Verallgemeinerungen_und_Abgrenzung"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Kosinussatz",
+          "number": "4.1",
+          "index": "11",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 10603,
+          "anchor": "Kosinussatz"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Skalarprodukträume",
+          "number": "4.2",
+          "index": "12",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 11603,
+          "anchor": "Skalarproduktr.C3.A4ume"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Weitere Verallgemeinerungen",
+          "number": "4.3",
+          "index": "13",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 13610,
+          "anchor": "Weitere_Verallgemeinerungen"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Unterschiede in der Nichteuklidischen Geometrie",
+          "number": "4.4",
+          "index": "14",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 14263,
+          "anchor": "Unterschiede_in_der_Nichteuklidischen_Geometrie"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Geschichte",
+          "number": "5",
+          "index": "15",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 14828,
+          "anchor": "Geschichte"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Babylon und Indien",
+          "number": "5.1",
+          "index": "16",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 14845,
+          "anchor": "Babylon_und_Indien"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "China",
+          "number": "5.2",
+          "index": "17",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 17543,
+          "anchor": "China"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Die umstrittene Rolle des Pythagoras",
+          "number": "5.3",
+          "index": "18",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 19088,
+          "anchor": "Die_umstrittene_Rolle_des_Pythagoras"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Literarische Rezeption",
+          "number": "6",
+          "index": "19",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 22773,
+          "anchor": "Literarische_Rezeption"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Verwandte Themen",
+          "number": "7",
+          "index": "20",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 23191,
+          "anchor": "Verwandte_Themen"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Literatur",
+          "number": "8",
+          "index": "21",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 23475,
+          "anchor": "Literatur"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Weblinks",
+          "number": "9",
+          "index": "22",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 24106,
+          "anchor": "Weblinks"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Einzelnachweise",
+          "number": "10",
+          "index": "23",
+          "fromtitle": "Satz_des_Pythagoras",
+          "byteoffset": 25050,
+          "anchor": "Einzelnachweise"
+        }
+      ]
+    },
+    "fr": {
+      "label": "théorème de Pythagore",
+      "url": "https://fr.wikipedia.org/wiki/théorème de Pythagore",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Vocabulaire et énoncés",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 1939,
+          "anchor": "Vocabulaire_et_.C3.A9nonc.C3.A9s"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Théorème",
+          "number": "1.1",
+          "index": "2",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 2226,
+          "anchor": "Th.C3.A9or.C3.A8me"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Réciproque",
+          "number": "1.2",
+          "index": "3",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 4041,
+          "anchor": "R.C3.A9ciproque"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Triplets pythagoriciens",
+          "number": "1.3",
+          "index": "4",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 5262,
+          "anchor": "Triplets_pythagoriciens"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Applications",
+          "number": "2",
+          "index": "5",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 5858,
+          "anchor": "Applications"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Arpentage",
+          "number": "2.1",
+          "index": "6",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 5877,
+          "anchor": "Arpentage"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Nature d'un triangle",
+          "number": "2.2",
+          "index": "7",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 6814,
+          "anchor": "Nature_d.27un_triangle"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Distance euclidienne",
+          "number": "2.3",
+          "index": "8",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 7545,
+          "anchor": "Distance_euclidienne"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Relation trigonométrique",
+          "number": "2.4",
+          "index": "9",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 8326,
+          "anchor": "Relation_trigonom.C3.A9trique"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Histoire",
+          "number": "3",
+          "index": "10",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 8771,
+          "anchor": "Histoire"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Mésopotamie",
+          "number": "3.1",
+          "index": "11",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 10869,
+          "anchor": "M.C3.A9sopotamie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Inde",
+          "number": "3.2",
+          "index": "12",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 14963,
+          "anchor": "Inde"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Chine",
+          "number": "3.3",
+          "index": "13",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 15522,
+          "anchor": "Chine"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Égypte ancienne",
+          "number": "3.4",
+          "index": "14",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 17027,
+          "anchor": ".C3.89gypte_ancienne"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Les Grecs : de Pythagore à Euclide",
+          "number": "3.5",
+          "index": "15",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 21147,
+          "anchor": "Les_Grecs_:_de_Pythagore_.C3.A0_Euclide"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Conséquences",
+          "number": "3.6",
+          "index": "16",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 24431,
+          "anchor": "Cons.C3.A9quences"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Démonstrations",
+          "number": "4",
+          "index": "17",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 25211,
+          "anchor": "D.C3.A9monstrations"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Selon Euclide",
+          "number": "4.1",
+          "index": "18",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 25947,
+          "anchor": "Selon_Euclide"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Par le puzzle de <i>Gougu</i>",
+          "number": "4.2",
+          "index": "19",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 28554,
+          "anchor": "Par_le_puzzle_de_Gougu"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Par soustraction d'aire",
+          "number": "4.3",
+          "index": "20",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 32990,
+          "anchor": "Par_soustraction_d.27aire"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Par des triangles semblables",
+          "number": "4.4",
+          "index": "21",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 34779,
+          "anchor": "Par_des_triangles_semblables"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Par le produit scalaire",
+          "number": "4.5",
+          "index": "22",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 36819,
+          "anchor": "Par_le_produit_scalaire"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Généralisations",
+          "number": "5",
+          "index": "23",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 38581,
+          "anchor": "G.C3.A9n.C3.A9ralisations"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Pour un triangle quelconque",
+          "number": "5.1",
+          "index": "24",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 38603,
+          "anchor": "Pour_un_triangle_quelconque"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Avec d'autres figures formées sur les côtés",
+          "number": "5.2",
+          "index": "25",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 39538,
+          "anchor": "Avec_d.27autres_figures_form.C3.A9es_sur_les_c.C3.B4t.C3.A9s"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "En plus grande dimension",
+          "number": "5.3",
+          "index": "26",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 40482,
+          "anchor": "En_plus_grande_dimension"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "En arithmétique : le théorème de Fermat-Wiles",
+          "number": "5.4",
+          "index": "27",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 41714,
+          "anchor": "En_arithm.C3.A9tique_:_le_th.C3.A9or.C3.A8me_de_Fermat-Wiles"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "En géométrie non euclidienne",
+          "number": "5.5",
+          "index": "28",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 42548,
+          "anchor": "En_g.C3.A9om.C3.A9trie_non_euclidienne"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Problème en calcul numérique",
+          "number": "5.6",
+          "index": "29",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 46738,
+          "anchor": "Probl.C3.A8me_en_calcul_num.C3.A9rique"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Culture",
+          "number": "6",
+          "index": "30",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 47378,
+          "anchor": "Culture"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Notes et références",
+          "number": "7",
+          "index": "31",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 47925,
+          "anchor": "Notes_et_r.C3.A9f.C3.A9rences"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Notes",
+          "number": "7.1",
+          "index": "32",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 47951,
+          "anchor": "Notes"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Références",
+          "number": "7.2",
+          "index": "33",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 47991,
+          "anchor": "R.C3.A9f.C3.A9rences"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Sources",
+          "number": "7.2.1",
+          "index": "34",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 48037,
+          "anchor": "Sources"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Annexes",
+          "number": "8",
+          "index": "35",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 50260,
+          "anchor": "Annexes"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Articles connexes",
+          "number": "8.1",
+          "index": "36",
+          "fromtitle": "Théorème_de_Pythagore",
+          "byteoffset": 50532,
+          "anchor": "Articles_connexes"
+        }
+      ]
+    },
+    "ja": {
+      "label": "ピタゴラスの定理",
+      "url": "https://ja.wikipedia.org/wiki/ピタゴラスの定理",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "概要",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 334,
+          "anchor": ".E6.A6.82.E8.A6.81"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "ピタゴラス数",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 1960,
+          "anchor": ".E3.83.94.E3.82.BF.E3.82.B4.E3.83.A9.E3.82.B9.E6.95.B0"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "ピタゴラス数の性質",
+          "number": "2.1",
+          "index": "3",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 2490,
+          "anchor": ".E3.83.94.E3.82.BF.E3.82.B4.E3.83.A9.E3.82.B9.E6.95.B0.E3.81.AE.E6.80.A7.E8.B3.AA"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "直角三角形の三辺の長さを整数とするための調整",
+          "number": "2.2",
+          "index": "4",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 4365,
+          "anchor": ".E7.9B.B4.E8.A7.92.E4.B8.89.E8.A7.92.E5.BD.A2.E3.81.AE.E4.B8.89.E8.BE.BA.E3.81.AE.E9.95.B7.E3.81.95.E3.82.92.E6.95.B4.E6.95.B0.E3.81.A8.E3.81.99.E3.82.8B.E3.81.9F.E3.82.81.E3.81.AE.E8.AA.BF.E6.95.B4"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Jesmanowicz 予想",
+          "number": "2.3",
+          "index": "5",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 5336,
+          "anchor": "Jesmanowicz_.E4.BA.88.E6.83.B3"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "一般化",
+          "number": "3",
+          "index": "6",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 5566,
+          "anchor": ".E4.B8.80.E8.88.AC.E5.8C.96"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "角の一般化",
+          "number": "3.1",
+          "index": "7",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 5576,
+          "anchor": ".E8.A7.92.E3.81.AE.E4.B8.80.E8.88.AC.E5.8C.96"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "指数の一般化",
+          "number": "3.2",
+          "index": "8",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 5870,
+          "anchor": ".E6.8C.87.E6.95.B0.E3.81.AE.E4.B8.80.E8.88.AC.E5.8C.96"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "次元の一般化",
+          "number": "3.3",
+          "index": "9",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 6205,
+          "anchor": ".E6.AC.A1.E5.85.83.E3.81.AE.E4.B8.80.E8.88.AC.E5.8C.96"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "ピタゴラスの定理の証明",
+          "number": "4",
+          "index": "10",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 6472,
+          "anchor": ".E3.83.94.E3.82.BF.E3.82.B4.E3.83.A9.E3.82.B9.E3.81.AE.E5.AE.9A.E7.90.86.E3.81.AE.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "相似による証明",
+          "number": "4.1",
+          "index": "11",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 6809,
+          "anchor": ".E7.9B.B8.E4.BC.BC.E3.81.AB.E3.82.88.E3.82.8B.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "正方形を用いた証明",
+          "number": "4.2",
+          "index": "12",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 7413,
+          "anchor": ".E6.AD.A3.E6.96.B9.E5.BD.A2.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "内接円を用いた証明",
+          "number": "4.3",
+          "index": "13",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 8123,
+          "anchor": ".E5.86.85.E6.8E.A5.E5.86.86.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "オイラーの公式を用いた証明",
+          "number": "4.4",
+          "index": "14",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 8902,
+          "anchor": ".E3.82.AA.E3.82.A4.E3.83.A9.E3.83.BC.E3.81.AE.E5.85.AC.E5.BC.8F.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "三角関数の微分公式を用いた証明",
+          "number": "4.5",
+          "index": "15",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 10961,
+          "anchor": ".E4.B8.89.E8.A7.92.E9.96.A2.E6.95.B0.E3.81.AE.E5.BE.AE.E5.88.86.E5.85.AC.E5.BC.8F.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "三角関数の不定積分を用いた証明",
+          "number": "4.6",
+          "index": "16",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 11880,
+          "anchor": ".E4.B8.89.E8.A7.92.E9.96.A2.E6.95.B0.E3.81.AE.E4.B8.8D.E5.AE.9A.E7.A9.8D.E5.88.86.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "三角関数の加法定理を用いた証明",
+          "number": "4.7",
+          "index": "17",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 12706,
+          "anchor": ".E4.B8.89.E8.A7.92.E9.96.A2.E6.95.B0.E3.81.AE.E5.8A.A0.E6.B3.95.E5.AE.9A.E7.90.86.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "冪級数展開を用いた証明",
+          "number": "4.8",
+          "index": "18",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 13949,
+          "anchor": ".E5.86.AA.E7.B4.9A.E6.95.B0.E5.B1.95.E9.96.8B.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "回転行列を用いた証明",
+          "number": "4.9",
+          "index": "19",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 15468,
+          "anchor": ".E5.9B.9E.E8.BB.A2.E8.A1.8C.E5.88.97.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "三角関数と双曲線関数を用いた証明",
+          "number": "4.10",
+          "index": "20",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 16734,
+          "anchor": ".E4.B8.89.E8.A7.92.E9.96.A2.E6.95.B0.E3.81.A8.E5.8F.8C.E6.9B.B2.E7.B7.9A.E9.96.A2.E6.95.B0.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "ピタゴラスの定理の逆の証明",
+          "number": "5",
+          "index": "21",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 17295,
+          "anchor": ".E3.83.94.E3.82.BF.E3.82.B4.E3.83.A9.E3.82.B9.E3.81.AE.E5.AE.9A.E7.90.86.E3.81.AE.E9.80.86.E3.81.AE.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "ピタゴラスの定理に依存しない証明",
+          "number": "5.1",
+          "index": "22",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 17460,
+          "anchor": ".E3.83.94.E3.82.BF.E3.82.B4.E3.83.A9.E3.82.B9.E3.81.AE.E5.AE.9A.E7.90.86.E3.81.AB.E4.BE.9D.E5.AD.98.E3.81.97.E3.81.AA.E3.81.84.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "同一法を用いた証明",
+          "number": "5.2",
+          "index": "23",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 19132,
+          "anchor": ".E5.90.8C.E4.B8.80.E6.B3.95.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "対偶を用いた証明",
+          "number": "5.3",
+          "index": "24",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 20028,
+          "anchor": ".E5.AF.BE.E5.81.B6.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "余弦定理を用いた証明",
+          "number": "5.4",
+          "index": "25",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 21176,
+          "anchor": ".E4.BD.99.E5.BC.A6.E5.AE.9A.E7.90.86.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "ベクトルを用いた証明",
+          "number": "5.5",
+          "index": "26",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 21691,
+          "anchor": ".E3.83.99.E3.82.AF.E3.83.88.E3.83.AB.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "三角関数と逆三角関数を用いた証明",
+          "number": "5.6",
+          "index": "27",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 22201,
+          "anchor": ".E4.B8.89.E8.A7.92.E9.96.A2.E6.95.B0.E3.81.A8.E9.80.86.E4.B8.89.E8.A7.92.E9.96.A2.E6.95.B0.E3.82.92.E7.94.A8.E3.81.84.E3.81.9F.E8.A8.BC.E6.98.8E"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "脚注",
+          "number": "6",
+          "index": "28",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 32240,
+          "anchor": ".E8.84.9A.E6.B3.A8"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "注釈",
+          "number": "6.1",
+          "index": "29",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 32260,
+          "anchor": ".E6.B3.A8.E9.87.88"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "出典",
+          "number": "6.2",
+          "index": "30",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 32294,
+          "anchor": ".E5.87.BA.E5.85.B8"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "参考文献",
+          "number": "7",
+          "index": "31",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 36868,
+          "anchor": ".E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "関連項目",
+          "number": "8",
+          "index": "32",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 38492,
+          "anchor": ".E9.96.A2.E9.80.A3.E9.A0.85.E7.9B.AE"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "外部リンク",
+          "number": "9",
+          "index": "33",
+          "fromtitle": "ピタゴラスの定理",
+          "byteoffset": 38580,
+          "anchor": ".E5.A4.96.E9.83.A8.E3.83.AA.E3.83.B3.E3.82.AF"
+        }
+      ]
+    },
+    "ru": {
+      "label": "теорема Пифагора",
+      "url": "https://ru.wikipedia.org/wiki/теорема Пифагора",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "История",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 1399,
+          "anchor": ".D0.98.D1.81.D1.82.D0.BE.D1.80.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Формулировки",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 5320,
+          "anchor": ".D0.A4.D0.BE.D1.80.D0.BC.D1.83.D0.BB.D0.B8.D1.80.D0.BE.D0.B2.D0.BA.D0.B8"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Доказательства",
+          "number": "3",
+          "index": "3",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 6485,
+          "anchor": ".D0.94.D0.BE.D0.BA.D0.B0.D0.B7.D0.B0.D1.82.D0.B5.D0.BB.D1.8C.D1.81.D1.82.D0.B2.D0.B0"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Через подобные треугольники",
+          "number": "3.1",
+          "index": "4",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 7118,
+          "anchor": ".D0.A7.D0.B5.D1.80.D0.B5.D0.B7_.D0.BF.D0.BE.D0.B4.D0.BE.D0.B1.D0.BD.D1.8B.D0.B5_.D1.82.D1.80.D0.B5.D1.83.D0.B3.D0.BE.D0.BB.D1.8C.D0.BD.D0.B8.D0.BA.D0.B8"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Доказательства методом площадей",
+          "number": "3.2",
+          "index": "5",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 8406,
+          "anchor": ".D0.94.D0.BE.D0.BA.D0.B0.D0.B7.D0.B0.D1.82.D0.B5.D0.BB.D1.8C.D1.81.D1.82.D0.B2.D0.B0_.D0.BC.D0.B5.D1.82.D0.BE.D0.B4.D0.BE.D0.BC_.D0.BF.D0.BB.D0.BE.D1.89.D0.B0.D0.B4.D0.B5.D0.B9"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Доказательство через равнодополняемость",
+          "number": "3.2.1",
+          "index": "6",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 8676,
+          "anchor": ".D0.94.D0.BE.D0.BA.D0.B0.D0.B7.D0.B0.D1.82.D0.B5.D0.BB.D1.8C.D1.81.D1.82.D0.B2.D0.BE_.D1.87.D0.B5.D1.80.D0.B5.D0.B7_.D1.80.D0.B0.D0.B2.D0.BD.D0.BE.D0.B4.D0.BE.D0.BF.D0.BE.D0.BB.D0.BD.D1.8F.D0.B5.D0.BC.D0.BE.D1.81.D1.82.D1.8C"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Доказательство Евклида",
+          "number": "3.2.2",
+          "index": "7",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 9609,
+          "anchor": ".D0.94.D0.BE.D0.BA.D0.B0.D0.B7.D0.B0.D1.82.D0.B5.D0.BB.D1.8C.D1.81.D1.82.D0.B2.D0.BE_.D0.95.D0.B2.D0.BA.D0.BB.D0.B8.D0.B4.D0.B0"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Доказательство Леонардо да Винчи",
+          "number": "3.2.3",
+          "index": "8",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 11784,
+          "anchor": ".D0.94.D0.BE.D0.BA.D0.B0.D0.B7.D0.B0.D1.82.D0.B5.D0.BB.D1.8C.D1.81.D1.82.D0.B2.D0.BE_.D0.9B.D0.B5.D0.BE.D0.BD.D0.B0.D1.80.D0.B4.D0.BE_.D0.B4.D0.B0_.D0.92.D0.B8.D0.BD.D1.87.D0.B8"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Доказательство методом бесконечно малых",
+          "number": "3.3",
+          "index": "9",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 13156,
+          "anchor": ".D0.94.D0.BE.D0.BA.D0.B0.D0.B7.D0.B0.D1.82.D0.B5.D0.BB.D1.8C.D1.81.D1.82.D0.B2.D0.BE_.D0.BC.D0.B5.D1.82.D0.BE.D0.B4.D0.BE.D0.BC_.D0.B1.D0.B5.D1.81.D0.BA.D0.BE.D0.BD.D0.B5.D1.87.D0.BD.D0.BE_.D0.BC.D0.B0.D0.BB.D1.8B.D1.85"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Вариации и обобщения",
+          "number": "4",
+          "index": "10",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 14349,
+          "anchor": ".D0.92.D0.B0.D1.80.D0.B8.D0.B0.D1.86.D0.B8.D0.B8_.D0.B8_.D0.BE.D0.B1.D0.BE.D0.B1.D1.89.D0.B5.D0.BD.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Подобные геометрические фигуры на трёх сторонах",
+          "number": "4.1",
+          "index": "11",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 14377,
+          "anchor": ".D0.9F.D0.BE.D0.B4.D0.BE.D0.B1.D0.BD.D1.8B.D0.B5_.D0.B3.D0.B5.D0.BE.D0.BC.D0.B5.D1.82.D1.80.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B8.D0.B5_.D1.84.D0.B8.D0.B3.D1.83.D1.80.D1.8B_.D0.BD.D0.B0_.D1.82.D1.80.D1.91.D1.85_.D1.81.D1.82.D0.BE.D1.80.D0.BE.D0.BD.D0.B0.D1.85"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Теорема косинусов",
+          "number": "4.2",
+          "index": "12",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 16745,
+          "anchor": ".D0.A2.D0.B5.D0.BE.D1.80.D0.B5.D0.BC.D0.B0_.D0.BA.D0.BE.D1.81.D0.B8.D0.BD.D1.83.D1.81.D0.BE.D0.B2"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Произвольный треугольник",
+          "number": "4.3",
+          "index": "13",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 17376,
+          "anchor": ".D0.9F.D1.80.D0.BE.D0.B8.D0.B7.D0.B2.D0.BE.D0.BB.D1.8C.D0.BD.D1.8B.D0.B9_.D1.82.D1.80.D0.B5.D1.83.D0.B3.D0.BE.D0.BB.D1.8C.D0.BD.D0.B8.D0.BA"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Теорема Паппа о площадях",
+          "number": "4.4",
+          "index": "14",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 19656,
+          "anchor": ".D0.A2.D0.B5.D0.BE.D1.80.D0.B5.D0.BC.D0.B0_.D0.9F.D0.B0.D0.BF.D0.BF.D0.B0_.D0.BE_.D0.BF.D0.BB.D0.BE.D1.89.D0.B0.D0.B4.D1.8F.D1.85"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Многомерные обобщения",
+          "number": "4.5",
+          "index": "15",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 20529,
+          "anchor": ".D0.9C.D0.BD.D0.BE.D0.B3.D0.BE.D0.BC.D0.B5.D1.80.D0.BD.D1.8B.D0.B5_.D0.BE.D0.B1.D0.BE.D0.B1.D1.89.D0.B5.D0.BD.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Неевклидова геометрия",
+          "number": "4.6",
+          "index": "16",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 22056,
+          "anchor": ".D0.9D.D0.B5.D0.B5.D0.B2.D0.BA.D0.BB.D0.B8.D0.B4.D0.BE.D0.B2.D0.B0_.D0.B3.D0.B5.D0.BE.D0.BC.D0.B5.D1.82.D1.80.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Сферическая геометрия",
+          "number": "4.6.1",
+          "index": "17",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 24210,
+          "anchor": ".D0.A1.D1.84.D0.B5.D1.80.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B0.D1.8F_.D0.B3.D0.B5.D0.BE.D0.BC.D0.B5.D1.82.D1.80.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Геометрия Лобачевского",
+          "number": "4.6.2",
+          "index": "18",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 25711,
+          "anchor": ".D0.93.D0.B5.D0.BE.D0.BC.D0.B5.D1.82.D1.80.D0.B8.D1.8F_.D0.9B.D0.BE.D0.B1.D0.B0.D1.87.D0.B5.D0.B2.D1.81.D0.BA.D0.BE.D0.B3.D0.BE"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Применение",
+          "number": "5",
+          "index": "19",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 27576,
+          "anchor": ".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D0.BD.D0.B5.D0.BD.D0.B8.D0.B5"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Расстояние в двумерных прямоугольных системах",
+          "number": "5.1",
+          "index": "20",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 27594,
+          "anchor": ".D0.A0.D0.B0.D1.81.D1.81.D1.82.D0.BE.D1.8F.D0.BD.D0.B8.D0.B5_.D0.B2_.D0.B4.D0.B2.D1.83.D0.BC.D0.B5.D1.80.D0.BD.D1.8B.D1.85_.D0.BF.D1.80.D1.8F.D0.BC.D0.BE.D1.83.D0.B3.D0.BE.D0.BB.D1.8C.D0.BD.D1.8B.D1.85_.D1.81.D0.B8.D1.81.D1.82.D0.B5.D0.BC.D0.B0.D1.85"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Евклидова метрика",
+          "number": "5.2",
+          "index": "21",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 28765,
+          "anchor": ".D0.95.D0.B2.D0.BA.D0.BB.D0.B8.D0.B4.D0.BE.D0.B2.D0.B0_.D0.BC.D0.B5.D1.82.D1.80.D0.B8.D0.BA.D0.B0"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Теория чисел",
+          "number": "5.3",
+          "index": "22",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 29263,
+          "anchor": ".D0.A2.D0.B5.D0.BE.D1.80.D0.B8.D1.8F_.D1.87.D0.B8.D1.81.D0.B5.D0.BB"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "См. также",
+          "number": "6",
+          "index": "23",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 29911,
+          "anchor": ".D0.A1.D0.BC._.D1.82.D0.B0.D0.BA.D0.B6.D0.B5"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Примечания",
+          "number": "7",
+          "index": "24",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 29952,
+          "anchor": ".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D0.BD.D0.B8.D1.8F"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Литература",
+          "number": "8",
+          "index": "25",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 29987,
+          "anchor": ".D0.9B.D0.B8.D1.82.D0.B5.D1.80.D0.B0.D1.82.D1.83.D1.80.D0.B0"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Ссылки",
+          "number": "9",
+          "index": "26",
+          "fromtitle": "Теорема_Пифагора",
+          "byteoffset": 31300,
+          "anchor": ".D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8"
+        }
+      ]
+    }
+  },
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Pythagorean theorem"
+    },
+    "it": {
+      "language": "it",
+      "value": "Teorema di Pitagora"
+    },
+    "de": {
+      "language": "de",
+      "value": "Satz des Pythagoras"
+    },
+    "af": {
+      "language": "af",
+      "value": "Pythagoras se stelling"
+    },
+    "an": {
+      "language": "an",
+      "value": "Teorema de Pitagoras"
+    },
+    "ar": {
+      "language": "ar",
+      "value": "مبرهنة فيثاغورس"
+    },
+    "ast": {
+      "language": "ast",
+      "value": "Teorema de Pitágoras"
+    },
+    "az": {
+      "language": "az",
+      "value": "Pifaqor teoremi"
+    },
+    "bar": {
+      "language": "bar",
+      "value": "Såtz vum Pythagoras"
+    },
+    "be": {
+      "language": "be",
+      "value": "Тэарэма Піфагора"
+    },
+    "bg": {
+      "language": "bg",
+      "value": "Питагорова теорема"
+    },
+    "bn": {
+      "language": "bn",
+      "value": "পিথাগোরাসের উপপাদ্য"
+    },
+    "br": {
+      "language": "br",
+      "value": "Teorem Pythagoras"
+    },
+    "bs": {
+      "language": "bs",
+      "value": "Pitagorina teorema"
+    },
+    "ca": {
+      "language": "ca",
+      "value": "Teorema de Pitàgores"
+    },
+    "cs": {
+      "language": "cs",
+      "value": "Pythagorova věta"
+    },
+    "cv": {
+      "language": "cv",
+      "value": "Пифагор теореми"
+    },
+    "cy": {
+      "language": "cy",
+      "value": "Theorem Pythagoras"
+    },
+    "da": {
+      "language": "da",
+      "value": "Den pythagoræiske læresætning"
+    },
+    "el": {
+      "language": "el",
+      "value": "Πυθαγόρειο θεώρημα"
+    },
+    "eo": {
+      "language": "eo",
+      "value": "Teoremo de Pitagoro"
+    },
+    "es": {
+      "language": "es",
+      "value": "teorema de Pitágoras"
+    },
+    "et": {
+      "language": "et",
+      "value": "Pythagorase teoreem"
+    },
+    "eu": {
+      "language": "eu",
+      "value": "Pitagorasen teorema"
+    },
+    "fa": {
+      "language": "fa",
+      "value": "قضیه فیثاغورس"
+    },
+    "fi": {
+      "language": "fi",
+      "value": "Pythagoraan lause"
+    },
+    "fr": {
+      "language": "fr",
+      "value": "théorème de Pythagore"
+    },
+    "gl": {
+      "language": "gl",
+      "value": "Teorema de Pitágoras"
+    },
+    "he": {
+      "language": "he",
+      "value": "משפט פיתגורס"
+    },
+    "hi": {
+      "language": "hi",
+      "value": "पाइथागोरस प्रमेय"
+    },
+    "hr": {
+      "language": "hr",
+      "value": "Pitagorin poučak"
+    },
+    "hsb": {
+      "language": "hsb",
+      "value": "Sada Pythagorasa"
+    },
+    "hu": {
+      "language": "hu",
+      "value": "Pitagorasz-tétel"
+    },
+    "hy": {
+      "language": "hy",
+      "value": "Պյութագորասի թեորեմ"
+    },
+    "ia": {
+      "language": "ia",
+      "value": "Theorema de Pythagoras"
+    },
+    "id": {
+      "language": "id",
+      "value": "Teorema Pythagoras"
+    },
+    "io": {
+      "language": "io",
+      "value": "Teoremo di Pitagoro"
+    },
+    "is": {
+      "language": "is",
+      "value": "Regla Pýþagórasar"
+    },
+    "ja": {
+      "language": "ja",
+      "value": "ピタゴラスの定理"
+    },
+    "ka": {
+      "language": "ka",
+      "value": "პითაგორას თეორემა"
+    },
+    "kk": {
+      "language": "kk",
+      "value": "Пифагор теоремасы"
+    },
+    "km": {
+      "language": "km",
+      "value": "ទ្រឹស្តីបទពីតាករ"
+    },
+    "ko": {
+      "language": "ko",
+      "value": "피타고라스의 정리"
+    },
+    "la": {
+      "language": "la",
+      "value": "Theorema Pythagorae"
+    },
+    "lt": {
+      "language": "lt",
+      "value": "Pitagoro teorema"
+    },
+    "lv": {
+      "language": "lv",
+      "value": "Pitagora teorēma"
+    },
+    "mk": {
+      "language": "mk",
+      "value": "Питагорина теорема"
+    },
+    "ml": {
+      "language": "ml",
+      "value": "പൈതഗോറസ് സിദ്ധാന്തം"
+    },
+    "mn": {
+      "language": "mn",
+      "value": "Пифагорын теорем"
+    },
+    "mr": {
+      "language": "mr",
+      "value": "पायथागोरसचा सिद्धान्त"
+    },
+    "ms": {
+      "language": "ms",
+      "value": "Teorem Pythagoras"
+    },
+    "my": {
+      "language": "my",
+      "value": "ပိုက်သာဂိုရ သီအိုရမ်"
+    },
+    "nl": {
+      "language": "nl",
+      "value": "Stelling van Pythagoras"
+    },
+    "nn": {
+      "language": "nn",
+      "value": "Den pythagoreiske læresetninga"
+    },
+    "oc": {
+      "language": "oc",
+      "value": "Teorèma de Pitagòras"
+    },
+    "os": {
+      "language": "os",
+      "value": "Пифагоры теоремæ"
+    },
+    "pl": {
+      "language": "pl",
+      "value": "Twierdzenie Pitagorasa"
+    },
+    "pms": {
+      "language": "pms",
+      "value": "Teorema ëd Pitàgora"
+    },
+    "pnb": {
+      "language": "pnb",
+      "value": "مسلہ فیساغورس"
+    },
+    "pt": {
+      "language": "pt",
+      "value": "teorema de Pitágoras"
+    },
+    "ro": {
+      "language": "ro",
+      "value": "Teorema lui Pitagora"
+    },
+    "ru": {
+      "language": "ru",
+      "value": "теорема Пифагора"
+    },
+    "scn": {
+      "language": "scn",
+      "value": "Tiurema di Pitagora"
+    },
+    "sh": {
+      "language": "sh",
+      "value": "Pitagorina teorema"
+    },
+    "si": {
+      "language": "si",
+      "value": "පයිතගරස් ප් රමේයය"
+    },
+    "sk": {
+      "language": "sk",
+      "value": "Pytagorova veta"
+    },
+    "sl": {
+      "language": "sl",
+      "value": "Pitagorov izrek"
+    },
+    "sn": {
+      "language": "sn",
+      "value": "Dudzirazivo raPythagoras"
+    },
+    "sq": {
+      "language": "sq",
+      "value": "Teorema e Pitagorës"
+    },
+    "sr": {
+      "language": "sr",
+      "value": "Питагорина теорема"
+    },
+    "sv": {
+      "language": "sv",
+      "value": "Pythagoras sats"
+    },
+    "sw": {
+      "language": "sw",
+      "value": "Uhakiki wa Pythagoras"
+    },
+    "ta": {
+      "language": "ta",
+      "value": "பித்தேகோரசு தேற்றம்"
+    },
+    "te": {
+      "language": "te",
+      "value": "పైథాగరస్ సిద్ధాంతం"
+    },
+    "th": {
+      "language": "th",
+      "value": "ทฤษฎีบทพีทาโกรัส"
+    },
+    "tr": {
+      "language": "tr",
+      "value": "Pisagor teoremi"
+    },
+    "uk": {
+      "language": "uk",
+      "value": "Теорема Піфагора"
+    },
+    "ur": {
+      "language": "ur",
+      "value": "مسئلۂ فیثا غورث"
+    },
+    "vep": {
+      "language": "vep",
+      "value": "Pifagoran teorem"
+    },
+    "vi": {
+      "language": "vi",
+      "value": "Định lý Pytago"
+    },
+    "war": {
+      "language": "war",
+      "value": "Pitagorasnon nga teyorema"
+    },
+    "yi": {
+      "language": "yi",
+      "value": "פיטאגאראס פרינציפ"
+    },
+    "yo": {
+      "language": "yo",
+      "value": "Àgbérò Pythagoras"
+    },
+    "zh": {
+      "language": "zh",
+      "value": "勾股定理"
+    },
+    "be-tarask": {
+      "language": "be-tarask",
+      "value": "Тэарэма Пітагора"
+    },
+    "pa": {
+      "language": "pa",
+      "value": "ਪਾਇਥਾਗੋਰਸ ਦਾ ਪ੍ਰਮੇਏ"
+    },
+    "ba": {
+      "language": "ba",
+      "value": "Пифагор теоремаһы"
+    },
+    "tk": {
+      "language": "tk",
+      "value": "Pifagoryň teoremasy"
+    },
+    "eml": {
+      "language": "eml",
+      "value": "Tiuréma 'd Pitàgora"
+    },
+    "uz": {
+      "language": "uz",
+      "value": "Pifagor teoremasi"
+    },
+    "pt-br": {
+      "language": "pt-br",
+      "value": "teorema de Pitágoras"
+    },
+    "nb": {
+      "language": "nb",
+      "value": "Pythagoras’ læresetning"
+    },
+    "lzh": {
+      "language": "lzh",
+      "value": "勾股定理"
+    },
+    "yue": {
+      "language": "yue",
+      "value": "勾股定理"
+    },
+    "gsw": {
+      "language": "gsw",
+      "value": "Satz des Pythagoras"
+    },
+    "sgs": {
+      "language": "sgs",
+      "value": "Pėtaguora teuorema"
+    },
+    "gu": {
+      "language": "gu",
+      "value": "પાયથાગોરસનો પ્રમેય"
+    },
+    "zh-hk": {
+      "language": "zh-hk",
+      "value": "勾股定理"
+    },
+    "zh-cn": {
+      "language": "zh-cn",
+      "value": "勾股定理"
+    },
+    "zh-hans": {
+      "language": "zh-hans",
+      "value": "勾股定理"
+    },
+    "zh-hant": {
+      "language": "zh-hant",
+      "value": "勾股定理"
+    },
+    "zh-tw": {
+      "language": "zh-tw",
+      "value": "勾股定理"
+    },
+    "ne": {
+      "language": "ne",
+      "value": "पाइथागोरस साध्य"
+    },
+    "co": {
+      "language": "co",
+      "value": "Tiurema di Pitagora"
+    },
+    "tt": {
+      "language": "tt",
+      "value": "Pifagor teoreması"
+    },
+    "nan": {
+      "language": "nan",
+      "value": "Pythagorean tēng-lí"
+    },
+    "szl": {
+      "language": "szl",
+      "value": "Twjerdzyńy Pitagorasa"
+    },
+    "sco": {
+      "language": "sco",
+      "value": "Pythagorean theorem"
+    },
+    "ckb": {
+      "language": "ckb",
+      "value": "دیتانەی فیساگۆرس"
+    },
+    "se": {
+      "language": "se",
+      "value": "Pythagorasa cealkka"
+    },
+    "wuu": {
+      "language": "wuu",
+      "value": "勾股定理"
+    }
+  }
+}
