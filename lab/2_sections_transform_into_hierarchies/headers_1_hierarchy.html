@@ -126,14 +126,16 @@
 					console.log(section.number)
 					console.log("parentSectionNumber: "+parentSectionNumber)
 
-					var result = find(roots, parentSectionNumber);
-					console.log(result)
+					var parent = find(roots, parentSectionNumber);
+					console.log(parent)
+
+					parent.children.push(section);
+
+
 				}
 			}
 			console.log(roots); 
 		}
-
-
 
 		function find(source, number){
 
@@ -151,7 +153,6 @@
 			}
 			return null;
 		}
-
 	}
 
 	// WikiObjDisp.prototype.presentArticle = function(){
