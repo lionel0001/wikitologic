@@ -32,6 +32,22 @@
 			align-self: flex-start;
 		}
 
+		.list-level-1{
+			margin-left: 0px;
+		}
+
+		.list-level-2{
+			margin-left: 15px;
+		}
+
+		.list-level-3{
+			margin-left: 30px;
+		}
+
+		.list-level-4{
+			margin-left: 45px;
+		}
+
 	</style>
 </head>
 <body>
@@ -47,8 +63,6 @@
     {{/each}} 
     </ul>
 </script>
-
-
 </body>
 
 <script>
@@ -58,7 +72,6 @@
 	function WikiObjDisp(){
 		var data_article;
 	}
-
 
 	// importing the json file previously generated
 	WikiObjDisp.prototype.importData = function(urljson){
@@ -94,14 +107,14 @@
 
 			$("#articles").append( "<div class="+lang+"></div>");
 			var elem = $('#articles').find("."+lang).addClass("item");
-			console.log(elem)
+			// console.log(elem)
 
 			var source = $("#section-template").html(); 
 			var template = Handlebars.compile(source); 
 
-			// Handlebars.registerHelper('toclevelstyle', function(sections) {
-			// 	return "list-" + line;
-			// });
+			Handlebars.registerHelper('toclevelstyle', function(sections) {
+				return "list-level-" + this.toclevel;
+			});
 
 			elem.append(template(sections));
 		}
