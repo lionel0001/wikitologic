@@ -43,7 +43,7 @@
 <script id="section-template" type="text/x-handlebars-template"> 
 	<ul>
     {{#each this}} 
-    	<li>{{line}}</li>
+    	<li class={{toclevelstyle}}>{{number}} {{line}}</li>
     {{/each}} 
     </ul>
 </script>
@@ -87,23 +87,25 @@
 		console.log(WObj.data);
 
 		for (lang in WObj.data.content) {
-			console.log('lang:'+lang)
+			// console.log('lang:'+lang)
 
 			var sections = WObj.data.content[lang].sections
 			console.table(sections)
 
 			$("#articles").append( "<div class="+lang+"></div>");
 			var elem = $('#articles').find("."+lang).addClass("item");
-			// var elem = $('#articles');
 			console.log(elem)
 
 			var source = $("#section-template").html(); 
 			var template = Handlebars.compile(source); 
 
+			// Handlebars.registerHelper('toclevelstyle', function(sections) {
+			// 	return "list-" + line;
+			// });
+
 			elem.append(template(sections));
 		}
 	}
-
 
 	var wikiObjDisp1 = new WikiObjDisp();
 	wikiObjDisp1.importData("headers_airbus.json");
