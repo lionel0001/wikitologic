@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Wikipedia objects</title>
+	<script src="../../js/jquery-2.2.1.min.js"></script>
+	<script src="../../js/lodash.js"></script>
+	<script src="../../js/wikidata-sdk.min.js"></script>
+	<script src="../../js/handlebars-v4.0.5.js"></script>
+
+	<style type="text/css">
+
+		html, body { 
+			width: 100%; 
+			height: 100%; 
+			margin: 0px; 
+		}
+
+		#container {
+			width: 100%;
+		}
+		
+		#articles { 
+			display: inline-flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			align-items: flex-start;
+		}
+
+		.item{
+			flex: 0 1 auto;
+			align-self: flex-start;
+		}
+
+		.list-level-1{
+			margin-left: 0px;
+		}
+
+		.list-level-2{
+			margin-left: 15px;
+		}
+
+		.list-level-3{
+			margin-left: 30px;
+		}
+
+		.list-level-4{
+			margin-left: 45px;
+		}
+
+	</style>
+</head>
+<body>
+ 
+<div id="container">
+	<div id="articles"></div>
+</div>
+ 
+<script id="section-template" type="text/x-handlebars-template"> 
+	<ul>
+	{{#each this}} 
+		<li class={{toclevelstyle}}>{{number}} {{line}}</li>
+	{{/each}} 
+	</ul>
+</script>
+</body>
+
+<script>
+
+(function() {
+
+	function WikiObjDisp(){
+		var data_article;
+	}
+
+	// importing the json file previously generated
+	WikiObjDisp.prototype.importData = function(urljson){
+
+		var WObj = this
+		console.log(WObj);
+
+		var url = urljson
+		console.log('importing data: '+ url)
+
+		$.getJSON(url)
+
+		.done(function(data){
+			console.log('data imported')
+			console.log(data)
+			WObj.data = data;
+			WObj.presentArticle()
+		});
+	}	
+
+	WikiObjDisp.prototype.presentArticle = function(){
+
+
+		console.log('presenting article')
+
+		var WObj = this
+		console.log(WObj.data);
+
+		for (lang in WObj.data.content) {
+			console.log('lang:'+lang)
+
+			var sections = WObj.data.content[lang].sections
+			console.table(sections)
+
+			var map = {}, section, roots = [];
+
+			for (var i = 0; i < sections.length; i += 1) {
+
+				section = sections[i];
+				// console.log(section.toclevel)
+				section.children = [];
+
+				if(section.toclevel == 1){
+					console.log('first level')
+					console.log(section.line)
+					roots.push(section);
+				}else{
+					// console.log('deeper')
+
+					parentSectionNumber = section.number.substring(0, section.number.lastIndexOf("."));
+					console.log('//////')
+					console.log(section.number)
+					console.log("parentSectionNumber: "+parentSectionNumber)
+
+					var result = find(roots, parentSectionNumber);
+					console.log(result)
+				}
+			}
+			console.log(roots); 
+		}
+
+
+
+		function find(source, number){
+
+			for (key in source){
+				var item = source[key];
+				if (item.number == number)
+					return item;
+				
+				if (item.children)
+				{
+					var subresult = find(item.children, number);
+					if (subresult)
+						return subresult;
+				}
+			}
+			return null;
+		}
+
+	}
+
+	// WikiObjDisp.prototype.presentArticle = function(){
+
+	// 	console.log('presenting article')
+
+	// 	var WObj = this
+	// 	console.log(WObj.data);
+
+	// 	for (lang in WObj.data.content) {
+	// 		// console.log('lang:'+lang)
+
+	// 		var sections = WObj.data.content[lang].sections
+	// 		console.table(sections)
+
+	// 		$("#articles").append( "<div class="+lang+"></div>");
+	// 		var elem = $('#articles').find("."+lang).addClass("item");
+	// 		// console.log(elem)
+
+	// 		var source = $("#section-template").html(); 
+	// 		var template = Handlebars.compile(source); 
+
+	// 		Handlebars.registerHelper('toclevelstyle', function(sections) {
+	// 			return "list-level-" + this.toclevel;
+	// 		});
+
+	// 		elem.append(template(sections));
+	// 	}
+	// }
+
+	var wikiObjDisp1 = new WikiObjDisp();
+	wikiObjDisp1.importData("headers_airbus.json");
+
+})();
+
+</script>
+</html>

@@ -1,0 +1,669 @@
+{
+  "languages": [
+    "en"
+
+  ],
+  "wikibase_item": "Q67",
+  "content": {
+    "en": {
+      "label": "Airbus",
+      "url": "https://en.wikipedia.org/wiki/Airbus",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "History",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Airbus",
+          "byteoffset": 5897,
+          "anchor": "History"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Origins",
+          "number": "1.1",
+          "index": "2",
+          "fromtitle": "Airbus",
+          "byteoffset": 5910,
+          "anchor": "Origins"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Formation of Airbus Industrie",
+          "number": "1.2",
+          "index": "3",
+          "fromtitle": "Airbus",
+          "byteoffset": 11221,
+          "anchor": "Formation_of_Airbus_Industrie"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Development of the Airbus A300",
+          "number": "1.3",
+          "index": "4",
+          "fromtitle": "Airbus",
+          "byteoffset": 13167,
+          "anchor": "Development_of_the_Airbus_A300"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Transition to Airbus SAS",
+          "number": "1.4",
+          "index": "5",
+          "fromtitle": "Airbus",
+          "byteoffset": 21047,
+          "anchor": "Transition_to_Airbus_SAS"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Development of the A380",
+          "number": "1.5",
+          "index": "6",
+          "fromtitle": "Airbus",
+          "byteoffset": 26483,
+          "anchor": "Development_of_the_A380"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Expansion and sale of BAE stake",
+          "number": "1.6",
+          "index": "7",
+          "fromtitle": "Airbus",
+          "byteoffset": 36155,
+          "anchor": "Expansion_and_sale_of_BAE_stake"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "2007 restructuring",
+          "number": "1.7",
+          "index": "8",
+          "fromtitle": "Airbus",
+          "byteoffset": 41483,
+          "anchor": "2007_restructuring"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "2011 A320neo record orders",
+          "number": "1.8",
+          "index": "9",
+          "fromtitle": "Airbus",
+          "byteoffset": 43466,
+          "anchor": "2011_A320neo_record_orders"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Corporate affairs",
+          "number": "2",
+          "index": "10",
+          "fromtitle": "Airbus",
+          "byteoffset": 44149,
+          "anchor": "Corporate_affairs"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Civilian products",
+          "number": "3",
+          "index": "11",
+          "fromtitle": "Airbus",
+          "byteoffset": 44655,
+          "anchor": "Civilian_products"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Consumer products",
+          "number": "3.1",
+          "index": "12",
+          "fromtitle": "Airbus",
+          "byteoffset": 53981,
+          "anchor": "Consumer_products"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Military products",
+          "number": "4",
+          "index": "13",
+          "fromtitle": "Airbus",
+          "byteoffset": 55798,
+          "anchor": "Military_products"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "New supersonic passenger plane",
+          "number": "5",
+          "index": "14",
+          "fromtitle": "Airbus",
+          "byteoffset": 61114,
+          "anchor": "New_supersonic_passenger_plane"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Orders and deliveries",
+          "number": "6",
+          "index": "15",
+          "fromtitle": "Airbus",
+          "byteoffset": 61968,
+          "anchor": "Orders_and_deliveries"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Competition with Boeing",
+          "number": "7",
+          "index": "16",
+          "fromtitle": "Airbus",
+          "byteoffset": 63402,
+          "anchor": "Competition_with_Boeing"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Subsidy conflicts",
+          "number": "7.1",
+          "index": "17",
+          "fromtitle": "Airbus",
+          "byteoffset": 70509,
+          "anchor": "Subsidy_conflicts"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "International manufacturing presence",
+          "number": "8",
+          "index": "18",
+          "fromtitle": "Airbus",
+          "byteoffset": 75077,
+          "anchor": "International_manufacturing_presence"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "2016 deal with Iran",
+          "number": "9",
+          "index": "19",
+          "fromtitle": "Airbus",
+          "byteoffset": 81036,
+          "anchor": "2016_deal_with_Iran"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Environmental record",
+          "number": "10",
+          "index": "20",
+          "fromtitle": "Airbus",
+          "byteoffset": 82670,
+          "anchor": "Environmental_record"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Biofuel",
+          "number": "10.1",
+          "index": "21",
+          "fromtitle": "Airbus",
+          "byteoffset": 83425,
+          "anchor": "Biofuel"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Export credits",
+          "number": "11",
+          "index": "22",
+          "fromtitle": "Airbus",
+          "byteoffset": 84977,
+          "anchor": "Export_credits"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Airbus aircraft numbering system",
+          "number": "12",
+          "index": "23",
+          "fromtitle": "Airbus",
+          "byteoffset": 85955,
+          "anchor": "Airbus_aircraft_numbering_system"
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Engine codes",
+          "number": "12.1",
+          "index": "24",
+          "fromtitle": "Airbus",
+          "byteoffset": 86985,
+          "anchor": "Engine_codes"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "See also",
+          "number": "13",
+          "index": "25",
+          "fromtitle": "Airbus",
+          "byteoffset": 87627,
+          "anchor": "See_also"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "References",
+          "number": "14",
+          "index": "26",
+          "fromtitle": "Airbus",
+          "byteoffset": 88035,
+          "anchor": "References"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Bibliography",
+          "number": "15",
+          "index": "27",
+          "fromtitle": "Airbus",
+          "byteoffset": 88070,
+          "anchor": "Bibliography"
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "External links",
+          "number": "16",
+          "index": "28",
+          "fromtitle": "Airbus",
+          "byteoffset": 89060,
+          "anchor": "External_links"
+        }
+      ]
+    }
+  },
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Airbus"
+    },
+    "fr": {
+      "language": "fr",
+      "value": "Airbus"
+    },
+    "it": {
+      "language": "it",
+      "value": "Airbus"
+    },
+    "es": {
+      "language": "es",
+      "value": "Airbus"
+    },
+    "de": {
+      "language": "de",
+      "value": "Airbus"
+    },
+    "en-ca": {
+      "language": "en-ca",
+      "value": "Airbus"
+    },
+    "en-gb": {
+      "language": "en-gb",
+      "value": "Airbus"
+    },
+    "zh": {
+      "language": "zh",
+      "value": "空中巴士"
+    },
+    "zh-cn": {
+      "language": "zh-cn",
+      "value": "空中客车"
+    },
+    "zh-tw": {
+      "language": "zh-tw",
+      "value": "空中巴士"
+    },
+    "zh-sg": {
+      "language": "zh-sg",
+      "value": "空中客车"
+    },
+    "zh-mo": {
+      "language": "zh-mo",
+      "value": "空中巴士"
+    },
+    "zh-hans": {
+      "language": "zh-hans",
+      "value": "空中客车"
+    },
+    "zh-hant": {
+      "language": "zh-hant",
+      "value": "空中巴士"
+    },
+    "zh-hk": {
+      "language": "zh-hk",
+      "value": "空中巴士"
+    },
+    "zh-my": {
+      "language": "zh-my",
+      "value": "空中客车"
+    },
+    "ca": {
+      "language": "ca",
+      "value": "Airbus"
+    },
+    "af": {
+      "language": "af",
+      "value": "Airbus"
+    },
+    "ar": {
+      "language": "ar",
+      "value": "إيرباص"
+    },
+    "bar": {
+      "language": "bar",
+      "value": "Airbus"
+    },
+    "bg": {
+      "language": "bg",
+      "value": "Еърбъс"
+    },
+    "bs": {
+      "language": "bs",
+      "value": "Airbus"
+    },
+    "ceb": {
+      "language": "ceb",
+      "value": "Airbus"
+    },
+    "cs": {
+      "language": "cs",
+      "value": "Airbus"
+    },
+    "cy": {
+      "language": "cy",
+      "value": "Airbus"
+    },
+    "da": {
+      "language": "da",
+      "value": "Airbus"
+    },
+    "el": {
+      "language": "el",
+      "value": "Airbus"
+    },
+    "eo": {
+      "language": "eo",
+      "value": "Airbus"
+    },
+    "et": {
+      "language": "et",
+      "value": "Airbus"
+    },
+    "eu": {
+      "language": "eu",
+      "value": "Airbus"
+    },
+    "fa": {
+      "language": "fa",
+      "value": "ایرباس"
+    },
+    "fi": {
+      "language": "fi",
+      "value": "Airbus"
+    },
+    "gl": {
+      "language": "gl",
+      "value": "Airbus"
+    },
+    "gu": {
+      "language": "gu",
+      "value": "એર બસ"
+    },
+    "he": {
+      "language": "he",
+      "value": "איירבוס"
+    },
+    "hi": {
+      "language": "hi",
+      "value": "एयरबस"
+    },
+    "hr": {
+      "language": "hr",
+      "value": "Airbus"
+    },
+    "hu": {
+      "language": "hu",
+      "value": "Airbus"
+    },
+    "hy": {
+      "language": "hy",
+      "value": "Airbus"
+    },
+    "id": {
+      "language": "id",
+      "value": "Airbus"
+    },
+    "is": {
+      "language": "is",
+      "value": "Airbus"
+    },
+    "ja": {
+      "language": "ja",
+      "value": "エアバス"
+    },
+    "ka": {
+      "language": "ka",
+      "value": "Airbus"
+    },
+    "kn": {
+      "language": "kn",
+      "value": "ಏರ್ ಬಸ್"
+    },
+    "ko": {
+      "language": "ko",
+      "value": "에어버스"
+    },
+    "ku": {
+      "language": "ku",
+      "value": "Airbus"
+    },
+    "la": {
+      "language": "la",
+      "value": "Airbus"
+    },
+    "lb": {
+      "language": "lb",
+      "value": "Airbus"
+    },
+    "li": {
+      "language": "li",
+      "value": "Airbus"
+    },
+    "lt": {
+      "language": "lt",
+      "value": "Airbus"
+    },
+    "lv": {
+      "language": "lv",
+      "value": "Airbus"
+    },
+    "mk": {
+      "language": "mk",
+      "value": "Ербас"
+    },
+    "ml": {
+      "language": "ml",
+      "value": "എയർബസ്"
+    },
+    "nl": {
+      "language": "nl",
+      "value": "Airbus"
+    },
+    "oc": {
+      "language": "oc",
+      "value": "Airbus"
+    },
+    "pl": {
+      "language": "pl",
+      "value": "Airbus"
+    },
+    "pt": {
+      "language": "pt",
+      "value": "Airbus"
+    },
+    "pt-br": {
+      "language": "pt-br",
+      "value": "Airbus"
+    },
+    "ro": {
+      "language": "ro",
+      "value": "Airbus"
+    },
+    "ru": {
+      "language": "ru",
+      "value": "Airbus"
+    },
+    "sco": {
+      "language": "sco",
+      "value": "Airbus"
+    },
+    "sh": {
+      "language": "sh",
+      "value": "Airbus"
+    },
+    "sk": {
+      "language": "sk",
+      "value": "Airbus"
+    },
+    "sq": {
+      "language": "sq",
+      "value": "Airbus"
+    },
+    "sr": {
+      "language": "sr",
+      "value": "Ербас"
+    },
+    "sv": {
+      "language": "sv",
+      "value": "Airbus"
+    },
+    "sw": {
+      "language": "sw",
+      "value": "Airbus"
+    },
+    "ta": {
+      "language": "ta",
+      "value": "ஏர்பஸ்"
+    },
+    "te": {
+      "language": "te",
+      "value": "ఎయిర్ బస్"
+    },
+    "th": {
+      "language": "th",
+      "value": "แอร์บัส"
+    },
+    "tr": {
+      "language": "tr",
+      "value": "Airbus"
+    },
+    "uk": {
+      "language": "uk",
+      "value": "Airbus"
+    },
+    "vi": {
+      "language": "vi",
+      "value": "Airbus"
+    },
+    "yi": {
+      "language": "yi",
+      "value": "ערבוס"
+    },
+    "nb": {
+      "language": "nb",
+      "value": "Airbus"
+    },
+    "de-ch": {
+      "language": "de-ch",
+      "value": "Airbus"
+    },
+    "mr": {
+      "language": "mr",
+      "value": "एरबस"
+    },
+    "gsw": {
+      "language": "gsw",
+      "value": "Airbus"
+    },
+    "az": {
+      "language": "az",
+      "value": "Airbus"
+    },
+    "kk": {
+      "language": "kk",
+      "value": "Airbus"
+    },
+    "yue": {
+      "language": "yue",
+      "value": "空中客車"
+    },
+    "ms": {
+      "language": "ms",
+      "value": "Airbus"
+    },
+    "sr-ec": {
+      "language": "sr-ec",
+      "value": "Ербас"
+    },
+    "sr-el": {
+      "language": "sr-el",
+      "value": "Erbas"
+    },
+    "bn": {
+      "language": "bn",
+      "value": "এয়ারবাস"
+    },
+    "sl": {
+      "language": "sl",
+      "value": "Airbus"
+    },
+    "ha": {
+      "language": "ha",
+      "value": "Airbus"
+    },
+    "ne": {
+      "language": "ne",
+      "value": "एयरबस"
+    },
+    "new": {
+      "language": "new",
+      "value": "एयरबस"
+    },
+    "br": {
+      "language": "br",
+      "value": "Airbus"
+    },
+    "hak": {
+      "language": "hak",
+      "value": "Khûng-chûng Hak-chhâ Kûng-sṳ̂"
+    },
+    "ast": {
+      "language": "ast",
+      "value": "Airbus"
+    },
+    "pa": {
+      "language": "pa",
+      "value": "ਏਅਰਬੱਸ"
+    }
+  }
+}
