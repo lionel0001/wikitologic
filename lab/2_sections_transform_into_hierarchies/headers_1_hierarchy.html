@@ -130,11 +130,10 @@
 					console.log(parent)
 
 					parent.children.push(section);
-
-
 				}
 			}
 			console.log(roots); 
+			exportJSON(roots);
 		}
 
 		function find(source, number){
@@ -153,35 +152,15 @@
 			}
 			return null;
 		}
+
+		function exportJSON(nodes){
+			console.log('exporting a JSON')
+			// console.log(WObj);
+
+			var jsonString = JSON.stringify(nodes);
+			console.log(jsonString);
+		}
 	}
-
-	// WikiObjDisp.prototype.presentArticle = function(){
-
-	// 	console.log('presenting article')
-
-	// 	var WObj = this
-	// 	console.log(WObj.data);
-
-	// 	for (lang in WObj.data.content) {
-	// 		// console.log('lang:'+lang)
-
-	// 		var sections = WObj.data.content[lang].sections
-	// 		console.table(sections)
-
-	// 		$("#articles").append( "<div class="+lang+"></div>");
-	// 		var elem = $('#articles').find("."+lang).addClass("item");
-	// 		// console.log(elem)
-
-	// 		var source = $("#section-template").html(); 
-	// 		var template = Handlebars.compile(source); 
-
-	// 		Handlebars.registerHelper('toclevelstyle', function(sections) {
-	// 			return "list-level-" + this.toclevel;
-	// 		});
-
-	// 		elem.append(template(sections));
-	// 	}
-	// }
 
 	var wikiObjDisp1 = new WikiObjDisp();
 	wikiObjDisp1.importData("headers_airbus.json");
