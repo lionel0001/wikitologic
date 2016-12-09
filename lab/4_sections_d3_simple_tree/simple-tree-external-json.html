@@ -38,7 +38,7 @@ var treemap = d3.tree()
   .size([height, width]);
 
 // load the external data
-d3.json("treeData.json", function(error, treeData) {
+d3.json("headers_airbus_tree_de.json", function(error, treeData) {
   if (error) throw error;
 
   //  assigns the data to a hierarchy using parent-child relationships
@@ -83,7 +83,7 @@ d3.json("treeData.json", function(error, treeData) {
 
   // adds the circle to the node
   node.append("circle")
-    .attr("r", 10);
+    .attr("r", 3);
 
   // adds the text to the node
   node.append("text")
@@ -91,7 +91,7 @@ d3.json("treeData.json", function(error, treeData) {
     .attr("x", function(d) { return d.children ? -13 : 13; })
     .style("text-anchor", function(d) { 
     return d.children ? "end" : "start"; })
-    .text(function(d) { return d.data.name; });
+    .text(function(d) { return d.data.line; });
 
 });
     
