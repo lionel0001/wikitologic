@@ -51,13 +51,13 @@
 					WObj.content[tmpLang].url = tmpURL
 				}
 
-				getSections(0);
+				getSectionsHeaders(0);
 			});
 		}
 		findArticles();
 
 
-		getSections = function(langRef){
+		getSectionsHeaders = function(langRef){
 
 			// console.log('looking for info in '+WObj.languages[langRef])
 
@@ -80,18 +80,38 @@
 
 				if(langRef < WObj.languages.length - 1){
 					langRef++
-					getSections(langRef);
+					getSectionsHeaders(langRef);
 				}else{
 					console.log('finito')
-					// WObj.presentArticle();
-					// exportJSON()
-					setQuantities()
 
-					// setArticleSize(0);
+					// getSectionsContent(0);
+					setQuantities()
 				}
-			});
+			});	
 		}
 
+		getSectionsContent = function(langRef){
+
+			var tmpLang = WObj.languages[langRef]
+			console.log('getSectionsContent for '+ tmpLang)
+			WObj.content[tmpLang].sectionsContent = new Array();
+
+			getSingleSection = function (langRef,sectionRef) {
+
+				console.log('loading section '+sectionRef + " in "+tmpLang);
+
+				$.getJSON('http://'+tmpLang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
+					page:WObj.content[tmpLang].label, 
+					prop:'wikitext',
+					section: sectionRef
+				})
+
+				.done(function(result){
+					console.log(result.parse.wikitext["*"].length)
+				});
+			}
+			getSingleSection(0,1)
+		}
 
 		setArticleSize = function (langRef) {
 			
