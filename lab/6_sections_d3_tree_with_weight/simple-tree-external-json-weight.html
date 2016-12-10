@@ -66,40 +66,38 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
     .attr("class", "link")
     .attr("stroke-width",function(d) {
 
-        
+        var tmpCumulatedSize = 0;
 
+        function process(key,value) {
+            if(key == "size"){
+              tmpCumulatedSize += value;
+            }
 
-        // console.log(d.data.line)
-        // d.data.childrenCumulatedSize = 0;
+            if(key == "tmpCumulatedSize"){
+              tmpCumulatedSize += value;
+            }
+        }
 
-        // if(d.data.children.length == 0){
-        //   console.log('end of the branch')
+        function traverse(o,func) {
+            for (var i in o) {
+                func.apply(this,[i,o[i]]);  
+                if (o[i] !== null && typeof(o[i])=="object") {
+                    //going on step down in the object tree!!
+                    traverse(o[i],func);
+                }
+            }
+        }
 
-        // }else{
-        //   console.log('needs to take over children\'s size')
+        traverse(d.data.children,process);
 
-        //   var children = d.data.children;
-          
-        //   console.log('creating cumulative size')
-        //   console.log(d.data)
+        d.data.childrenCumulatedSize = tmpCumulatedSize;
+        console.log(d.data.childrenCumulatedSize);
 
-        //   for (child in children) {
-        //     console.log(children[child])
-        //     d.data.childrenCumulatedSize += children[child].size
-        //   }
-        
-        //   console.log('d.data.childrenCumulatedSize: '+ d.data.childrenCumulatedSize)
-        //   console.log('////////////////////')
-
-        // }
-
-        // var stroke = (d.data.size + d.data.childrenCumulatedSize)/1000;
-
+        var stroke = (d.data.size + d.data.childrenCumulatedSize)/1000;
         var stroke = stroke > 1 ? Math.round(stroke) : 1;
 
-        console.log("stroke: "+stroke)
-
         return stroke + "px";
+
        })
     .attr("d", function(d) {
        return "M" + d.y + "," + d.x
@@ -118,18 +116,18 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
     .attr("transform", function(d) { 
       return "translate(" + d.y + "," + d.x + ")"; });
 
-  // adds the circle to the node
+  //adds the circle to the node
   node.append("circle")
     // .attr("r", function(d) { return d.data.size/1000; });
     .attr("r", 3);
 
   // adds the text to the node
-  node.append("text")
-    .attr("dy", ".35em")
-    .attr("x", function(d) { return d.children ? -13 : 13; })
-    .style("text-anchor", function(d) { 
-    return d.children ? "end" : "start"; })
-    .text(function(d) { return d.data.line; });
+  // node.append("text")
+  //   .attr("dy", ".35em")
+  //   .attr("x", function(d) { return d.children ? -13 : 13; })
+  //   .style("text-anchor", function(d) { 
+  //   return d.children ? "end" : "start"; })
+  //   .text(function(d) { return d.data.line; });
 
 });
     
