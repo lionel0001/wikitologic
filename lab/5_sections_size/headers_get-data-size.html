@@ -90,40 +90,6 @@
 			});	
 		}
 
-		getSectionsContent = function(langRef){
-
-			var tmpLang = WObj.languages[langRef]
-			console.log('getSectionsContent for '+ tmpLang)
-			WObj.content[tmpLang].sectionsContent = new Array();
-
-			getSingleSection = function (langRef,sectionRef) {
-
-				console.log('loading section '+sectionRef + " in "+tmpLang);
-
-				$.getJSON('http://'+tmpLang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
-					page:WObj.content[tmpLang].label, 
-					prop:'wikitext',
-					section: sectionRef
-				})
-
-				.done(function(result){
-					console.log(result.parse.wikitext["*"].length)
-				});
-			}
-			getSingleSection(0,1)
-		}
-
-		setArticleSize = function (langRef) {
-			
-			var tmpLang = WObj.languages[langRef]
-
-			$.getJSON('http://'+tmpLang+'.wikipedia.org/w/api.php?action=query&format=json&callback=?', {
-				page:WObj.content[tmpLang].label, 
-				prop:'revisions'
-			})
-		}
-
-
 		setQuantities = function () {
 
 			for (lang in WObj.content) {
@@ -154,9 +120,34 @@
 						tmpSection.size = 0;
 					}
 				}
-
 				console.table(WObj.content[lang].sections)
 			}
+
+			setQuantitiesLastSection(0)
+		}
+
+		setQuantitiesLastSection = function (langRef) {
+			
+			var tmpLang = WObj.languages[langRef]
+			var tmpContent = WObj.content[tmpLang].sections;
+			var lastSection = tmpContent.length - 1
+
+			$.getJSON('http://'+tmpLang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
+                page:WObj.content[tmpLang].label, 
+                prop:'wikitext',
+                section: lastSection
+            })
+
+            .done(function(result){
+            	WObj.content[tmpLang].sections[lastSection].size = result.parse.wikitext["*"].length;
+
+            	if(langRef < WObj.languages.length - 1){
+					langRef++
+					setQuantitiesLastSection(langRef);
+				}else{
+					console.log('finito last section')
+				}
+            });
 		}
 
 
