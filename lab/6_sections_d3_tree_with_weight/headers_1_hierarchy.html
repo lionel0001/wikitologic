@@ -157,14 +157,21 @@
 			console.log('exporting a JSON')
 			// console.log(WObj);
 
-			var jsonString = JSON.stringify(nodes);
+			var headnode = {"line": "DE", "size":0, "children":"" }
+
+			headnode.children = nodes;
+
+
+			var jsonString = JSON.stringify(headnode);
+
+
 			console.log(jsonString);
 		}
 	}
 
 	var wikiObjDisp1 = new WikiObjDisp();
 	// wikiObjDisp1.importData("headers_airbus.json");
-	wikiObjDisp1.importData("header_annecy_en-de-fr-es-ja-ru.json");
+	wikiObjDisp1.importData("header_airbus_en-de-fr-es-ja-ru.json");
 
 
 })();

@@ -15,9 +15,10 @@
 (function() {
 
 	function WikiObj(){
-		// this.languages = ['en','de','fr','ja','ru']
-		this.languages = ['en','ja']
-		this.wikibase_item = "Q50189" 
+		this.languages = ['en','de','fr','es','ja','ru']
+		// this.languages = ['en','ja']
+		// this.wikibase_item = "Q50189" 
+		this.wikibase_item = "Q67" 
 		this.content = new Object();
 
 		for (const lang of this.languages ) {
@@ -73,7 +74,7 @@
 				WObj.content[tmpLang].sections = result.parse.sections;
 
 				// adding entry for the extract
-				var extract = { "toclevel": 0, "level": "1", "line": "EXTRACT", "number": "0", "index": "0", "fromtitle": "", "byteoffset": 0, "anchor": "" }
+				var extract = { "toclevel": 1, "level": "1", "line": "EXTRACT", "number": "0", "index": "0", "fromtitle": "", "byteoffset": 0, "anchor": "" }
 				WObj.content[tmpLang].sections.unshift(extract)
 
 				// console.table(WObj.content[tmpLang].sections)
@@ -146,19 +147,17 @@
 					setQuantitiesLastSection(langRef);
 				}else{
 					console.log('finito last section')
+					exportJSON();
 				}
             });
 		}
 
-
 		exportJSON = function(){
-
 			console.log('exporting a JSON')
 			// console.log(WObj);
 
 			var jsonString = JSON.stringify(WObj);
 			console.log(jsonString);
-
 		}
 
 	}

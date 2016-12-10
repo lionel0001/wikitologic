@@ -1,0 +1,622 @@
+{
+    "toclevel": 1,
+    "level": "2",
+    "line": "DE",
+    "number": "1",
+    "index": "1",
+    "fromtitle": "Airbus",
+    "byteoffset": 2092,
+    "anchor": "Geschichte",
+    "children": [
+	  {
+	    "toclevel": 1,
+	    "level": "1",
+	    "line": "EXTRACT",
+	    "number": "0",
+	    "index": "0",
+	    "fromtitle": "",
+	    "byteoffset": 0,
+	    "anchor": "",
+	    "size": 2092,
+	    "children": []
+	  },
+	  {
+	    "toclevel": 1,
+	    "level": "2",
+	    "line": "Geschichte",
+	    "number": "1",
+	    "index": "1",
+	    "fromtitle": "Airbus",
+	    "byteoffset": 2092,
+	    "anchor": "Geschichte",
+	    "size": 17,
+	    "children": [
+	      {
+	        "toclevel": 2,
+	        "level": "3",
+	        "line": "Gründung",
+	        "number": "1.1",
+	        "index": "2",
+	        "fromtitle": "Airbus",
+	        "byteoffset": 2109,
+	        "anchor": "Gr.C3.BCndung",
+	        "size": 3157,
+	        "children": []
+	      },
+	      {
+	        "toclevel": 2,
+	        "level": "3",
+	        "line": "Erfolgreiche Jahre",
+	        "number": "1.2",
+	        "index": "3",
+	        "fromtitle": "Airbus",
+	        "byteoffset": 5266,
+	        "anchor": "Erfolgreiche_Jahre",
+	        "size": 1825,
+	        "children": []
+	      },
+	      {
+	        "toclevel": 2,
+	        "level": "3",
+	        "line": "Krise und Sanierung",
+	        "number": "1.3",
+	        "index": "4",
+	        "fromtitle": "Airbus",
+	        "byteoffset": 7091,
+	        "anchor": "Krise_und_Sanierung",
+	        "size": 28,
+	        "children": [
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Dolores",
+	            "number": "1.3.1",
+	            "index": "5",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 7119,
+	            "anchor": "Dolores",
+	            "size": 1866,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "A380-Krise",
+	            "number": "1.3.2",
+	            "index": "6",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 8985,
+	            "anchor": "A380-Krise",
+	            "size": 2557,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Sanierungsplan Power8",
+	            "number": "1.3.3",
+	            "index": "7",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 11542,
+	            "anchor": "Sanierungsplan_Power8",
+	            "size": 2639,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Premium AEROTEC GmbH",
+	            "number": "1.3.4",
+	            "index": "8",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 14181,
+	            "anchor": "Premium_AEROTEC_GmbH",
+	            "size": 1737,
+	            "children": []
+	          }
+	        ]
+	      }
+	    ]
+	  },
+	  {
+	    "toclevel": 1,
+	    "level": "2",
+	    "line": "Produktion",
+	    "number": "2",
+	    "index": "9",
+	    "fromtitle": "Airbus",
+	    "byteoffset": 15918,
+	    "anchor": "Produktion",
+	    "size": 17,
+	    "children": [
+	      {
+	        "toclevel": 2,
+	        "level": "3",
+	        "line": "Werke und Produktionsstätten",
+	        "number": "2.1",
+	        "index": "10",
+	        "fromtitle": "Airbus",
+	        "byteoffset": 15935,
+	        "anchor": "Werke_und_Produktionsst.C3.A4tten",
+	        "size": 1097,
+	        "children": [
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Deutschland",
+	            "number": "2.1.1",
+	            "index": "11",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 17032,
+	            "anchor": "Deutschland",
+	            "size": 45,
+	            "children": [
+	              {
+	                "toclevel": 4,
+	                "level": "5",
+	                "line": "Hamburg",
+	                "number": "2.1.1.1",
+	                "index": "12",
+	                "fromtitle": "Airbus",
+	                "byteoffset": 17077,
+	                "anchor": "Hamburg",
+	                "size": 2686,
+	                "children": []
+	              },
+	              {
+	                "toclevel": 4,
+	                "level": "5",
+	                "line": "Bremen",
+	                "number": "2.1.1.2",
+	                "index": "13",
+	                "fromtitle": "Airbus",
+	                "byteoffset": 19763,
+	                "anchor": "Bremen",
+	                "size": 821,
+	                "children": []
+	              },
+	              {
+	                "toclevel": 4,
+	                "level": "5",
+	                "line": "Rostock",
+	                "number": "2.1.1.3",
+	                "index": "14",
+	                "fromtitle": "Airbus",
+	                "byteoffset": 20584,
+	                "anchor": "Rostock",
+	                "size": 2342,
+	                "children": []
+	              },
+	              {
+	                "toclevel": 4,
+	                "level": "5",
+	                "line": "Buxtehude",
+	                "number": "2.1.1.4",
+	                "index": "15",
+	                "fromtitle": "Airbus",
+	                "byteoffset": 22926,
+	                "anchor": "Buxtehude",
+	                "size": 903,
+	                "children": []
+	              },
+	              {
+	                "toclevel": 4,
+	                "level": "5",
+	                "line": "Frankfurt",
+	                "number": "2.1.1.5",
+	                "index": "16",
+	                "fromtitle": "Airbus",
+	                "byteoffset": 23829,
+	                "anchor": "Frankfurt",
+	                "size": 156,
+	                "children": []
+	              },
+	              {
+	                "toclevel": 4,
+	                "level": "5",
+	                "line": "Stade",
+	                "number": "2.1.1.6",
+	                "index": "17",
+	                "fromtitle": "Airbus",
+	                "byteoffset": 23985,
+	                "anchor": "Stade",
+	                "size": 446,
+	                "children": []
+	              },
+	              {
+	                "toclevel": 4,
+	                "level": "5",
+	                "line": "Laupheim",
+	                "number": "2.1.1.7",
+	                "index": "18",
+	                "fromtitle": "Airbus",
+	                "byteoffset": 24431,
+	                "anchor": "Laupheim",
+	                "size": 170,
+	                "children": []
+	              },
+	              {
+	                "toclevel": 4,
+	                "level": "5",
+	                "line": "Nordenham und Varel",
+	                "number": "2.1.1.8",
+	                "index": "19",
+	                "fromtitle": "Airbus",
+	                "byteoffset": 24601,
+	                "anchor": "Nordenham_und_Varel",
+	                "size": 346,
+	                "children": []
+	              }
+	            ]
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Frankreich",
+	            "number": "2.1.2",
+	            "index": "20",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 24947,
+	            "anchor": "Frankreich",
+	            "size": 21,
+	            "children": [
+	              {
+	                "toclevel": 4,
+	                "level": "5",
+	                "line": "Toulouse",
+	                "number": "2.1.2.1",
+	                "index": "21",
+	                "fromtitle": "Airbus",
+	                "byteoffset": 24968,
+	                "anchor": "Toulouse",
+	                "size": 831,
+	                "children": []
+	              }
+	            ]
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Spanien",
+	            "number": "2.1.3",
+	            "index": "22",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 25799,
+	            "anchor": "Spanien",
+	            "size": 18,
+	            "children": [
+	              {
+	                "toclevel": 4,
+	                "level": "5",
+	                "line": "Sevilla",
+	                "number": "2.1.3.1",
+	                "index": "23",
+	                "fromtitle": "Airbus",
+	                "byteoffset": 25817,
+	                "anchor": "Sevilla",
+	                "size": 340,
+	                "children": []
+	              }
+	            ]
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Vereinigtes Königreich",
+	            "number": "2.1.4",
+	            "index": "24",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 26157,
+	            "anchor": "Vereinigtes_K.C3.B6nigreich",
+	            "size": 1136,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "China",
+	            "number": "2.1.5",
+	            "index": "25",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 27293,
+	            "anchor": "China",
+	            "size": 485,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "USA",
+	            "number": "2.1.6",
+	            "index": "26",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 27778,
+	            "anchor": "USA",
+	            "size": 1709,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Weltweit",
+	            "number": "2.1.7",
+	            "index": "27",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 29487,
+	            "anchor": "Weltweit",
+	            "size": 274,
+	            "children": []
+	          }
+	        ]
+	      },
+	      {
+	        "toclevel": 2,
+	        "level": "3",
+	        "line": "Mitarbeiter und Management",
+	        "number": "2.2",
+	        "index": "28",
+	        "fromtitle": "Airbus",
+	        "byteoffset": 29761,
+	        "anchor": "Mitarbeiter_und_Management",
+	        "size": 17251,
+	        "children": []
+	      }
+	    ]
+	  },
+	  {
+	    "toclevel": 1,
+	    "level": "2",
+	    "line": "Flugzeugmodelle",
+	    "number": "3",
+	    "index": "29",
+	    "fromtitle": "Airbus",
+	    "byteoffset": 47012,
+	    "anchor": "Flugzeugmodelle",
+	    "size": 22,
+	    "children": [
+	      {
+	        "toclevel": 2,
+	        "level": "3",
+	        "line": "Zivilflugzeuge",
+	        "number": "3.1",
+	        "index": "30",
+	        "fromtitle": "Airbus",
+	        "byteoffset": 47034,
+	        "anchor": "Zivilflugzeuge",
+	        "size": 23,
+	        "children": [
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "A300/A310-Familie",
+	            "number": "3.1.1",
+	            "index": "31",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 47057,
+	            "anchor": "A300.2FA310-Familie",
+	            "size": 1152,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "A320-Familie",
+	            "number": "3.1.2",
+	            "index": "32",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 48209,
+	            "anchor": "A320-Familie",
+	            "size": 2743,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "A330/A340-Familie",
+	            "number": "3.1.3",
+	            "index": "33",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 50952,
+	            "anchor": "A330.2FA340-Familie",
+	            "size": 1063,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "A350",
+	            "number": "3.1.4",
+	            "index": "34",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 52015,
+	            "anchor": "A350",
+	            "size": 1764,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "A380",
+	            "number": "3.1.5",
+	            "index": "35",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 53779,
+	            "anchor": "A380",
+	            "size": 1804,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Übersicht",
+	            "number": "3.1.6",
+	            "index": "36",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 55583,
+	            "anchor": ".C3.9Cbersicht",
+	            "size": 7847,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Zeitleiste",
+	            "number": "3.1.7",
+	            "index": "37",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 63430,
+	            "anchor": "Zeitleiste",
+	            "size": 44,
+	            "children": []
+	          }
+	        ]
+	      },
+	      {
+	        "toclevel": 2,
+	        "level": "3",
+	        "line": "Militärflugzeuge",
+	        "number": "3.2",
+	        "index": "38",
+	        "fromtitle": "Airbus",
+	        "byteoffset": 63474,
+	        "anchor": "Milit.C3.A4rflugzeuge",
+	        "size": 25,
+	        "children": [
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Airbus A310-300 MRT/MRTT",
+	            "number": "3.2.1",
+	            "index": "39",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 63499,
+	            "anchor": "Airbus_A310-300_MRT.2FMRTT",
+	            "size": 830,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Airbus A330 MRTT",
+	            "number": "3.2.2",
+	            "index": "40",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 64329,
+	            "anchor": "Airbus_A330_MRTT",
+	            "size": 2385,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Airbus A400M",
+	            "number": "3.2.3",
+	            "index": "41",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 66714,
+	            "anchor": "Airbus_A400M",
+	            "size": 764,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "CASA Transportflugzeuge",
+	            "number": "3.2.4",
+	            "index": "42",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 67478,
+	            "anchor": "CASA_Transportflugzeuge",
+	            "size": 528,
+	            "children": []
+	          },
+	          {
+	            "toclevel": 3,
+	            "level": "4",
+	            "line": "Übersicht",
+	            "number": "3.2.5",
+	            "index": "43",
+	            "fromtitle": "Airbus",
+	            "byteoffset": 68006,
+	            "anchor": ".C3.9Cbersicht_2",
+	            "size": 1571,
+	            "children": []
+	          }
+	        ]
+	      },
+	      {
+	        "toclevel": 2,
+	        "level": "3",
+	        "line": "Kommunalität",
+	        "number": "3.3",
+	        "index": "44",
+	        "fromtitle": "Airbus",
+	        "byteoffset": 69577,
+	        "anchor": "Kommunalit.C3.A4t",
+	        "size": 1400,
+	        "children": []
+	      }
+	    ]
+	  },
+	  {
+	    "toclevel": 1,
+	    "level": "2",
+	    "line": "Ausblick",
+	    "number": "4",
+	    "index": "45",
+	    "fromtitle": "Airbus",
+	    "byteoffset": 70977,
+	    "anchor": "Ausblick",
+	    "size": 1536,
+	    "children": []
+	  },
+	  {
+	    "toclevel": 1,
+	    "level": "2",
+	    "line": "Literatur",
+	    "number": "5",
+	    "index": "46",
+	    "fromtitle": "Airbus",
+	    "byteoffset": 72513,
+	    "anchor": "Literatur",
+	    "size": 710,
+	    "children": []
+	  },
+	  {
+	    "toclevel": 1,
+	    "level": "2",
+	    "line": "Siehe auch",
+	    "number": "6",
+	    "index": "47",
+	    "fromtitle": "Airbus",
+	    "byteoffset": 73223,
+	    "anchor": "Siehe_auch",
+	    "size": 84,
+	    "children": []
+	  },
+	  {
+	    "toclevel": 1,
+	    "level": "2",
+	    "line": "Weblinks",
+	    "number": "7",
+	    "index": "48",
+	    "fromtitle": "Airbus",
+	    "byteoffset": 73307,
+	    "anchor": "Weblinks",
+	    "size": 126,
+	    "children": []
+	  },
+	  {
+	    "toclevel": 1,
+	    "level": "2",
+	    "line": "Einzelnachweise",
+	    "number": "8",
+	    "index": "49",
+	    "fromtitle": "Airbus",
+	    "byteoffset": 73433,
+	    "anchor": "Einzelnachweise",
+	    "size": 1530,
+	    "children": []
+	  }
+    ]
+}

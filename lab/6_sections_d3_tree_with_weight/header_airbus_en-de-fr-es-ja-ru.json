@@ -1,0 +1,2326 @@
+{
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "es",
+    "ja",
+    "ru"
+  ],
+  "wikibase_item": "Q67",
+  "content": {
+    "en": {
+      "label": "Airbus",
+      "url": "https://en.wikipedia.org/wiki/Airbus",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "1",
+          "line": "EXTRACT",
+          "number": "0",
+          "index": "0",
+          "fromtitle": "",
+          "byteoffset": 0,
+          "anchor": "",
+          "size": 5897
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "History",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Airbus",
+          "byteoffset": 5897,
+          "anchor": "History",
+          "size": 13
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Origins",
+          "number": "1.1",
+          "index": "2",
+          "fromtitle": "Airbus",
+          "byteoffset": 5910,
+          "anchor": "Origins",
+          "size": 5311
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Formation of Airbus Industrie",
+          "number": "1.2",
+          "index": "3",
+          "fromtitle": "Airbus",
+          "byteoffset": 11221,
+          "anchor": "Formation_of_Airbus_Industrie",
+          "size": 1946
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Development of the Airbus A300",
+          "number": "1.3",
+          "index": "4",
+          "fromtitle": "Airbus",
+          "byteoffset": 13167,
+          "anchor": "Development_of_the_Airbus_A300",
+          "size": 7880
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Transition to Airbus SAS",
+          "number": "1.4",
+          "index": "5",
+          "fromtitle": "Airbus",
+          "byteoffset": 21047,
+          "anchor": "Transition_to_Airbus_SAS",
+          "size": 5436
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Development of the A380",
+          "number": "1.5",
+          "index": "6",
+          "fromtitle": "Airbus",
+          "byteoffset": 26483,
+          "anchor": "Development_of_the_A380",
+          "size": 9672
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Expansion and sale of BAE stake",
+          "number": "1.6",
+          "index": "7",
+          "fromtitle": "Airbus",
+          "byteoffset": 36155,
+          "anchor": "Expansion_and_sale_of_BAE_stake",
+          "size": 5328
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "2007 restructuring",
+          "number": "1.7",
+          "index": "8",
+          "fromtitle": "Airbus",
+          "byteoffset": 41483,
+          "anchor": "2007_restructuring",
+          "size": 1983
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "2011 A320neo record orders",
+          "number": "1.8",
+          "index": "9",
+          "fromtitle": "Airbus",
+          "byteoffset": 43466,
+          "anchor": "2011_A320neo_record_orders",
+          "size": 683
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Corporate affairs",
+          "number": "2",
+          "index": "10",
+          "fromtitle": "Airbus",
+          "byteoffset": 44149,
+          "anchor": "Corporate_affairs",
+          "size": 506
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Civilian products",
+          "number": "3",
+          "index": "11",
+          "fromtitle": "Airbus",
+          "byteoffset": 44655,
+          "anchor": "Civilian_products",
+          "size": 9326
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Consumer products",
+          "number": "3.1",
+          "index": "12",
+          "fromtitle": "Airbus",
+          "byteoffset": 53981,
+          "anchor": "Consumer_products",
+          "size": 1817
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Military products",
+          "number": "4",
+          "index": "13",
+          "fromtitle": "Airbus",
+          "byteoffset": 55798,
+          "anchor": "Military_products",
+          "size": 5331
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "New supersonic passenger plane",
+          "number": "5",
+          "index": "14",
+          "fromtitle": "Airbus",
+          "byteoffset": 61129,
+          "anchor": "New_supersonic_passenger_plane",
+          "size": 854
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Orders and deliveries",
+          "number": "6",
+          "index": "15",
+          "fromtitle": "Airbus",
+          "byteoffset": 61983,
+          "anchor": "Orders_and_deliveries",
+          "size": 1436
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Competition with Boeing",
+          "number": "7",
+          "index": "16",
+          "fromtitle": "Airbus",
+          "byteoffset": 63419,
+          "anchor": "Competition_with_Boeing",
+          "size": 7107
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Subsidy conflicts",
+          "number": "7.1",
+          "index": "17",
+          "fromtitle": "Airbus",
+          "byteoffset": 70526,
+          "anchor": "Subsidy_conflicts",
+          "size": 4568
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "International manufacturing presence",
+          "number": "8",
+          "index": "18",
+          "fromtitle": "Airbus",
+          "byteoffset": 75094,
+          "anchor": "International_manufacturing_presence",
+          "size": 5959
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "2016 deal with Iran",
+          "number": "9",
+          "index": "19",
+          "fromtitle": "Airbus",
+          "byteoffset": 81053,
+          "anchor": "2016_deal_with_Iran",
+          "size": 1634
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Environmental record",
+          "number": "10",
+          "index": "20",
+          "fromtitle": "Airbus",
+          "byteoffset": 82687,
+          "anchor": "Environmental_record",
+          "size": 755
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Biofuel",
+          "number": "10.1",
+          "index": "21",
+          "fromtitle": "Airbus",
+          "byteoffset": 83442,
+          "anchor": "Biofuel",
+          "size": 1552
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Export credits",
+          "number": "11",
+          "index": "22",
+          "fromtitle": "Airbus",
+          "byteoffset": 84994,
+          "anchor": "Export_credits",
+          "size": 978
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Airbus aircraft numbering system",
+          "number": "12",
+          "index": "23",
+          "fromtitle": "Airbus",
+          "byteoffset": 85972,
+          "anchor": "Airbus_aircraft_numbering_system",
+          "size": 1030
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Engine codes",
+          "number": "12.1",
+          "index": "24",
+          "fromtitle": "Airbus",
+          "byteoffset": 87002,
+          "anchor": "Engine_codes",
+          "size": 642
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "See also",
+          "number": "13",
+          "index": "25",
+          "fromtitle": "Airbus",
+          "byteoffset": 87644,
+          "anchor": "See_also",
+          "size": 408
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "References",
+          "number": "14",
+          "index": "26",
+          "fromtitle": "Airbus",
+          "byteoffset": 88052,
+          "anchor": "References",
+          "size": 35
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Bibliography",
+          "number": "15",
+          "index": "27",
+          "fromtitle": "Airbus",
+          "byteoffset": 88087,
+          "anchor": "Bibliography",
+          "size": 990
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "External links",
+          "number": "16",
+          "index": "28",
+          "fromtitle": "Airbus",
+          "byteoffset": 89077,
+          "anchor": "External_links",
+          "size": 1006
+        }
+      ]
+    },
+    "de": {
+      "label": "Airbus",
+      "url": "https://de.wikipedia.org/wiki/Airbus",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "1",
+          "line": "EXTRACT",
+          "number": "0",
+          "index": "0",
+          "fromtitle": "",
+          "byteoffset": 0,
+          "anchor": "",
+          "size": 2092
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Geschichte",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Airbus",
+          "byteoffset": 2092,
+          "anchor": "Geschichte",
+          "size": 17
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Gründung",
+          "number": "1.1",
+          "index": "2",
+          "fromtitle": "Airbus",
+          "byteoffset": 2109,
+          "anchor": "Gr.C3.BCndung",
+          "size": 3157
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Erfolgreiche Jahre",
+          "number": "1.2",
+          "index": "3",
+          "fromtitle": "Airbus",
+          "byteoffset": 5266,
+          "anchor": "Erfolgreiche_Jahre",
+          "size": 1825
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Krise und Sanierung",
+          "number": "1.3",
+          "index": "4",
+          "fromtitle": "Airbus",
+          "byteoffset": 7091,
+          "anchor": "Krise_und_Sanierung",
+          "size": 28
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Dolores",
+          "number": "1.3.1",
+          "index": "5",
+          "fromtitle": "Airbus",
+          "byteoffset": 7119,
+          "anchor": "Dolores",
+          "size": 1866
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "A380-Krise",
+          "number": "1.3.2",
+          "index": "6",
+          "fromtitle": "Airbus",
+          "byteoffset": 8985,
+          "anchor": "A380-Krise",
+          "size": 2557
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Sanierungsplan Power8",
+          "number": "1.3.3",
+          "index": "7",
+          "fromtitle": "Airbus",
+          "byteoffset": 11542,
+          "anchor": "Sanierungsplan_Power8",
+          "size": 2639
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Premium AEROTEC GmbH",
+          "number": "1.3.4",
+          "index": "8",
+          "fromtitle": "Airbus",
+          "byteoffset": 14181,
+          "anchor": "Premium_AEROTEC_GmbH",
+          "size": 1737
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Produktion",
+          "number": "2",
+          "index": "9",
+          "fromtitle": "Airbus",
+          "byteoffset": 15918,
+          "anchor": "Produktion",
+          "size": 17
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Werke und Produktionsstätten",
+          "number": "2.1",
+          "index": "10",
+          "fromtitle": "Airbus",
+          "byteoffset": 15935,
+          "anchor": "Werke_und_Produktionsst.C3.A4tten",
+          "size": 1097
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Deutschland",
+          "number": "2.1.1",
+          "index": "11",
+          "fromtitle": "Airbus",
+          "byteoffset": 17032,
+          "anchor": "Deutschland",
+          "size": 45
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Hamburg",
+          "number": "2.1.1.1",
+          "index": "12",
+          "fromtitle": "Airbus",
+          "byteoffset": 17077,
+          "anchor": "Hamburg",
+          "size": 2686
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Bremen",
+          "number": "2.1.1.2",
+          "index": "13",
+          "fromtitle": "Airbus",
+          "byteoffset": 19763,
+          "anchor": "Bremen",
+          "size": 821
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Rostock",
+          "number": "2.1.1.3",
+          "index": "14",
+          "fromtitle": "Airbus",
+          "byteoffset": 20584,
+          "anchor": "Rostock",
+          "size": 2342
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Buxtehude",
+          "number": "2.1.1.4",
+          "index": "15",
+          "fromtitle": "Airbus",
+          "byteoffset": 22926,
+          "anchor": "Buxtehude",
+          "size": 903
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Frankfurt",
+          "number": "2.1.1.5",
+          "index": "16",
+          "fromtitle": "Airbus",
+          "byteoffset": 23829,
+          "anchor": "Frankfurt",
+          "size": 156
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Stade",
+          "number": "2.1.1.6",
+          "index": "17",
+          "fromtitle": "Airbus",
+          "byteoffset": 23985,
+          "anchor": "Stade",
+          "size": 446
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Laupheim",
+          "number": "2.1.1.7",
+          "index": "18",
+          "fromtitle": "Airbus",
+          "byteoffset": 24431,
+          "anchor": "Laupheim",
+          "size": 170
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Nordenham und Varel",
+          "number": "2.1.1.8",
+          "index": "19",
+          "fromtitle": "Airbus",
+          "byteoffset": 24601,
+          "anchor": "Nordenham_und_Varel",
+          "size": 346
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Frankreich",
+          "number": "2.1.2",
+          "index": "20",
+          "fromtitle": "Airbus",
+          "byteoffset": 24947,
+          "anchor": "Frankreich",
+          "size": 21
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Toulouse",
+          "number": "2.1.2.1",
+          "index": "21",
+          "fromtitle": "Airbus",
+          "byteoffset": 24968,
+          "anchor": "Toulouse",
+          "size": 831
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Spanien",
+          "number": "2.1.3",
+          "index": "22",
+          "fromtitle": "Airbus",
+          "byteoffset": 25799,
+          "anchor": "Spanien",
+          "size": 18
+        },
+        {
+          "toclevel": 4,
+          "level": "5",
+          "line": "Sevilla",
+          "number": "2.1.3.1",
+          "index": "23",
+          "fromtitle": "Airbus",
+          "byteoffset": 25817,
+          "anchor": "Sevilla",
+          "size": 340
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Vereinigtes Königreich",
+          "number": "2.1.4",
+          "index": "24",
+          "fromtitle": "Airbus",
+          "byteoffset": 26157,
+          "anchor": "Vereinigtes_K.C3.B6nigreich",
+          "size": 1136
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "China",
+          "number": "2.1.5",
+          "index": "25",
+          "fromtitle": "Airbus",
+          "byteoffset": 27293,
+          "anchor": "China",
+          "size": 485
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "USA",
+          "number": "2.1.6",
+          "index": "26",
+          "fromtitle": "Airbus",
+          "byteoffset": 27778,
+          "anchor": "USA",
+          "size": 1709
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Weltweit",
+          "number": "2.1.7",
+          "index": "27",
+          "fromtitle": "Airbus",
+          "byteoffset": 29487,
+          "anchor": "Weltweit",
+          "size": 274
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Mitarbeiter und Management",
+          "number": "2.2",
+          "index": "28",
+          "fromtitle": "Airbus",
+          "byteoffset": 29761,
+          "anchor": "Mitarbeiter_und_Management",
+          "size": 17251
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Flugzeugmodelle",
+          "number": "3",
+          "index": "29",
+          "fromtitle": "Airbus",
+          "byteoffset": 47012,
+          "anchor": "Flugzeugmodelle",
+          "size": 22
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Zivilflugzeuge",
+          "number": "3.1",
+          "index": "30",
+          "fromtitle": "Airbus",
+          "byteoffset": 47034,
+          "anchor": "Zivilflugzeuge",
+          "size": 23
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "A300/A310-Familie",
+          "number": "3.1.1",
+          "index": "31",
+          "fromtitle": "Airbus",
+          "byteoffset": 47057,
+          "anchor": "A300.2FA310-Familie",
+          "size": 1152
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "A320-Familie",
+          "number": "3.1.2",
+          "index": "32",
+          "fromtitle": "Airbus",
+          "byteoffset": 48209,
+          "anchor": "A320-Familie",
+          "size": 2743
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "A330/A340-Familie",
+          "number": "3.1.3",
+          "index": "33",
+          "fromtitle": "Airbus",
+          "byteoffset": 50952,
+          "anchor": "A330.2FA340-Familie",
+          "size": 1063
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "A350",
+          "number": "3.1.4",
+          "index": "34",
+          "fromtitle": "Airbus",
+          "byteoffset": 52015,
+          "anchor": "A350",
+          "size": 1764
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "A380",
+          "number": "3.1.5",
+          "index": "35",
+          "fromtitle": "Airbus",
+          "byteoffset": 53779,
+          "anchor": "A380",
+          "size": 1804
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Übersicht",
+          "number": "3.1.6",
+          "index": "36",
+          "fromtitle": "Airbus",
+          "byteoffset": 55583,
+          "anchor": ".C3.9Cbersicht",
+          "size": 7847
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Zeitleiste",
+          "number": "3.1.7",
+          "index": "37",
+          "fromtitle": "Airbus",
+          "byteoffset": 63430,
+          "anchor": "Zeitleiste",
+          "size": 44
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Militärflugzeuge",
+          "number": "3.2",
+          "index": "38",
+          "fromtitle": "Airbus",
+          "byteoffset": 63474,
+          "anchor": "Milit.C3.A4rflugzeuge",
+          "size": 25
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Airbus A310-300 MRT/MRTT",
+          "number": "3.2.1",
+          "index": "39",
+          "fromtitle": "Airbus",
+          "byteoffset": 63499,
+          "anchor": "Airbus_A310-300_MRT.2FMRTT",
+          "size": 830
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Airbus A330 MRTT",
+          "number": "3.2.2",
+          "index": "40",
+          "fromtitle": "Airbus",
+          "byteoffset": 64329,
+          "anchor": "Airbus_A330_MRTT",
+          "size": 2385
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Airbus A400M",
+          "number": "3.2.3",
+          "index": "41",
+          "fromtitle": "Airbus",
+          "byteoffset": 66714,
+          "anchor": "Airbus_A400M",
+          "size": 764
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "CASA Transportflugzeuge",
+          "number": "3.2.4",
+          "index": "42",
+          "fromtitle": "Airbus",
+          "byteoffset": 67478,
+          "anchor": "CASA_Transportflugzeuge",
+          "size": 528
+        },
+        {
+          "toclevel": 3,
+          "level": "4",
+          "line": "Übersicht",
+          "number": "3.2.5",
+          "index": "43",
+          "fromtitle": "Airbus",
+          "byteoffset": 68006,
+          "anchor": ".C3.9Cbersicht_2",
+          "size": 1571
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Kommunalität",
+          "number": "3.3",
+          "index": "44",
+          "fromtitle": "Airbus",
+          "byteoffset": 69577,
+          "anchor": "Kommunalit.C3.A4t",
+          "size": 1400
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Ausblick",
+          "number": "4",
+          "index": "45",
+          "fromtitle": "Airbus",
+          "byteoffset": 70977,
+          "anchor": "Ausblick",
+          "size": 1536
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Literatur",
+          "number": "5",
+          "index": "46",
+          "fromtitle": "Airbus",
+          "byteoffset": 72513,
+          "anchor": "Literatur",
+          "size": 710
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Siehe auch",
+          "number": "6",
+          "index": "47",
+          "fromtitle": "Airbus",
+          "byteoffset": 73223,
+          "anchor": "Siehe_auch",
+          "size": 84
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Weblinks",
+          "number": "7",
+          "index": "48",
+          "fromtitle": "Airbus",
+          "byteoffset": 73307,
+          "anchor": "Weblinks",
+          "size": 126
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Einzelnachweise",
+          "number": "8",
+          "index": "49",
+          "fromtitle": "Airbus",
+          "byteoffset": 73433,
+          "anchor": "Einzelnachweise",
+          "size": 1530
+        }
+      ]
+    },
+    "fr": {
+      "label": "Airbus",
+      "url": "https://fr.wikipedia.org/wiki/Airbus",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "1",
+          "line": "EXTRACT",
+          "number": "0",
+          "index": "0",
+          "fromtitle": "",
+          "byteoffset": 0,
+          "anchor": "",
+          "size": 4954
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Historique",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Airbus",
+          "byteoffset": 4954,
+          "anchor": "Historique",
+          "size": 17
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1945 - 1967 : contexte aéronautique et projets européens",
+          "number": "1.1",
+          "index": "2",
+          "fromtitle": "Airbus",
+          "byteoffset": 4971,
+          "anchor": "1945_-_1967_:_contexte_a.C3.A9ronautique_et_projets_europ.C3.A9ens",
+          "size": 7544
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1967 - 1978 : A300 et formation d'Airbus Industrie",
+          "number": "1.2",
+          "index": "3",
+          "fromtitle": "Airbus",
+          "byteoffset": 12515,
+          "anchor": "1967_-_1978_:_A300_et_formation_d.27Airbus_Industrie",
+          "size": 11172
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1978 - 1980 : lancement de l'A310 et implication du Royaume-Uni",
+          "number": "1.3",
+          "index": "4",
+          "fromtitle": "Airbus",
+          "byteoffset": 23687,
+          "anchor": "1978_-_1980_:_lancement_de_l.27A310_et_implication_du_Royaume-Uni",
+          "size": 7010
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1980 - 1990 : succès de l'A320",
+          "number": "1.4",
+          "index": "5",
+          "fromtitle": "Airbus",
+          "byteoffset": 30697,
+          "anchor": "1980_-_1990_:_succ.C3.A8s_de_l.27A320",
+          "size": 6069
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1990 - 2000 : diversification de la gamme d'avions",
+          "number": "1.5",
+          "index": "6",
+          "fromtitle": "Airbus",
+          "byteoffset": 36766,
+          "anchor": "1990_-_2000_:_diversification_de_la_gamme_d.27avions",
+          "size": 6852
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "1999 - 2001 : consolidation et formation d'Airbus SAS",
+          "number": "1.6",
+          "index": "7",
+          "fromtitle": "Airbus",
+          "byteoffset": 43618,
+          "anchor": "1999_-_2001_:_consolidation_et_formation_d.27Airbus_SAS",
+          "size": 5281
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "2002 - 2007 : A380 et difficultés industrielles",
+          "number": "1.7",
+          "index": "8",
+          "fromtitle": "Airbus",
+          "byteoffset": 48899,
+          "anchor": "2002_-_2007_:_A380_et_difficult.C3.A9s_industrielles",
+          "size": 7423
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "2007 - 2012 : restructuration",
+          "number": "1.8",
+          "index": "9",
+          "fromtitle": "Airbus",
+          "byteoffset": 56322,
+          "anchor": "2007_-_2012_:_restructuration",
+          "size": 7539
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "2005 - : A350 et A320neo",
+          "number": "1.9",
+          "index": "10",
+          "fromtitle": "Airbus",
+          "byteoffset": 63861,
+          "anchor": "2005_-_:_A350_et_A320neo",
+          "size": 8404
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Identité visuelle (logo)",
+          "number": "1.10",
+          "index": "11",
+          "fromtitle": "Airbus",
+          "byteoffset": 72265,
+          "anchor": "Identit.C3.A9_visuelle_.28logo.29",
+          "size": 330
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Chronologie des fusions",
+          "number": "1.11",
+          "index": "12",
+          "fromtitle": "Airbus",
+          "byteoffset": 72595,
+          "anchor": "Chronologie_des_fusions",
+          "size": 281
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Succession des dirigeants",
+          "number": "1.12",
+          "index": "13",
+          "fromtitle": "Airbus",
+          "byteoffset": 72876,
+          "anchor": "Succession_des_dirigeants",
+          "size": 763
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Organisation",
+          "number": "2",
+          "index": "14",
+          "fromtitle": "Airbus",
+          "byteoffset": 73639,
+          "anchor": "Organisation",
+          "size": 328
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Effectifs",
+          "number": "2.1",
+          "index": "15",
+          "fromtitle": "Airbus",
+          "byteoffset": 73967,
+          "anchor": "Effectifs",
+          "size": 1020
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Production",
+          "number": "3",
+          "index": "16",
+          "fromtitle": "Airbus",
+          "byteoffset": 74987,
+          "anchor": "Production",
+          "size": 703
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Conception",
+          "number": "3.1",
+          "index": "17",
+          "fromtitle": "Airbus",
+          "byteoffset": 75690,
+          "anchor": "Conception",
+          "size": 2778
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Fabrication",
+          "number": "3.2",
+          "index": "18",
+          "fromtitle": "Airbus",
+          "byteoffset": 78468,
+          "anchor": "Fabrication",
+          "size": 2126
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Logistique",
+          "number": "3.3",
+          "index": "19",
+          "fromtitle": "Airbus",
+          "byteoffset": 80594,
+          "anchor": "Logistique",
+          "size": 8122
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Chaînes d'assemblage final",
+          "number": "3.4",
+          "index": "20",
+          "fromtitle": "Airbus",
+          "byteoffset": 88716,
+          "anchor": "Cha.C3.AEnes_d.27assemblage_final",
+          "size": 8412
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Filiales et sites de production dans le monde",
+          "number": "4",
+          "index": "21",
+          "fromtitle": "Airbus",
+          "byteoffset": 97128,
+          "anchor": "Filiales_et_sites_de_production_dans_le_monde",
+          "size": 498
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Filiales européennes",
+          "number": "4.1",
+          "index": "22",
+          "fromtitle": "Airbus",
+          "byteoffset": 97626,
+          "anchor": "Filiales_europ.C3.A9ennes",
+          "size": 3782
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Filiales dans le monde",
+          "number": "4.2",
+          "index": "23",
+          "fromtitle": "Airbus",
+          "byteoffset": 101408,
+          "anchor": "Filiales_dans_le_monde",
+          "size": 5247
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Entreprises affiliées",
+          "number": "4.3",
+          "index": "24",
+          "fromtitle": "Airbus",
+          "byteoffset": 106655,
+          "anchor": "Entreprises_affili.C3.A9es",
+          "size": 10150
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Concurrence entre Airbus et Boeing",
+          "number": "5",
+          "index": "25",
+          "fromtitle": "Airbus",
+          "byteoffset": 116805,
+          "anchor": "Concurrence_entre_Airbus_et_Boeing",
+          "size": 1037
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Compétition sur le marché de l'aviation",
+          "number": "5.1",
+          "index": "26",
+          "fromtitle": "Airbus",
+          "byteoffset": 117842,
+          "anchor": "Comp.C3.A9tition_sur_le_march.C3.A9_de_l.27aviation",
+          "size": 2559
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Différends sur les subventions",
+          "number": "5.2",
+          "index": "27",
+          "fromtitle": "Airbus",
+          "byteoffset": 120401,
+          "anchor": "Diff.C3.A9rends_sur_les_subventions",
+          "size": 9710
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Appareils de la gamme Airbus",
+          "number": "6",
+          "index": "28",
+          "fromtitle": "Airbus",
+          "byteoffset": 130111,
+          "anchor": "Appareils_de_la_gamme_Airbus",
+          "size": 108
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Avions civils passagers",
+          "number": "6.1",
+          "index": "29",
+          "fromtitle": "Airbus",
+          "byteoffset": 130219,
+          "anchor": "Avions_civils_passagers",
+          "size": 6228
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Avions civils privés et gouvernementaux",
+          "number": "6.2",
+          "index": "30",
+          "fromtitle": "Airbus",
+          "byteoffset": 136447,
+          "anchor": "Avions_civils_priv.C3.A9s_et_gouvernementaux",
+          "size": 5215
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Avions civils fret",
+          "number": "6.3",
+          "index": "31",
+          "fromtitle": "Airbus",
+          "byteoffset": 141662,
+          "anchor": "Avions_civils_fret",
+          "size": 5268
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Caractéristiques techniques des avions Airbus",
+          "number": "7",
+          "index": "32",
+          "fromtitle": "Airbus",
+          "byteoffset": 146930,
+          "anchor": "Caract.C3.A9ristiques_techniques_des_avions_Airbus",
+          "size": 53
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Avions civils",
+          "number": "7.1",
+          "index": "33",
+          "fromtitle": "Airbus",
+          "byteoffset": 146983,
+          "anchor": "Avions_civils",
+          "size": 173
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Référence bibliographiques",
+          "number": "8",
+          "index": "34",
+          "fromtitle": "Airbus",
+          "byteoffset": 147156,
+          "anchor": "R.C3.A9f.C3.A9rence_bibliographiques",
+          "size": 503
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Notes et références",
+          "number": "9",
+          "index": "35",
+          "fromtitle": "Airbus",
+          "byteoffset": 147659,
+          "anchor": "Notes_et_r.C3.A9f.C3.A9rences",
+          "size": 64
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Annexes",
+          "number": "10",
+          "index": "36",
+          "fromtitle": "Airbus",
+          "byteoffset": 147723,
+          "anchor": "Annexes",
+          "size": 15
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Liens externes",
+          "number": "10.1",
+          "index": "37",
+          "fromtitle": "Airbus",
+          "byteoffset": 147738,
+          "anchor": "Liens_externes",
+          "size": 171
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Bibliographie",
+          "number": "10.2",
+          "index": "38",
+          "fromtitle": "Airbus",
+          "byteoffset": 147909,
+          "anchor": "Bibliographie",
+          "size": 3188
+        }
+      ]
+    },
+    "es": {
+      "label": "Airbus",
+      "url": "https://es.wikipedia.org/wiki/Airbus",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "1",
+          "line": "EXTRACT",
+          "number": "0",
+          "index": "0",
+          "fromtitle": "",
+          "byteoffset": 0,
+          "anchor": "",
+          "size": 4054
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Historia",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Airbus",
+          "byteoffset": 4054,
+          "anchor": "Historia",
+          "size": 15
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Origen",
+          "number": "1.1",
+          "index": "2",
+          "fromtitle": "Airbus",
+          "byteoffset": 4069,
+          "anchor": "Origen",
+          "size": 5390
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Fundación de Airbus Industrie",
+          "number": "1.2",
+          "index": "3",
+          "fromtitle": "Airbus",
+          "byteoffset": 9459,
+          "anchor": "Fundaci.C3.B3n_de_Airbus_Industrie",
+          "size": 2042
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Construcción del A300",
+          "number": "1.3",
+          "index": "4",
+          "fromtitle": "Airbus",
+          "byteoffset": 11501,
+          "anchor": "Construcci.C3.B3n_del_A300",
+          "size": 7358
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Fundación de Airbus SAS",
+          "number": "1.4",
+          "index": "5",
+          "fromtitle": "Airbus",
+          "byteoffset": 18859,
+          "anchor": "Fundaci.C3.B3n_de_Airbus_SAS",
+          "size": 5395
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Desarrollo del A380",
+          "number": "1.5",
+          "index": "6",
+          "fromtitle": "Airbus",
+          "byteoffset": 24254,
+          "anchor": "Desarrollo_del_A380",
+          "size": 8581
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "La expansión y la venta de la participación de BAE",
+          "number": "1.6",
+          "index": "7",
+          "fromtitle": "Airbus",
+          "byteoffset": 32835,
+          "anchor": "La_expansi.C3.B3n_y_la_venta_de_la_participaci.C3.B3n_de_BAE",
+          "size": 5488
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Reestructuración de 2007",
+          "number": "1.7",
+          "index": "8",
+          "fromtitle": "Airbus",
+          "byteoffset": 38323,
+          "anchor": "Reestructuraci.C3.B3n_de_2007",
+          "size": 2597
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "El récord de pedidos del A320neo de 2011",
+          "number": "1.8",
+          "index": "9",
+          "fromtitle": "Airbus",
+          "byteoffset": 40920,
+          "anchor": "El_r.C3.A9cord_de_pedidos_del_A320neo_de_2011",
+          "size": 740
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Accidentes",
+          "number": "1.9",
+          "index": "10",
+          "fromtitle": "Airbus",
+          "byteoffset": 41660,
+          "anchor": "Accidentes",
+          "size": 74
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Producción civil",
+          "number": "2",
+          "index": "11",
+          "fromtitle": "Airbus",
+          "byteoffset": 41734,
+          "anchor": "Producci.C3.B3n_civil",
+          "size": 9486
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Bienes de consumo",
+          "number": "2.1",
+          "index": "12",
+          "fromtitle": "Airbus",
+          "byteoffset": 51220,
+          "anchor": "Bienes_de_consumo",
+          "size": 1943
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Productos militares",
+          "number": "3",
+          "index": "13",
+          "fromtitle": "Airbus",
+          "byteoffset": 53163,
+          "anchor": "Productos_militares",
+          "size": 5837
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Nuevo avión de pasajeros supersónico",
+          "number": "4",
+          "index": "14",
+          "fromtitle": "Airbus",
+          "byteoffset": 59000,
+          "anchor": "Nuevo_avi.C3.B3n_de_pasajeros_supers.C3.B3nico",
+          "size": 872
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Pedidos y entregas",
+          "number": "5",
+          "index": "15",
+          "fromtitle": "Airbus",
+          "byteoffset": 59872,
+          "anchor": "Pedidos_y_entregas",
+          "size": 1340
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Competencia con Boeing",
+          "number": "6",
+          "index": "16",
+          "fromtitle": "Airbus",
+          "byteoffset": 61212,
+          "anchor": "Competencia_con_Boeing",
+          "size": 6477
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Conflicto por las subvenciones",
+          "number": "6.1",
+          "index": "17",
+          "fromtitle": "Airbus",
+          "byteoffset": 67689,
+          "anchor": "Conflicto_por_las_subvenciones",
+          "size": 5127
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Presencia internacional",
+          "number": "7",
+          "index": "18",
+          "fromtitle": "Airbus",
+          "byteoffset": 72816,
+          "anchor": "Presencia_internacional",
+          "size": 5913
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Logros medioambientales",
+          "number": "8",
+          "index": "19",
+          "fromtitle": "Airbus",
+          "byteoffset": 78729,
+          "anchor": "Logros_medioambientales",
+          "size": 766
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Biocombustible",
+          "number": "8.1",
+          "index": "20",
+          "fromtitle": "Airbus",
+          "byteoffset": 79495,
+          "anchor": "Biocombustible",
+          "size": 1737
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Créditos expedidos",
+          "number": "9",
+          "index": "21",
+          "fromtitle": "Airbus",
+          "byteoffset": 81232,
+          "anchor": "Cr.C3.A9ditos_expedidos",
+          "size": 888
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Código de identificación de aviones Airbus",
+          "number": "10",
+          "index": "22",
+          "fromtitle": "Airbus",
+          "byteoffset": 82120,
+          "anchor": "C.C3.B3digo_de_identificaci.C3.B3n_de_aviones_Airbus",
+          "size": 1086
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Códigos de motores",
+          "number": "10.1",
+          "index": "23",
+          "fromtitle": "Airbus",
+          "byteoffset": 83206,
+          "anchor": "C.C3.B3digos_de_motores",
+          "size": 652
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Véase también",
+          "number": "11",
+          "index": "24",
+          "fromtitle": "Airbus",
+          "byteoffset": 83858,
+          "anchor": "V.C3.A9ase_tambi.C3.A9n",
+          "size": 103
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Referencias",
+          "number": "12",
+          "index": "25",
+          "fromtitle": "Airbus",
+          "byteoffset": 83961,
+          "anchor": "Referencias",
+          "size": 34
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Enlaces externos",
+          "number": "13",
+          "index": "26",
+          "fromtitle": "Airbus",
+          "byteoffset": 83995,
+          "anchor": "Enlaces_externos",
+          "size": 277
+        }
+      ]
+    },
+    "ja": {
+      "label": "エアバス",
+      "url": "https://ja.wikipedia.org/wiki/エアバス",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "1",
+          "line": "EXTRACT",
+          "number": "0",
+          "index": "0",
+          "fromtitle": "",
+          "byteoffset": 0,
+          "anchor": "",
+          "size": 1031
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "概要",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "エアバス",
+          "byteoffset": 1031,
+          "anchor": ".E6.A6.82.E8.A6.81",
+          "size": 414
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "経緯",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "エアバス",
+          "byteoffset": 1445,
+          "anchor": ".E7.B5.8C.E7.B7.AF",
+          "size": 837
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "ボーイングとの市場競争",
+          "number": "3",
+          "index": "3",
+          "fromtitle": "エアバス",
+          "byteoffset": 2282,
+          "anchor": ".E3.83.9C.E3.83.BC.E3.82.A4.E3.83.B3.E3.82.B0.E3.81.A8.E3.81.AE.E5.B8.82.E5.A0.B4.E7.AB.B6.E4.BA.89",
+          "size": 481
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "受注機数と納入機数",
+          "number": "3.1",
+          "index": "4",
+          "fromtitle": "エアバス",
+          "byteoffset": 2763,
+          "anchor": ".E5.8F.97.E6.B3.A8.E6.A9.9F.E6.95.B0.E3.81.A8.E7.B4.8D.E5.85.A5.E6.A9.9F.E6.95.B0",
+          "size": 3157
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "エアバス航空機の特徴",
+          "number": "4",
+          "index": "5",
+          "fromtitle": "エアバス",
+          "byteoffset": 5920,
+          "anchor": ".E3.82.A8.E3.82.A2.E3.83.90.E3.82.B9.E8.88.AA.E7.A9.BA.E6.A9.9F.E3.81.AE.E7.89.B9.E5.BE.B4",
+          "size": 1425
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "民間向け製品",
+          "number": "5",
+          "index": "6",
+          "fromtitle": "エアバス",
+          "byteoffset": 7345,
+          "anchor": ".E6.B0.91.E9.96.93.E5.90.91.E3.81.91.E8.A3.BD.E5.93.81",
+          "size": 790
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "製造機の仕様",
+          "number": "5.1",
+          "index": "7",
+          "fromtitle": "エアバス",
+          "byteoffset": 8135,
+          "anchor": ".E8.A3.BD.E9.80.A0.E6.A9.9F.E3.81.AE.E4.BB.95.E6.A7.98",
+          "size": 2016
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "計画中の製品",
+          "number": "5.2",
+          "index": "8",
+          "fromtitle": "エアバス",
+          "byteoffset": 10151,
+          "anchor": ".E8.A8.88.E7.94.BB.E4.B8.AD.E3.81.AE.E8.A3.BD.E5.93.81",
+          "size": 29
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "日本向け製品",
+          "number": "5.3",
+          "index": "9",
+          "fromtitle": "エアバス",
+          "byteoffset": 10180,
+          "anchor": ".E6.97.A5.E6.9C.AC.E5.90.91.E3.81.91.E8.A3.BD.E5.93.81",
+          "size": 3290
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "空軍向け製品",
+          "number": "6",
+          "index": "10",
+          "fromtitle": "エアバス",
+          "byteoffset": 13470,
+          "anchor": ".E7.A9.BA.E8.BB.8D.E5.90.91.E3.81.91.E8.A3.BD.E5.93.81",
+          "size": 651
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "国際的な製造拠点",
+          "number": "7",
+          "index": "11",
+          "fromtitle": "エアバス",
+          "byteoffset": 14121,
+          "anchor": ".E5.9B.BD.E9.9A.9B.E7.9A.84.E3.81.AA.E8.A3.BD.E9.80.A0.E6.8B.A0.E7.82.B9",
+          "size": 2921
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "各拠点の従業員",
+          "number": "7.1",
+          "index": "12",
+          "fromtitle": "エアバス",
+          "byteoffset": 17042,
+          "anchor": ".E5.90.84.E6.8B.A0.E7.82.B9.E3.81.AE.E5.BE.93.E6.A5.AD.E5.93.A1",
+          "size": 1877
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "出典",
+          "number": "8",
+          "index": "13",
+          "fromtitle": "エアバス",
+          "byteoffset": 18919,
+          "anchor": ".E5.87.BA.E5.85.B8",
+          "size": 22
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "関連項目",
+          "number": "9",
+          "index": "14",
+          "fromtitle": "エアバス",
+          "byteoffset": 18941,
+          "anchor": ".E9.96.A2.E9.80.A3.E9.A0.85.E7.9B.AE",
+          "size": 66
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "参考資料",
+          "number": "10",
+          "index": "15",
+          "fromtitle": "エアバス",
+          "byteoffset": 19007,
+          "anchor": ".E5.8F.82.E8.80.83.E8.B3.87.E6.96.99",
+          "size": 1653
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "外部リンク",
+          "number": "11",
+          "index": "16",
+          "fromtitle": "エアバス",
+          "byteoffset": 20660,
+          "anchor": ".E5.A4.96.E9.83.A8.E3.83.AA.E3.83.B3.E3.82.AF",
+          "size": 447
+        }
+      ]
+    },
+    "ru": {
+      "label": "Airbus",
+      "url": "https://ru.wikipedia.org/wiki/Airbus",
+      "sections": [
+        {
+          "toclevel": 1,
+          "level": "1",
+          "line": "EXTRACT",
+          "number": "0",
+          "index": "0",
+          "fromtitle": "",
+          "byteoffset": 0,
+          "anchor": "",
+          "size": 1979
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Собственники и руководство",
+          "number": "1",
+          "index": "1",
+          "fromtitle": "Airbus",
+          "byteoffset": 1979,
+          "anchor": ".D0.A1.D0.BE.D0.B1.D1.81.D1.82.D0.B2.D0.B5.D0.BD.D0.BD.D0.B8.D0.BA.D0.B8_.D0.B8_.D1.80.D1.83.D0.BA.D0.BE.D0.B2.D0.BE.D0.B4.D1.81.D1.82.D0.B2.D0.BE",
+          "size": 777
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Деятельность",
+          "number": "2",
+          "index": "2",
+          "fromtitle": "Airbus",
+          "byteoffset": 2756,
+          "anchor": ".D0.94.D0.B5.D1.8F.D1.82.D0.B5.D0.BB.D1.8C.D0.BD.D0.BE.D1.81.D1.82.D1.8C",
+          "size": 813
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Конкуренция с Boeing",
+          "number": "2.1",
+          "index": "3",
+          "fromtitle": "Airbus",
+          "byteoffset": 3569,
+          "anchor": ".D0.9A.D0.BE.D0.BD.D0.BA.D1.83.D1.80.D0.B5.D0.BD.D1.86.D0.B8.D1.8F_.D1.81_Boeing",
+          "size": 5555
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Airbus в России",
+          "number": "2.2",
+          "index": "4",
+          "fromtitle": "Airbus",
+          "byteoffset": 9124,
+          "anchor": "Airbus_.D0.B2_.D0.A0.D0.BE.D1.81.D1.81.D0.B8.D0.B8",
+          "size": 2873
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Продукция",
+          "number": "3",
+          "index": "5",
+          "fromtitle": "Airbus",
+          "byteoffset": 11997,
+          "anchor": ".D0.9F.D1.80.D0.BE.D0.B4.D1.83.D0.BA.D1.86.D0.B8.D1.8F",
+          "size": 17
+        },
+        {
+          "toclevel": 2,
+          "level": "3",
+          "line": "Гражданские авиалайнеры",
+          "number": "3.1",
+          "index": "6",
+          "fromtitle": "Airbus",
+          "byteoffset": 12014,
+          "anchor": ".D0.93.D1.80.D0.B0.D0.B6.D0.B4.D0.B0.D0.BD.D1.81.D0.BA.D0.B8.D0.B5_.D0.B0.D0.B2.D0.B8.D0.B0.D0.BB.D0.B0.D0.B9.D0.BD.D0.B5.D1.80.D1.8B",
+          "size": 4583
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Интересные факты",
+          "number": "4",
+          "index": "7",
+          "fromtitle": "Airbus",
+          "byteoffset": 16597,
+          "anchor": ".D0.98.D0.BD.D1.82.D0.B5.D1.80.D0.B5.D1.81.D0.BD.D1.8B.D0.B5_.D1.84.D0.B0.D0.BA.D1.82.D1.8B",
+          "size": 1171
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "См. также",
+          "number": "5",
+          "index": "8",
+          "fromtitle": "Airbus",
+          "byteoffset": 17768,
+          "anchor": ".D0.A1.D0.BC._.D1.82.D0.B0.D0.BA.D0.B6.D0.B5",
+          "size": 136
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Примечания",
+          "number": "6",
+          "index": "9",
+          "fromtitle": "Airbus",
+          "byteoffset": 17904,
+          "anchor": ".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D0.BD.D0.B8.D1.8F",
+          "size": 34
+        },
+        {
+          "toclevel": 1,
+          "level": "2",
+          "line": "Ссылки",
+          "number": "7",
+          "index": "10",
+          "fromtitle": "Airbus",
+          "byteoffset": 17938,
+          "anchor": ".D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8",
+          "size": 407
+        }
+      ]
+    }
+  },
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Airbus"
+    },
+    "fr": {
+      "language": "fr",
+      "value": "Airbus"
+    },
+    "it": {
+      "language": "it",
+      "value": "Airbus"
+    },
+    "es": {
+      "language": "es",
+      "value": "Airbus"
+    },
+    "de": {
+      "language": "de",
+      "value": "Airbus"
+    },
+    "en-ca": {
+      "language": "en-ca",
+      "value": "Airbus"
+    },
+    "en-gb": {
+      "language": "en-gb",
+      "value": "Airbus"
+    },
+    "zh": {
+      "language": "zh",
+      "value": "空中巴士"
+    },
+    "zh-cn": {
+      "language": "zh-cn",
+      "value": "空中客车"
+    },
+    "zh-tw": {
+      "language": "zh-tw",
+      "value": "空中巴士"
+    },
+    "zh-sg": {
+      "language": "zh-sg",
+      "value": "空中客车"
+    },
+    "zh-mo": {
+      "language": "zh-mo",
+      "value": "空中巴士"
+    },
+    "zh-hans": {
+      "language": "zh-hans",
+      "value": "空中客车"
+    },
+    "zh-hant": {
+      "language": "zh-hant",
+      "value": "空中巴士"
+    },
+    "zh-hk": {
+      "language": "zh-hk",
+      "value": "空中巴士"
+    },
+    "zh-my": {
+      "language": "zh-my",
+      "value": "空中客车"
+    },
+    "ca": {
+      "language": "ca",
+      "value": "Airbus"
+    },
+    "af": {
+      "language": "af",
+      "value": "Airbus"
+    },
+    "ar": {
+      "language": "ar",
+      "value": "إيرباص"
+    },
+    "bar": {
+      "language": "bar",
+      "value": "Airbus"
+    },
+    "bg": {
+      "language": "bg",
+      "value": "Еърбъс"
+    },
+    "bs": {
+      "language": "bs",
+      "value": "Airbus"
+    },
+    "ceb": {
+      "language": "ceb",
+      "value": "Airbus"
+    },
+    "cs": {
+      "language": "cs",
+      "value": "Airbus"
+    },
+    "cy": {
+      "language": "cy",
+      "value": "Airbus"
+    },
+    "da": {
+      "language": "da",
+      "value": "Airbus"
+    },
+    "el": {
+      "language": "el",
+      "value": "Airbus"
+    },
+    "eo": {
+      "language": "eo",
+      "value": "Airbus"
+    },
+    "et": {
+      "language": "et",
+      "value": "Airbus"
+    },
+    "eu": {
+      "language": "eu",
+      "value": "Airbus"
+    },
+    "fa": {
+      "language": "fa",
+      "value": "ایرباس"
+    },
+    "fi": {
+      "language": "fi",
+      "value": "Airbus"
+    },
+    "gl": {
+      "language": "gl",
+      "value": "Airbus"
+    },
+    "gu": {
+      "language": "gu",
+      "value": "એર બસ"
+    },
+    "he": {
+      "language": "he",
+      "value": "איירבוס"
+    },
+    "hi": {
+      "language": "hi",
+      "value": "एयरबस"
+    },
+    "hr": {
+      "language": "hr",
+      "value": "Airbus"
+    },
+    "hu": {
+      "language": "hu",
+      "value": "Airbus"
+    },
+    "hy": {
+      "language": "hy",
+      "value": "Airbus"
+    },
+    "id": {
+      "language": "id",
+      "value": "Airbus"
+    },
+    "is": {
+      "language": "is",
+      "value": "Airbus"
+    },
+    "ja": {
+      "language": "ja",
+      "value": "エアバス"
+    },
+    "ka": {
+      "language": "ka",
+      "value": "Airbus"
+    },
+    "kn": {
+      "language": "kn",
+      "value": "ಏರ್ ಬಸ್"
+    },
+    "ko": {
+      "language": "ko",
+      "value": "에어버스"
+    },
+    "ku": {
+      "language": "ku",
+      "value": "Airbus"
+    },
+    "la": {
+      "language": "la",
+      "value": "Airbus"
+    },
+    "lb": {
+      "language": "lb",
+      "value": "Airbus"
+    },
+    "li": {
+      "language": "li",
+      "value": "Airbus"
+    },
+    "lt": {
+      "language": "lt",
+      "value": "Airbus"
+    },
+    "lv": {
+      "language": "lv",
+      "value": "Airbus"
+    },
+    "mk": {
+      "language": "mk",
+      "value": "Ербас"
+    },
+    "ml": {
+      "language": "ml",
+      "value": "എയർബസ്"
+    },
+    "nl": {
+      "language": "nl",
+      "value": "Airbus"
+    },
+    "oc": {
+      "language": "oc",
+      "value": "Airbus"
+    },
+    "pl": {
+      "language": "pl",
+      "value": "Airbus"
+    },
+    "pt": {
+      "language": "pt",
+      "value": "Airbus"
+    },
+    "pt-br": {
+      "language": "pt-br",
+      "value": "Airbus"
+    },
+    "ro": {
+      "language": "ro",
+      "value": "Airbus"
+    },
+    "ru": {
+      "language": "ru",
+      "value": "Airbus"
+    },
+    "sco": {
+      "language": "sco",
+      "value": "Airbus"
+    },
+    "sh": {
+      "language": "sh",
+      "value": "Airbus"
+    },
+    "sk": {
+      "language": "sk",
+      "value": "Airbus"
+    },
+    "sq": {
+      "language": "sq",
+      "value": "Airbus"
+    },
+    "sr": {
+      "language": "sr",
+      "value": "Ербас"
+    },
+    "sv": {
+      "language": "sv",
+      "value": "Airbus"
+    },
+    "sw": {
+      "language": "sw",
+      "value": "Airbus"
+    },
+    "ta": {
+      "language": "ta",
+      "value": "ஏர்பஸ்"
+    },
+    "te": {
+      "language": "te",
+      "value": "ఎయిర్ బస్"
+    },
+    "th": {
+      "language": "th",
+      "value": "แอร์บัส"
+    },
+    "tr": {
+      "language": "tr",
+      "value": "Airbus"
+    },
+    "uk": {
+      "language": "uk",
+      "value": "Airbus"
+    },
+    "vi": {
+      "language": "vi",
+      "value": "Airbus"
+    },
+    "yi": {
+      "language": "yi",
+      "value": "ערבוס"
+    },
+    "nb": {
+      "language": "nb",
+      "value": "Airbus"
+    },
+    "de-ch": {
+      "language": "de-ch",
+      "value": "Airbus"
+    },
+    "mr": {
+      "language": "mr",
+      "value": "एरबस"
+    },
+    "gsw": {
+      "language": "gsw",
+      "value": "Airbus"
+    },
+    "az": {
+      "language": "az",
+      "value": "Airbus"
+    },
+    "kk": {
+      "language": "kk",
+      "value": "Airbus"
+    },
+    "yue": {
+      "language": "yue",
+      "value": "空中客車"
+    },
+    "ms": {
+      "language": "ms",
+      "value": "Airbus"
+    },
+    "sr-ec": {
+      "language": "sr-ec",
+      "value": "Ербас"
+    },
+    "sr-el": {
+      "language": "sr-el",
+      "value": "Erbas"
+    },
+    "bn": {
+      "language": "bn",
+      "value": "এয়ারবাস"
+    },
+    "sl": {
+      "language": "sl",
+      "value": "Airbus"
+    },
+    "ha": {
+      "language": "ha",
+      "value": "Airbus"
+    },
+    "ne": {
+      "language": "ne",
+      "value": "एयरबस"
+    },
+    "new": {
+      "language": "new",
+      "value": "एयरबस"
+    },
+    "br": {
+      "language": "br",
+      "value": "Airbus"
+    },
+    "hak": {
+      "language": "hak",
+      "value": "Khûng-chûng Hak-chhâ Kûng-sṳ̂"
+    },
+    "ast": {
+      "language": "ast",
+      "value": "Airbus"
+    },
+    "pa": {
+      "language": "pa",
+      "value": "ਏਅਰਬੱਸ"
+    }
+  }
+}
