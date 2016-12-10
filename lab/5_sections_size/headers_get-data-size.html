@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Wikipedia objects</title>
+	<script src="../../js/jquery-2.2.1.min.js"></script>
+	<script src="../../js/lodash.js"></script>
+	<script src="../../js/wikidata-sdk.min.js"></script>
+
+</head>
+
+ 
+<script>
+
+(function() {
+
+	function WikiObj(){
+		// this.languages = ['en','de','fr','ja','ru']
+		this.languages = ['en','ja']
+		this.wikibase_item = "Q50189" 
+		this.content = new Object();
+
+		for (const lang of this.languages ) {
+			this.content[lang] = new Object();
+		}
+	}
+	
+	WikiObj.prototype.getArticles = function(){
+
+		var WObj = this
+		console.log(WObj);
+
+		findArticles = function(){
+			
+			$.getJSON('https://www.wikidata.org/w/api.php?action=wbgetentities&props=labels&format=json&callback=?', {
+				ids:WObj.wikibase_item,
+			})
+
+			.done(function(result){
+				console.log(result)
+
+				WObj.labels = result.entities[WObj.wikibase_item].labels
+
+				for (lang in WObj.languages) {
+					var tmpLang = WObj.languages[lang];
+					console.log(tmpLang)
+					var tmpURL = "https://"+WObj.languages[lang]+".wikipedia.org/wiki/"+WObj.labels[tmpLang].value
+					console.log(tmpURL)
+
+					WObj.content[tmpLang].label = WObj.labels[tmpLang].value;
+					WObj.content[tmpLang].url = tmpURL
+				}
+
+				getSections(0);
+			});
+		}
+		findArticles();
+
+
+		getSections = function(langRef){
+
+			// console.log('looking for info in '+WObj.languages[langRef])
+
+			var tmpLang = WObj.languages[langRef]
+
+			$.getJSON('http://'+tmpLang+'.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {
+				page:WObj.content[tmpLang].label, 
+				prop:'sections'
+			})
+
+			.done(function(result){
+
+				WObj.content[tmpLang].sections = result.parse.sections;
+
+				// adding entry for the extract
+				var extract = { "toclevel": 0, "level": "1", "line": "EXTRACT", "number": "0", "index": "0", "fromtitle": "", "byteoffset": 0, "anchor": "" }
+				WObj.content[tmpLang].sections.unshift(extract)
+
+				// console.table(WObj.content[tmpLang].sections)
+
+				if(langRef < WObj.languages.length - 1){
+					langRef++
+					getSections(langRef);
+				}else{
+					console.log('finito')
+					// WObj.presentArticle();
+					// exportJSON()
+					setQuantities()
+
+					// setArticleSize(0);
+				}
+			});
+		}
+
+
+		setArticleSize = function (langRef) {
+			
+			var tmpLang = WObj.languages[langRef]
+
+			$.getJSON('http://'+tmpLang+'.wikipedia.org/w/api.php?action=query&format=json&callback=?', {
+				page:WObj.content[tmpLang].label, 
+				prop:'revisions'
+			})
+		}
+
+
+		setQuantities = function () {
+
+			for (lang in WObj.content) {
+
+				var tmpContent = WObj.content[lang].sections;
+				var tmpSectionsCount = tmpContent.length 
+				console.log(tmpContent)
+				console.log('tmpSectionsCount: '+ tmpSectionsCount)
+
+				for (section in tmpContent) {
+
+					var tmpSection = tmpContent[section]
+
+					console.log(section)
+
+					if(section == 0){
+						console.log('extract')
+						tmpSection.size = tmpContent[1].byteoffset
+					}else if(section < tmpSectionsCount - 1) {
+						console.log('content')
+
+						var tmpNextSection = parseFloat(section)+1
+						// console.log(tmpNextSection)
+
+						tmpSection.size = tmpContent[tmpNextSection].byteoffset - tmpContent[section].byteoffset
+					}else {
+						console.log('last chunk')
+						tmpSection.size = 0;
+					}
+				}
+
+				console.table(WObj.content[lang].sections)
+			}
+		}
+
+
+		exportJSON = function(){
+
+			console.log('exporting a JSON')
+			// console.log(WObj);
+
+			var jsonString = JSON.stringify(WObj);
+			console.log(jsonString);
+
+		}
+
+	}
+
+	var wikiObj1 = new WikiObj();
+	wikiObj1.getArticles();
+
+
+})();
+</script>
+<body>
+</body>
+</html>
