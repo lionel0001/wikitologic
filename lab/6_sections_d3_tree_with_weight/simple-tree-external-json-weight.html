@@ -17,7 +17,7 @@
 .link {
   fill: none;
   stroke: #ccc;
-  stroke-width: 2px;
+  /*stroke-width: 2px;*/
 }
 
 </style>
@@ -30,7 +30,7 @@
 
 // set the dimensions and margins of the diagram
 var margin = {top: 20, right: 90, bottom: 30, left: 90},
-  width = 900 - margin.left - margin.right,
+  width = 1200 - margin.left - margin.right,
   height = 600 - margin.top - margin.bottom;
 
 // declares a tree layout and assigns the size
@@ -64,6 +64,10 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
     .data( nodes.descendants().slice(1))
     .enter().append("path")
     .attr("class", "link")
+    .attr("stroke-width",function(d) {
+        var strokeW = (d.data.size/1000 > 1) ? d.data.size/1000 : 1;
+        return strokeW + "px";
+       })
     .attr("d", function(d) {
        return "M" + d.y + "," + d.x
        + "C" + (d.y + d.parent.y) / 2 + "," + d.x
@@ -83,8 +87,8 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
 
   // adds the circle to the node
   node.append("circle")
-    .attr("r", function(d) { return d.data.size/1000; });
-    // .attr("r", 3);
+    // .attr("r", function(d) { return d.data.size/1000; });
+    .attr("r", 3);
 
   // adds the text to the node
   node.append("text")
