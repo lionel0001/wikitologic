@@ -66,31 +66,34 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
     .attr("class", "link")
     .attr("stroke-width",function(d) {
 
-        console.log(d.data.line)
-        var tmpCumulatedSize = 0;
-
-        if(d.data.children.length == 0){
-          console.log('end of the branch')
-
-        }else{
-          console.log('needs to take over children\'s size')
-
-          var children = d.data.children;
-          
-          console.log('creating cumulative size')
-          console.log(d.data)
-
-          for (child in children) {
-            console.log(children[child])
-            tmpCumulatedSize += children[child].size
-          }
         
-          console.log('tmpCumulatedSize: '+ tmpCumulatedSize)
-          console.log('////////////////////')
 
-        }
 
-        var stroke = (d.data.size + tmpCumulatedSize)/1000;
+        // console.log(d.data.line)
+        // d.data.childrenCumulatedSize = 0;
+
+        // if(d.data.children.length == 0){
+        //   console.log('end of the branch')
+
+        // }else{
+        //   console.log('needs to take over children\'s size')
+
+        //   var children = d.data.children;
+          
+        //   console.log('creating cumulative size')
+        //   console.log(d.data)
+
+        //   for (child in children) {
+        //     console.log(children[child])
+        //     d.data.childrenCumulatedSize += children[child].size
+        //   }
+        
+        //   console.log('d.data.childrenCumulatedSize: '+ d.data.childrenCumulatedSize)
+        //   console.log('////////////////////')
+
+        // }
+
+        // var stroke = (d.data.size + d.data.childrenCumulatedSize)/1000;
 
         var stroke = stroke > 1 ? Math.round(stroke) : 1;
 
