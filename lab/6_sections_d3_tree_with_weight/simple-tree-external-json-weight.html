@@ -146,7 +146,7 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
           // no idea why 'x'and 'y' are swaped …
           return "M" + (d.y) + "," + (d.x)
           + "C" + (d.y + d.parent.y) / 2 + "," + d.x
-          + " " + (d.y + d.parent.y) / 2 + "," + d.parent.x
+          + " " + (d.y + d.parent.y) / 2 + "," + (d.parent.x + finalOffset)
           + " " + (d.parent.y) + "," + (d.parent.x + finalOffset); 
       })
 
