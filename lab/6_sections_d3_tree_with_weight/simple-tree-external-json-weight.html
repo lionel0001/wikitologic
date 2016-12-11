@@ -8,7 +8,7 @@
   stroke-width: 3px;
 }
 
-.node text { font: 12px sans-serif; }
+.node text { font: 11px sans-serif; }
 
 .node--internal text {
   text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
@@ -80,8 +80,8 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
               for (var i in o) {
                   func.apply(this,[i,o[i]]);  
                   if (o[i] !== null && typeof(o[i])=="object") {
-                      //going on step down in the object tree!!
-                      traverse(o[i],func);
+                    //going on step down in the object tree!!
+                    traverse(o[i],func);
                   }
               }
           }
@@ -90,20 +90,19 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
           d.data.childrenCumulatedSize = tmpCumulatedSize;
           var stroke = (d.data.size + d.data.childrenCumulatedSize)/1000;
           var stroke = stroke > 0.5 ? stroke : 0.5;
-
-          // var stroke = stroke > 1 ? Math.round(stroke) : 1;
-
           d.data.stroke = stroke
 
           return stroke + "px";
          })
       .attr("d", function(d) {
 
-          var yParentAdjustToTop = 0;
+          var finalOffset = 0;
           var ySiblingsAboveOffset = 0;
 
           if(d.parent.data.stroke){
             console.log('-------------')
+
+            var yParentAdjustToTop = 0;
             // console.log('All the siblings for '+d.data.line)
             // console.log(d.parent.children)
 
@@ -126,13 +125,19 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
                 }      
               }
             }
+            finalOffset = yParentAdjustToTop + ySiblingsAboveOffset;
+
+          }else {
+            console.log('head of the tree')
+            console.log(d)
+            console.log('///////////////////////////')
           }
 
           // no idea why 'x'and 'y' are swaped …
           return "M" + (d.y) + "," + (d.x)
           + "C" + (d.y + d.parent.y) / 2 + "," + d.x
           + " " + (d.y + d.parent.y) / 2 + "," + d.parent.x
-          + " " + (d.parent.y) + "," + (d.parent.x + yParentAdjustToTop + ySiblingsAboveOffset); 
+          + " " + (d.parent.y) + "," + (d.parent.x + finalOffset); 
       })
 
 
