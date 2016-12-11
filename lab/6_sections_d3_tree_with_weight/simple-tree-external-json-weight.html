@@ -30,8 +30,8 @@
 
 // set the dimensions and margins of the diagram
 var margin = {top: 20, right: 90, bottom: 30, left: 90},
-  width = 1200 - margin.left - margin.right,
-  height = 600 - margin.top - margin.bottom;
+  width = 1300 - margin.left - margin.right,
+  height = 500 - margin.top - margin.bottom;
 
 // declares a tree layout and assigns the size
 var treemap = d3.tree()
@@ -117,12 +117,7 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
             d.parent.data.stroke = startNodeThickness;
           }
 
-          if(d.parent.data.stroke){
-            // console.log('All the siblings for '+d.data.line)
-            // console.log(d.parent.children)
-            yParentAdjustToTop = -d.parent.data.stroke/2 + d.data.stroke/2
-            // console.log(yParentAdjustToTop)
-          }
+          yParentAdjustToTop = -d.parent.data.stroke/2 + d.data.stroke/2
 
           var siblings = d.parent.children;
           var index = siblings.indexOf(d)
