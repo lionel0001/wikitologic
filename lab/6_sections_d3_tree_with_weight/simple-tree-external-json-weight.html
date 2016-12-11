@@ -89,7 +89,9 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
 
           d.data.childrenCumulatedSize = tmpCumulatedSize;
           var stroke = (d.data.size + d.data.childrenCumulatedSize)/1000;
-          var stroke = stroke > 1 ? Math.round(stroke) : 1;
+          var stroke = stroke > 0.5 ? stroke : 0.5;
+
+          // var stroke = stroke > 1 ? Math.round(stroke) : 1;
 
           d.data.stroke = stroke
 
@@ -97,41 +99,65 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
          })
       .attr("d", function(d) {
 
-          var yParentAdjust = 0;
+          var yParentAdjustToTop = 0;
+          var ySiblingsAboveOffset = 0;
+
           if(d.parent.data.stroke){
-            yParentAdjust = -d.parent.data.stroke/2 + d.data.stroke/2
-            console.log(yParentAdjust)
+            console.log('-------------')
+            // console.log('All the siblings for '+d.data.line)
+            // console.log(d.parent.children)
+
+            yParentAdjustToTop = -d.parent.data.stroke/2 + d.data.stroke/2
+            // console.log(yParentAdjustToTop)
+
+            var siblings = d.parent.children;
+            var index = siblings.indexOf(d)
+
+            console.log('index: '+index + "/" + d.parent.children.length)
+
+            // need to calculate the thickness of the elements that are above
+            if(index > 0){
+              console.log(index +" branch(es) above")
+              for (child in siblings) {
+                if(child < index){
+                  console.log(child)
+                  console.log("stroke: "+siblings[child].data.stroke)
+                  ySiblingsAboveOffset += siblings[child].data.stroke;
+                }      
+              }
+            }
           }
 
+          // no idea why 'x'and 'y' are swaped …
           return "M" + (d.y) + "," + (d.x)
           + "C" + (d.y + d.parent.y) / 2 + "," + d.x
           + " " + (d.y + d.parent.y) / 2 + "," + d.parent.x
-          + " " + (d.parent.y) + "," + (d.parent.x + yParentAdjust); 
+          + " " + (d.parent.y) + "," + (d.parent.x + yParentAdjustToTop + ySiblingsAboveOffset); 
       })
 
 
 
-  // // adds each node as a group
-  // var node = g.selectAll(".node")
-  //   .data(nodes.descendants())
-  //   .enter().append("g")
-  //   .attr("class", function(d) { 
-  //     return "node" + 
-  //     (d.children ? " node--internal" : " node--leaf"); })
-  //   .attr("transform", function(d) { 
-  //     return "translate(" + d.y + "," + d.x + ")"; });
+  // adds each node as a group
+  var node = g.selectAll(".node")
+    .data(nodes.descendants())
+    .enter().append("g")
+    .attr("class", function(d) { 
+      return "node" + 
+      (d.children ? " node--internal" : " node--leaf"); })
+    .attr("transform", function(d) { 
+      return "translate(" + d.y + "," + d.x + ")"; });
 
-  // //adds the circle to the node
-  // node.append("circle")
-  //   .attr("r", 3);
+  //adds the circle to the node
+  node.append("circle")
+    .attr("r", 3);
 
   // adds the text to the node
-  // node.append("text")
-  //   .attr("dy", ".35em")
-  //   .attr("x", function(d) { return d.children ? -13 : 13; })
-  //   .style("text-anchor", function(d) { 
-  //   return d.children ? "end" : "start"; })
-  //   .text(function(d) { return d.data.line; });
+  node.append("text")
+    .attr("dy", ".35em")
+    .attr("x", function(d) { return d.children ? -13 : 13; })
+    .style("text-anchor", function(d) { 
+    return d.children ? "end" : "start"; })
+    .text(function(d) { return d.data.line; });
 
 });
     
