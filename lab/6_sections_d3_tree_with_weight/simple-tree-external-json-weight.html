@@ -61,65 +61,69 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
 
   // adds the links between the nodes
   var link = g.selectAll(".link")
-    .data( nodes.descendants().slice(1))
+    .data(nodes.descendants().slice(1))
     .enter().append("path")
-    .attr("class", "link")
-    .attr("stroke-width",function(d) {
+      .attr("class", "link")
+      .attr("stroke-width",function(d) {
 
-        var tmpCumulatedSize = 0;
+          var tmpCumulatedSize = 0;
 
-        function process(key,value) {
-            if(key == "size"){
-              tmpCumulatedSize += value;
-            }
+          function process(key,value) {
+              if(key == "size"){
+                tmpCumulatedSize += value;
+              }
+              if(key == "tmpCumulatedSize"){
+                tmpCumulatedSize += value;
+              }
+          }
+          function traverse(o,func) {
+              for (var i in o) {
+                  func.apply(this,[i,o[i]]);  
+                  if (o[i] !== null && typeof(o[i])=="object") {
+                      //going on step down in the object tree!!
+                      traverse(o[i],func);
+                  }
+              }
+          }
+          traverse(d.data.children,process);
 
-            if(key == "tmpCumulatedSize"){
-              tmpCumulatedSize += value;
-            }
-        }
+          d.data.childrenCumulatedSize = tmpCumulatedSize;
+          var stroke = (d.data.size + d.data.childrenCumulatedSize)/1000;
+          var stroke = stroke > 1 ? Math.round(stroke) : 1;
 
-        function traverse(o,func) {
-            for (var i in o) {
-                func.apply(this,[i,o[i]]);  
-                if (o[i] !== null && typeof(o[i])=="object") {
-                    //going on step down in the object tree!!
-                    traverse(o[i],func);
-                }
-            }
-        }
+          d.data.stroke = stroke
 
-        traverse(d.data.children,process);
+          return stroke + "px";
+         })
+      .attr("d", function(d) {
 
-        d.data.childrenCumulatedSize = tmpCumulatedSize;
-        console.log(d.data.childrenCumulatedSize);
+          var yParentAdjust = 0;
+          if(d.parent.data.stroke){
+            yParentAdjust = -d.parent.data.stroke/2 + d.data.stroke/2
+            console.log(yParentAdjust)
+          }
 
-        var stroke = (d.data.size + d.data.childrenCumulatedSize)/1000;
-        var stroke = stroke > 1 ? Math.round(stroke) : 1;
+          return "M" + (d.y) + "," + (d.x)
+          + "C" + (d.y + d.parent.y) / 2 + "," + d.x
+          + " " + (d.y + d.parent.y) / 2 + "," + d.parent.x
+          + " " + (d.parent.y) + "," + (d.parent.x + yParentAdjust); 
+      })
 
-        return stroke + "px";
 
-       })
-    .attr("d", function(d) {
-       return "M" + d.y + "," + d.x
-       + "C" + (d.y + d.parent.y) / 2 + "," + d.x
-       + " " + (d.y + d.parent.y) / 2 + "," + d.parent.x
-       + " " + d.parent.y + "," + d.parent.x;
-       });
 
-  // adds each node as a group
-  var node = g.selectAll(".node")
-    .data(nodes.descendants())
-    .enter().append("g")
-    .attr("class", function(d) { 
-      return "node" + 
-      (d.children ? " node--internal" : " node--leaf"); })
-    .attr("transform", function(d) { 
-      return "translate(" + d.y + "," + d.x + ")"; });
+  // // adds each node as a group
+  // var node = g.selectAll(".node")
+  //   .data(nodes.descendants())
+  //   .enter().append("g")
+  //   .attr("class", function(d) { 
+  //     return "node" + 
+  //     (d.children ? " node--internal" : " node--leaf"); })
+  //   .attr("transform", function(d) { 
+  //     return "translate(" + d.y + "," + d.x + ")"; });
 
-  //adds the circle to the node
-  node.append("circle")
-    // .attr("r", function(d) { return d.data.size/1000; });
-    .attr("r", 3);
+  // //adds the circle to the node
+  // node.append("circle")
+  //   .attr("r", 3);
 
   // adds the text to the node
   // node.append("text")
