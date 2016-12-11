@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style> /* set the CSS */
+    
+.node circle {
+  fill: steelblue;
+  /*stroke: steelblue;*/
+  stroke-width: 3px;
+}
+
+.node text { font: 11px sans-serif; }
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  /*stroke-width: 2px;*/
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->      
+<script src="//d3js.org/d3.v4.min.js"></script>
+<script>
+
+// set the dimensions and margins of the diagram
+var margin = {top: 20, right: 90, bottom: 30, left: 90},
+  width = 1300 - margin.left - margin.right,
+  height = 1500 - margin.top - margin.bottom;
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree()
+  .size([height, width]);
+
+// load the external data
+d3.json("export_hierarchy_6xlang.json", function(error, treeData) {
+  if (error) throw error;
+
+  //  assigns the data to a hierarchy using parent-child relationships
+  var nodes = d3.hierarchy(treeData, function(d) {
+    return d.children;
+    });
+
+  // maps the node data to the tree layout
+  nodes = treemap(nodes);
+
+  // append the svg object to the body of the page
+  // appends a 'group' element to 'svg'
+  // moves the 'group' element to the top left margin
+  var svg = d3.select("body").append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom),
+    g = svg.append("g")
+      .attr("transform",
+        "translate(" + margin.left + "," + margin.top + ")");
+
+  // adds the links between the nodes
+  var link = g.selectAll(".link")
+    .data(nodes.descendants().slice(1))
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("stroke-width",function(d) {
+
+          var tmpCumulatedSize = 0;
+
+          function process(key,value) {
+              if(key == "size"){
+                tmpCumulatedSize += value;
+              }
+              if(key == "tmpCumulatedSize"){
+                tmpCumulatedSize += value;
+              }
+          }
+          function traverse(o,func) {
+              for (var i in o) {
+                  func.apply(this,[i,o[i]]);  
+                  if (o[i] !== null && typeof(o[i])=="object") {
+                    //going on step down in the object tree!!
+                    traverse(o[i],func);
+                  }
+              }
+          }
+          traverse(d.data.children,process);
+
+          d.data.childrenCumulatedSize = tmpCumulatedSize;
+          var stroke = (d.data.size + d.data.childrenCumulatedSize)/1000;
+          var stroke = stroke > 0.5 ? stroke : 0.5;
+          d.data.stroke = stroke
+
+          return stroke + "px";
+          //return "1px";
+         })
+      .attr("d", function(d) {
+
+          console.log('-------------')
+
+          var finalOffset = 0;
+          var yParentAdjustToTop = 0;
+          var ySiblingsAboveOffset = 0;
+
+          console.log(d)
+
+          if(!d.parent.data.stroke){
+            console.log('calculation needed')
+
+            var startNodeThickness = 0;
+            var siblings = d.parent.children;
+
+            for (child in siblings) {
+              startNodeThickness += siblings[child].data.stroke;
+            }
+            console.log('startNodeThickness: '+startNodeThickness)
+            d.parent.data.stroke = startNodeThickness;
+          }
+
+          yParentAdjustToTop = -d.parent.data.stroke/2 + d.data.stroke/2
+
+          var siblings = d.parent.children;
+          var index = siblings.indexOf(d)
+
+          console.log('index: '+index + "/" + d.parent.children.length)
+
+          // need to calculate the thickness of the elements that are above
+          if(index > 0){
+            console.log(index +" branch(es) above")
+            for (child in siblings) {
+              if(child < index){
+                console.log(child)
+                console.log("stroke: "+siblings[child].data.stroke)
+                ySiblingsAboveOffset += siblings[child].data.stroke;
+              }      
+            }
+          }
+
+          finalOffset = yParentAdjustToTop + ySiblingsAboveOffset;          
+
+          // no idea why 'x'and 'y' are swaped …
+          return "M" + (d.y) + "," + (d.x)
+          + "C" + (d.y + d.parent.y) / 2 + "," + d.x
+          + " " + (d.y + d.parent.y) / 2 + "," + (d.parent.x + finalOffset)
+          + " " + (d.parent.y) + "," + (d.parent.x + finalOffset); 
+      })
+
+  // adds each node as a group
+  var node = g.selectAll(".node")
+    .data(nodes.descendants())
+    .enter().append("g")
+    .attr("class", function(d) { 
+      return "node" + 
+      (d.children ? " node--internal" : " node--leaf"); })
+    .attr("transform", function(d) { 
+      return "translate(" + d.y + "," + d.x + ")"; });
+
+  //adds the circle to the node
+  node.append("circle")
+    .attr("r", 3);
+
+  // adds the text to the node
+  node.append("text")
+    .attr("dy", ".35em")
+    .attr("x", function(d) { return d.children ? -13 : 13; })
+    .style("text-anchor", function(d) { 
+    return d.children ? "end" : "start"; })
+    .text(function(d) { return d.data.line; });
+
+});
+    
+</script>
+</body>
