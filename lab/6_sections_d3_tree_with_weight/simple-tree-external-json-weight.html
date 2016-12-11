@@ -97,12 +97,12 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
       .attr("d", function(d) {
 
           var finalOffset = 0;
-          var ySiblingsAboveOffset = 0;
 
           if(d.parent.data.stroke){
             console.log('-------------')
 
             var yParentAdjustToTop = 0;
+            var ySiblingsAboveOffset = 0;
             // console.log('All the siblings for '+d.data.line)
             // console.log(d.parent.children)
 
@@ -127,10 +127,30 @@ d3.json("export_hierarchy_standard_de.json", function(error, treeData) {
             }
             finalOffset = yParentAdjustToTop + ySiblingsAboveOffset;
 
-          }else {
-            console.log('head of the tree')
-            console.log(d)
-            console.log('///////////////////////////')
+          }
+
+          // else {
+          //   console.log('head of the tree')
+          //   console.log(d)
+          //   console.log('///////////////////////////')
+
+          //   var siblings = d.parent.children;
+          //   var index = siblings.indexOf(d)
+          //   var startNodeThickness = 0;
+          //   console.log('index: '+index + "/" + d.parent.children.length)
+          //   console.log("ding: "+d.parent.data.size)
+
+          //   if(d.parent.data.size == 0){
+          //     console.log('calculation needed')
+          //     for (child in siblings) {
+          //       startNodeThickness += siblings[child].data.stroke;
+          //     }
+          //     // console.log('startNodeThickness: '+startNodeThickness)
+          //     d.parent.data.size = startNodeThickness;
+          //   }
+
+
+
           }
 
           // no idea why 'x'and 'y' are swaped …
